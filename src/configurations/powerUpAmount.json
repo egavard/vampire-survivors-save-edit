@@ -1,0 +1,19 @@
+{
+  "POWER": 5,
+  "REGEN": 5,
+  "MAXHEALTH": 3,
+  "ARMOR": 3,
+  "AREA": 2,
+  "SPEED": 2,
+  "COOLDOWN": 2,
+  "DURATION": 2,
+  "AMOUNT": 1,
+  "MOVESPEED": 2,
+  "MAGNET": 2,
+  "LUCK": 3,
+  "GROWTH": 5,
+  "GREED": 5,
+  "SHIELD": 1,
+  "REVIVAL": 1,
+  "CURSE": 5
+}

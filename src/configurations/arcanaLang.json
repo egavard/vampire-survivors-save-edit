@@ -1,0 +1,474 @@
+{
+  "xx": {},
+  "ar": {
+    "english": "Arabic",
+    "native": "العربية",
+    "api": "arabic",
+    "translations": {}
+  },
+  "bg": {
+    "english": "Bulgarian",
+    "native": "български език",
+    "api": "bulgarian",
+    "translations": {}
+  },
+  "zh-CN": {
+    "english": "Chinese",
+    "native": "简体中文",
+    "api": "schinese",
+    "translations": {
+      "4": {
+        "name": "IV - 觉醒",
+        "description": "提供3次复活机会。 复活时， 最大生命值+10%， 防御+1， 攻击范围、 持续时间和速度+5%。"
+      },
+      "5": {
+        "name": "V - 充满混乱的黑夜",
+        "description": "每 10 秒随机改变弹道速度 -50% 至 +200%"
+      },
+      "6": {
+        "name": "VI - 治疗之萨拉",
+        "description": "治疗加倍。 恢复HP会对附近的敌人造成相同数量的伤害。"
+      },
+      "7": {
+        "name": "VII - 铁蓝意志",
+        "description": "当列表中武器射弹最多可反弹 3 次, 并可能穿过敌人和墙壁。"
+      },
+      "11": {
+        "name": "XI - 珍珠圆舞曲",
+        "description": "列表中武器 射弹 最多获得 3  次反弹。"
+      },
+      "16": {
+        "name": "XVI - 切",
+        "description": "增加列表中武器的暴击几率并造成双倍暴击伤害。"
+      },
+      "17": {
+        "name": "XVII - 丢失的图片",
+        "description": "持续时间每 10 秒随机变化 -50% 至 +200%"
+      },
+      "19": {
+        "name": "XIX - 火之心",
+        "description": "当列表中武器的射弹碰撞时, 它会爆炸并造成伤害。 当角色受到伤害时, 它会爆炸并造成伤害。"
+      }
+    }
+  },
+  "zh-TW": {
+    "english": "Chinese (Traditional)",
+    "native": "繁體中文 95%",
+    "api": "tchinese",
+    "translations": {}
+  },
+  "cs": {
+    "english": "Czech",
+    "native": "čeština",
+    "api": "czech",
+    "translations": {}
+  },
+  "da": {
+    "english": "Danish",
+    "native": "Dansk",
+    "api": "danish",
+    "translations": {}
+  },
+  "nl": {
+    "english": "Dutch",
+    "native": "Nederlands",
+    "api": "dutch",
+    "translations": {}
+  },
+  "en": {
+    "english": "English",
+    "native": "English",
+    "api": "english",
+    "translations": {
+      "4": {
+        "name": "IV - Awake",
+        "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
+      },
+      "5": {
+        "name": "V - Chaos in the Dark Night",
+        "description": "Overall projectile Speed continuously changes between -50% and +200% over 10 seconds."
+      },
+      "6": {
+        "name": "VI - Sarabande of Healing",
+        "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+      },
+      "7": {
+        "name": "VII - Iron Blue Will",
+        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+      },
+      "11": {
+        "name": "XI - Waltz of Pearls",
+        "description": "Listed weapon projectiles gain up to 3 bounces."
+      },
+      "16": {
+        "name": "XVI - Slash",
+        "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+      },
+      "17": {
+        "name": "XVII - Lost & Found Painting",
+        "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+      },
+      "19": {
+        "name": "XIX - Heart of Fire",
+        "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      }
+    }
+  },
+  "fi": {
+    "english": "Finnish",
+    "native": "Suomi",
+    "api": "finnish",
+    "translations": {}
+  },
+  "fr": {
+    "english": "French",
+    "native": "Français 80%",
+    "api": "french",
+    "translations": {
+      "4": {
+        "name": "IV - Awake",
+        "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
+      },
+      "5": {
+        "name": "V - Chaos in the Dark Night",
+        "description": "Overall projectile Speed continuously changes between -50% and +200% over 10 seconds."
+      },
+      "6": {
+        "name": "VI - Sarabande of Healing",
+        "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+      },
+      "7": {
+        "name": "VII - Iron Blue Will",
+        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+      },
+      "11": {
+        "name": "XI - Waltz of Pearls",
+        "description": "Listed weapon projectiles gain up to 3 bounces."
+      },
+      "16": {
+        "name": "XVI - Slash",
+        "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+      },
+      "17": {
+        "name": "XVII - Lost & Found Painting",
+        "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+      },
+      "19": {
+        "name": "XIX - Heart of Fire",
+        "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      }
+    }
+  },
+  "de": {
+    "english": "German",
+    "native": "Deutsch",
+    "api": "german",
+    "translations": {
+      "4": {
+        "name": "IV - Awake",
+        "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
+      },
+      "5": {
+        "name": "V - Chaos in the Dark Night",
+        "description": "Overall projectile Speed continuously changes between -50% and +200% over 10 seconds."
+      },
+      "6": {
+        "name": "VI - Sarabande of Healing",
+        "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+      },
+      "7": {
+        "name": "VII - Iron Blue Will",
+        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+      },
+      "11": {
+        "name": "XI - Waltz of Pearls",
+        "description": "Listed weapon projectiles gain up to 3 bounces."
+      },
+      "16": {
+        "name": "XVI - Slash",
+        "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+      },
+      "17": {
+        "name": "XVII - Lost & Found Painting",
+        "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+      },
+      "19": {
+        "name": "XIX - Heart of Fire",
+        "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      }
+    }
+  },
+  "el": {
+    "english": "Greek",
+    "native": "Ελληνικά",
+    "api": "greek",
+    "translations": {}
+  },
+  "hu": {
+    "english": "Hungarian",
+    "native": "Magyar",
+    "api": "hungarian",
+    "translations": {}
+  },
+  "it": {
+    "english": "Italian",
+    "native": "Italiano",
+    "api": "italian",
+    "translations": {}
+  },
+  "ja": {
+    "english": "Japanese",
+    "native": "日本語 95%",
+    "api": "japanese",
+    "translations": {
+      "4": {
+        "name": "IV - Awake",
+        "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
+      },
+      "5": {
+        "name": "V - Chaos in the Dark Night",
+        "description": "Overall projectile Speed continuously changes between -50% and +200% over 10 seconds."
+      },
+      "6": {
+        "name": "VI - Sarabande of Healing",
+        "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+      },
+      "7": {
+        "name": "VII - Iron Blue Will",
+        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+      },
+      "11": {
+        "name": "XI - Waltz of Pearls",
+        "description": "Listed weapon projectiles gain up to 3 bounces."
+      },
+      "16": {
+        "name": "XVI - Slash",
+        "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+      },
+      "17": {
+        "name": "XVII - Lost & Found Painting",
+        "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+      },
+      "19": {
+        "name": "XIX - Heart of Fire",
+        "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      }
+    }
+  },
+  "ko": {
+    "english": "Korean",
+    "native": "한국어",
+    "api": "koreana",
+    "translations": {
+      "4": {
+        "name": "IV - 깨어남",
+        "description": "3번의 부활 기회를 제공 합니다. 부활시 최대 체력 +10%, 방어력+1, 공격범위, 지속시간 및 속도+5% 증가합니다."
+      },
+      "5": {
+        "name": "V - 혼돈이 가득한 어두운밤",
+        "description": "매 10초마다 투사체 속도 무작위로 변경 -50% ~ +200%"
+      },
+      "6": {
+        "name": "VI - 치유의 사라반드",
+        "description": "회복량 2배 증가. HP를 회복하면 주변 적에게도 같은 양의 피해를 줍니다."
+      },
+      "7": {
+        "name": "VII - Iron Blue Will",
+        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+      },
+      "11": {
+        "name": "XI - Waltz of Pearls",
+        "description": "Listed weapon projectiles gain up to 3 bounces."
+      },
+      "16": {
+        "name": "XVI - 절단",
+        "description": "목록에 있는 무기의 치명타 확률을 상승시키며 2배의 크리티컬 데미지를 줍니다."
+      },
+      "17": {
+        "name": "XVII - 잃어버린 그림",
+        "description": "매 10초마다 지속시간 무작위로 변경 -50% ~ +200%"
+      },
+      "19": {
+        "name": "XIX - 불의 심장",
+        "description": "목록에 있는 무기의 투사체 충돌시 폭발하며 대미지를 줍니다. 캐릭터가 피해를 입으면 폭발하며 대미지를 줍니다."
+      }
+    }
+  },
+  "no": {
+    "english": "Norwegian",
+    "native": "Norsk",
+    "api": "norwegian",
+    "translations": {}
+  },
+  "pl": {
+    "english": "Polish",
+    "native": "Polski",
+    "api": "polish",
+    "translations": {}
+  },
+  "pt": {
+    "english": "Portuguese",
+    "native": "Português",
+    "api": "portuguese",
+    "translations": {}
+  },
+  "pt-BR": {
+    "english": "Portuguese-Brazil",
+    "native": "Português-Brasil",
+    "api": "brazilian",
+    "translations": {
+      "4": {
+        "name": "IV - Awake",
+        "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
+      },
+      "5": {
+        "name": "V - Chaos in the Dark Night",
+        "description": "Overall projectile Speed continuously changes between -50% and +200% over 10 seconds."
+      },
+      "6": {
+        "name": "VI - Sarabande of Healing",
+        "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+      },
+      "7": {
+        "name": "VII - Iron Blue Will",
+        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+      },
+      "11": {
+        "name": "XI - Waltz of Pearls",
+        "description": "Listed weapon projectiles gain up to 3 bounces."
+      },
+      "16": {
+        "name": "XVI - Slash",
+        "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+      },
+      "17": {
+        "name": "XVII - Lost & Found Painting",
+        "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+      },
+      "19": {
+        "name": "XIX - Heart of Fire",
+        "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      }
+    }
+  },
+  "ro": {
+    "english": "Romanian",
+    "native": "Română",
+    "api": "romanian",
+    "translations": {}
+  },
+  "ru": {
+    "english": "Russian",
+    "native": "Русский",
+    "api": "russian",
+    "translations": {
+      "4": {
+        "name": "IV - Пробуждение",
+        "description": "Дает +3 Оживления. Использование Оживления дает +10% к Макс. ОЗ, +1 к Броне, и +5% к Силе, Размеру, Сроку и Подвижности."
+      },
+      "5": {
+        "name": "V - Хаос в Темной Ночи",
+        "description": "Cкорость всех снарядов непрерывно меняется от -50% до +200% в течение 10 секунд."
+      },
+      "6": {
+        "name": "VI - Сарабанда Исцеления",
+        "description": "Исцеление удваивается. Восстановление ОЗ наносит урон ближайшим врагам на ту же сумму."
+      },
+      "7": {
+        "name": "VII - Iron Blue Will",
+        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+      },
+      "11": {
+        "name": "XI - Waltz of Pearls",
+        "description": "Listed weapon projectiles gain up to 3 bounces."
+      },
+      "16": {
+        "name": "XVI - Порез",
+        "description": "Позволяет наносить критические удары для перечисленного оружия. Удваивает весь критический урон."
+      },
+      "17": {
+        "name": "XVII - Потерянная и Найденная Картина",
+        "description": "Срок непрерывно меняется от -50% до +200% в течение 10 секунд."
+      },
+      "19": {
+        "name": "XIX - Сердце Огня",
+        "description": "Снаряды перечисленного оружия взрываются при столкновении. Источники света взрываются. Персонаж взрывается при получении урона."
+      }
+    }
+  },
+  "es": {
+    "english": "Spanish",
+    "native": "Español 80%",
+    "api": "spanish",
+    "translations": {
+      "4": {
+        "name": "IV - Awake",
+        "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
+      },
+      "5": {
+        "name": "V - Chaos in the Dark Night",
+        "description": "Overall projectile Speed continuously changes between -50% and +200% over 10 seconds."
+      },
+      "6": {
+        "name": "VI - Sarabande of Healing",
+        "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+      },
+      "7": {
+        "name": "VII - Iron Blue Will",
+        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+      },
+      "11": {
+        "name": "XI - Waltz of Pearls",
+        "description": "Listed weapon projectiles gain up to 3 bounces."
+      },
+      "16": {
+        "name": "XVI - Slash",
+        "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+      },
+      "17": {
+        "name": "XVII - Lost & Found Painting",
+        "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+      },
+      "19": {
+        "name": "XIX - Heart of Fire",
+        "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+      }
+    }
+  },
+  "es-419": {
+    "english": "Spanish-Latin America",
+    "native": "Español-Latinoamérica",
+    "api": "latam",
+    "translations": {}
+  },
+  "sv": {
+    "english": "Swedish",
+    "native": "Svenska",
+    "api": "swedish",
+    "translations": {}
+  },
+  "th": {
+    "english": "Thai",
+    "native": "ไทย",
+    "api": "thai",
+    "translations": {}
+  },
+  "tr": {
+    "english": "Turkish",
+    "native": "Türkçe",
+    "api": "turkish",
+    "translations": {}
+  },
+  "uk": {
+    "english": "Ukrainian",
+    "native": "Українська",
+    "api": "ukrainian",
+    "translations": {}
+  },
+  "vn": {
+    "english": "Vietnamese",
+    "native": "Tiếng Việt",
+    "api": "vietnamese",
+    "translations": {}
+  }
+}

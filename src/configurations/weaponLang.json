@@ -1,0 +1,2508 @@
+{
+  "xx": {},
+  "ar": {
+    "english": "Arabic",
+    "native": "العربية",
+    "api": "arabic",
+    "translations": {}
+  },
+  "bg": {
+    "english": "Bulgarian",
+    "native": "български език",
+    "api": "bulgarian",
+    "translations": {}
+  },
+  "zh-CN": {
+    "english": "Chinese",
+    "native": "简体中文",
+    "api": "schinese",
+    "translations": {
+      "WHIP": {
+        "name": "鞭子",
+        "description": "水平攻击，可穿透敌人。",
+        "tips": "无视：速度、持续时间。"
+      },
+      "VAMPIRICA": {
+        "name": "血鞭",
+        "description": "进化的鞭子，可以造成暴击伤害并吸收生命值。",
+        "tips": "需要：空虚之心"
+      },
+      "MAGIC_MISSILE": {
+        "name": "魔杖",
+        "description": "向最近的敌人发射。",
+        "tips": "无视：持续时间。"
+      },
+      "HOLY_MISSILE": {
+        "name": "圣魔杖",
+        "description": "进化的魔杖，发射时没有延迟。",
+        "tips": "需要：空白之书。"
+      },
+      "AXE": {
+        "name": "斧头",
+        "description": "高伤害、大范围。",
+        "tips": "无视：持续时间。"
+      },
+      "SCYTHE": {
+        "name": "死亡旋风",
+        "description": "进化的斧头。可穿透敌人。",
+        "tips": "需要：烛台。"
+      },
+      "KNIFE": {
+        "name": "飞刀",
+        "description": "朝面对的方向快速发射。",
+        "tips": "无视：持续时间。"
+      },
+      "THOUSAND": {
+        "name": "千刃",
+        "description": "进化的飞刀。发射时没有延迟。",
+        "tips": "需要：护腕。"
+      },
+      "HOLYWATER": {
+        "name": "圣水",
+        "description": "产生破坏性区域。",
+        "tips": "无视：速度。"
+      },
+      "DIAMOND": {
+        "name": "符文追踪器",
+        "description": "可穿透敌人，四处反弹。",
+        "tips": "最佳搭配：速度、持续时间。"
+      },
+      "FIREBALL": {
+        "name": "火焰之杖",
+        "description": "向随机敌人发射，造成大量伤害。",
+        "tips": "无视：持续时间。"
+      },
+      "HELLFIRE": {
+        "name": "地狱火",
+        "description": "进化的火焰之杖。可穿透敌人。",
+        "tips": "需要：菠菜。"
+      },
+      "HOLYBOOK": {
+        "name": "国王圣经",
+        "description": "围绕角色旋转。",
+        "tips": "最佳搭配：速度、持续时间、范围。"
+      },
+      "VESPERS": {
+        "name": "邪恶的晚祷",
+        "description": "进化的国王圣经。永不结束。",
+        "tips": "需要：拼写器。"
+      },
+      "CROSS": {
+        "name": "十字架",
+        "description": "瞄准最近的敌人，具有回旋镖效果。",
+        "tips": "无视：持续时间。"
+      },
+      "HEAVENSWORD": {
+        "name": "天堂之剑",
+        "description": "进化的十字架，可以造成暴击伤害。",
+        "tips": "需要：三叶草。"
+      },
+      "GARLIC": {
+        "name": "大蒜",
+        "description": "对附近的敌人造成伤害。降低对击退和冻结的抗性。",
+        "tips": "无视：数量、持续时间、速度。"
+      },
+      "LAUREL": {
+        "name": "月桂",
+        "description": "激活期间可抵御伤害。",
+        "tips": "最佳搭配：仅冷却时间。"
+      },
+      "LIGHTNING": {
+        "name": "闪电戒指",
+        "description": "随机攻击敌人。",
+        "tips": "无视：速度、持续时间。"
+      },
+      "PENTAGRAM": {
+        "name": "五芒星",
+        "description": "清除视野内的一切。",
+        "tips": "最佳搭配：仅冷却时间和幸运。"
+      },
+      "SILF": {
+        "name": "和平鸽",
+        "description": "在盘旋区域内进行轰炸。",
+        "tips": "最佳搭配：冷却时间、持续时间。"
+      },
+      "SILF2": {
+        "name": "乌木之翼",
+        "description": "在盘旋区域内进行轰炸。",
+        "tips": "最佳搭配：冷却时间，持续时间。"
+      },
+      "BONE": {
+        "name": "骨头",
+        "description": "投掷一枚弹跳的射弹。",
+        "tips": "最佳搭配：持续时间、速度。"
+      },
+      "LANCET": {
+        "name": "时钟柳叶刀",
+        "description": "有机会及时冻结敌人。",
+        "tips": "无视：力量、速度、数量、范围。"
+      },
+      "POWER": {
+        "name": "菠菜",
+        "description": "造成的伤害提高 10%。"
+      },
+      "AREA": {
+        "name": "烛台",
+        "description": "使攻击范围增加 10%。"
+      },
+      "SPEED": {
+        "name": "护腕",
+        "description": "射弹速度提高 10%。"
+      },
+      "COOLDOWN": {
+        "name": "空白之书",
+        "description": "减少武器冷却时间 8%。"
+      },
+      "DURATION": {
+        "name": "拼写器",
+        "description": "增加武器效果持续时间 10%。"
+      },
+      "AMOUNT": {
+        "name": "复制器",
+        "description": "武器发射更多的射弹。"
+      },
+      "MAXHEALTH": {
+        "name": "空虚之心",
+        "description": "增加最大生命值 20%。"
+      },
+      "ARMOR": {
+        "name": "护甲",
+        "description": "受到伤害降低 1 点。"
+      },
+      "MOVESPEED": {
+        "name": "翅膀",
+        "description": "提升角色的移动速度 10%。"
+      },
+      "MAGNET": {
+        "description": "角色可从更远的地方拾取物品。",
+        "name": "吸引器"
+      },
+      "GROWTH": {
+        "name": "王冠",
+        "description": "增加角色获得的经验 8%。"
+      },
+      "LUCK": {
+        "name": "三叶草",
+        "description": "提高角色的幸运值 10%。"
+      },
+      "GREED": {
+        "name": "石面具",
+        "description": "增加角色获得的金币 10%。"
+      },
+      "REGEN": {
+        "name": "番茄",
+        "description": "角色每秒恢复 0.2 点生命。"
+      },
+      "VORTEX": {
+        "name": "噬魂者",
+        "description": "进化大蒜恢复生命值时伤害增加",
+        "tips": "要求: 普玛罗拉."
+      },
+      "BORA": {
+        "name": "短绒",
+        "description": "进化的圣水。 破坏性区域会跟随您并在它们移动时增长。",
+        "tips": "要求: 吸引器."
+      },
+      "SILF3": {
+        "name": "破坏者",
+        "description": "乌木之翼搭配和平鸽"
+      },
+      "REVIVAL": {
+        "name": "提拉吉苏",
+        "description": "以50%的生命值复活一次。"
+      },
+      "LOOP": {
+        "name": "雷环",
+        "description": "进化的闪电戒指。 射弹击中两次。",
+        "tips": "要求: 复制器."
+      },
+      "CURSE": {
+        "name": "疯狂骷髅",
+        "description": "敌人增加10%的速度，生命值，数量和次数。"
+      },
+      "CHERRY": {
+        "name": "樱桃炸弹",
+        "description": "扔出一个弹跳的射弹， 有时会爆炸。",
+        "tips": "搭配: 幸运."
+      },
+      "SONG": {
+        "name": "法力之歌",
+        "description": "垂直攻击，穿过敌人。",
+        "tips": "忽略:数量，速度。"
+      },
+      "MANNAGGIA": {
+        "name": "曼纳加",
+        "description": "进化出魔法之歌，可能会减慢敌人的速度。",
+        "tips": "要求:疯狂骷髅"
+      },
+      "SIRE": {
+        "name": "美丽的月亮",
+        "description": "进化的五芒星额外的宝石聚集了所有的宝石",
+        "tips": "要求: 王冠."
+      },
+      "GUNS": {
+        "name": "菲拉图普罗",
+        "description": "向四个固定方向快速射击。",
+        "tips": "无视：持续时间。"
+      },
+      "GUNS2": {
+        "name": "八雀",
+        "description": "向四个固定方向快速射击。",
+        "tips": "无视：持续时间。"
+      },
+      "GUNS3": {
+        "name": "菲拉吉",
+        "description": "菲拉图普罗 和八雀的搭配。",
+        "tips": "要求: 提拉吉苏"
+      },
+      "ROCHER": {
+        "name": "破坏",
+        "description": "进化的符文追踪者。 弹跳和报复时爆炸。",
+        "tips": "要求：护甲"
+      },
+      "CART2": {
+        "name": "卡雷洛",
+        "description": "投掷弹跳的弹丸。 受金额影响的反弹次数。",
+        "tips": "忽略：持续时间。"
+      },
+      "GATTI": {
+        "name": "苦猫",
+        "description": "召唤反复无常的投射物。 可能与皮卡互动。",
+        "tips": "搭配：运气，地板鸡。"
+      },
+      "FLOWER": {
+        "name": "天体除尘",
+        "description": "投掷弹跳的弹丸。 移动时冷却时间减少。",
+        "tips": "最佳搭配：翅膀。"
+      }
+    }
+  },
+  "zh-TW": {
+    "english": "Chinese (Traditional)",
+    "native": "繁體中文 95%",
+    "api": "tchinese",
+    "translations": {}
+  },
+  "cs": {
+    "english": "Czech",
+    "native": "čeština",
+    "api": "czech",
+    "translations": {}
+  },
+  "da": {
+    "english": "Danish",
+    "native": "Dansk",
+    "api": "danish",
+    "translations": {}
+  },
+  "nl": {
+    "english": "Dutch",
+    "native": "Nederlands",
+    "api": "dutch",
+    "translations": {}
+  },
+  "en": {
+    "english": "English",
+    "native": "English",
+    "api": "english",
+    "translations": {
+      "WHIP": {
+        "name": "Whip",
+        "description": "Attacks horizontally, passes through enemies.",
+        "tips": "Ignores: speed, duration."
+      },
+      "VAMPIRICA": {
+        "name": "Bloody Tear",
+        "description": "Evolved Whip. Can deal critical damage and absorb HP.",
+        "tips": "Requires:Hollow Heart"
+      },
+      "MAGIC_MISSILE": {
+        "name": "Magic Wand",
+        "description": "Fires at the nearest enemy.",
+        "tips": "Ignores: duration."
+      },
+      "HOLY_MISSILE": {
+        "name": "Holy Wand",
+        "description": "Evolved Magic Wand. Fires with no delay.",
+        "tips": "Requires: Empty Tome."
+      },
+      "AXE": {
+        "name": "Axe",
+        "description": "High damage, high Area scaling.",
+        "tips": "Ignores: duration."
+      },
+      "SCYTHE": {
+        "name": "Death Spiral",
+        "description": "Evolved Axe. Passes through enemies.",
+        "tips": "Requires: Candelabrador."
+      },
+      "KNIFE": {
+        "name": "Knife",
+        "description": "Fires quickly in the faced direction.",
+        "tips": "Ignores: duration."
+      },
+      "THOUSAND": {
+        "name": "Thousand Edge",
+        "description": "Evolved Knife. Fires with no delay.",
+        "tips": "Requires: Bracer."
+      },
+      "HOLYWATER": {
+        "name": "Santa Water",
+        "description": "Generates damaging zones.",
+        "tips": "Ignores: speed."
+      },
+      "DIAMOND": {
+        "name": "Runetracer",
+        "description": "Passes through enemies, bounces around.",
+        "tips": "Best with: speed, duration."
+      },
+      "FIREBALL": {
+        "name": "Fire Wand",
+        "description": "Fires at a random enemy, deals heavy damage.",
+        "tips": "Ignores: duration."
+      },
+      "HELLFIRE": {
+        "name": "Hellfire",
+        "description": "Evolved Fire Wand. Passes through enemies.",
+        "tips": "Requires: Spinach."
+      },
+      "HOLYBOOK": {
+        "name": "King Bible",
+        "description": "Orbits around the character.",
+        "tips": "Best with: speed, duration, area."
+      },
+      "VESPERS": {
+        "name": "Unholy Vespers",
+        "description": "Evolved King Bible. Never ends.",
+        "tips": "Requires: Spellbinder."
+      },
+      "CROSS": {
+        "name": "Cross",
+        "description": "Aims at nearest enemy, has boomerang effect.",
+        "tips": "Ignores: duration."
+      },
+      "HEAVENSWORD": {
+        "name": "Heaven Sword",
+        "description": "Evolved Cross. Can deal critical damage.",
+        "tips": "Requires: Clover."
+      },
+      "GARLIC": {
+        "name": "Garlic",
+        "description": "Damages nearby enemies. Reduces resistance to knockback and freeze.",
+        "tips": "Ignores: amount, duration, speed."
+      },
+      "LAUREL": {
+        "name": "Laurel",
+        "description": "Shields from damage when active.",
+        "tips": "Best with: cooldown only."
+      },
+      "LIGHTNING": {
+        "name": "Lightning Ring",
+        "description": "Strikes at random enemies.",
+        "tips": "Ignores: speed, duration."
+      },
+      "PENTAGRAM": {
+        "name": "Pentagram",
+        "description": "Erases everything in sight.",
+        "tips": "Best with: cooldown and luck only."
+      },
+      "SILF": {
+        "name": "Peachone",
+        "description": "Bombards in a circling zone.",
+        "tips": "Best with: cooldown, duration."
+      },
+      "SILF2": {
+        "name": "Ebony Wings",
+        "description": "Bombards in a circling zone.",
+        "tips": "Best with: cooldown, duration."
+      },
+      "BONE": {
+        "name": "Bone",
+        "description": "Throws a bouncing projectile.",
+        "tips": "Best with: duration, speed."
+      },
+      "LANCET": {
+        "name": "Clock Lancet",
+        "description": "Chance to freeze enemies in time.",
+        "tips": "Ignores: power, speed, amount, area."
+      },
+      "POWER": {
+        "name": "Spinach",
+        "description": "Raises inflicted damage by 10%."
+      },
+      "AREA": {
+        "name": "Candelabrador",
+        "description": "Augments area of attacks by 10%."
+      },
+      "SPEED": {
+        "name": "Bracer",
+        "description": "Increases projectiles speed by 10%."
+      },
+      "COOLDOWN": {
+        "name": "Empty Tome",
+        "description": "Reduces weapons cooldown by 8%."
+      },
+      "DURATION": {
+        "name": "Spellbinder",
+        "description": "Increases duration of weapon effects by 10%."
+      },
+      "AMOUNT": {
+        "name": "Duplicator",
+        "description": "Weapons fire more projectiles."
+      },
+      "MAXHEALTH": {
+        "name": "Hollow Heart",
+        "description": "Augments max health by 20%."
+      },
+      "ARMOR": {
+        "name": "Armor",
+        "description": "Reduces incoming damage by 1."
+      },
+      "MOVESPEED": {
+        "name": "Wings",
+        "description": "Character moves 10% faster."
+      },
+      "MAGNET": {
+        "description": "Character pickups items from further away.",
+        "name": "Attractorb"
+      },
+      "GROWTH": {
+        "name": "Crown",
+        "description": "Character gains 8% more experience."
+      },
+      "LUCK": {
+        "name": "Clover",
+        "description": "Character gets 10% luckier."
+      },
+      "GREED": {
+        "name": "Stone Mask",
+        "description": "Character earns 10% more coins."
+      },
+      "REGEN": {
+        "name": "Pummarola",
+        "description": "Character recovers 0.2 HP per second."
+      },
+      "VORTEX": {
+        "name": "Soul Eater",
+        "description": "Evolved Garlic. Steals hearts. Power increases when recovering HP.",
+        "tips": "Requires: Pummarola."
+      },
+      "BORA": {
+        "name": "La Borra",
+        "description": "Evolved Santa Water. Damaging zones follow you and grow when they move.",
+        "tips": "Requires: Attractorb."
+      },
+      "SILF3": {
+        "name": "Vandalier",
+        "description": "Union of Ebony Wings and Peachone."
+      },
+      "REVIVAL": {
+        "name": "Tiragisú",
+        "description": "Revives once with 50% health."
+      },
+      "LOOP": {
+        "name": "Thunder Loop",
+        "description": "Evolved Lightning Ring. Projectiles strike twice.",
+        "tips": "Requires: Duplicator."
+      },
+      "CURSE": {
+        "name": "Skull O'Maniac",
+        "description": "Increases enemy speed, health, quantity, and frequency by 10%."
+      },
+      "CHERRY": {
+        "name": "Cherry Bomb",
+        "description": "Throws a bouncing projectile. Explodes, sometimes.",
+        "tips": "Best with: luck."
+      },
+      "SONG": {
+        "name": "Song of Mana",
+        "description": "Attacks vertically, passes through enemies.",
+        "tips": "Ignores: amount, speed."
+      },
+      "MANNAGGIA": {
+        "name": "Mannajja",
+        "description": "Evolved Song of Mana. Might slow enemies down.",
+        "tips": "Requires: Skull O'Maniac"
+      },
+      "SIRE": {
+        "name": "Gorgeous Moon",
+        "description": "Evolved Pentagram. Generates extra gems and gathers all of them.",
+        "tips": "Requires: Crown."
+      },
+      "GUNS": {
+        "name": "Phiera Der Tuphello",
+        "description": "Fires quickly in four fixed directions.",
+        "tips": "Ignores: duration."
+      },
+      "GUNS2": {
+        "name": "Eight The Sparrow",
+        "description": "Fires quickly in four fixed directions.",
+        "tips": "Ignores: duration."
+      },
+      "GUNS3": {
+        "name": "Phieraggi",
+        "description": "Union of Phiera Der Tuphello and Eight The Sparrow. Scales with Revivals.",
+        "tips": "Requires: Tiragisú."
+      },
+      "ROCHER": {
+        "name": "NO FUTURE",
+        "description": "Evolved Runetracer. Explodes when bouncing and in retaliation.",
+        "tips": "Requires: Armor"
+      },
+      "CART2": {
+        "name": "Carréllo",
+        "description": "Throws a bouncing projectile. Number of bounces affected by Amount.",
+        "tips": "Ignores: duration."
+      },
+      "GATTI": {
+        "name": "Gatti Amari",
+        "description": "Summons capricious projectiles. Might interact with pickups.",
+        "tips": "Best with: luck, floor chicken."
+      },
+      "FLOWER": {
+        "name": "Celestial Dusting",
+        "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
+        "tips": "Best with: moveSpeed."
+      }
+    }
+  },
+  "fi": {
+    "english": "Finnish",
+    "native": "Suomi",
+    "api": "finnish",
+    "translations": {}
+  },
+  "fr": {
+    "english": "French",
+    "native": "Français 80%",
+    "api": "french",
+    "translations": {
+      "WHIP": {
+        "name": "Fouet",
+        "description": "Lance une attaque horizontale qui traverse les ennemis.",
+        "tips": "Ignore: puissance de tir, durée."
+      },
+      "VAMPIRICA": {
+        "name": "Larme de sang",
+        "description": "Évolution du Fouet. Peut infliger des dégâts critiques et absorber des PV.",
+        "tips": "Requiert: Cœur vide."
+      },
+      "MAGIC_MISSILE": {
+        "name": "Baguette magique",
+        "description": "Tire sur l'ennemi le plus proche.",
+        "tips": "Ignore: durée."
+      },
+      "HOLY_MISSILE": {
+        "name": "Sainte baguette",
+        "description": "Évolution de la Baguette magique. Tire immédiatement.",
+        "tips": "Requiert: Tome vierge."
+      },
+      "AXE": {
+        "name": "Hache",
+        "description": "Dégâts élevés, portée étendue.",
+        "tips": "Ignore: durée."
+      },
+      "SCYTHE": {
+        "name": "Spirale fatale",
+        "description": "Évolution de la Hache. Traverse les ennemis.",
+        "tips": "Requiert: Chandellabrador."
+      },
+      "KNIFE": {
+        "name": "Poignard",
+        "description": "Tire rapidement dans la direction à laquelle le personnage fait face.",
+        "tips": "Ignore: durée."
+      },
+      "THOUSAND": {
+        "name": "Mille et une lames",
+        "description": "Évolution du Poignard. Tire immédiatement.",
+        "tips": "Requiert: Fortifiant."
+      },
+      "HOLYWATER": {
+        "name": "Eau sainte",
+        "description": "Génère des zones de dégâts.",
+        "tips": "Ignore: puissance de tir."
+      },
+      "DIAMOND": {
+        "name": "Traqueur de runes",
+        "description": "Traverse les ennemis, rebondit.",
+        "tips": "Plus efficace avec: puissance de tir, durée."
+      },
+      "FIREBALL": {
+        "name": "Baguette de feu",
+        "description": "Tire sur les ennemis aléatoirement, inflige des dégâts lourds.",
+        "tips": "Ignore: durée."
+      },
+      "HELLFIRE": {
+        "name": "Feu de l'enfer",
+        "description": "Évolution de la Baguette de feu. Traverse les ennemis.",
+        "tips": "Requiert: Épinard."
+      },
+      "HOLYBOOK": {
+        "name": "Bible du roi",
+        "description": "Tourne autour du personnage.",
+        "tips": "Plus efficace avec: puissance de tir, durée, portée."
+      },
+      "VESPERS": {
+        "name": "Vêpres impies",
+        "description": "Évolution de la Bible du roi. Ne s'arrête jamais.",
+        "tips": "Requiert: Reliure magique."
+      },
+      "CROSS": {
+        "name": "Croix",
+        "description": "Vise l'ennemi le plus proche avec un effet boomerang.",
+        "tips": "Ignore: durée."
+      },
+      "HEAVENSWORD": {
+        "name": "Épée céleste",
+        "description": "Évolution de la Croix. Peut infliger des dégâts critiques.",
+        "tips": "Requiert: Trèfle."
+      },
+      "GARLIC": {
+        "name": "Ail",
+        "description": "Inflige des dégâts aux ennemis à proximité. Réduit la résistance au recul et à l'immobilisation.",
+        "tips": "Ignore: quantité, durée, puissance de tir."
+      },
+      "LAUREL": {
+        "name": "Laurier",
+        "description": "Protège des dégâts une fois actif.",
+        "tips": "Plus efficace avec : cooldown uniquement."
+      },
+      "LIGHTNING": {
+        "name": "Bague du tonnerre",
+        "description": "Frappe les ennemis aléatoirement.",
+        "tips": "Ignore: puissance de tir, durée."
+      },
+      "PENTAGRAM": {
+        "name": "Pentagramme",
+        "description": "Décime tout ce qui est visible.",
+        "tips": "Plus efficace avec: cooldown et chance uniquement."
+      },
+      "SILF": {
+        "name": "Pigeonne",
+        "description": "Bombarde une zone en forme de cercle.",
+        "tips": "Plus efficace avec: cooldown, durée."
+      },
+      "SILF2": {
+        "name": "Ailes d'ébène",
+        "description": "Bombarde une zone en forme de cercle.",
+        "tips": "Plus efficace avec: cooldown, durée."
+      },
+      "BONE": {
+        "name": "Os",
+        "description": "Tire un projectile qui rebondit.",
+        "tips": "Plus efficace avec: durée, puissance de tir."
+      },
+      "LANCET": {
+        "name": "Bistouri d'horloger",
+        "description": "Possibilité d'immobiliser les ennemis.",
+        "tips": "Ignore: force, puissance de tir, quantité, portée."
+      },
+      "POWER": {
+        "name": "Épinard",
+        "description": "Augmente les dégâts infligés de 10%."
+      },
+      "AREA": {
+        "name": "Chandellabrador",
+        "description": "Augmente la portée des attaques de 10%."
+      },
+      "SPEED": {
+        "name": "Fortifiant",
+        "description": "Augmente la vitesse des projectiles de 10%."
+      },
+      "COOLDOWN": {
+        "name": "Tome vierge",
+        "description": "Réduit le cooldown des armes de 8 %."
+      },
+      "DURATION": {
+        "name": "Reliure magique",
+        "description": "Augmente la durée des effets des armes de 10%."
+      },
+      "AMOUNT": {
+        "name": "Duplicateur",
+        "description": "Les armes tirent plus de projectiles."
+      },
+      "MAXHEALTH": {
+        "name": "Cœur vide",
+        "description": "Augmente la santé max de 20%."
+      },
+      "ARMOR": {
+        "name": "Armure",
+        "description": "Réduit les dégâts subis de 1."
+      },
+      "MOVESPEED": {
+        "name": "Ailes",
+        "description": "Le personnage se déplace 10% plus vite."
+      },
+      "MAGNET": {
+        "description": "Le personnage ramasse les objets à une plus grande distance.",
+        "name": "Orbe d'attraction"
+      },
+      "GROWTH": {
+        "name": "Couronne",
+        "description": "Le personnage gagne 8% d'expérience supplémentaire."
+      },
+      "LUCK": {
+        "name": "Trèfle",
+        "description": "Le personnage a 10% de chance en plus."
+      },
+      "GREED": {
+        "name": "Masque de pierre",
+        "description": "Le personnage gagne 10% de pièces en plus."
+      },
+      "REGEN": {
+        "name": "Pummarola",
+        "description": "Le personnage récupère 0.2 PV par seconde."
+      },
+      "VORTEX": {
+        "name": "Mangeur d'âmes",
+        "description": "Évolution de l'Ail. Vole de vie. Sa puissance augmente lorsqu'il récupère des HP.",
+        "tips": "Requiert: Pummarola."
+      },
+      "BORA": {
+        "name": "La Borra",
+        "description": "Évolution de l'Eau sainte. Les zones endommagées vous suivent et augmentent lorsqu'elles se déplacent.",
+        "tips": "Requiert: Orbe d'attraction."
+      },
+      "SILF3": {
+        "name": "Vandalier",
+        "description": "Union de la Pigeonne et des Ailes d'Ebène."
+      },
+      "REVIVAL": {
+        "name": "Tiramitsu",
+        "description": "Revivre une fois avec 50% de santé."
+      },
+      "LOOP": {
+        "name": "Boucle du tonnerre",
+        "description": "Évolution de l'Anneau de foudre. Les projectiles frappent deux fois.",
+        "tips": "Requiert: Duplicateur."
+      },
+      "CURSE": {
+        "name": "Crâne O'Maniac",
+        "description": "Augmente la vitesse, la santé, la quantité et la fréquence des ennemis de 10%."
+      },
+      "CHERRY": {
+        "name": "Bombe Cerise",
+        "description": "Lance un projectile rebondissant. Explose, parfois.",
+        "tips": "Meilleur avec: chance."
+      },
+      "SONG": {
+        "name": "Chanson de Mana",
+        "description": "Attaque verticalement, passe à travers les ennemis.",
+        "tips": "Ignore: quantité, puissance de tir."
+      },
+      "MANNAGGIA": {
+        "name": "Mannajja",
+        "description": "Évolution de la Chanson de Mana. Peut ralentir les ennemis.",
+        "tips": "Requiert: Crâne O'Maniac"
+      },
+      "SIRE": {
+        "name": "Gorgeous Moon",
+        "description": "Évolution du Pentagramme. Génère des gemmes supplémentaires et les rassemble toutes.",
+        "tips": "Requiert: Couronne."
+      },
+      "GUNS": {
+        "name": "Phiera Der Tuphello",
+        "description": "Tire rapidement dans quatre directions fixes.",
+        "tips": "Ignore: durée."
+      },
+      "GUNS2": {
+        "name": "Huit le moineau",
+        "description": "Tire rapidement dans quatre directions fixes.",
+        "tips": "Ignore: durée."
+      },
+      "GUNS3": {
+        "name": "Phieraggi",
+        "description": "Union de Phiera Der Tuphello et Huit le Moineau. Plus forte avec des revives.",
+        "tips": "Requiert: Tiramitsu."
+      },
+      "ROCHER": {
+        "name": "NO FUTURE",
+        "description": "Evolved Runetracer. Explodes when bouncing and in retaliation.",
+        "tips": "Requires: Armor"
+      },
+      "CART2": {
+        "name": "Carréllo",
+        "description": "Throws a bouncing projectile. Number of bounces affected by Amount.",
+        "tips": "Ignores: duration."
+      },
+      "GATTI": {
+        "name": "Gatti Amari",
+        "description": "Summons capricious projectiles. Might interact with pickups.",
+        "tips": "Best with: luck, floor chicken."
+      },
+      "FLOWER": {
+        "name": "Celestial Dusting",
+        "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
+        "tips": "Best with: moveSpeed."
+      }
+    }
+  },
+  "de": {
+    "english": "German",
+    "native": "Deutsch",
+    "api": "german",
+    "translations": {
+      "WHIP": {
+        "name": "Peitsche",
+        "description": "Greift waagerecht an, durchdringt Gegner.",
+        "tips": "Ignoriert: Geschwindigkeit, Dauer."
+      },
+      "VAMPIRICA": {
+        "name": "Blutige Träne",
+        "description": "Weiterentwickelte Peitsche. Kann kritischen Schaden verursachen und LP absorbieren.",
+        "tips": "Benötigt: Hohlherz"
+      },
+      "MAGIC_MISSILE": {
+        "name": "Zauberstab",
+        "description": "Feuert auf den nächstgelegenen Gegner.",
+        "tips": "Ignoriert: Dauer."
+      },
+      "HOLY_MISSILE": {
+        "name": "Heiliger Zauberstab",
+        "description": "Weiterentwickelter Zauberstab. Feuert ohne Verzögerung.",
+        "tips": "Benötigt: Einen leeren Folianten."
+      },
+      "AXE": {
+        "name": "Axt",
+        "description": "Hoher Schaden, hohe Bereichsskalierung.",
+        "tips": "Ignoriert: Dauer."
+      },
+      "SCYTHE": {
+        "name": "Todesspirale",
+        "description": "Weiterentwickelte Axt. Durchdringt Gegner.",
+        "tips": "Benötigt: Kandelabrador."
+      },
+      "KNIFE": {
+        "name": "Messer",
+        "description": "Schießt schnell in die gegenüberliegende Richtung.",
+        "tips": "Ignoriert: Dauer."
+      },
+      "THOUSAND": {
+        "name": "Tausendschneide",
+        "description": "Weiterentwickeltes Messer. Feuert ohne Verzögerung.",
+        "tips": "Benötigt: Armschiene."
+      },
+      "HOLYWATER": {
+        "name": "Santa Wasser",
+        "description": "Erzeugt schädliche Zonen.",
+        "tips": "Ignoriert: Geschwindigkeit."
+      },
+      "DIAMOND": {
+        "name": "Runenläufer",
+        "description": "Durchdring Gegner, hüpft herum.",
+        "tips": "Am besten mit: Geschwindigkeit, Dauer."
+      },
+      "FIREBALL": {
+        "name": "Feuerstab",
+        "description": "Feuert auf einen zufälligen Gegner, verursacht schweren Schaden.",
+        "tips": "Ignoriert: Dauer."
+      },
+      "HELLFIRE": {
+        "name": "Höllenfeuer",
+        "description": "Weiterentwickelter Feuerstab. Geht durch Gegner hindurch.",
+        "tips": "Benötigt: Spinat."
+      },
+      "HOLYBOOK": {
+        "name": "Königsbibel",
+        "description": "Kreist um den Charakter.",
+        "tips": "Am besten mit: Geschwindigkeit, Dauer, Bereich."
+      },
+      "VESPERS": {
+        "name": "Unheilige Vesper",
+        "description": "Weiterentwickelte Königsbibel. Endet nie.",
+        "tips": "Benötigt: Zauberbinder."
+      },
+      "CROSS": {
+        "name": "Kreuz",
+        "description": "Zielt auf den nächsten Gegner und hat einen Bumerangeffekt.",
+        "tips": "Ignoriert: Dauer."
+      },
+      "HEAVENSWORD": {
+        "name": "Himmelsschwert",
+        "description": "Weiterentwickeltes Kreuz. Kann kritischen Schaden verursachen.",
+        "tips": "Benötigt: Klee."
+      },
+      "GARLIC": {
+        "name": "Knoblauch",
+        "description": "Fügt Gegnern in der Nähe Schaden zu. Verringert den Widerstand gegen Rückschlag und Einfrieren.",
+        "tips": "Ignoriert: Menge, Dauer, Geschwindigkeit."
+      },
+      "LAUREL": {
+        "name": "Lorbeer",
+        "description": "Schützt vor Schaden, wenn sie aktiv ist.",
+        "tips": "Am besten mit: nur Abklingzeit."
+      },
+      "LIGHTNING": {
+        "name": "Blitzring",
+        "description": "Schlägt auf zufällige Gegner ein.",
+        "tips": "Ignoriert: Geschwindigkeit, Dauer."
+      },
+      "PENTAGRAM": {
+        "name": "Pentagramm",
+        "description": "Löscht alles in Sichtweite aus.",
+        "tips": "Am besten mit: nur Abklingzeit und Glück."
+      },
+      "SILF": {
+        "name": "Peachone",
+        "description": "Bombardiert in einer kreisenden Zone.",
+        "tips": "Am besten mit: Abklingzeit, Dauer."
+      },
+      "SILF2": {
+        "name": "Ebenholz-Flügel",
+        "description": "Bombardiert in einer kreisenden Zone.",
+        "tips": "Am besten mit: Abklingzeit, Dauer."
+      },
+      "BONE": {
+        "name": "Knochen",
+        "description": "Wirft ein hüpfendes Geschoss.",
+        "tips": "Am besten mit: Dauer, Geschwindigkeit."
+      },
+      "LANCET": {
+        "name": "Uhr-Lanzette",
+        "description": "Chance, Gegner in der Zeit einzufrieren.",
+        "tips": "Ignoriert: Kraft, Geschwindigkeit, Menge, Bereich."
+      },
+      "POWER": {
+        "name": "Spinat",
+        "description": "Erhöht den zugefügten Schaden um 10%."
+      },
+      "AREA": {
+        "name": "Kandelabrador",
+        "description": "Erhöht die Reichweite von Angriffen um 10%."
+      },
+      "SPEED": {
+        "name": "Armschiene",
+        "description": "Erhöht die Geschwindigkeit von Geschossen um 10%."
+      },
+      "COOLDOWN": {
+        "name": "Leerer Foliant",
+        "description": "Verringert die Abklingzeit von Waffen um 8%."
+      },
+      "DURATION": {
+        "name": "Zauberbinder",
+        "description": "Erhöht die Dauer von Waffeneffekten um 10%."
+      },
+      "AMOUNT": {
+        "name": "Verdoppler",
+        "description": "Waffen feuern mehr Geschosse ab."
+      },
+      "MAXHEALTH": {
+        "name": "Hohlherz",
+        "description": "Erhöht die maximale Gesundheit um 20%."
+      },
+      "ARMOR": {
+        "name": "Rüstung",
+        "description": "Reduziert den eingehenden Schaden um 1."
+      },
+      "MOVESPEED": {
+        "name": "Flügel",
+        "description": "Der Charakter bewegt sich 10% schneller."
+      },
+      "MAGNET": {
+        "description": "Der Charakter sammelt Gegenstände aus größerer Entfernung ein.",
+        "name": "Anziehungskugel"
+      },
+      "GROWTH": {
+        "name": "Krone",
+        "description": "Der Charakter erhält 8% mehr Erfahrung."
+      },
+      "LUCK": {
+        "name": "Kleeblatt",
+        "description": "Der Charakter bekommt 10% mehr Glück."
+      },
+      "GREED": {
+        "name": "Steinmaske",
+        "description": "Der Charakter verdient 10% mehr Münzen."
+      },
+      "REGEN": {
+        "name": "Pummarola",
+        "description": "Der Charakter erholt sich um 0,2 LP pro Sekunde."
+      },
+      "VORTEX": {
+        "name": "Seelenfresser",
+        "description": "Entwickler Knoblauch. Klaut Herzen. Kraft steigt wenn LP zurückerlangt wird",
+        "tips": "erforderlich: Pummarola."
+      },
+      "BORA": {
+        "name": "La Borra",
+        "description": "Entwickltes Santa Wasser. Die Schadenszone folgt dir und wenn sie sich bewegen.",
+        "tips": "Erfordert: Anziehungskugel"
+      },
+      "SILF3": {
+        "name": "Vandalier",
+        "description": "Verbindung von Ebenholz-Flügeln und Peachone."
+      },
+      "REVIVAL": {
+        "name": "Tiragisú",
+        "description": "Erholt einmal mit 50% Gesundheit."
+      },
+      "LOOP": {
+        "name": "Donnerschlinge",
+        "description": "Entwicklter Blizring. Geschosse schlagen zweimal ein.",
+        "tips": "Erfordert: Verdoppler."
+      },
+      "CURSE": {
+        "name": "Schädel O'Maniac",
+        "description": "Erhöht Gegner Geschwindigkeit, Gesundheit, Qualität und Häufigkeit bei 10%."
+      },
+      "CHERRY": {
+        "name": "Kirschbombe",
+        "description": "Wirft ein hüpfendes Geschoss. Explodiert manchmal.",
+        "tips": "Am Besten mit: Glück."
+      },
+      "SONG": {
+        "name": "Mana-Lied",
+        "description": "Attackiert vertical, geht durch Gegner.",
+        "tips": "Ignoriert: Menge, Geschwindigkeit."
+      },
+      "MANNAGGIA": {
+        "name": "Mannajja",
+        "description": "Entwickeltes Mana-Lied. Verlangsamt Gegner manchmal.",
+        "tips": "Erfordert: Schädel O'Maniac"
+      },
+      "SIRE": {
+        "name": "Prächitger Mond",
+        "description": "Entwickeltes Pentagramm. Erzeugt extra Edelsteine und sammelt sie alle.",
+        "tips": "Erfordert: Krone."
+      },
+      "GUNS": {
+        "name": "Phiera Der Tuphello",
+        "description": "Schieße schnell in all vier festgelegten Richtungen.",
+        "tips": "Ignoriert: Dauer."
+      },
+      "GUNS2": {
+        "name": "Acht der Spatz",
+        "description": "Schieße schnell in all vier festgelegten Richtungen.",
+        "tips": "Ignoriert: Dauer."
+      },
+      "GUNS3": {
+        "name": "Phieraggi",
+        "description": "Verbindung von Phiera Der Tuphello and Acht der Spatz. Nimmt mit jeder Wiedergeburt zu.",
+        "tips": "Erfordert: Tiragisú."
+      },
+      "ROCHER": {
+        "name": "NO FUTURE",
+        "description": "Evolved Runetracer. Explodes when bouncing and in retaliation.",
+        "tips": "Requires: Armor"
+      },
+      "CART2": {
+        "name": "Carréllo",
+        "description": "Throws a bouncing projectile. Number of bounces affected by Amount.",
+        "tips": "Ignores: duration."
+      },
+      "GATTI": {
+        "name": "Gatti Amari",
+        "description": "Summons capricious projectiles. Might interact with pickups.",
+        "tips": "Best with: luck, floor chicken."
+      },
+      "FLOWER": {
+        "name": "Celestial Dusting",
+        "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
+        "tips": "Best with: moveSpeed."
+      }
+    }
+  },
+  "el": {
+    "english": "Greek",
+    "native": "Ελληνικά",
+    "api": "greek",
+    "translations": {}
+  },
+  "hu": {
+    "english": "Hungarian",
+    "native": "Magyar",
+    "api": "hungarian",
+    "translations": {}
+  },
+  "it": {
+    "english": "Italian",
+    "native": "Italiano",
+    "api": "italian",
+    "translations": {}
+  },
+  "ja": {
+    "english": "Japanese",
+    "native": "日本語 95%",
+    "api": "japanese",
+    "translations": {
+      "WHIP": {
+        "name": "ムチ",
+        "description": "水平方向に攻撃し、 敵を通り抜ける。",
+        "tips": "速度と持続時間を無視する。"
+      },
+      "VAMPIRICA": {
+        "name": "ブラッディー・ティア",
+        "description": "ムチの進化系。 クリティカルダメージ を出すことができ、 ライフを吸収する。",
+        "tips": "必要条件： ホロウ・ハート"
+      },
+      "MAGIC_MISSILE": {
+        "name": "魔法の杖",
+        "description": "最も近い敵に攻撃を発射する。",
+        "tips": "持続時間を無視する。"
+      },
+      "HOLY_MISSILE": {
+        "name": "聖なる杖",
+        "description": "魔法の杖が進化したもの。 タイムラグなしで攻撃を発射できる。",
+        "tips": "必要条件：空白の書"
+      },
+      "AXE": {
+        "name": "オノ",
+        "description": "水平方向に攻撃し、敵を通り抜ける。",
+        "tips": "持続時間を無視する。"
+      },
+      "SCYTHE": {
+        "name": "デス・スパイラル",
+        "description": "オノが進化したもの。 敵を通り抜ける。",
+        "tips": "必要条件：ロウソク"
+      },
+      "KNIFE": {
+        "name": "ナイフ",
+        "description": "向いている方向へ素早く攻撃を繰り出す。",
+        "tips": "持続時間を無視する。"
+      },
+      "THOUSAND": {
+        "name": "サウザン・エッジ",
+        "description": "ナイフの進化系。 タイムラグなしで攻撃を発射できる。",
+        "tips": "必要条件：ブレーサー"
+      },
+      "HOLYWATER": {
+        "name": "聖水",
+        "description": "ダメージゾーンを生成する。",
+        "tips": "速度を無視する。"
+      },
+      "DIAMOND": {
+        "name": "ルーントレイサー",
+        "description": "跳ね返りながら敵を通り抜ける。",
+        "tips": "最適な組み合わせ：速度と持続時間"
+      },
+      "FIREBALL": {
+        "name": "炎の杖",
+        "description": "ランダムな敵に発射し、 大ダメージを与える。",
+        "tips": "持続時間を無視する。"
+      },
+      "HELLFIRE": {
+        "name": "ヘルファイア",
+        "description": "炎の杖が進化したもの。 敵を通り抜ける。",
+        "tips": "必要条件：ほうれん草"
+      },
+      "HOLYBOOK": {
+        "name": "王の聖書",
+        "description": "キャラクターの周りを旋回する。",
+        "tips": "最適な組み合わせ： 速度、 持続時間とエリア"
+      },
+      "VESPERS": {
+        "name": "不浄の典礼",
+        "description": "王の聖書が進化したもの。 永遠に持続する。",
+        "tips": "必要条件：スペルバインダー"
+      },
+      "CROSS": {
+        "name": "十字架",
+        "description": "最も近い敵めがけて発射。 ブーメランのように機能する。",
+        "tips": "持続時間を無視する。"
+      },
+      "HEAVENSWORD": {
+        "name": "ヘヴン・ソード",
+        "description": "十字架の進化系。 クリティカルダメージを与える。",
+        "tips": "必要条件：クローバー"
+      },
+      "GARLIC": {
+        "name": "ニンニク",
+        "description": "近くの敵にダメージを与える。 ノックバックと凍結への耐性を低下させる。",
+        "tips": "量、 持続時間、 速度を無視する。"
+      },
+      "LAUREL": {
+        "name": "月桂樹",
+        "description": "発動中はダメージ避けになる。",
+        "tips": "最適な組み合わせ：クールダウンのみ"
+      },
+      "LIGHTNING": {
+        "name": "雷の指輪",
+        "description": "ランダムな敵に攻撃する。",
+        "tips": "速度と持続時間を無視する。"
+      },
+      "PENTAGRAM": {
+        "name": "ペンタグラム",
+        "description": "視界に入ったものをすべてを抹殺する。",
+        "tips": "ベストな組み合わせ：クールダウンと運気のみ"
+      },
+      "SILF": {
+        "name": "ピジョーネ",
+        "description": "旋回ゾーンで爆発する。",
+        "tips": "ベストな組み合わせ：クールダウンと持続時間"
+      },
+      "SILF2": {
+        "name": "漆黒の翼",
+        "description": "旋回ゾーンで爆発する。",
+        "tips": "ベストな組み合わせ：クールダウンと持続時間"
+      },
+      "BONE": {
+        "name": "ホネ",
+        "description": "跳ね返る発射物となる。",
+        "tips": "ベストな組み合わせ：持続時間と速度"
+      },
+      "LANCET": {
+        "name": "クロック・ランセット",
+        "description": "敵の時間を止める確率あり。",
+        "tips": "パワー、 速度、 量、 エリアを無視する。"
+      },
+      "POWER": {
+        "name": "ほうれん草",
+        "description": "ダメージ付与が10%アップ。"
+      },
+      "AREA": {
+        "name": "ロウソク",
+        "description": "攻撃エリアを10%増加。"
+      },
+      "SPEED": {
+        "name": "ブレイサー",
+        "description": "発射物の速度が10%アップ。"
+      },
+      "COOLDOWN": {
+        "name": "空白の書",
+        "description": "武器のクールダウンを8%減少させる。"
+      },
+      "DURATION": {
+        "name": "スペルバインダー",
+        "description": "武器効果の持続時間が10%アップ。"
+      },
+      "AMOUNT": {
+        "name": "複写の輪",
+        "description": "武器の発射物が増幅する。"
+      },
+      "MAXHEALTH": {
+        "name": "ホロウ・ハート",
+        "description": "ライフ上限が20%アップ。"
+      },
+      "ARMOR": {
+        "name": "アーマー",
+        "description": "受けるダメージが1減少。"
+      },
+      "MOVESPEED": {
+        "name": "翼",
+        "description": "キャラクターの移動速度が10%アップ。"
+      },
+      "MAGNET": {
+        "description": "遠くにあるアイテムをひろえる。",
+        "name": "引き寄せの石（磁石）"
+      },
+      "GROWTH": {
+        "name": "王冠",
+        "description": "キャラクターのEXP獲得が8%アップ。"
+      },
+      "LUCK": {
+        "name": "クローバー",
+        "description": "キャラクターの運気が10%アップ。"
+      },
+      "GREED": {
+        "name": "石の仮面",
+        "description": "硬貨獲得率が10%アップ。"
+      },
+      "REGEN": {
+        "name": "愛の加護",
+        "description": "ライフを毎秒0.2ずつ回復する。"
+      },
+      "VORTEX": {
+        "name": "魂食らい",
+        "description": "進化したニンニク。ハートを盗む。\nHP回復時に威力が増加する。",
+        "tips": "必要アイテム：愛の心臓"
+      },
+      "BORA": {
+        "name": "ラ・ボッラ",
+        "description": "進化した聖水。ダメージゾーンが、\n自身に引き寄せられつつ大きくなっていく。",
+        "tips": "必要アイテム：誘引のオーブ"
+      },
+      "SILF3": {
+        "name": "破壊者",
+        "description": "漆黒の翼と純白の翼の合体"
+      },
+      "REVIVAL": {
+        "name": "ティラギス",
+        "description": "体力が50%の状態で1回だけ復活する。"
+      },
+      "LOOP": {
+        "name": "雷鳴の環",
+        "description": "進化した稲妻の指輪。稲妻が2回当たる。",
+        "tips": "必要アイテム：複製の指輪"
+      },
+      "CURSE": {
+        "name": "スコル・オマニアック",
+        "description": "敵のスピード、ヘルス、数量、頻度が10%増加する。"
+      },
+      "CHERRY": {
+        "name": "サクラ爆弾",
+        "description": "弾むような投擲物を投げる。時々爆発する。",
+        "tips": "ベストな組み合わせ：運気"
+      },
+      "SONG": {
+        "name": "ソング・オブ・マナ",
+        "description": "垂直方向に攻撃し、 敵を貫通する。",
+        "tips": "量、速度を無視する"
+      },
+      "MANNAGGIA": {
+        "name": "マンナイヤ",
+        "description": "進化したソング・オブ・マナ。 敵の動きを遅くすることがある。",
+        "tips": "必要アイテム：スコル・オマニアック"
+      },
+      "SIRE": {
+        "name": "Gorgeous Moon",
+        "description": "Evolved Pentagram. Generates extra gems and gathers all of them.",
+        "tips": "Requires: Crown."
+      },
+      "GUNS": {
+        "name": "Phiera Der Tuphello",
+        "description": "Fires quickly in four fixed directions.",
+        "tips": "持続時間を無視する。"
+      },
+      "GUNS2": {
+        "name": "Eight The Sparrow",
+        "description": "Fires quickly in four fixed directions.",
+        "tips": "持続時間を無視する。"
+      },
+      "GUNS3": {
+        "name": "Phieraggi",
+        "description": "Union of Phiera Der Tuphello and Eight The Sparrow. Scales with Revivals.",
+        "tips": "必要アイテム：ティラギス"
+      },
+      "ROCHER": {
+        "name": "NO FUTURE",
+        "description": "Evolved Runetracer. Explodes when bouncing and in retaliation.",
+        "tips": "Requires: Armor"
+      },
+      "CART2": {
+        "name": "Carréllo",
+        "description": "Throws a bouncing projectile. Number of bounces affected by Amount.",
+        "tips": "Ignores: duration."
+      },
+      "GATTI": {
+        "name": "Gatti Amari",
+        "description": "Summons capricious projectiles. Might interact with pickups.",
+        "tips": "Best with: luck, floor chicken."
+      },
+      "FLOWER": {
+        "name": "Celestial Dusting",
+        "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
+        "tips": "Best with: moveSpeed."
+      }
+    }
+  },
+  "ko": {
+    "english": "Korean",
+    "native": "한국어",
+    "api": "koreana",
+    "translations": {
+      "WHIP": {
+        "name": "채찍",
+        "description": "수평으로 적을 관통해 공격합니다.",
+        "tips": "파워업 무시: 투사체 속도, 지속시간"
+      },
+      "VAMPIRICA": {
+        "name": "피눈물",
+        "description": "채찍의 강화형. 치명타 피해를 입히고 HP를 흡수합니다.",
+        "tips": "요구 사항: 칠흑 심장"
+      },
+      "MAGIC_MISSILE": {
+        "name": "매직 완드",
+        "description": "가장 가까운 적을 공격합니다.",
+        "tips": "파워업 무시: 지속시간"
+      },
+      "HOLY_MISSILE": {
+        "name": "홀리 완드",
+        "description": "매직 완드의 강화형. 딜레이 없이 발사됩니다.",
+        "tips": "요구 사항: 빈 성서"
+      },
+      "AXE": {
+        "name": "도끼",
+        "description": "피해량이 높고 공격 범위가 넓습니다.",
+        "tips": "파워업 무시: 지속시간"
+      },
+      "SCYTHE": {
+        "name": "죽음의 나선",
+        "description": "도끼의 강화형. 적을 관통합니다.",
+        "tips": "요구 사항: 촛대"
+      },
+      "KNIFE": {
+        "name": "단검",
+        "description": "보고 있는 방향으로 빠르게 발사됩니다.",
+        "tips": "파워업 무시: 지속시간"
+      },
+      "THOUSAND": {
+        "name": "천 개의 칼날",
+        "description": "단검의 강화형. 딜레이 없이 발사됩니다.",
+        "tips": "요구 사항: 브레이서"
+      },
+      "HOLYWATER": {
+        "name": "성수",
+        "description": "화염 구덩이를 생성합니다.",
+        "tips": "파워업 무시: 스피드"
+      },
+      "DIAMOND": {
+        "name": "룬트레이서",
+        "description": "적을 관통하며 튕겨져 나옵니다.",
+        "tips": "추천 조합: 투사체 속도, 지속시간"
+      },
+      "FIREBALL": {
+        "name": "파이어 완드",
+        "description": "무작위 적을 향해 발사되며 큰 피해를 줍니다.",
+        "tips": "파워업 무시: 지속시간"
+      },
+      "HELLFIRE": {
+        "name": "헬파이어",
+        "description": "파이어 완드의 강화형. 적을 관통합니다.",
+        "tips": "요구 사항: 시금치."
+      },
+      "HOLYBOOK": {
+        "name": "기도문",
+        "description": "기도문이 주변을 회전하며 공격합니다",
+        "tips": "추천 조합: 투사체 속도, 지속시간, 공격범위"
+      },
+      "VESPERS": {
+        "name": "불경한 기도문",
+        "description": "기도문의 강화형. 사라지지 않습니다.",
+        "tips": "요구 사항: 주문속박기"
+      },
+      "CROSS": {
+        "name": "십자가",
+        "description": "가장 가까운 적에게 날아가며 부메랑처럼 돌아옵니다.",
+        "tips": "파워업 무시: 지속시간"
+      },
+      "HEAVENSWORD": {
+        "name": "셀레스트 에페",
+        "description": "십자가의 강화형. 치명타 피해를 줍니다.",
+        "tips": "요구 사항: 클로버."
+      },
+      "GARLIC": {
+        "name": "마늘",
+        "description": "범위 내의 적에게 피해를 줍니다. 넉백과 빙결저항을 감소시킵니다",
+        "tips": "파워업 무시: 투사체 수, 지속시간, 투사체 속도"
+      },
+      "LAUREL": {
+        "name": "월계수",
+        "description": "피격 데미지를 막아줍니다.",
+        "tips": "추천 조합: 쿨타임만 적용됨"
+      },
+      "LIGHTNING": {
+        "name": "번개 반지",
+        "description": "무작위 적에게 번개를 내려칩니다.",
+        "tips": "파워업 무시: 투사체 속도, 지속시간"
+      },
+      "PENTAGRAM": {
+        "name": "오망성",
+        "description": "화면 안의 모든 것을 제거합니다.",
+        "tips": "추천 조합: 쿨타임과 행운만 적용"
+      },
+      "SILF": {
+        "name": "하얀 비둘기",
+        "description": "원형의 구역을 폭격합니다.",
+        "tips": "추천 조합: 쿨타임, 지속시간"
+      },
+      "SILF2": {
+        "name": "검은 비둘기",
+        "description": "원형의 구역을 폭격합니다.",
+        "tips": "추천 조합: 쿨타임, 지속시간"
+      },
+      "BONE": {
+        "name": "뼈다귀",
+        "description": "튕겨나오는 투사체를 던집니다.",
+        "tips": "추천 조합: 지속시간, 투사체 속도"
+      },
+      "LANCET": {
+        "name": "시계바늘",
+        "description": "적들을 잠시 얼려 움직이지 못하게 합니다.",
+        "tips": "파워업 무시: 괴력, 투사체 속도, 투사체 수, 공격범위"
+      },
+      "POWER": {
+        "name": "시금치",
+        "description": "피해량이 10% 증가합니다."
+      },
+      "AREA": {
+        "name": "촛대",
+        "description": "공격범위가 10% 증가합니다."
+      },
+      "SPEED": {
+        "name": "브레이서",
+        "description": "투사체 속도가 10% 증가합니다."
+      },
+      "COOLDOWN": {
+        "name": "빈 성서",
+        "description": "쿨타임이 8% 감소합니다."
+      },
+      "DURATION": {
+        "name": "주문속박기",
+        "description": "지속시간이 10% 증가합니다."
+      },
+      "AMOUNT": {
+        "name": "복제 반지",
+        "description": "추가 투사체를 획득합니다."
+      },
+      "MAXHEALTH": {
+        "name": "칠흑 심장",
+        "description": "최대 체력이 20% 증가합니다."
+      },
+      "ARMOR": {
+        "name": "갑옷",
+        "description": "피격 데미지를 1 감소시킵니다."
+      },
+      "MOVESPEED": {
+        "name": "날개",
+        "description": "10% 빠르게 움직입니다."
+      },
+      "MAGNET": {
+        "description": "더 멀리 있는 아이템을 획득합니다.",
+        "name": "매혹의 오브"
+      },
+      "GROWTH": {
+        "name": "왕관",
+        "description": "8% 추가 경험치를 획득합니다."
+      },
+      "LUCK": {
+        "name": "클로버",
+        "description": "행운이 10% 증가합니다."
+      },
+      "GREED": {
+        "name": "돌가면",
+        "description": "10% 추가 골드를 획득합니다."
+      },
+      "REGEN": {
+        "name": "붉은 심장",
+        "description": "초당 체력회복량이 0.2의 증가합니다."
+      },
+      "VORTEX": {
+        "name": "영혼포식자",
+        "description": "마늘의 강화형. 체력을 흡수합니다. 체력흡수 시 위력이 증가합니다.",
+        "tips": "요구 사항: 붉은 심장"
+      },
+      "BORA": {
+        "name": "정화자",
+        "description": "성수의 강화형. 불구덩이가 점점 커지며 캐릭터를 따릅니다.",
+        "tips": "요구 사항: 매혹의 오브"
+      },
+      "SILF3": {
+        "name": "파괴자",
+        "description": "하얀 비둘기와 검은 비둘기의 융합"
+      },
+      "REVIVAL": {
+        "name": "티라미수",
+        "description": "한번 50%의 체력으로 부활합니다."
+      },
+      "LOOP": {
+        "name": "번개 고리",
+        "description": "번개 반지의 강화형. 투사체가 2회 공격합니다.",
+        "tips": "요구 사항: 복제 반지"
+      },
+      "CURSE": {
+        "name": "미치광이의 두개골",
+        "description": "적들의 속도, 체력, 개체 수, 스폰율을 10% 증가시킵니다."
+      },
+      "CHERRY": {
+        "name": "체리폭탄",
+        "description": "튕겨나오며 확률적으로 폭발하는 투사체를 던집니다.",
+        "tips": "추천 조합: 행운"
+      },
+      "SONG": {
+        "name": "마나의 노래",
+        "description": "수직으로 공격하며 적을 관통합니다.",
+        "tips": "파워업 무시: 투사체 갯수, 투사체 속도"
+      },
+      "MANNAGGIA": {
+        "name": "마력의 결정체",
+        "description": "마나의 노래의 강화형. 적을 느려지게 만듭니다.",
+        "tips": "요구 사항: 미치광이의 두개골"
+      },
+      "SIRE": {
+        "name": "매혹의 달",
+        "description": "오망성의 강화형. 추가 보석을 생성하고 처치한 적의 보석을 흡수합니다.",
+        "tips": "요구 사항: 왕관."
+      },
+      "GUNS": {
+        "name": "피에라 데 투펠로",
+        "description": "고정된 네 방향으로 투사체를 빠르게 발사합니다.",
+        "tips": "파워업 무시: 지속시간"
+      },
+      "GUNS2": {
+        "name": "에잇 더 스페로우",
+        "description": "고정된 네 방향으로 투사체를 빠르게 발사합니다.",
+        "tips": "파워업 무시: 지속시간"
+      },
+      "GUNS3": {
+        "name": "피에라지",
+        "description": "피에라 데 투펠로와 피에라지의 융합체. 부활횟수만큼 추가 투사체를 얻습니다.",
+        "tips": "요구 사항: 티라미수."
+      },
+      "ROCHER": {
+        "name": "절멸",
+        "description": "룬트레이서 강화형. 적에게 반사 대미지를 주며 튕겨저 나올때 폭파 대미지를 줍니다.",
+        "tips": "요구 사항 : 갑옷"
+      },
+      "CART2": {
+        "name": "광산수레",
+        "description": "수레를 밀어 적을 공격합니다. 투사체의 수가 많아질수록 여러번 튕겨저 나옵니다.",
+        "tips": "파워업 무시 : 지속시간."
+      },
+      "GATTI": {
+        "name": "마녀의 고양이",
+        "description": "치킨을 좋아하고 변덕이 심한 고양이를 소환하여 적을 공격합니다.",
+        "tips": "추천 조합 : 행운, 치킨"
+      },
+      "FLOWER": {
+        "name": "Celestial Dusting",
+        "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
+        "tips": "Best with: moveSpeed."
+      }
+    }
+  },
+  "no": {
+    "english": "Norwegian",
+    "native": "Norsk",
+    "api": "norwegian",
+    "translations": {}
+  },
+  "pl": {
+    "english": "Polish",
+    "native": "Polski",
+    "api": "polish",
+    "translations": {}
+  },
+  "pt": {
+    "english": "Portuguese",
+    "native": "Português",
+    "api": "portuguese",
+    "translations": {}
+  },
+  "pt-BR": {
+    "english": "Portuguese-Brazil",
+    "native": "Português-Brasil",
+    "api": "brazilian",
+    "translations": {
+      "WHIP": {
+        "name": "Chicote",
+        "description": "Ataca horizontalmente, atravessa inimigos.",
+        "tips": "Ignora: velocidade, duração."
+      },
+      "VAMPIRICA": {
+        "name": "Lágrima Sangrenta",
+        "description": "Chicote Evoluido. Pode dar acerto crítico e absorve HP.",
+        "tips": "Requer: Coração Vazio."
+      },
+      "MAGIC_MISSILE": {
+        "name": "Varinha Mágica",
+        "description": "Dispara no inimigo mais próximo.",
+        "tips": "Ignora: duração."
+      },
+      "HOLY_MISSILE": {
+        "name": "Varinha Sagrada.",
+        "description": "Varinha Mágica Evoluida. Dispara sem interrupções.",
+        "tips": "Requer: Tomo Vazio."
+      },
+      "AXE": {
+        "name": "Machado",
+        "description": "Dano alto, evoluçãi de Área alta.",
+        "tips": "ignora: duração."
+      },
+      "SCYTHE": {
+        "name": "Espiral da Morte",
+        "description": "Machado evoluido. Atravessa inimigos.",
+        "tips": "Requer: Candelabro."
+      },
+      "KNIFE": {
+        "name": "Adaga",
+        "description": "Dispara rapidamente na direção apontada.",
+        "tips": "Ignora: duração."
+      },
+      "THOUSAND": {
+        "name": "Lâminas Milenares",
+        "description": "Adaga evoluida. Dispara sem atraso.",
+        "tips": "Requer: Braçadeira."
+      },
+      "HOLYWATER": {
+        "name": "Água Benta",
+        "description": "Gera zonas que causam dano.",
+        "tips": "Ignora: velocidade."
+      },
+      "DIAMOND": {
+        "name": "Runetracer",
+        "description": "Atravessa inimigos, ricocheteia.",
+        "tips": "Melhor com: velocidade, duração."
+      },
+      "FIREBALL": {
+        "name": "Varinha de Fogo",
+        "description": "Dispara em um inimigo aleatório, causa muito dano.",
+        "tips": "ignora: duração."
+      },
+      "HELLFIRE": {
+        "name": "Chamas Infernais",
+        "description": "Varinha de Fogo evoluida. Atravessa inimigos.",
+        "tips": "Requer: Espinafre."
+      },
+      "HOLYBOOK": {
+        "name": "Bíblia do Rei",
+        "description": "Orbita ao redor do personagem.",
+        "tips": "Melhor com: velocidade, duração, área."
+      },
+      "VESPERS": {
+        "name": "Versículos Profanos",
+        "description": "Bíblia do Rei evoluida. Nunca acaba.",
+        "tips": "Requer: Catalisador."
+      },
+      "CROSS": {
+        "name": "Cruz",
+        "description": "Mira no inimigo mais próximo, Possui efeito boomerangue.",
+        "tips": "ignora: duração."
+      },
+      "HEAVENSWORD": {
+        "name": "Espada Celeste",
+        "description": "Cruz evoluída. Pode causar dano crítico.",
+        "tips": "Requer: Trevo."
+      },
+      "GARLIC": {
+        "name": "Alho",
+        "description": "Causa dano a inimigos próximos. Reduz a resistência a recúo e congelamento.",
+        "tips": "ignora: quantidade, duração e velocidade."
+      },
+      "LAUREL": {
+        "name": "Laurel",
+        "description": "Protege contra dano enquanto ativo.",
+        "tips": "Melhor com: apenas cooldown."
+      },
+      "LIGHTNING": {
+        "name": "Anél de Raios",
+        "description": "Ataca inimigos aleatórios.",
+        "tips": "ignora: velocidade, duração."
+      },
+      "PENTAGRAM": {
+        "name": "Pentagrama",
+        "description": "Apaga tudo na tela.",
+        "tips": "Melhor com: apenas cooldown e sorte."
+      },
+      "SILF": {
+        "name": "Peachone",
+        "description": "Bombardeia em uma zona circulante.",
+        "tips": "Melhor com: Cooldown, duração."
+      },
+      "SILF2": {
+        "name": "Ebony Wings",
+        "description": "Bombardeia em uma zona circulante.",
+        "tips": "Melhor com: Cooldown, duração."
+      },
+      "BONE": {
+        "name": "Osso",
+        "description": "Arremessa um projétil quicante.",
+        "tips": "Melhor com: Duração, velocidade."
+      },
+      "LANCET": {
+        "name": "Lancete Temporal",
+        "description": "Chance de congelar inimigos no tempo.",
+        "tips": "Ignora: poder, velocidade, quantidade, área."
+      },
+      "POWER": {
+        "name": "Espinafre",
+        "description": "Aumenta dano causado em 10%."
+      },
+      "AREA": {
+        "name": "Candelabro",
+        "description": "Extende a área dos ataques em 10%."
+      },
+      "SPEED": {
+        "name": "Braçadeira",
+        "description": "Aumenta a velocidade dos projéteis em 10%."
+      },
+      "COOLDOWN": {
+        "name": "Tomo Vazio",
+        "description": "Reduz o cooldown das armas em 8%."
+      },
+      "DURATION": {
+        "name": "Catalisador",
+        "description": "Aumenta a duração dos efeitos das armas em 10%."
+      },
+      "AMOUNT": {
+        "name": "Duplicador",
+        "description": "Armas disparam mais projéteis."
+      },
+      "MAXHEALTH": {
+        "name": "Coração Vazio",
+        "description": "Extende a Saúde Máxima em 20%."
+      },
+      "ARMOR": {
+        "name": "Armadura",
+        "description": "Reduz o dano recebido em 1."
+      },
+      "MOVESPEED": {
+        "name": "Asas",
+        "description": "Personagem se move 10% mais rápido."
+      },
+      "MAGNET": {
+        "description": "Personagems coletam items mais longe.",
+        "name": "Imã"
+      },
+      "GROWTH": {
+        "name": "Coroa",
+        "description": "Personagem ganha 8% a mais de experiência."
+      },
+      "LUCK": {
+        "name": "Trevo",
+        "description": "Personagem fica 10% mais sortudo."
+      },
+      "GREED": {
+        "name": "Máscara de Pedra",
+        "description": "Personagem ganha 10% mais moedas."
+      },
+      "REGEN": {
+        "name": "Pummarola",
+        "description": "Personagem recupera 0,2HP por segundo."
+      },
+      "VORTEX": {
+        "name": "Devorador de Almas",
+        "description": "Alho Evoluido. Rouba corações. Fica mais poderoso quando recupera HP.",
+        "tips": "Requer: Pummarola."
+      },
+      "BORA": {
+        "name": "La Borra",
+        "description": "Água Benta Evoluida. Zonas de dano crescem e se movem em direção ao personagem.",
+        "tips": "Requer: Imã."
+      },
+      "SILF3": {
+        "name": "Vandalier",
+        "description": "Uniãp de Ebony Wings e Peachone."
+      },
+      "REVIVAL": {
+        "name": "Tiragisú",
+        "description": "Revive com 50% de saúde uma vez."
+      },
+      "LOOP": {
+        "name": "Ciclo de Raios",
+        "description": "Anél de Raios evoluido. Projéteis atacam duas vezes.",
+        "tips": "Requer: Duplicador."
+      },
+      "CURSE": {
+        "name": "Caveira do Maniaco",
+        "description": "Aumenta a velocidade, saúde, quantidade e frequência dos inimigos em 10%."
+      },
+      "CHERRY": {
+        "name": "Bomba de Brinquedo",
+        "description": "Explodes, sometimes. Atira um projétil que quica. Explode, as vezes.",
+        "tips": "Melhor com: sorte."
+      },
+      "SONG": {
+        "name": "Canção de Mana",
+        "description": "Attaca verticalmente, atravessa inimigos.",
+        "tips": "Ignora: quantidade, velocidade."
+      },
+      "MANNAGGIA": {
+        "name": "Mannajja",
+        "description": "Canção de Mana evoluída. Pode atrasar inimigos.",
+        "tips": "Requer: Caveira do Maníaco"
+      },
+      "SIRE": {
+        "name": "Lua Cintilante",
+        "description": "Pentagrama evoluido. Gera gemas extras reune todas elas.",
+        "tips": "Requer: Coroa."
+      },
+      "GUNS": {
+        "name": "Phiera Der Tuphello",
+        "description": "Atira rapidamente em 4 direções fixas",
+        "tips": "Ignora: duração."
+      },
+      "GUNS2": {
+        "name": "Eight The Sparrow",
+        "description": "Atira rapidamente em 4 direções fixas",
+        "tips": "Ignora: duração."
+      },
+      "GUNS3": {
+        "name": "Phieraggi",
+        "description": "União de Phiera Der Tuphello e Eight The Sparrow. Escala com Revives.",
+        "tips": "Requer: Tiragisú."
+      },
+      "ROCHER": {
+        "name": "NO FUTURE",
+        "description": "Evolved Runetracer. Explodes when bouncing and in retaliation.",
+        "tips": "Requires: Armor"
+      },
+      "CART2": {
+        "name": "Carréllo",
+        "description": "Throws a bouncing projectile. Number of bounces affected by Amount.",
+        "tips": "Ignores: duration."
+      },
+      "GATTI": {
+        "name": "Gatti Amari",
+        "description": "Summons capricious projectiles. Might interact with pickups.",
+        "tips": "Best with: luck, floor chicken."
+      },
+      "FLOWER": {
+        "name": "Celestial Dusting",
+        "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
+        "tips": "Best with: moveSpeed."
+      }
+    }
+  },
+  "ro": {
+    "english": "Romanian",
+    "native": "Română",
+    "api": "romanian",
+    "translations": {}
+  },
+  "ru": {
+    "english": "Russian",
+    "native": "Русский",
+    "api": "russian",
+    "translations": {
+      "WHIP": {
+        "name": "Кнут",
+        "description": "Атакует горизонтально, проходя сквозь врагов.",
+        "tips": "Игнорирует: скорость, срок."
+      },
+      "VAMPIRICA": {
+        "name": "Кровавая Слеза",
+        "description": "Улучшенный Кнут. Может наносить критический урон и поглощать ОЗ.",
+        "tips": "Требует: Полое Сердце."
+      },
+      "MAGIC_MISSILE": {
+        "name": "Чарующий Жезл",
+        "description": "Стреляет в ближайшего врага.",
+        "tips": "Игнорирует: срок."
+      },
+      "HOLY_MISSILE": {
+        "name": "Святой Жезл",
+        "description": "Улучшенный Чарующий Жезл. Стреляет без задержки.",
+        "tips": "Требует: Пустой Том."
+      },
+      "AXE": {
+        "name": "Топор",
+        "description": "Большой урон, большая область поражения.",
+        "tips": "Игнорирует: срок."
+      },
+      "SCYTHE": {
+        "name": "Спираль Смерти",
+        "description": "Улучшенный Топор. Проходит сквозь врагов.",
+        "tips": "Требует: Канделябрадор."
+      },
+      "KNIFE": {
+        "name": "Нож",
+        "description": "Быстро метается в направлении взгляда.",
+        "tips": "Игнорирует: срок."
+      },
+      "THOUSAND": {
+        "name": "Тысяча Лезвий",
+        "description": "Улучшенный Нож. Метаются без задержки.",
+        "tips": "Требует: Наруч."
+      },
+      "HOLYWATER": {
+        "name": "Святая Вода",
+        "description": "Создает зоны, наносящие урон.",
+        "tips": "Игнорирует: скорость."
+      },
+      "DIAMOND": {
+        "name": "Рунтрассер",
+        "description": "Проходит сквозь врагов, отскакивает от стен.",
+        "tips": "Лучше сочетается с: скорость, срок."
+      },
+      "FIREBALL": {
+        "name": "Огненный Жезл",
+        "description": "Стреляет в случайных врагов, нанося большой урон.",
+        "tips": "Игнорирует: срок."
+      },
+      "HELLFIRE": {
+        "name": "Адское Пламя",
+        "description": "Улучшенный Огненный Жезл. Проходит сквозь врагов.",
+        "tips": "Требует: Шпинат."
+      },
+      "HOLYBOOK": {
+        "name": "Библия Короля",
+        "description": "Кружится вокруг персонажа.",
+        "tips": "Лучше сочетается с: скорость, срок, размер."
+      },
+      "VESPERS": {
+        "name": "Жуткая Вечерня",
+        "description": "Улучшенная Библия Короля. Никогда не прекращается.",
+        "tips": "Требует: Заклинатель."
+      },
+      "CROSS": {
+        "name": "Крест",
+        "description": "Целится в ближайшего врага, обладает эффектом бумеранга.",
+        "tips": "Игнорирует: срок."
+      },
+      "HEAVENSWORD": {
+        "name": "Небесный Меч",
+        "description": "Улучшенный Крест. Может наносить критический урон.",
+        "tips": "Требует: Клевер."
+      },
+      "GARLIC": {
+        "name": "Чеснок",
+        "description": "Бьет по ближайшим врагам. Снижает сопротивление к отброске и заморозке.",
+        "tips": "Игнорирует: количество, срок, скорость."
+      },
+      "LAUREL": {
+        "name": "Лавр",
+        "description": "Защищает от урона, когда активен.",
+        "tips": "Лучше сочетается с: только откат."
+      },
+      "LIGHTNING": {
+        "name": "Кольцо Молний",
+        "description": "Бьет в случайных врагов.",
+        "tips": "Игнорирует: скорость, срок."
+      },
+      "PENTAGRAM": {
+        "name": "Пентаграмма",
+        "description": "Стирает все в поле зрения.",
+        "tips": "Лучше сочетается с: только откат и удача."
+      },
+      "SILF": {
+        "name": "Голубь",
+        "description": "Бомбардирует в кружащейся зоне.",
+        "tips": "Лучше сочетается с: откат, срок."
+      },
+      "SILF2": {
+        "name": "Черные Крылья",
+        "description": "Бомбардирует в кружащейся зоне.",
+        "tips": "Лучше сочетается с: откат, срок."
+      },
+      "BONE": {
+        "name": "Кость",
+        "description": "Бросает отскакивающий снаряд.",
+        "tips": "Лучше сочетается с: срок, скорость."
+      },
+      "LANCET": {
+        "name": "Копье Времени",
+        "description": "Шанс временно заморозить врагов.",
+        "tips": "Игнорирует: сила, скорость, количество, размер."
+      },
+      "POWER": {
+        "name": "Шпинат",
+        "description": "Увеличивает наносимый урон на 10%."
+      },
+      "AREA": {
+        "name": "Канделябрадор",
+        "description": "Увеличивает размер атак на 10%."
+      },
+      "SPEED": {
+        "name": "Наруч",
+        "description": "Ускоряет снаряды на 10%."
+      },
+      "COOLDOWN": {
+        "name": "Пустой Том",
+        "description": "Уменьшает откат оружия на 8%."
+      },
+      "DURATION": {
+        "name": "Заклинатель",
+        "description": "Продлевает эффект оружия на 10%."
+      },
+      "AMOUNT": {
+        "name": "Дупликатор",
+        "description": "Оружие выпускает больше снарядов."
+      },
+      "MAXHEALTH": {
+        "name": "Полое Сердце",
+        "description": "Увеличивает макс. ОЗ на 20%."
+      },
+      "ARMOR": {
+        "name": "Броня",
+        "description": "Уменьшает получаемый урон на 1."
+      },
+      "MOVESPEED": {
+        "name": "Крылья",
+        "description": "Персонаж перемещается на 10% быстрее."
+      },
+      "MAGNET": {
+        "description": "Персонаж подбирает предметы издалека.",
+        "name": "Магнитосфера"
+      },
+      "GROWTH": {
+        "name": "Корона",
+        "description": "Персонаж получает на 8% больше опыта."
+      },
+      "LUCK": {
+        "name": "Клевер",
+        "description": "Персонаж становится на 10% удачливее."
+      },
+      "GREED": {
+        "name": "Каменная Маска",
+        "description": "Персонаж зарабатывает на 10% больше монет."
+      },
+      "REGEN": {
+        "name": "Бычье Сердце",
+        "description": "Персонаж восстанавливает 0.2 ОЗ/сек."
+      },
+      "VORTEX": {
+        "name": "Пожиратель Душ",
+        "description": "Улучшенный Чеснок. Крадет сердца. Сила возрастает при регенерации ОЗ.",
+        "tips": "Требует: Бычье Сердце."
+      },
+      "BORA": {
+        "name": "Гуща",
+        "description": "Улучшенная Святая Вода. Зоны урона смещаются к вам и растут в движении.",
+        "tips": "Требует: Магнитосфера."
+      },
+      "SILF3": {
+        "name": "Вандалист",
+        "description": "Союз Черных Крыльев и Голубя."
+      },
+      "REVIVAL": {
+        "name": "Тирагису",
+        "description": "Оживляет один раз с 50% ОЗ."
+      },
+      "LOOP": {
+        "name": "Громовая Петля",
+        "description": "Улучшенное Кольцо Молний. Снаряды бьют дважды.",
+        "tips": "Требует: Дупликатор."
+      },
+      "CURSE": {
+        "name": "Череп О'Маньяка",
+        "description": "Увеличивает скорость, ОЗ, кол-во и частоту появления врагов на 10%."
+      },
+      "CHERRY": {
+        "name": "Вишневая Бомба",
+        "description": "Выпускает отскакивающий снаряд. Иногда взрывается.",
+        "tips": "Лучше сочетается с: удача."
+      },
+      "SONG": {
+        "name": "Песнь Маны",
+        "description": "Атакует вертикально, проходя сквозь врагов.",
+        "tips": "Игнорирует: количество, скорость."
+      },
+      "MANNAGGIA": {
+        "name": "Маннаджа",
+        "description": "Улучшенная Песнь Маны. Может замедлить врагов.",
+        "tips": "Требует: Череп О'Маньяка"
+      },
+      "SIRE": {
+        "name": "Красивая Луна",
+        "description": "Улучшенная Пентаграмма. Создает доп. самоцветы и собирает их все.",
+        "tips": "Требует: Корона."
+      },
+      "GUNS": {
+        "name": "Фиера Дер Туфелло",
+        "description": "Стреляет быстро в четырех фиксированных направлениях.",
+        "tips": "Игнорирует: срок."
+      },
+      "GUNS2": {
+        "name": "8-ой Воробей",
+        "description": "Стреляет быстро в четырех фиксированных направлениях.",
+        "tips": "Игнорирует: срок."
+      },
+      "GUNS3": {
+        "name": "Фиераджи",
+        "description": "Союз Фиеры Дер Туфелло и 8-го Воробья. Изменяется с каждым Оживлением.",
+        "tips": "Требует: Тирагису."
+      },
+      "ROCHER": {
+        "name": "НЕТ БУДУЩЕГО",
+        "description": "Улучшенный Рунтрассер. Взрывается при отскоке.",
+        "tips": "Требует: Броня."
+      },
+      "CART2": {
+        "name": "Каррелло",
+        "description": "Бросает отскакивающий снаряд. Число отскоков зависит от Количества.",
+        "tips": "Игнорирует: Срок."
+      },
+      "GATTI": {
+        "name": "Горькие Кошки",
+        "description": "Вызывает капризные снаряды. Может взаимодействовать с подбераемыми предметами.",
+        "tips": "Лучше сочетается с: удача, жаренный цыпленок."
+      },
+      "FLOWER": {
+        "name": "Celestial Dusting",
+        "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
+        "tips": "Best with: moveSpeed."
+      }
+    }
+  },
+  "es": {
+    "english": "Spanish",
+    "native": "Español 80%",
+    "api": "spanish",
+    "translations": {
+      "WHIP": {
+        "name": "Látigo",
+        "description": "Ataca en horizontal y atraviesa a los enemigos.",
+        "tips": "Ignora: rapidez, duración."
+      },
+      "VAMPIRICA": {
+        "name": "Lágrima de sangre",
+        "description": "Látigo evolucionado. Puede causar daño crítico y absorber PS.",
+        "tips": "Requiere: corazón hueco."
+      },
+      "MAGIC_MISSILE": {
+        "name": "Varita mágica",
+        "description": "Dispara al enemigo más cercano.",
+        "tips": "Ignora: duración."
+      },
+      "HOLY_MISSILE": {
+        "name": "Varita sagrada",
+        "description": "Varita mágica evolucionada. Dispara sin retraso.",
+        "tips": "Requiere: tomo vacío."
+      },
+      "AXE": {
+        "name": "Hacha",
+        "description": "Causa gran daño en amplio radio.",
+        "tips": "Ignora: duración."
+      },
+      "SCYTHE": {
+        "name": "Espiral letal",
+        "description": "Hacha evolucionada. Atraviesa a los enemigos.",
+        "tips": "Requiere: candelabrador."
+      },
+      "KNIFE": {
+        "name": "Cuchillo",
+        "description": "Se lanza rápidamente hacia donde estés mirando.",
+        "tips": "Ignora: duración."
+      },
+      "THOUSAND": {
+        "name": "Mil filos",
+        "description": "Cuchillo evolucionado. Se lanza sin retraso.",
+        "tips": "Requiere: brazalete"
+      },
+      "HOLYWATER": {
+        "name": "Agua sagrada",
+        "description": "Genera zonas de daño.",
+        "tips": "Ignora: velocidad."
+      },
+      "DIAMOND": {
+        "name": "Runa láser",
+        "description": "Atraviesa a los enemigos y rebota.",
+        "tips": "Óptimacon: rapidez, duración."
+      },
+      "FIREBALL": {
+        "name": "Varita ígnea",
+        "description": "Dispara a un enemigo aleatorio y le causa gran daño.",
+        "tips": "Ignora: duración."
+      },
+      "HELLFIRE": {
+        "name": "Infierno",
+        "description": "Varita ígnea evolucionada. Atraviesa a los enemigos.",
+        "tips": "Requiere: espinaca."
+      },
+      "HOLYBOOK": {
+        "name": "Biblia real",
+        "description": "Orbita alrededor del personaje.",
+        "tips": "Óptima con: rapidez, duración, radio."
+      },
+      "VESPERS": {
+        "name": "Véspera impía",
+        "description": "Biblia real evolucionada. Ilimitada.",
+        "tips": "Requiere: lanzahechizos."
+      },
+      "CROSS": {
+        "name": "Cruz",
+        "description": "Apunta al enemigo más cercano. Tiene efecto bumerán.",
+        "tips": "Ignora: duración."
+      },
+      "HEAVENSWORD": {
+        "name": "Espada celestial",
+        "description": "Cruz evolucionada. Puede causar daño crítico.",
+        "tips": "Requiere: trébol."
+      },
+      "GARLIC": {
+        "name": "Ajo",
+        "description": "Daña a los enemigos cercanos. Reduce la resistencia a derribos y congelación.",
+        "tips": "Ignora: cantidad, duración, rapidez."
+      },
+      "LAUREL": {
+        "name": "Laurel",
+        "description": "Te protege del daño al estar activo.",
+        "tips": "Óptimo con: solo recarga."
+      },
+      "LIGHTNING": {
+        "name": "Anillo eléctrico",
+        "description": "Golpea a enemigos aleatorios.",
+        "tips": "Ignora: rapidez, duración."
+      },
+      "PENTAGRAM": {
+        "name": "Pentagrama",
+        "description": "Elimina todo a la vista.",
+        "tips": "Óptimo con: solo recarga y suerte."
+      },
+      "SILF": {
+        "name": "Pichón",
+        "description": "Bombardea en un radio circular.",
+        "tips": "Óptimo con: recarga, duración."
+      },
+      "SILF2": {
+        "name": "Pájaro de marfil",
+        "description": "Bombardea en un radio circular.",
+        "tips": "Óptimo con: recarga, duración."
+      },
+      "BONE": {
+        "name": "Hueso",
+        "description": "Lanza un proyectil que rebota.",
+        "tips": "Óptimo con: duración, rapidez."
+      },
+      "LANCET": {
+        "name": "Lanceta temporal",
+        "description": "Puede congelar a los enemigos.",
+        "tips": "Ignora: poder, rapidez, cantidad, radio."
+      },
+      "POWER": {
+        "name": "Espinaca",
+        "description": "Aumenta el daño causado un 10 %."
+      },
+      "AREA": {
+        "name": "Candelabrador",
+        "description": "Aumenta el radio de los ataques un 10 %."
+      },
+      "SPEED": {
+        "name": "Brazalete",
+        "description": "Aumenta la rapidez de los proyectiles un 10 %."
+      },
+      "COOLDOWN": {
+        "name": "Tomo vacío",
+        "description": "Reduce la recarga de las armas un 8 %."
+      },
+      "DURATION": {
+        "name": "Lanzahechizos",
+        "description": "Aumenta la duración de los efectos de las armas un 10 %."
+      },
+      "AMOUNT": {
+        "name": "Duplicador",
+        "description": "Las armas disparan más proyectiles."
+      },
+      "MAXHEALTH": {
+        "name": "Corazón hueco",
+        "description": "Aumenta la salud máx. un 20%."
+      },
+      "ARMOR": {
+        "name": "Armadura",
+        "description": "Reduce en 1 el daño recibido."
+      },
+      "MOVESPEED": {
+        "name": "Alas",
+        "description": "El personaje se mueve un 10 % más rápido."
+      },
+      "MAGNET": {
+        "description": "El personaje recoge los objetos desde más lejos.",
+        "name": "Orbe magnético"
+      },
+      "GROWTH": {
+        "name": "Corona",
+        "description": "El personaje consigue un 8% más de experiencia."
+      },
+      "LUCK": {
+        "name": "Trébol",
+        "description": "El personaje tiene un 10 % más de suerte."
+      },
+      "GREED": {
+        "name": "Máscara de piedra",
+        "description": "El personaje recibe un 10 % más de monedas."
+      },
+      "REGEN": {
+        "name": "Corazón duro",
+        "description": "El personaje recupera 0,2 PS por segundo."
+      },
+      "VORTEX": {
+        "name": "Soul Eater",
+        "description": "Evolved Garlic. Steals hearts. Power increases when recovering HP.",
+        "tips": "Requires: Pummarola."
+      },
+      "BORA": {
+        "name": "La Borra",
+        "description": "Evolved Santa Water. Damaging zones follow you and grow when they move.",
+        "tips": "Requires: Attractorb."
+      },
+      "SILF3": {
+        "name": "Vandalier",
+        "description": "Union of Ebony Wings and Peachone."
+      },
+      "REVIVAL": {
+        "name": "Tiragisú",
+        "description": "Revives once with 50% health."
+      },
+      "LOOP": {
+        "name": "Thunder Loop",
+        "description": "Evolved Lightning Ring. Projectiles strike twice.",
+        "tips": "Requires: Duplicator."
+      },
+      "CURSE": {
+        "name": "Skull O'Maniac",
+        "description": "Increases enemy speed, health, quantity, and frequency by 10%."
+      },
+      "CHERRY": {
+        "name": "Cherry Bomb",
+        "description": "Throws a bouncing projectile. Explodes, sometimes.",
+        "tips": "Best with: luck."
+      },
+      "SONG": {
+        "name": "Song of Mana",
+        "description": "Attacks vertically, passes through enemies.",
+        "tips": "Ignores: amount, speed."
+      },
+      "MANNAGGIA": {
+        "name": "Mannajja",
+        "description": "Evolved Song of Mana. Might slow enemies down.",
+        "tips": "Requires: Skull O'Maniac"
+      },
+      "SIRE": {
+        "name": "Gorgeous Moon",
+        "description": "Evolved Pentagram. Generates extra gems and gathers all of them.",
+        "tips": "Requires: Crown."
+      },
+      "GUNS": {
+        "name": "Phiera Der Tuphello",
+        "description": "Fires quickly in four fixed directions.",
+        "tips": "Ignora: duración."
+      },
+      "GUNS2": {
+        "name": "Eight The Sparrow",
+        "description": "Fires quickly in four fixed directions.",
+        "tips": "Ignora: duración."
+      },
+      "GUNS3": {
+        "name": "Phieraggi",
+        "description": "Union of Phiera Der Tuphello and Eight The Sparrow. Scales with Revivals.",
+        "tips": "Requires: Tiragisú."
+      },
+      "ROCHER": {
+        "name": "NO FUTURE",
+        "description": "Evolved Runetracer. Explodes when bouncing and in retaliation.",
+        "tips": "Requires: Armor"
+      },
+      "CART2": {
+        "name": "Carréllo",
+        "description": "Throws a bouncing projectile. Number of bounces affected by Amount.",
+        "tips": "Ignores: duration."
+      },
+      "GATTI": {
+        "name": "Gatti Amari",
+        "description": "Summons capricious projectiles. Might interact with pickups.",
+        "tips": "Best with: luck, floor chicken."
+      },
+      "FLOWER": {
+        "name": "Celestial Dusting",
+        "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
+        "tips": "Best with: moveSpeed."
+      }
+    }
+  },
+  "es-419": {
+    "english": "Spanish-Latin America",
+    "native": "Español-Latinoamérica",
+    "api": "latam",
+    "translations": {}
+  },
+  "sv": {
+    "english": "Swedish",
+    "native": "Svenska",
+    "api": "swedish",
+    "translations": {}
+  },
+  "th": {
+    "english": "Thai",
+    "native": "ไทย",
+    "api": "thai",
+    "translations": {}
+  },
+  "tr": {
+    "english": "Turkish",
+    "native": "Türkçe",
+    "api": "turkish",
+    "translations": {}
+  },
+  "uk": {
+    "english": "Ukrainian",
+    "native": "Українська",
+    "api": "ukrainian",
+    "translations": {}
+  },
+  "vn": {
+    "english": "Vietnamese",
+    "native": "Tiếng Việt",
+    "api": "vietnamese",
+    "translations": {}
+  }
+}

@@ -1,0 +1,816 @@
+{
+  "xx": {},
+  "ar": {
+    "english": "Arabic",
+    "native": "العربية",
+    "api": "arabic",
+    "translations": {}
+  },
+  "bg": {
+    "english": "Bulgarian",
+    "native": "български език",
+    "api": "bulgarian",
+    "translations": {}
+  },
+  "zh-CN": {
+    "english": "Chinese",
+    "native": "简体中文",
+    "api": "schinese",
+    "translations": {
+      "CLOVER": {
+        "description": "拾取增加 10% 的幸运值",
+        "name": "三叶草"
+      },
+      "COIN": {
+        "description": "你的金币总数增加 1。",
+        "name": "金币"
+      },
+      "COINBAG1": {
+        "description": "你的金币总数增加 10。",
+        "name": "钱袋"
+      },
+      "COINBAG2": {
+        "description": "你的金币总数增加 25。",
+        "name": "大钱袋"
+      },
+      "COINBAGMAX": {
+        "description": "你的金币总数增加 100。",
+        "name": "富豪钱袋",
+        "tips": "掉落率受幸运值影响。"
+      },
+      "GEM": {
+        "description": "增加经验值。",
+        "name": "经验宝石"
+      },
+      "OROLOGION": {
+        "description": "冻结所有敌人，持续 10 秒。",
+        "name": "怀表",
+        "tips": "掉落率受幸运值影响。"
+      },
+      "ROAST": {
+        "description": "恢复 30 点生命值。",
+        "name": "烤鸡",
+        "tips": "掉落率受幸运值影响。"
+      },
+      "ROSARY": {
+        "description": "消灭视野内的所有敌人。",
+        "name": "念珠",
+        "tips": "掉落率受幸运值影响。"
+      },
+      "TREASURE": {
+        "description": "金币和道具。由强大的敌人掉落。",
+        "name": "宝箱",
+        "tips": "品质受幸运值影响。"
+      },
+      "VACUUM": {
+        "description": "收集所有留在地上的经验值宝石。",
+        "name": "真空",
+        "tips": "掉落率受幸运值影响。"
+      },
+      "NFT": {
+        "description": "可暂时发出锥形火焰。 受玩家数值影响。",
+        "name": "辣酱烘蛋",
+        "tips": "掉落率受幸运值影响。"
+      },
+      "RELIC_MAP": {
+        "name": "银河系地图",
+        "description": "永久启用暂停菜单中的地图。",
+        "achievementTips": "暂停菜单地图。"
+      },
+      "RELIC_TEAR": {
+        "name": "女巫的眼泪",
+        "description": "加快阶段选择的时间。",
+        "achievementTips": "缩短模式."
+      },
+      "RELIC_RANDOMAZZO": {
+        "description": "启用至宝的解锁和激活。",
+        "name": "随机数",
+        "achievementTips": "至宝."
+      }
+    }
+  },
+  "zh-TW": {
+    "english": "Chinese (Traditional)",
+    "native": "繁體中文 95%",
+    "api": "tchinese",
+    "translations": {}
+  },
+  "cs": {
+    "english": "Czech",
+    "native": "čeština",
+    "api": "czech",
+    "translations": {}
+  },
+  "da": {
+    "english": "Danish",
+    "native": "Dansk",
+    "api": "danish",
+    "translations": {}
+  },
+  "nl": {
+    "english": "Dutch",
+    "native": "Nederlands",
+    "api": "dutch",
+    "translations": {}
+  },
+  "en": {
+    "english": "English",
+    "native": "English",
+    "api": "english",
+    "translations": {
+      "CLOVER": {
+        "description": "Pick up to get 10% luckier.",
+        "name": "Little Clover"
+      },
+      "COIN": {
+        "description": "Adds 1 to your gold coins total.",
+        "name": "Gold Coin"
+      },
+      "COINBAG1": {
+        "description": "Adds 10 to your gold coins total.",
+        "name": "Coin Bag"
+      },
+      "COINBAG2": {
+        "description": "Adds 25 to your gold coins total.",
+        "name": "Big Coin Bag"
+      },
+      "COINBAGMAX": {
+        "description": "Adds 100 to your gold coins total.",
+        "name": "Rich Coin Bag",
+        "tips": "Drop rate affected by Luck."
+      },
+      "GEM": {
+        "description": "Increases experience.",
+        "name": "Experience Gem"
+      },
+      "OROLOGION": {
+        "description": "Freezes all enemies in time for 10 seconds.",
+        "name": "Orologion",
+        "tips": "Drop rate affected by Luck."
+      },
+      "ROAST": {
+        "description": "Restores 30 health points.",
+        "name": "Floor Chicken",
+        "tips": "Drop rate affected by Luck."
+      },
+      "ROSARY": {
+        "description": "Destroys all enemies in sight.",
+        "name": "Rosary",
+        "tips": "Drop rate affected by Luck."
+      },
+      "TREASURE": {
+        "description": "Awards coins and power ups. Dropped by strong enemies.",
+        "name": "Treasure Chest",
+        "tips": "Quality affected by Luck."
+      },
+      "VACUUM": {
+        "description": "Gathers all experience gems left on the ground.",
+        "name": "Vacuum",
+        "tips": "Drop rate affected by Luck."
+      },
+      "NFT": {
+        "description": "Temporarily emits cones of flames. Affected by player stats.",
+        "name": "Nduja Fritta",
+        "tips": "Drop rate affected by Luck."
+      },
+      "RELIC_MAP": {
+        "name": "Milky Way Map",
+        "description": "Permanently enables the map in the pause menu.",
+        "achievementTips": "pause menu map."
+      },
+      "RELIC_TEAR": {
+        "name": "Sorceress' Tears",
+        "description": "Permanently allows to speed up time in Stage Selection.",
+        "achievementTips": "Hurry mode."
+      },
+      "RELIC_RANDOMAZZO": {
+        "description": "Enables the unlocking and activation of Arcanas.",
+        "name": "Randomazzo",
+        "achievementTips": "Arcanas."
+      }
+    }
+  },
+  "fi": {
+    "english": "Finnish",
+    "native": "Suomi",
+    "api": "finnish",
+    "translations": {}
+  },
+  "fr": {
+    "english": "French",
+    "native": "Français 80%",
+    "api": "french",
+    "translations": {
+      "CLOVER": {
+        "description": "Obtenez 10% de chance en plus en le ramassant.",
+        "name": "Petit trèfle"
+      },
+      "COIN": {
+        "description": "Ajoute 1 à votre total de pièces d'or.",
+        "name": "Pièce d'or"
+      },
+      "COINBAG1": {
+        "description": "Ajoute 10 à votre total de pièces d'or.",
+        "name": "Bourse d'or"
+      },
+      "COINBAG2": {
+        "description": "Ajoute 25 à votre total de pièces d'or.",
+        "name": "Sac d'or"
+      },
+      "COINBAGMAX": {
+        "description": "Ajoute 100 à votre total de pièces d'or.",
+        "name": "Sac d'or mastoc",
+        "tips": "Taux de drop affecté par la chance."
+      },
+      "GEM": {
+        "description": "Augmente l'expérience.",
+        "name": "Gemme d'expérience"
+      },
+      "OROLOGION": {
+        "description": "Immobilise tous les ennemis pendant 10 secondes.",
+        "name": "Orologion",
+        "tips": "Taux de drop affecté par la chance."
+      },
+      "ROAST": {
+        "description": "Restaure 30 points de vie.",
+        "name": "Poulet rôti",
+        "tips": "Taux de drop affecté par la chance."
+      },
+      "ROSARY": {
+        "description": "Élimine tous les ennemis visibles.",
+        "name": "Chapelet",
+        "tips": "Taux de drop affecté par la chance."
+      },
+      "TREASURE": {
+        "description": "Attribue des pièces et des power-ups. Droppé par les ennemis puissants.",
+        "name": "Coffre au trésor",
+        "tips": "Qualité affectée par la chance."
+      },
+      "VACUUM": {
+        "description": "Récupère toutes les gemmes d'expérience laissées au sol.",
+        "name": "Vortex",
+        "tips": "Taux de drop affecté par la chance."
+      },
+      "NFT": {
+        "description": "Souffle du feu en cône de façon temporaire. Objet affecté par les stats du joueur.",
+        "name": "Nduja Fritta",
+        "tips": "Taux de drop affecté par la chance."
+      },
+      "RELIC_MAP": {
+        "name": "Carte de la Voie lactée",
+        "description": "Active de façon permanente la carte dans le menu pause.",
+        "achievementTips": "carte du menu pause."
+      },
+      "RELIC_TEAR": {
+        "name": "Sorceress' Tears",
+        "description": "Permanently allows to speed up time in Stage Selection.",
+        "achievementTips": "Hurry mode."
+      },
+      "RELIC_RANDOMAZZO": {
+        "description": "Enables the unlocking and activation of Arcanas.",
+        "name": "Randomazzo",
+        "achievementTips": "Arcanas."
+      }
+    }
+  },
+  "de": {
+    "english": "German",
+    "native": "Deutsch",
+    "api": "german",
+    "translations": {
+      "CLOVER": {
+        "description": "Aufnehmen, um 10% mehr Glück zu haben.",
+        "name": "Kleeblättchen"
+      },
+      "COIN": {
+        "description": "Erhöht die Anzahl deiner Goldmünzen um 1.",
+        "name": "Goldmünze"
+      },
+      "COINBAG1": {
+        "description": "Erhöht die Anzahl deiner Goldmünzen um 10.",
+        "name": "Münzsack"
+      },
+      "COINBAG2": {
+        "description": "Erhöht die Anzahl deiner Goldmünzen um 25.",
+        "name": "Großer Münzsack"
+      },
+      "COINBAGMAX": {
+        "description": "Erhöht die Anzahl deiner Goldmünzen um 100.",
+        "name": "Reicher Münzsack",
+        "tips": "Die Drop-Rate hängt vom Glück ab."
+      },
+      "GEM": {
+        "description": "Erhöht die Erfahrung.",
+        "name": "Erfahrungs-Edelstein"
+      },
+      "OROLOGION": {
+        "description": "Friert alle Gegner in der Zeit für 10 Sekunden ein.",
+        "name": "Orologion",
+        "tips": "Die Drop-Rate hängt vom Glück ab."
+      },
+      "ROAST": {
+        "description": "Stellt 30 Lebenspunkte wieder her.",
+        "name": "Bodenhuhn",
+        "tips": "Die Drop-Rate hängt vom Glück ab."
+      },
+      "ROSARY": {
+        "description": "Zerstört alle Gegner in Sichtweite.",
+        "name": "Rosenkranz",
+        "tips": "Die Drop-Rate hängt vom Glück ab."
+      },
+      "TREASURE": {
+        "description": "Gibt Münzen und Power-ups. Wird von starken Gegnern fallen gelassen.",
+        "name": "Schatztruhe",
+        "tips": "Die Qualität hängt vom Glück ab."
+      },
+      "VACUUM": {
+        "description": "Sammelt alle Erfahrungssteine ein, die auf dem Boden liegen.",
+        "name": "Vakuum",
+        "tips": "Die Drop-Rate hängt vom Glück ab."
+      },
+      "NFT": {
+        "description": "Setzt vorübergehend Flammenkegel frei. Beeinflusst die Werte des Spielers.",
+        "name": "Nduja Fritta",
+        "tips": "Die Drop-Rate hängt vom Glück ab."
+      },
+      "RELIC_MAP": {
+        "name": "Milky Way Map",
+        "description": "Permanently enables the map in the pause menu.",
+        "achievementTips": "pause menu map."
+      },
+      "RELIC_TEAR": {
+        "name": "Sorceress' Tears",
+        "description": "Permanently allows to speed up time in Stage Selection.",
+        "achievementTips": "Hurry mode."
+      },
+      "RELIC_RANDOMAZZO": {
+        "description": "Enables the unlocking and activation of Arcanas.",
+        "name": "Randomazzo",
+        "achievementTips": "Arcanas."
+      }
+    }
+  },
+  "el": {
+    "english": "Greek",
+    "native": "Ελληνικά",
+    "api": "greek",
+    "translations": {}
+  },
+  "hu": {
+    "english": "Hungarian",
+    "native": "Magyar",
+    "api": "hungarian",
+    "translations": {}
+  },
+  "it": {
+    "english": "Italian",
+    "native": "Italiano",
+    "api": "italian",
+    "translations": {}
+  },
+  "ja": {
+    "english": "Japanese",
+    "native": "日本語 95%",
+    "api": "japanese",
+    "translations": {
+      "CLOVER": {
+        "description": "ひろうと運気が10%上がる。",
+        "name": "小さなクローバー"
+      },
+      "COIN": {
+        "description": "金貨の合計に1枚追加。",
+        "name": "金貨"
+      },
+      "COINBAG1": {
+        "description": "金貨の合計に10枚追加。",
+        "name": "硬貨袋"
+      },
+      "COINBAG2": {
+        "description": "金貨の合計に25枚追加。",
+        "name": "大きな硬貨袋"
+      },
+      "COINBAGMAX": {
+        "description": "金貨の合計に100枚追加。",
+        "name": "高級な硬貨袋",
+        "tips": "ドロップ率は運気の影響を受ける。"
+      },
+      "GEM": {
+        "description": "EXPを増加させる。",
+        "name": "EXPジェム"
+      },
+      "OROLOGION": {
+        "description": "10秒間すべての敵の時間を止める。",
+        "name": "懐中時計",
+        "tips": "ドロップ率は運気の影響を受ける。"
+      },
+      "ROAST": {
+        "description": "ライフを30回復する。",
+        "name": "トリ肉",
+        "tips": "ドロップ率は運気の影響を受ける。"
+      },
+      "ROSARY": {
+        "description": "視界にいるすべての敵を倒す。",
+        "name": "ロザリオ",
+        "tips": "ドロップ率は運気の影響を受ける。"
+      },
+      "TREASURE": {
+        "description": "効果とパワーアップを付与する。 強い敵が落とすアイテム。",
+        "name": "宝箱",
+        "tips": "品質は運気の影響を受ける。"
+      },
+      "VACUUM": {
+        "description": "地面に残ったEXPジェムをすべて集める。",
+        "name": "バキューム",
+        "tips": "ドロップ率は運気の影響を受ける。"
+      },
+      "NFT": {
+        "description": "一時的に円錐形の炎を放出する。 プレイヤーステータスの影響を受ける。",
+        "name": "ンドゥヤ・フリッタ",
+        "tips": "ドロップ率は運気の影響を受ける。"
+      },
+      "RELIC_MAP": {
+        "name": "天の川マップ",
+        "description": "ポーズメニューでマップが表示されます。",
+        "achievementTips": "ポーズメニューマップ"
+      },
+      "RELIC_TEAR": {
+        "name": "Sorceress' Tears",
+        "description": "Permanently allows to speed up time in Stage Selection.",
+        "achievementTips": "Hurry mode."
+      },
+      "RELIC_RANDOMAZZO": {
+        "description": "Enables the unlocking and activation of Arcanas.",
+        "name": "Randomazzo",
+        "achievementTips": "Arcanas."
+      }
+    }
+  },
+  "ko": {
+    "english": "Korean",
+    "native": "한국어",
+    "api": "koreana",
+    "translations": {
+      "CLOVER": {
+        "description": "획득시 행운이 10% 증가합니다.",
+        "name": "작은 클로버"
+      },
+      "COIN": {
+        "description": "1골드를 추가합니다.",
+        "name": "금화"
+      },
+      "COINBAG1": {
+        "description": "10골드를 추가합니다.",
+        "name": "동전 가방"
+      },
+      "COINBAG2": {
+        "description": "25골드를 추가합니다.",
+        "name": "큰 동전 가방"
+      },
+      "COINBAGMAX": {
+        "description": "100골드를 추가합니다.",
+        "name": "묵직한 동전 가방",
+        "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
+      },
+      "GEM": {
+        "description": "경험치를 증가시킵니다.",
+        "name": "경험치 보석"
+      },
+      "OROLOGION": {
+        "description": "10초간 모든 적을 얼려버립니다.",
+        "name": "회중시계",
+        "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
+      },
+      "ROAST": {
+        "description": "체력을 30 회복합니다.",
+        "name": "치킨",
+        "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
+      },
+      "ROSARY": {
+        "description": "시야 내의 모든 적을 파괴합니다.",
+        "name": "묵주",
+        "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
+      },
+      "TREASURE": {
+        "description": "골드와 무작위 파워 업을 획득합니다. 강력한 적에게서만 획득할 수 있습니다.",
+        "name": "보물상자",
+        "tips": "행운이 높을수록 많은 아이템과 골드를 획득할수 있습니다."
+      },
+      "VACUUM": {
+        "description": "지면의 모든 경험치 보석을 모아줍니다.",
+        "name": "흡입기",
+        "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
+      },
+      "NFT": {
+        "description": "바라보는 방향으로 화염을 방사합니다. 플레이어 스탯에 영향을 받습니다.",
+        "name": "은두자 프리타",
+        "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
+      },
+      "RELIC_MAP": {
+        "name": "은하수 지도",
+        "description": "일시정지 화면에서 지도를 활성화하여 필드의 아이템 위치를 표시합니다.",
+        "achievementTips": "일시정지 메뉴 지도"
+      },
+      "RELIC_TEAR": {
+        "name": "마녀의 눈물",
+        "description": "스테이지 선택에서 게임 시간을 단축할수 있습니다.",
+        "achievementTips": "단축 모드."
+      },
+      "RELIC_RANDOMAZZO": {
+        "description": "아르카나의 잠금 해제 및 활성화.",
+        "name": "란도마조",
+        "achievementTips": "아르카나."
+      }
+    }
+  },
+  "no": {
+    "english": "Norwegian",
+    "native": "Norsk",
+    "api": "norwegian",
+    "translations": {}
+  },
+  "pl": {
+    "english": "Polish",
+    "native": "Polski",
+    "api": "polish",
+    "translations": {}
+  },
+  "pt": {
+    "english": "Portuguese",
+    "native": "Português",
+    "api": "portuguese",
+    "translations": {}
+  },
+  "pt-BR": {
+    "english": "Portuguese-Brazil",
+    "native": "Português-Brasil",
+    "api": "brazilian",
+    "translations": {
+      "CLOVER": {
+        "description": "Colete para ficar 10% mais sortudo.",
+        "name": "Pequeno Trevo."
+      },
+      "COIN": {
+        "description": "Adiciona 1 moeda de ouro ao seu total.",
+        "name": "Moeda de Ouro."
+      },
+      "COINBAG1": {
+        "description": "Adiciona 10 moedas de ouro ao seu total.",
+        "name": "Bolsa de Moedas."
+      },
+      "COINBAG2": {
+        "description": "Adiciona 25 moedas de ouro ao seu total.",
+        "name": "Bolsa Grande de Moedas."
+      },
+      "COINBAGMAX": {
+        "description": "Adiciona 100 moedas de ouro ao seu total.",
+        "name": "Bolsa de Rico de Moedas.",
+        "tips": "Chance de Dropar afetada pela Sorte."
+      },
+      "GEM": {
+        "description": "Aumenta sua experiência.",
+        "name": "Gema de experiência."
+      },
+      "OROLOGION": {
+        "description": "Congela todos os inimigos no tempo.",
+        "name": "Orologion",
+        "tips": "Chance de Dropar afetada pela Sorte."
+      },
+      "ROAST": {
+        "description": "Restaura 30 pontos de saúde.",
+        "name": "Frango Assado",
+        "tips": "Chance de Dropar afetada pela Sorte."
+      },
+      "ROSARY": {
+        "description": "Destrói todos os inimígos na tela.",
+        "name": "Rosário",
+        "tips": "Chance de Dropar afetada pela Sorte."
+      },
+      "TREASURE": {
+        "description": "Contém Moedas e Melhorias. Dropado por inimigos fortes.",
+        "name": "Baú do Tesouro.",
+        "tips": "Qualidade afetada pela Sorte."
+      },
+      "VACUUM": {
+        "description": "Coleta todas as gemas de experiência do chão.",
+        "name": "Vácuo",
+        "tips": "Chance de Dropar afetada pela Sorte."
+      },
+      "NFT": {
+        "description": "Temporáriamente emite cones de chamas. Afetado pelos atributos do jogador.",
+        "name": "Nduja Fritta",
+        "tips": "Chance de Dropar afetada pela Sorte."
+      },
+      "RELIC_MAP": {
+        "name": "Mapa da Via Láctea",
+        "description": "Desbloqueia permanentemente o mapa no menu de pausa.",
+        "achievementTips": "mapa do menu de pause."
+      },
+      "RELIC_TEAR": {
+        "name": "Sorceress' Tears",
+        "description": "Permanently allows to speed up time in Stage Selection.",
+        "achievementTips": "Hurry mode."
+      },
+      "RELIC_RANDOMAZZO": {
+        "description": "Enables the unlocking and activation of Arcanas.",
+        "name": "Randomazzo",
+        "achievementTips": "Arcanas."
+      }
+    }
+  },
+  "ro": {
+    "english": "Romanian",
+    "native": "Română",
+    "api": "romanian",
+    "translations": {}
+  },
+  "ru": {
+    "english": "Russian",
+    "native": "Русский",
+    "api": "russian",
+    "translations": {
+      "CLOVER": {
+        "description": "Подберите и станьте на 10% удачливее.",
+        "name": "Маленький Клевер"
+      },
+      "COIN": {
+        "description": "Добавляет 1 к общему количеству ваших золотых монет.",
+        "name": "Золотая Монета"
+      },
+      "COINBAG1": {
+        "description": "Добавляет 10 к общему количеству ваших золотых монет.",
+        "name": "Мешок монет"
+      },
+      "COINBAG2": {
+        "description": "Добавляет 25 к общему количеству ваших золотых монет.",
+        "name": "Большой Мешок Монет"
+      },
+      "COINBAGMAX": {
+        "description": "Добавляет 100 к общему количеству ваших золотых монет.",
+        "name": "Роскошный Мешок Монет",
+        "tips": "Частота выпадения зависит от Удачи."
+      },
+      "GEM": {
+        "description": "Увеличивает опыт.",
+        "name": "Самоцвет опыта"
+      },
+      "OROLOGION": {
+        "description": "Замораживает всех врагов на 10 секунд.",
+        "name": "Часослов",
+        "tips": "Частота выпадения зависит от Удачи."
+      },
+      "ROAST": {
+        "description": "Восстанавливает 30 ОЗ.",
+        "name": "Жареный Цыпленок",
+        "tips": "Частота выпадения зависит от Удачи."
+      },
+      "ROSARY": {
+        "description": "Уничтожает всех врагов в поле зрения.",
+        "name": "Четки",
+        "tips": "Частота выпадения зависит от Удачи."
+      },
+      "TREASURE": {
+        "description": "Вознаграждает монетами и усилениями. Выпадает из сильных врагов.",
+        "name": "Сундук с Сокровищами",
+        "tips": "Качество зависит от Удачи."
+      },
+      "VACUUM": {
+        "description": "Собирает все самоцветы опыта, оставшиеся на земле.",
+        "name": "Вакуум",
+        "tips": "Частота выпадения зависит от Удачи."
+      },
+      "NFT": {
+        "description": "Временно испускает конус пламени. Зависит от характеристик игрока.",
+        "name": "Ндуя Фритта",
+        "tips": "Частота выпадения зависит от Удачи."
+      },
+      "RELIC_MAP": {
+        "name": "Карта Млечного Пути",
+        "description": "Включает карту в меню паузы.",
+        "achievementTips": "карта в меню паузы."
+      },
+      "RELIC_TEAR": {
+        "name": "Слезы Чародейки",
+        "description": "Позволяет ускорить время при выборе этапа.",
+        "achievementTips": "Режим Спешки."
+      },
+      "RELIC_RANDOMAZZO": {
+        "description": "Позволяет разблокировать и активировать Арканы.",
+        "name": "Рандомаззо",
+        "achievementTips": "Арканы."
+      }
+    }
+  },
+  "es": {
+    "english": "Spanish",
+    "native": "Español 80%",
+    "api": "spanish",
+    "translations": {
+      "CLOVER": {
+        "description": "Aumenta tu suerte un 10 %.",
+        "name": "Trébol pequeño"
+      },
+      "COIN": {
+        "description": "Una moneda de oro.",
+        "name": "Moneda de oro"
+      },
+      "COINBAG1": {
+        "description": "10 monedas de oro.",
+        "name": "Saquito de monedas"
+      },
+      "COINBAG2": {
+        "description": "25 monedas de oro.",
+        "name": "Saco de monedas"
+      },
+      "COINBAGMAX": {
+        "description": "100 monedas de oro.",
+        "name": "Gran saco de monedas",
+        "tips": "Aparece en función de tu suerte."
+      },
+      "GEM": {
+        "description": "Aumenta la experiencia.",
+        "name": "Gema de experiencia"
+      },
+      "OROLOGION": {
+        "description": "Congela a los enemigos durante 10 segundos.",
+        "name": "Orologion",
+        "tips": "Aparece en función de tu suerte."
+      },
+      "ROAST": {
+        "description": "Recupera 30 puntos de salud.",
+        "name": "Pollo asado",
+        "tips": "Aparece en función de tu suerte."
+      },
+      "ROSARY": {
+        "description": "Acaba con los enemigos a la vista.",
+        "name": "Rosario",
+        "tips": "Aparece en función de tu suerte."
+      },
+      "TREASURE": {
+        "description": "Otorga monedas y mejoras. Botín de enemigos fuertes.",
+        "name": "Cofre de tesoro",
+        "tips": "La calidad depende de tu suerte."
+      },
+      "VACUUM": {
+        "description": "Recoge las gemas de experiencia que haya en el suelo.",
+        "name": "Aspersor",
+        "tips": "Aparece en función de tu suerte."
+      },
+      "NFT": {
+        "description": "Libera salvas de fuego en función de los atributos del jugador.",
+        "name": "Enduja Fritta",
+        "tips": "Aparece en función de tu suerte."
+      },
+      "RELIC_MAP": {
+        "name": "Karte der Milchstraße",
+        "description": "Die Karte wird permanent im Pausenmenü aktiviert.",
+        "achievementTips": "Pausenmenükarte."
+      },
+      "RELIC_TEAR": {
+        "name": "Sorceress' Tears",
+        "description": "Permanently allows to speed up time in Stage Selection.",
+        "achievementTips": "Hurry mode."
+      },
+      "RELIC_RANDOMAZZO": {
+        "description": "Enables the unlocking and activation of Arcanas.",
+        "name": "Randomazzo",
+        "achievementTips": "Arcanas."
+      }
+    }
+  },
+  "es-419": {
+    "english": "Spanish-Latin America",
+    "native": "Español-Latinoamérica",
+    "api": "latam",
+    "translations": {}
+  },
+  "sv": {
+    "english": "Swedish",
+    "native": "Svenska",
+    "api": "swedish",
+    "translations": {}
+  },
+  "th": {
+    "english": "Thai",
+    "native": "ไทย",
+    "api": "thai",
+    "translations": {}
+  },
+  "tr": {
+    "english": "Turkish",
+    "native": "Türkçe",
+    "api": "turkish",
+    "translations": {}
+  },
+  "uk": {
+    "english": "Ukrainian",
+    "native": "Українська",
+    "api": "ukrainian",
+    "translations": {}
+  },
+  "vn": {
+    "english": "Vietnamese",
+    "native": "Tiếng Việt",
+    "api": "vietnamese",
+    "translations": {}
+  }
+}

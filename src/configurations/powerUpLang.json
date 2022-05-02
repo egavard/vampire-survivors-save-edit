@@ -1,0 +1,906 @@
+{
+  "xx": {},
+  "ar": {
+    "english": "Arabic",
+    "native": "العربية",
+    "api": "arabic",
+    "translations": {}
+  },
+  "bg": {
+    "english": "Bulgarian",
+    "native": "български език",
+    "api": "bulgarian",
+    "translations": {}
+  },
+  "zh-CN": {
+    "english": "Chinese",
+    "native": "简体中文",
+    "api": "schinese",
+    "translations": {
+      "POWER": {
+        "name": "力量",
+        "description": "造成的伤害增加 5%（最多 +25%）。"
+      },
+      "REGEN": {
+        "name": "恢复",
+        "description": "每秒恢复 0.1 点生命值（最多 0.5 点）。"
+      },
+      "MAXHEALTH": {
+        "name": "最大生命值",
+        "description": "最大生命值每级别增加 10%（最多 +30%）"
+      },
+      "ARMOR": {
+        "name": "护甲",
+        "description": "受到伤害每级减少 1 点（最多 -3 点）"
+      },
+      "AREA": {
+        "name": "范围",
+        "description": "攻击范围每级增加 5%（最多 +10%）。"
+      },
+      "SPEED": {
+        "name": "速度",
+        "description": "射弹的移动速度每级提升 10%（最多 20%）。"
+      },
+      "COOLDOWN": {
+        "name": "冷却",
+        "description": "使用武器的速度每级提高 2.5%（最多 5%）。"
+      },
+      "DURATION": {
+        "name": "持续时间",
+        "description": "武器效果持续时间每级别延长 15%（最多 +30%）。"
+      },
+      "AMOUNT": {
+        "name": "数量",
+        "description": "发射 1 枚射弹（所有武器）。"
+      },
+      "MOVESPEED": {
+        "name": "移动速度",
+        "description": "角色的移动速度每级提升 5%（最多 10%）。"
+      },
+      "MAGNET": {
+        "name": "磁铁",
+        "description": "物品拾取范围每级 +25%（最多 +50%）。"
+      },
+      "LUCK": {
+        "name": "幸运",
+        "description": "有几率增加 10% 的幸运值（最多 +30%）。"
+      },
+      "GROWTH": {
+        "name": "成长",
+        "description": "获得 3% 的经验值（最多 15%）。"
+      },
+      "GREED": {
+        "name": "贪婪",
+        "description": "获得 10% 的金币（最多 +50%）。"
+      },
+      "SHIELD": {
+        "name": "护盾",
+        "description": "防止一次攻击造成的伤害。可与月桂叠加。"
+      },
+      "REVIVAL": {
+        "name": "复活",
+        "description": "以 50%生命值复活一次。"
+      },
+      "REROLL": {
+        "name": "重新选择",
+        "description": "允许在升级时获得不同的选择。"
+      },
+      "SKIP": {
+        "name": "跳过",
+        "description": "允许跳过升级选择并获得经验。"
+      },
+      "CURSE": {
+        "name": "诅咒",
+        "description": "敌人的速度，生命值，数量和出现的次数，增加10%(最高+50%)。"
+      },
+      "BANISH": {
+        "name": "放逐",
+        "description": "每级一次，允许在剩余的物品中从升级选项中删除一个物品。"
+      }
+    }
+  },
+  "zh-TW": {
+    "english": "Chinese (Traditional)",
+    "native": "繁體中文 95%",
+    "api": "tchinese",
+    "translations": {}
+  },
+  "cs": {
+    "english": "Czech",
+    "native": "čeština",
+    "api": "czech",
+    "translations": {}
+  },
+  "da": {
+    "english": "Danish",
+    "native": "Dansk",
+    "api": "danish",
+    "translations": {}
+  },
+  "nl": {
+    "english": "Dutch",
+    "native": "Nederlands",
+    "api": "dutch",
+    "translations": {}
+  },
+  "en": {
+    "english": "English",
+    "native": "English",
+    "api": "english",
+    "translations": {
+      "POWER": {
+        "name": "Might",
+        "description": "Raises inflicted damage by 5% per rank (max +25%)."
+      },
+      "REGEN": {
+        "name": "Recovery",
+        "description": "Recovers 0.1 HP per rank (max 0.5) per second."
+      },
+      "MAXHEALTH": {
+        "name": "Max Health",
+        "description": "Augments max health by 10% per rank (max +30%)"
+      },
+      "ARMOR": {
+        "name": "Armor",
+        "description": "Reduces incoming damage by 1 per rank (max -3)"
+      },
+      "AREA": {
+        "name": "Area",
+        "description": "Augments area of attacks by 5% per rank (max +10%)."
+      },
+      "SPEED": {
+        "name": "Speed",
+        "description": "Projectiles move 10% faster per rank (max 20%)."
+      },
+      "COOLDOWN": {
+        "name": "Cooldown",
+        "description": "Uses weapons 2.5% faster per rank (max 5%)."
+      },
+      "DURATION": {
+        "name": "Duration",
+        "description": "Effects from weapons last 15% longer per rank (max +30%)."
+      },
+      "AMOUNT": {
+        "name": "Amount",
+        "description": "Fires 1 more projectile (all weapons)."
+      },
+      "MOVESPEED": {
+        "name": "MoveSpeed",
+        "description": "Character moves 5% faster per rank (max 10%)."
+      },
+      "MAGNET": {
+        "name": "Magnet",
+        "description": "Items pickup range +25% per rank (max +50%)."
+      },
+      "LUCK": {
+        "name": "Luck",
+        "description": "Chance to get lucky goes up by 10% per rank (max +30%)."
+      },
+      "GROWTH": {
+        "name": "Growth",
+        "description": "Gains 3% more experience per rank (max 15%)."
+      },
+      "GREED": {
+        "name": "Greed",
+        "description": "Gains 10% more coins per rank (max +50%)."
+      },
+      "SHIELD": {
+        "name": "Shield",
+        "description": "Prevents damage for one attack. Stacks with Laurel."
+      },
+      "REVIVAL": {
+        "name": "Revival",
+        "description": "Revives once with 50% health."
+      },
+      "REROLL": {
+        "name": "Reroll",
+        "description": "Once per rank, allows to get different choices when leveling up."
+      },
+      "SKIP": {
+        "name": "Skip",
+        "description": "Twice per rank, allows to skip level up choices and get Experience instead."
+      },
+      "CURSE": {
+        "name": "Curse",
+        "description": "Increases enemy speed, health, quantity, and frequency by 10% per rank (max +50%)."
+      },
+      "BANISH": {
+        "name": "Banish",
+        "description": "Once per rank, allows to remove an item from level up choices, for the rest of the run."
+      }
+    }
+  },
+  "fi": {
+    "english": "Finnish",
+    "native": "Suomi",
+    "api": "finnish",
+    "translations": {}
+  },
+  "fr": {
+    "english": "French",
+    "native": "Français 80%",
+    "api": "french",
+    "translations": {
+      "POWER": {
+        "name": "Puissance",
+        "description": "Augmente les dégâts infligés de 5% par rang (+ 25% max)."
+      },
+      "REGEN": {
+        "name": "Guérison",
+        "description": "Restaure 0.1 PV par seconde par rang (0.5 max)."
+      },
+      "MAXHEALTH": {
+        "name": "Santé max",
+        "description": "Augmente la santé max de 10 % par rang (+ 30% max)."
+      },
+      "ARMOR": {
+        "name": "Armure",
+        "description": "Réduit les dégâts subis de 1 par rang (- 3 max)."
+      },
+      "AREA": {
+        "name": "Portée",
+        "description": "Augmente la portée des attaques de 5% par rang (+ 10% max)."
+      },
+      "SPEED": {
+        "name": "Mouvement",
+        "description": "Les projectiles se déplacent 10% plus vite par rang (+ 20% max)."
+      },
+      "COOLDOWN": {
+        "name": "Cooldown",
+        "description": "Les armes sont utilisées 2.5% plus vite par rang (+ 5% max)."
+      },
+      "DURATION": {
+        "name": "Durée",
+        "description": "Les effets des armes durent 15% plus longtemps par rang (+ 30% max)."
+      },
+      "AMOUNT": {
+        "name": "Quantité",
+        "description": "Tire 1 projectile de plus (pour toutes les armes)."
+      },
+      "MOVESPEED": {
+        "name": "Vitesse",
+        "description": "Le personnage se déplace 5% plus vite par rang (+ 10% max)."
+      },
+      "MAGNET": {
+        "name": "Aimant",
+        "description": "La portée de ramassage des objets augmente de 25% par rang (+ 50% max)."
+      },
+      "LUCK": {
+        "name": "Chance",
+        "description": "La probabilité d'avoir de la chance augmente de 10% par rang (+ 30% max)."
+      },
+      "GROWTH": {
+        "name": "Apprendre",
+        "description": "Rapporte 3% d'expérience en plus par rang (+ 15% max)."
+      },
+      "GREED": {
+        "name": "Avidité",
+        "description": "Rapporte 10% de pièces en plus par rang (+ 50% max)."
+      },
+      "SHIELD": {
+        "name": "Bouclier",
+        "description": "Annule les dégâts d'une attaque. Se combine au Laurier."
+      },
+      "REVIVAL": {
+        "name": "Relance",
+        "description": "Ressuscite une fois avec 50% de points de vie."
+      },
+      "REROLL": {
+        "name": "Retenter",
+        "description": "Une fois par rang, permet d'obtenir des choix différents lors de la montée en niveau."
+      },
+      "SKIP": {
+        "name": "Passer",
+        "description": "Une fois par rang, permet de sauter les choix de montée de niveau et d'obtenir de l'expérience à la place."
+      },
+      "CURSE": {
+        "name": "Malédiction",
+        "description": "Augmente la vitesse, la santé, la quantité et la fréquence des ennemis de 10% par rang (max +50%)."
+      },
+      "BANISH": {
+        "name": "Bannir",
+        "description": "Une fois par rang, permet de retirer un objet des choix de up de niveau, pour le reste de la run."
+      }
+    }
+  },
+  "de": {
+    "english": "German",
+    "native": "Deutsch",
+    "api": "german",
+    "translations": {
+      "POWER": {
+        "name": "Macht",
+        "description": "Erhöht den zugefügten Schaden um 5% pro Rang (max. +25%)."
+      },
+      "REGEN": {
+        "name": "Erholung",
+        "description": "Stellt 0,1 LP pro Rang (max. 0,5) pro Sekunde wieder her."
+      },
+      "MAXHEALTH": {
+        "name": "Lebenspunkte",
+        "description": "Erhöht die maximale Gesundheit um 10% pro Rang (max. +30%)"
+      },
+      "ARMOR": {
+        "name": "Rüstung",
+        "description": "Reduziert eingehenden Schaden um 1 pro Rang (max. -3)"
+      },
+      "AREA": {
+        "name": "Bereich",
+        "description": "Erhöht die Angriffsfläche um 5% pro Rang (max. +10%)."
+      },
+      "SPEED": {
+        "name": "Schnelligkeit",
+        "description": "Geschosse bewegen sich pro Rang 10% schneller (max. 20%)."
+      },
+      "COOLDOWN": {
+        "name": "Abklingzeit",
+        "description": "Benutzt Waffen 2,5% schneller pro Rang (max. 5%)."
+      },
+      "DURATION": {
+        "name": "Dauer",
+        "description": "Die Effekte der Waffen halten pro Rang 15% länger an (max. +30%)."
+      },
+      "AMOUNT": {
+        "name": "Menge",
+        "description": "Feuert 1 Geschoss mehr ab (alle Waffen)."
+      },
+      "MOVESPEED": {
+        "name": "Eile",
+        "description": "Der Charakter bewegt sich pro Rang 5% schneller (max. 10%)."
+      },
+      "MAGNET": {
+        "name": "Magnet",
+        "description": "Reichweite von Gegenständen +25% pro Rang (max. +50%)."
+      },
+      "LUCK": {
+        "name": "Glück",
+        "description": "Die Chance, Glück zu haben, steigt um 10% pro Rang (max. +30%)."
+      },
+      "GROWTH": {
+        "name": "Wachstum",
+        "description": "Gewinnt 3% mehr Erfahrung pro Rang (max. 15%)."
+      },
+      "GREED": {
+        "name": "Gier",
+        "description": "Gewinnt 10% mehr Münzen pro Rang (max. +50%)."
+      },
+      "SHIELD": {
+        "name": "Schild",
+        "description": "Verhindert Schaden für einen Angriff. Stapelt sich mit Laurel."
+      },
+      "REVIVAL": {
+        "name": "Wiedergeburt",
+        "description": "Wird einmal mit 50% Gesundheit wiederbelebt."
+      },
+      "REROLL": {
+        "name": "Neuwahl",
+        "description": "Einmal per Rang sind andere Wahlmöglichkeiten erlaubt beim erreichen eines neuen Levels"
+      },
+      "SKIP": {
+        "name": "Überspringen",
+        "description": "Einmal per Rang ist es möglich kein neues Level wählen und stattdessen Ehrfahrung zu bekommen."
+      },
+      "CURSE": {
+        "name": "Fluch",
+        "description": "Erhöht die Geschwindigkeit, Gesundheit, Anzahl und Häufigkeit der Gegner bei 10% per Rang (max +50%)."
+      },
+      "BANISH": {
+        "name": "Verbannen",
+        "description": "Einmal per Rang ist es erlaubt, bis zum Ende des Laufs, einen Gegenstand von den Wahlmöglichkeiten eines neuen Levels entfernen."
+      }
+    }
+  },
+  "el": {
+    "english": "Greek",
+    "native": "Ελληνικά",
+    "api": "greek",
+    "translations": {}
+  },
+  "hu": {
+    "english": "Hungarian",
+    "native": "Magyar",
+    "api": "hungarian",
+    "translations": {}
+  },
+  "it": {
+    "english": "Italian",
+    "native": "Italiano",
+    "api": "italian",
+    "translations": {}
+  },
+  "ja": {
+    "english": "Japanese",
+    "native": "日本語 95%",
+    "api": "japanese",
+    "translations": {
+      "POWER": {
+        "name": "威力",
+        "description": "各ランクにつき5% ずつダメージ付与をアップ （上限：25%）。"
+      },
+      "REGEN": {
+        "name": "回復",
+        "description": "各ランクにつきライフを毎秒0.1 ずつ回復する（上限：0.5）。"
+      },
+      "MAXHEALTH": {
+        "name": "ライフ上限",
+        "description": "各ランクにつきライフ上限を10% ずつアップ（上限：30%）。"
+      },
+      "ARMOR": {
+        "name": "アーマー",
+        "description": "各ランクにつき受けるダメージを 1ずつ減少（上限：3）。"
+      },
+      "AREA": {
+        "name": "エリア",
+        "description": "各ランクにつき攻撃エリアを 5%増加（上限：10%）。"
+      },
+      "SPEED": {
+        "name": "速度",
+        "description": "各ランクにつき発射物の速度を 10%アップ（上限：20%）。"
+      },
+      "COOLDOWN": {
+        "name": "クールダウン",
+        "description": "各ランクにつき武器の使用速度が 2.5%アップ（上限：5%）。"
+      },
+      "DURATION": {
+        "name": "持続時間",
+        "description": "各ランクにつき武器による効果が 15%長く持続する（上限：30%）。"
+      },
+      "AMOUNT": {
+        "name": "量",
+        "description": "発射物が1つ増加（全武器）。"
+      },
+      "MOVESPEED": {
+        "name": "移動速度",
+        "description": "各ランクにつきキャラクターの移 動速度が5%アップ（上限：10%）。"
+      },
+      "MAGNET": {
+        "name": "磁石",
+        "description": "各ランクにつきアイテム獲得範囲 が25%増加（上限：50%）。"
+      },
+      "LUCK": {
+        "name": "運気",
+        "description": "各ランクにつき幸運になれる確率 が10%アップ（上限：30%）。"
+      },
+      "GROWTH": {
+        "name": "成長の結晶",
+        "description": "各ランクにつきEXPが3%アップ （上限：15%）。"
+      },
+      "GREED": {
+        "name": "強欲",
+        "description": "各ランクにつき硬貨獲得率が 10%アップ（上限：50%）。"
+      },
+      "SHIELD": {
+        "name": "シールド",
+        "description": "攻撃1回のダメージを防ぐ。月桂樹"
+      },
+      "REVIVAL": {
+        "name": "復活",
+        "description": "1回だけ50%のライフで復活する。"
+      },
+      "REROLL": {
+        "name": "リロール",
+        "description": "1ランクにつき1回、レベルアッ\nプの際に異なる選択肢を得るこ\nとができる。"
+      },
+      "SKIP": {
+        "name": "スキップ",
+        "description": "2ランクにつき1回、レベルアッ\nプの選択肢をスキップして、代わ\nりに経験値を得ることができる。"
+      },
+      "CURSE": {
+        "name": "呪い",
+        "description": "敵のスピード、ヘルス、数量、\n頻度をランク毎に10%ずつ増加\nさせる(最大+50%)。"
+      },
+      "BANISH": {
+        "name": "Banish",
+        "description": "Once per rank, allows to remove an item from level up choices, for the rest of the run."
+      }
+    }
+  },
+  "ko": {
+    "english": "Korean",
+    "native": "한국어",
+    "api": "koreana",
+    "translations": {
+      "POWER": {
+        "name": "괴력",
+        "description": "레벨 당 피해량을 5% 증가시킵니다. (최대 +25%)"
+      },
+      "REGEN": {
+        "name": "회복",
+        "description": "레벨 당 초당 체력회복량이 0.1 증가합니다. (최대 0.5)"
+      },
+      "MAXHEALTH": {
+        "name": "최대 체력",
+        "description": "레벨 당 최대 체력을 10% 증가시킵니다. (최대 +30%)"
+      },
+      "ARMOR": {
+        "name": "방어력",
+        "description": "레벨 당 피격 데미지를 1 감소시킵니다.(최대 -3)"
+      },
+      "AREA": {
+        "name": "공격범위",
+        "description": "레벨 당 공격범위를 5% 증가시킵니다. (최대 +10%)"
+      },
+      "SPEED": {
+        "name": "투사체 속도",
+        "description": "레벨 당 투사체가 10% 빨라집니다. (최대20%)"
+      },
+      "COOLDOWN": {
+        "name": "쿨타임",
+        "description": "레벨 당 무기 쿨타임이 2.5% 감소합니다.(최대 5%)."
+      },
+      "DURATION": {
+        "name": "지속시간",
+        "description": "레벨 당 무기의 효과 지속시간이 15% 연장됩니다. (최대 +30%)"
+      },
+      "AMOUNT": {
+        "name": "투사체 수",
+        "description": "레벨 당 투사체를 1개 더 발사합니다. (모든 무기)"
+      },
+      "MOVESPEED": {
+        "name": "이동속도",
+        "description": "레벨 당 이동속도가 5% 빨라집니다. (최대 10%)"
+      },
+      "MAGNET": {
+        "name": "자석",
+        "description": "레벨 당 아이템 획득 범위가 25% 증가합니다.(최대 +50%)"
+      },
+      "LUCK": {
+        "name": "행운",
+        "description": "레벨 당 행운이 10% 증가합니다. (최대 +30%)"
+      },
+      "GROWTH": {
+        "name": "성장",
+        "description": "레벨 당 3%의 추가 경험치를 획득합니다. (최대 15%)"
+      },
+      "GREED": {
+        "name": "탐욕",
+        "description": "레벨 당 10%의 추가 골드를 획득합니다. (최대 +50%)"
+      },
+      "SHIELD": {
+        "name": "보호막",
+        "description": "피격을 한 번 막아줍니다. 월계수의 충전횟수와 합산됩니다."
+      },
+      "REVIVAL": {
+        "name": "부활",
+        "description": "50% 체력으로 1회 부활합니다."
+      },
+      "REROLL": {
+        "name": "새로고침",
+        "description": "레벨 당 한번 레벨업 시 선택지를 새로고침 할 수 있습니다."
+      },
+      "SKIP": {
+        "name": "건너뛰기",
+        "description": "레벨 당 두번 레벨업 시 선택지를 건너뛰는 대신 경험치를 받습니다."
+      },
+      "CURSE": {
+        "name": "저주",
+        "description": "레벨 당 10%씩 적들의 속도,  체력,  개체 수,  스폰율을 증가시킵니다.  (최대 +50%)"
+      },
+      "BANISH": {
+        "name": "지우기",
+        "description": "레벨당 한 번 해당 장비가 레벨업 선택지에 나타나지 않습니다."
+      }
+    }
+  },
+  "no": {
+    "english": "Norwegian",
+    "native": "Norsk",
+    "api": "norwegian",
+    "translations": {}
+  },
+  "pl": {
+    "english": "Polish",
+    "native": "Polski",
+    "api": "polish",
+    "translations": {}
+  },
+  "pt": {
+    "english": "Portuguese",
+    "native": "Português",
+    "api": "portuguese",
+    "translations": {}
+  },
+  "pt-BR": {
+    "english": "Portuguese-Brazil",
+    "native": "Português-Brasil",
+    "api": "brazilian",
+    "translations": {
+      "POWER": {
+        "name": "Poder",
+        "description": "Aumenta dano infligido em 5% por rank (máximo +25%)."
+      },
+      "REGEN": {
+        "name": "Recuperação",
+        "description": "Recupera 0.1 HP por rank (máximo 0.5) por segundo."
+      },
+      "MAXHEALTH": {
+        "name": "Saúde Máxima",
+        "description": "Extende a saúde máxima em 10% por rank (máximo +30%)."
+      },
+      "ARMOR": {
+        "name": "Armadura",
+        "description": "Reduz dano recebido em 1 por rank (máximo -3)."
+      },
+      "AREA": {
+        "name": "Área",
+        "description": "Extende a área dos ataques em 5% por rank (máximo +10%)."
+      },
+      "SPEED": {
+        "name": "Velocidade",
+        "description": "Projéteis se movem 10% mais rápido por rank (máximo +20%)."
+      },
+      "COOLDOWN": {
+        "name": "Cooldown",
+        "description": "Armas são usadas 2,5% mais rápido por rank (máximo 5%)."
+      },
+      "DURATION": {
+        "name": "Duração",
+        "description": "Efeitos das armas duram 15% mais tempo por rank (máximo +30%)."
+      },
+      "AMOUNT": {
+        "name": "Quantidade",
+        "description": "Dispara um projétil a mais (todas as armas)."
+      },
+      "MOVESPEED": {
+        "name": "Velocidade de Movimento",
+        "description": "Personagem se move 5% mais rápido por rank (máximo +10%)."
+      },
+      "MAGNET": {
+        "name": "Atração",
+        "description": "Alcance de coleta de items aumenta em 25% por rank (máximo +50%)."
+      },
+      "LUCK": {
+        "name": "Sorte",
+        "description": "Chance de coisas boas acontecerem aumenta em 10% por rank (máximo +30%)."
+      },
+      "GROWTH": {
+        "name": "Crescimento",
+        "description": "Ganhe 3% a mais de experiência por rank (máximo +15%)."
+      },
+      "GREED": {
+        "name": "Ganância",
+        "description": "Ganhe 10% a mais em moedas por rank (máximo +50%)."
+      },
+      "SHIELD": {
+        "name": "Escudo",
+        "description": "Previne dano de um ataque. Acumulativo com Laurel."
+      },
+      "REVIVAL": {
+        "name": "Revival",
+        "description": "Revive uma vez com 50% de saúde."
+      },
+      "REROLL": {
+        "name": "Rolar Novamente",
+        "description": "Uma vez por rank, permite obter escolhas diferentes ao ganhar um nível."
+      },
+      "SKIP": {
+        "name": "Pular",
+        "description": "Uma vez por rank, permite ganhar experiência ao invés de escolher um item ao evoluir."
+      },
+      "CURSE": {
+        "name": "Maldição",
+        "description": "Aumenta a velocidade, saúde, quantidade e frequência dos inimigos em 10% por rank (max +50%)."
+      },
+      "BANISH": {
+        "name": "Banimento",
+        "description": "Uma vez por rank, permite remover um item das escolha de evolução pelo resto da rodada."
+      }
+    }
+  },
+  "ro": {
+    "english": "Romanian",
+    "native": "Română",
+    "api": "romanian",
+    "translations": {}
+  },
+  "ru": {
+    "english": "Russian",
+    "native": "Русский",
+    "api": "russian",
+    "translations": {
+      "POWER": {
+        "name": "Сила",
+        "description": "Увеличивает наносимый урон на 5% с каждым рангом (макс. +25%)."
+      },
+      "REGEN": {
+        "name": "Регенерация",
+        "description": "Восстанавливает 0.1 ОЗ/сек. с каждым рангом (макс. 0.5)."
+      },
+      "MAXHEALTH": {
+        "name": "Макс. ОЗ",
+        "description": "Увеличивает макс. количество ОЗ на 10% с каждым рангом (макс. +30%)."
+      },
+      "ARMOR": {
+        "name": "Броня",
+        "description": "Уменьшает получаемый урон на 1 с каждым рангом (макс. -3)."
+      },
+      "AREA": {
+        "name": "Размер",
+        "description": "Увеличивает размер атак на 5% с каждым рангом (макс. +10%)."
+      },
+      "SPEED": {
+        "name": "Скорость",
+        "description": "Снаряды движутся на 10% быстрее с каждым рангом (макс. 20%)."
+      },
+      "COOLDOWN": {
+        "name": "Откат",
+        "description": "Оружие используется на 2.5% чаще с каждым рангом (макс. 5%)."
+      },
+      "DURATION": {
+        "name": "Срок",
+        "description": "Эффекты от оружия длятся на 15% дольше с каждым рангом (макс. +30%)."
+      },
+      "AMOUNT": {
+        "name": "Количество",
+        "description": "Выпускает на 1 снаряд больше (все оружие)."
+      },
+      "MOVESPEED": {
+        "name": "Подвижность",
+        "description": "Персонаж перемещается на 5% быстрее с каждым рангом (макс. 10%)."
+      },
+      "MAGNET": {
+        "name": "Магнит",
+        "description": "Область подбора предметов на 25%  больше с каждым рангом (макс. +50%)."
+      },
+      "LUCK": {
+        "name": "Удача",
+        "description": "Шанс везения возрастает на 10% с каждым рангом (макс. +30%)."
+      },
+      "GROWTH": {
+        "name": "Прирост",
+        "description": "Дает на 3% больше опыта с каждым рангом (макс. 15%)."
+      },
+      "GREED": {
+        "name": "Жадность",
+        "description": "Дает на 10% больше монет с каждым рангом (макс. +50%)."
+      },
+      "SHIELD": {
+        "name": "Щит",
+        "description": "Предотвращает урон от одной атаки. Объединяется с Лавром."
+      },
+      "REVIVAL": {
+        "name": "Оживление",
+        "description": "Оживляет один раз с 50% ОЗ."
+      },
+      "REROLL": {
+        "name": "Повтор",
+        "description": "Один раз за ранг дает получить другие варианты выбора при повышении уровня."
+      },
+      "SKIP": {
+        "name": "Пропуск",
+        "description": "Один раз за ранг дает пропустить выбор при повышении уровня и взамен получить опыт."
+      },
+      "CURSE": {
+        "name": "Проклятье",
+        "description": "Увеличивает скорость, ОЗ, кол-во и частоту появления врагов на 10% за ранг (макс. +50%)."
+      },
+      "BANISH": {
+        "name": "Исключение",
+        "description": "Позволяет удалить предмет из предложенных при повышении уровня до конца забега."
+      }
+    }
+  },
+  "es": {
+    "english": "Spanish",
+    "native": "Español 80%",
+    "api": "spanish",
+    "translations": {
+      "POWER": {
+        "name": "Poder",
+        "description": "Aumenta el daño causado un 5 % por rango (máx. +25 %)."
+      },
+      "REGEN": {
+        "name": "Recuperación",
+        "description": "Recupera 0,1 PS por rango (máx. 0,5) por segundo."
+      },
+      "MAXHEALTH": {
+        "name": "Salud máx.",
+        "description": "Aumenta la salud máx. un 10 % por rango (máx. +30 %)."
+      },
+      "ARMOR": {
+        "name": "Armadura",
+        "description": "Reduce el daño recibido 1 por rango (máx. -3)."
+      },
+      "AREA": {
+        "name": "Radio",
+        "description": "Aumenta el radio de los ataques un 5 % por rango (máx. +10 %)."
+      },
+      "SPEED": {
+        "name": "Rapidez",
+        "description": "Los proyectiles se disparan un 10 % más rápido por rango (máx. 20 %)."
+      },
+      "COOLDOWN": {
+        "name": "Recarga",
+        "description": "Usa las armas un 2,5 más rápido por rango (máx. 5 %)."
+      },
+      "DURATION": {
+        "name": "Duración",
+        "description": "Los efectos de las armas durante un 15 % más por rango (máx. 30 %)."
+      },
+      "AMOUNT": {
+        "name": "Cantidad",
+        "description": "Dispara 1 proyectil más (todas las armas)."
+      },
+      "MOVESPEED": {
+        "name": "Rapidez mov.",
+        "description": "El personaje se mueve un 5 % más rápido por rango (máx. 10 %)."
+      },
+      "MAGNET": {
+        "name": "Imán",
+        "description": "El radio de recogida de objetos aumenta un 25 % por rango (máx. 50 %)."
+      },
+      "LUCK": {
+        "name": "Suerte",
+        "description": "La probabilidad de tener suerte aumenta un 10 % por rango (máx. 30 %)."
+      },
+      "GROWTH": {
+        "name": "Crecimiento",
+        "description": "Consigue un 3 % más de experiencia por rango (máx. 15 %)."
+      },
+      "GREED": {
+        "name": "Avaricia",
+        "description": "Consigue un 10 % más de monedas por rango (máx. 50 %)."
+      },
+      "SHIELD": {
+        "name": "Escudo",
+        "description": "Rechaza el daño de un ataque. Se acumula con laurel."
+      },
+      "REVIVAL": {
+        "name": "Resurrección",
+        "description": "Resucita una vez con un 50 % de salud."
+      },
+      "REROLL": {
+        "name": "Reroll",
+        "description": "Once per rank, allows to get different choices when leveling up."
+      },
+      "SKIP": {
+        "name": "Skip",
+        "description": "Twice per rank, allows to skip level up choices and get Experience instead."
+      },
+      "CURSE": {
+        "name": "Curse",
+        "description": "Increases enemy speed, health, quantity, and frequency by 10% per rank (max +50%)."
+      },
+      "BANISH": {
+        "name": "Banish",
+        "description": "Once per rank, allows to remove an item from level up choices, for the rest of the run."
+      }
+    }
+  },
+  "es-419": {
+    "english": "Spanish-Latin America",
+    "native": "Español-Latinoamérica",
+    "api": "latam",
+    "translations": {}
+  },
+  "sv": {
+    "english": "Swedish",
+    "native": "Svenska",
+    "api": "swedish",
+    "translations": {}
+  },
+  "th": {
+    "english": "Thai",
+    "native": "ไทย",
+    "api": "thai",
+    "translations": {}
+  },
+  "tr": {
+    "english": "Turkish",
+    "native": "Türkçe",
+    "api": "turkish",
+    "translations": {}
+  },
+  "uk": {
+    "english": "Ukrainian",
+    "native": "Українська",
+    "api": "ukrainian",
+    "translations": {}
+  },
+  "vn": {
+    "english": "Vietnamese",
+    "native": "Tiếng Việt",
+    "api": "vietnamese",
+    "translations": {}
+  }
+}
