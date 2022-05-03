@@ -29,3 +29,9 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
+    - run: cp -r build/* docs/
+    - name: "Deploy"
+      if: github.event.head_commit.message != "[deploy]"
+      with:
+        message: "[deploy]"
+        add: "docs"
