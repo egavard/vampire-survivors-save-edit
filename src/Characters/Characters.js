@@ -1,6 +1,6 @@
 import React from "react";
 import {CharacterComponent} from "./CharacterComponent";
-import {Character} from "../Character";
+import {Character} from "../Entities";
 
 interface CharactersProps {
     characters: Character[];
@@ -26,7 +26,7 @@ export const Characters = (props: CharactersProps) => {
         characterChanged(character);
     }
 
-    return (<div className={"CharactersConfig"}>
+    return (<article className={"CharactersConfig"}>
         <div className={"CharactersHeader"}>
             <div className={"Header-Unlocked"}>Unlocked</div>
             <div className={"Header-Bought"}>Bought</div>
@@ -43,5 +43,5 @@ export const Characters = (props: CharactersProps) => {
                                                                                        }
                                                                                        }/>)}
         </div>
-    </div>)
+    </article>)
 }

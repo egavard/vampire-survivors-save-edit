@@ -22,9 +22,9 @@ class FileInput extends React.Component<FileInputProps> {
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <label>
+                <label for="saveFileInput">
                     Pick Vampire Survivors .sav file :
-                    <input type="file"
+                    <input type="file" style={{width:"initial"}}
                            name="saveFile"
                            id="saveFileInput"
                            ref={this.fileInput}

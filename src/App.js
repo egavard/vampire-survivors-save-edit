@@ -1,7 +1,8 @@
+import './pico.min.css';
 import './App.css';
 import React, {useState} from "react";
 import FileInput from "./FileInput";
-import {Character, PowerUp, Weapon} from "./Character";
+import {Character, PowerUp, Weapon} from "./Entities";
 import defaultConfig from "./configurations/defaultConfiguration.json"
 import chars from "./configurations/characterLang.json"
 import pwups from "./configurations/powerUpLang.json"
@@ -136,7 +137,8 @@ const App = () => {
 
     return (
         <>
-            <header>
+            <article>
+                <header>Vampire Survivors: Save Editor</header>
                 <p>This tool will allow you to modify you save of Vampire Survivors. It comes with no warranty,
                     backup your data before using it.
                 </p>
@@ -146,21 +148,23 @@ const App = () => {
                     You can access it by typing %appdata% in your explorer, and navigate to Vampire_Survivors
                     then /saves.
                 </p>
-            </header>
-            <div className="App">
-                <FileInput onChange={readSave}></FileInput>
-                <button onClick={generateSave}>Generate save</button>
-            </div>
-            <div>
-            </div>
+                <footer className="App">
+                    <FileInput onChange={readSave}></FileInput>
+                    <button onClick={generateSave}>Generate save</button>
+                </footer>
+
+            </article>
             <div className={"Configs"}>
                 <Characters characters={characters} charactersChange={updateCharacters}/>
                 <Weapons weapons={weapons}/>
                 <PowerUps powerUps={powerUps}/>
-                {generated && (<fieldset>
-                    {generatedSave}
-                </fieldset>)}
             </div>
+            {generated && (<article><small>
+                <fieldset>
+                    {generatedSave}
+                </fieldset>
+            </small>
+            </article>)}
         </>
     );
 }

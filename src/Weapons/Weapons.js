@@ -1,8 +1,8 @@
 import React from "react";
-import WeaponComponent from "../WeaponComponent";
+import WeaponComponent from "./WeaponComponent";
 
 export const Weapons = ({weapons}) => {
-    return <div className={"WeaponsConfig"}>
+    return <article className={"WeaponsConfig"}>
         <div>Unlocked weapons</div>
         <div className={"WeaponsHeader"}>
             <div className={"Header-Unlocked"}></div>
@@ -11,6 +11,6 @@ export const Weapons = ({weapons}) => {
         {weapons && weapons.map(weapon =>
             <WeaponComponent weapon={weapon} key={weapon.id}/>
         )}
-    </div>
+    </article>
 
 }

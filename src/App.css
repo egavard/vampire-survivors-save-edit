@@ -41,10 +41,6 @@
     display: flex;
 }
 
-.CharactersConfig, .WeaponsConfig, .PowerUpsConfig {
-    border: solid 1px black;
-}
-
 .Characters, .Weapons, .PowerUps {
     display: flex;
     flex-direction: row;
@@ -57,11 +53,7 @@
 
 .Header-Unlocked, .Header-Bought {
     width: 5rem;
-    display: flex;
-    justify-content: center;
+    self: center;
 }
-fieldset{
-    min-width: 0;
-    text-overflow: initial;
-    overflow: scroll;
-}
+
+div fieldset{margin: 0}
