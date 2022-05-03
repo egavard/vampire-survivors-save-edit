@@ -31,6 +31,7 @@ jobs:
     - run: npm test
     - run: cp -r build/* docs/
     - name: "Deploy"
+      uses: EndBug/add-and-commit@v9 
       if: github.event.head_commit.message != "[deploy]"
       with:
         message: "[deploy]"
