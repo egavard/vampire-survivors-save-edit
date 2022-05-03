@@ -2,6 +2,7 @@ import './App.css';
 import React, {useState} from "react";
 import FileInput from "./FileInput";
 import {Character, PowerUp, Weapon} from "./Character";
+import defaultConfig from "./configurations/defaultConfiguration.json"
 import chars from "./configurations/characterLang.json"
 import pwups from "./configurations/powerUpLang.json"
 import pwupAmounts from "./configurations/powerUpAmount.json"
@@ -64,10 +65,30 @@ const App = () => {
 
     }
 
+    const addDefaultConfig = (saveContent) => {
+        console.log(defaultConfig);
+        for (let index in defaultConfig.defaultUnlockedChar) {
+            saveContent.UnlockedCharacters.push(defaultConfig.defaultUnlockedChar[index]);
+        }
+        for (let index in defaultConfig.defaultPurchasedChar) {
+            saveContent.BoughtCharacters.push(defaultConfig.defaultPurchasedChar[index]);
+        }
+        for (let index in defaultConfig.defaultUnlockedWeapons) {
+            saveContent.UnlockedWeapons.push(defaultConfig.defaultUnlockedWeapons[index]);
+        }
+        saveContent.UnlockedWeapons = removeDuplicateEntry(saveContent.UnlockedWeapons);
+        saveContent.UnlockedCharacters = removeDuplicateEntry(saveContent.UnlockedCharacters);
+        saveContent.BoughtCharacters = removeDuplicateEntry(saveContent.BoughtCharacters);
+    }
+
+    const removeDuplicateEntry = (array) => {
+        return [...new Set(array)]
+    }
+
     const readSave = (save: string) => {
         let saveContent = JSON.parse(save);
-        setSaveContent(saveContent);
         saveContent.checksum = "";
+        addDefaultConfig(saveContent);
         setCharacters(characters.map(char => {
             char.bought = saveContent.BoughtCharacters.indexOf(char.id) > -1;
             char.unlocked = saveContent.UnlockedCharacters.indexOf(char.id) > -1;
@@ -83,12 +104,11 @@ const App = () => {
             weapon.collected = saveContent.CollectedWeapons.filter(w => w.id === weapon.id).length;
             return weapon;
         }));
+        setSaveContent(saveContent);
     }
 
 
     const assignCharactersItems = () => {
-        console.log(saveContent.BoughtCharacters);
-        console.log(saveContent.UnlockedCharacters);
         saveContent.BoughtCharacters = characters.filter(c => c.bought).map(c => c.id);
         saveContent.UnlockedCharacters = characters.filter(c => c.unlocked).map(c => c.id);
         saveContent.UnlockedWeapons = weapons.filter(w => w.unlocked).map(w => w.id);
@@ -98,7 +118,6 @@ const App = () => {
         saveContent.checksum = "";
         assignCharactersItems();
         const encoder = new TextEncoder();
-        console.log(saveContent);
         let encodedString = await crypto.subtle.digest("SHA-256", encoder.encode(JSON.stringify(saveContent)));
         const hashHex = buf2hex(encodedString);
         saveContent.checksum = hashHex;

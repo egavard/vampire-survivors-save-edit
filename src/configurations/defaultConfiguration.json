@@ -1,0 +1,26 @@
+{
+  "defaultUnlockedChar": [
+    "ANTONIO",
+    "IMELDA",
+    "PASQUALINA",
+    "GENNARO"
+  ],
+  "defaultPurchasedChar": [
+    "ANTONIO"
+  ],
+  "defaultUnlockedWeapons": [
+    "WHIP",
+    "MAGIC_MISSILE",
+    "KNIFE",
+    "AXE",
+    "HOLYBOOK",
+    "HOLYWATER",
+    "LAUREL"
+  ],
+  "weaponUnlockedByCharacter": {
+    "MORTACCIO": "BONE",
+    "CAVALLO": "CHERRY",
+    "MARIA": "CART2",
+    "TATANKA": "FLOWER"
+  }
+}
