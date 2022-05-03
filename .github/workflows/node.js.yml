@@ -32,7 +32,7 @@ jobs:
     - run: cp -r build/* docs/
     - name: "Deploy"
       uses: EndBug/add-and-commit@v9 
-      if: github.event.head_commit.message != "[deploy]"
+      if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci') && !contains(github.event.head_commit.message, '[deploy]')"
       with:
         message: "[deploy]"
         add: "docs"
