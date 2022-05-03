@@ -41,6 +41,14 @@
     display: flex;
 }
 
+.CharactersConfig, .WeaponsConfig, .PowerUpsConfig{
+    width: 25%;
+}
+
+.Disabled{
+    background: lightgrey;
+}
+
 .Characters, .Weapons, .PowerUps {
     display: flex;
     flex-direction: row;
@@ -56,4 +64,16 @@
     self: center;
 }
 
-div fieldset{margin: 0}
+div fieldset {
+    margin: 0
+}
+
+.Save-Result {
+    max-width: 25%;
+}
+
+.Save-Result-Fieldset {
+    min-width: 0;
+    text-overflow: initial;
+    overflow: scroll;
+}

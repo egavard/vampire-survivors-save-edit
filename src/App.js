@@ -11,11 +11,13 @@ import weaps from "./configurations/weaponLang.json"
 import {PowerUps} from "./PowerUps/PowerUps";
 import {Weapons} from "./Weapons/Weapons";
 import {Characters} from "./Characters/Characters";
+import {CollectedWeapons} from "./Weapons/CollectedWeapons";
 
 const App = () => {
 
     const [characters, setCharacters] = useState([]);
     const [weapons, setWeapons] = useState([]);
+    const [upgradedWeapons, setUpgradedWeapons] = useState([]);
     const [powerUps, setPowerUps] = useState([]);
     const [saveContent, setSaveContent] = useState(undefined);
     const [generated, setGenerated] = useState(false);
@@ -55,19 +57,23 @@ const App = () => {
     const loadWeapons = () => {
         let translations = new Map(Object.entries(weaps.en.translations));
         let weapons = [];
+        let upgradedWeapons = [];
         for (const key of translations.keys()) {
             let weap = new Weapon();
             weap.id = key;
             weap.name = translations.get(key).name;
             weap.tips = translations.get(key).tips;
-            weapons.push(weap);
+            if (translations.get(key).tips && translations.get(key).tips.indexOf("Requires:") < 0) {
+                weapons.push(weap);
+            } else {
+                upgradedWeapons.push(weap);
+            }
         }
         setWeapons(weapons);
-
+        setUpgradedWeapons(upgradedWeapons);
     }
 
     const addDefaultConfig = (saveContent) => {
-        console.log(defaultConfig);
         for (let index in defaultConfig.defaultUnlockedChar) {
             saveContent.UnlockedCharacters.push(defaultConfig.defaultUnlockedChar[index]);
         }
@@ -102,7 +108,10 @@ const App = () => {
         }));
         setWeapons(weapons.map(weapon => {
             weapon.unlocked = saveContent.UnlockedWeapons.indexOf(weapon.id) > -1;
-            weapon.collected = saveContent.CollectedWeapons.filter(w => w.id === weapon.id).length;
+            return weapon;
+        }));
+        setUpgradedWeapons(upgradedWeapons.map(weapon => {
+            weapon.collected = saveContent.CollectedWeapons.indexOf(weapon.id) > -1;
             return weapon;
         }));
         setSaveContent(saveContent);
@@ -148,23 +157,28 @@ const App = () => {
                     You can access it by typing %appdata% in your explorer, and navigate to Vampire_Survivors
                     then /saves.
                 </p>
+                <p>
+                    At the moment, the tool does not touch to your powerUps nor weapons. You can only use it for
+                    unlocking characters.
+                </p>
                 <footer className="App">
                     <FileInput onChange={readSave}></FileInput>
-                    <button onClick={generateSave}>Generate save</button>
+                    <button onClick={generateSave} disabled={!saveContent}>Generate save</button>
                 </footer>
 
             </article>
             <div className={"Configs"}>
                 <Characters characters={characters} charactersChange={updateCharacters}/>
-                <Weapons weapons={weapons}/>
-                <PowerUps powerUps={powerUps}/>
+                <Weapons weapons={weapons} disabled={true}/>
+                <CollectedWeapons weapons={upgradedWeapons} disabled={true}/>
+                <PowerUps powerUps={powerUps} disabled={true}/>
+                {generated && (<article className="Save-Result"><small>
+                    <fieldset className={"Save-Result-Fieldset"}>
+                        {generatedSave}
+                    </fieldset>
+                </small>
+                </article>)}
             </div>
-            {generated && (<article><small>
-                <fieldset>
-                    {generatedSave}
-                </fieldset>
-            </small>
-            </article>)}
         </>
     );
 }
