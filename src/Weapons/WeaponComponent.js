@@ -2,17 +2,20 @@ import React from "react";
 import {Weapon} from "../Entities";
 
 interface WeaponComponentProps {
-    weapon: Weapon
+    weapon: Weapon;
+    unlockWeapon: (weapon: Weapon) => {};
 }
 
-const WeaponComponent = (props: WeaponComponentProps) => {
+const WeaponComponent = ({unlockWeapon, weapon}: WeaponComponentProps) => {
     return (
-        <fieldset key={props.weapon.id}>
-        <div className="Weapons">
-            <label className={"Header-Unlocked"}><input type="checkbox" checked={props.weapon.unlocked}/>
-            </label>
-            <label>{props.weapon.name ? props.weapon.name : props.weapon.id}</label>
-        </div>
+        <fieldset>
+            <div className="Weapons">
+                <label className={"Header-Unlocked"}>
+                    <input type="checkbox" checked={weapon.unlocked} key={`unlock_${weapon.id}`}
+                           onChange={(_e) => unlockWeapon(weapon)}/>
+                </label>
+                <label>{weapon.name ? weapon.name : weapon.id}</label>
+            </div>
         </fieldset>
     )
 

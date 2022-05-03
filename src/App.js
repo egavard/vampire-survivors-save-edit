@@ -122,6 +122,7 @@ const App = () => {
         saveContent.BoughtCharacters = characters.filter(c => c.bought).map(c => c.id);
         saveContent.UnlockedCharacters = characters.filter(c => c.unlocked).map(c => c.id);
         saveContent.UnlockedWeapons = weapons.filter(w => w.unlocked).map(w => w.id);
+        saveContent.CollectedWeapons = upgradedWeapons.filter(w => w.collected).map(w => w.id);
     }
 
     const generateSave = async () => {
@@ -137,11 +138,6 @@ const App = () => {
 
     const buf2hex = (buffer) => { // buffer is an ArrayBuffer
         return Array.prototype.map.call(new Uint8Array(buffer), x => ('00' + x.toString(16)).slice(-2)).join('');
-    }
-
-
-    const updateCharacters = (characters) => {
-        setCharacters(characters);
     }
 
     return (
@@ -168,9 +164,9 @@ const App = () => {
 
             </article>
             <div className={"Configs"}>
-                <Characters characters={characters} charactersChange={updateCharacters}/>
-                <Weapons weapons={weapons} disabled={true}/>
-                <CollectedWeapons weapons={upgradedWeapons} disabled={true}/>
+                <Characters characters={characters} charactersChange={setCharacters}/>
+                <Weapons weapons={weapons} weaponsChange={setWeapons}/>
+                <CollectedWeapons weapons={upgradedWeapons} weaponsChange={setUpgradedWeapons}/>
                 <PowerUps powerUps={powerUps} disabled={true}/>
                 {generated && (<article className="Save-Result"><small>
                     <fieldset className={"Save-Result-Fieldset"}>
