@@ -3,15 +3,18 @@ import {PowerUp} from "../Entities";
 import './PowerUpComponent.css';
 
 interface PowerUpProps {
-    powerUp: PowerUp
+    powerUp: PowerUp;
+    quantityChange: (powerUp: PowerUp, quantity: number) => {};
 }
 
 const powerUpComponent = (props: PowerUpProps) => {
-    return <fieldset key={props.powerUp.id}>
+    return <fieldset>
         <div className={"PowerUps"}>
-            <label className={"Header-Unlocked"}><input type="checkbox" checked={props.powerUp.bought}/></label>
-            <label className={"PowerUps-Quantity"}><input type="number" value={props.powerUp.quantity} min={0}
-                                                        max={props.powerUp.max}/></label>
+            <label className={"PowerUps-Quantity"}>
+                <input type="number" value={props.powerUp.quantity} min={0}
+                       max={props.powerUp.max} key={props.powerUp.id}
+                       onChange={(_e) => props.quantityChange(props.powerUp, _e.target.valueAsNumber)}
+                /></label>
             <label>{props.powerUp.name ? props.powerUp.name : props.powerUp.id}</label>
         </div>
     </fieldset>;

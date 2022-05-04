@@ -123,6 +123,14 @@ const App = () => {
         saveContent.UnlockedCharacters = characters.filter(c => c.unlocked).map(c => c.id);
         saveContent.UnlockedWeapons = weapons.filter(w => w.unlocked).map(w => w.id);
         saveContent.CollectedWeapons = upgradedWeapons.filter(w => w.collected).map(w => w.id);
+        saveContent.BoughtPowerups = powerUps.filter(pw => pw.quantity > 0)
+            .flatMap(pw => {
+                const arr = [];
+                for (let i = 0; i < pw.quantity; i++) {
+                    arr.push(pw.id);
+                }
+                return arr;
+            });
     }
 
     const generateSave = async () => {
@@ -167,7 +175,7 @@ const App = () => {
                 <Characters characters={characters} charactersChange={setCharacters}/>
                 <Weapons weapons={weapons} weaponsChange={setWeapons}/>
                 <CollectedWeapons weapons={upgradedWeapons} weaponsChange={setUpgradedWeapons}/>
-                <PowerUps powerUps={powerUps} disabled={true}/>
+                <PowerUps powerUps={powerUps} powerUpsChange={setPowerUps}/>
                 {generated && (<article className="Save-Result"><small>
                     <fieldset className={"Save-Result-Fieldset"}>
                         {generatedSave}
