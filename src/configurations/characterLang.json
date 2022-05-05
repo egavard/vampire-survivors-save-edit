@@ -236,9 +236,21 @@
         "description": "Gains +1% Projectile Speed every level."
       },
       "TATANKA": {
-        "name": "O'Sole",
+        "charName": "O'Sole",
         "surname": "Meeo",
         "description": "Gets more projectiles every 20 levels (max+3)."
+      },
+      "FINO":{
+        "charName": "MissingN▯"
+      },
+      "VERANDA":{
+        "charName": "Leda"
+      },
+      "PANINI": {
+        "charName": "Toastie"
+      },
+      "NOSTRO": {
+        "charName": "Death"
       }
     }
   },

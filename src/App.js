@@ -131,6 +131,13 @@ const App = () => {
                 }
                 return arr;
             });
+        if (saveContent.UnlockedCharacters.indexOf('VERANDA') > -1) {
+            if (saveContent.KillCount['BOSS_XLLEDA']) {
+                saveContent.KillCount['BOSS_XLLEDA'] = saveContent.KillCount['BOSS_XLLEDA'] + 1;
+            } else {
+                saveContent.KillCount['BOSS_XLLEDA'] = 1;
+            }
+        }
     }
 
     const generateSave = async () => {
