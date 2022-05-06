@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/vampire-survivors-save-edit/static/css/main.747f2331.css",
-    "main.js": "/vampire-survivors-save-edit/static/js/main.d86e482a.js",
+    "main.css": "/vampire-survivors-save-edit/static/css/main.2fffe2ea.css",
+    "main.js": "/vampire-survivors-save-edit/static/js/main.961c2862.js",
     "index.html": "/vampire-survivors-save-edit/index.html",
-    "main.747f2331.css.map": "/vampire-survivors-save-edit/static/css/main.747f2331.css.map",
-    "main.d86e482a.js.map": "/vampire-survivors-save-edit/static/js/main.d86e482a.js.map"
+    "main.2fffe2ea.css.map": "/vampire-survivors-save-edit/static/css/main.2fffe2ea.css.map",
+    "main.961c2862.js.map": "/vampire-survivors-save-edit/static/js/main.961c2862.js.map"
   },
   "entrypoints": [
-    "static/css/main.747f2331.css",
-    "static/js/main.d86e482a.js"
+    "static/css/main.2fffe2ea.css",
+    "static/js/main.961c2862.js"
   ]
 }
