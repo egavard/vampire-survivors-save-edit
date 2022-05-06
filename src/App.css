@@ -41,11 +41,11 @@
     display: flex;
 }
 
-.CharactersConfig, .WeaponsConfig, .PowerUpsConfig{
+.CharactersConfig, .WeaponsConfig, .PowerUpsConfig {
     width: 25%;
 }
 
-.Disabled{
+.Disabled {
     background: lightgrey;
 }
 
@@ -57,6 +57,11 @@
 .CharactersHeader, .WeaponsHeader, .PowerUpsHeader {
     display: flex;
     flex-direction: row;
+    align-items: baseline;
+}
+
+.CharactersHeader button, .WeaponsHeader button, .PowerUpsHeader button {
+    max-width: 10rem;
 }
 
 .Header-Unlocked, .Header-Bought {

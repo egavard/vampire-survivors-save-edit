@@ -15,10 +15,19 @@ export const CollectedWeapons = (props: CollectedWeaponsParams) => {
         newWeaponsArray.splice(weaponIndex, 1, weapon);
         props.weaponsChange(newWeaponsArray)
     }
+
+    const unlockAllWeapon = () => {
+        props.weaponsChange([...props.weapons].map(w => {
+            w.collected = true;
+            return w;
+        }));
+    }
+
     return <article className={"WeaponsConfig"}>
-        <div>Collected weapons</div>
         <div className={"WeaponsHeader"}>
             <div className={"Header-Unlocked"}></div>
+            <div>Collected weapons</div>
+            <button onClick={unlockAllWeapon}>Unlock all</button>
         </div>
         {props.weapons && props.weapons.map(weapon =>
             <CollectedWeaponComponent weapon={weapon} key={weapon.id} collectWeapon={collectWeapon}/>

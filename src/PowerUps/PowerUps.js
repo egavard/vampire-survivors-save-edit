@@ -12,8 +12,17 @@ export const PowerUps = (props) => {
         props.powerUpsChange(newPowerUpArray)
     }
 
+    const unlockAll = () => {
+        props.powerUpsChange(
+            [...props.powerUps].map(pw => {
+                pw.quantity = pw.max
+                return pw;
+            })
+        )
+    };
+
     return <article className="PowerUpsConfig">
-        <PowerUpHeader/>
+        <PowerUpHeader unlockAll={unlockAll}/>
         {props.powerUps && props.powerUps.map(powerUp => (
             <PowerUpComponent key={powerUp.id} powerUp={powerUp} quantityChange={quantityChange}/>)
         )}

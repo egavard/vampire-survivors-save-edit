@@ -11,11 +11,22 @@ export const Weapons = ({weapons, weaponsChange}) => {
         weaponsChange(newWeaponsArray);
     }
 
+    const unlockAllWeapon = () => {
+        weaponsChange(
+            [...weapons].map(w => {
+                w.unlocked = true;
+                return w;
+            })
+        );
+    }
+
     return <article className={"WeaponsConfig"}>
-        <div>Unlocked weapons</div>
+
         <div className={"WeaponsHeader"}>
+            <div>Unlocked weapons</div>
             <div className={"Header-Unlocked"}></div>
             <div></div>
+            <button onClick={unlockAllWeapon}>Unlock all</button>
         </div>
         {weapons && weapons.map(weapon =>
             <WeaponComponent weapon={weapon} key={weapon.id} unlockWeapon={unlockWeapon}/>
