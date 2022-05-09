@@ -8,6 +8,7 @@ interface SaveContent {
     UnlockedStages: Array<string>;
     UnlockedHypers: Array<string>;
     UnlockedArcanas: Array<string>
+    PickupCount: Map<string, number>;
     checksum: string;
 }
 

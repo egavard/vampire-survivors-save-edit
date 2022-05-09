@@ -27,3 +27,14 @@ export class Weapon {
     unlocked: boolean;
     collected: boolean;
 }
+
+export class Relic {
+    id: string;
+    enabled: boolean;
+
+
+    constructor(id: string, enabled: boolean) {
+        this.id = id;
+        this.enabled = enabled;
+    }
+}

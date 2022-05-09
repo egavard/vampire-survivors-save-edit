@@ -241,7 +241,7 @@
         "description": "Gains +1% Projectile Speed every level."
       },
       "TATANKA": {
-        "name": "O'Sole",
+        "charName": "O'Sole",
         "surname": "Meeo",
         "description": "Gets more projectiles every 20 levels (max+3)."
       },
@@ -249,6 +249,18 @@
         "charName": "Concetta",
         "surname": "Caciotta",
         "description": "Gains +1% Area every level."
+      },
+      "FINO":{
+        "charName": "MissingN▯"
+      },
+      "VERANDA":{
+        "charName": "Leda"
+      },
+      "PANINI": {
+        "charName": "Toastie"
+      },
+      "NOSTRO": {
+        "charName": "Death"
       }
     }
   },

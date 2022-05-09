@@ -2,7 +2,7 @@ import './pico.min.css';
 import './App.css';
 import React, {useState} from "react";
 import FileInput from "./FileInput";
-import {Character, PowerUp, Weapon} from "./Entities";
+import {Character, PowerUp, Relic, Weapon} from "./Entities";
 import defaultConfig from "./configurations/defaultConfiguration.json"
 import chars from "./configurations/characterLang.json"
 import pwups from "./configurations/powerUpLang.json"
@@ -12,6 +12,7 @@ import {PowerUps} from "./PowerUps/PowerUps";
 import {Weapons} from "./Weapons/Weapons";
 import {Characters} from "./Characters/Characters";
 import {CollectedWeapons} from "./Weapons/CollectedWeapons";
+import {RelicsComponent} from "./Relics/Relics.component";
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
     const [weapons, setWeapons] = useState([]);
     const [upgradedWeapons, setUpgradedWeapons] = useState([]);
     const [powerUps, setPowerUps] = useState([]);
+    const [relics, setRelics] = useState([]);
     const [saveContent, setSaveContent] = useState(undefined);
     const [generated, setGenerated] = useState(false);
     const [generatedSave, setGeneratedSave] = useState("");
@@ -114,9 +116,40 @@ const App = () => {
             weapon.collected = saveContent.CollectedWeapons.indexOf(weapon.id) > -1;
             return weapon;
         }));
+        setRelics(Object.keys(saveContent.PickupCount).filter(k => k.indexOf("RELIC_") > -1)
+            .map(relic => {
+                return saveContent.PickupCount[relic] > 0 ?
+                    new Relic(relic, true) : new Relic(relic, false);
+            }));
         setSaveContent(saveContent);
     }
 
+
+    const assignRelics = () => {
+        relics.filter(r => r != null && r.enabled).forEach(r => {
+            saveContent.PickupCount[r] = 1;
+        })
+        relics.forEach(relic => {
+            const achievements = defaultConfig.achievementsForRelics[relic.id];
+
+            if (relic.enabled) {
+                achievements.forEach(achievement => {
+                    if (saveContent.Achievements.indexOf(achievement) === -1) {
+                        saveContent.Achievements.push(achievement);
+                    }
+                })
+                if (relic === "RELIC_RANDOMAZZO") {
+                    if (saveContent.UnlockedArcanas.indexOf("T06_SARABANDE") === -1) {
+                        saveContent.UnlockedArcanas.push("T06_SARABANDE")
+                    }
+                }
+            } else {
+                achievements.forEach(a => {
+                    saveContent.Achievements.splice(saveContent.Achievements.indexOf(a), 1);
+                })
+            }
+        })
+    }
 
     const assignCharactersItems = () => {
         saveContent.BoughtCharacters = characters.filter(c => c.bought).map(c => c.id);
@@ -138,6 +171,7 @@ const App = () => {
                 saveContent.KillCount['BOSS_XLLEDA'] = 1;
             }
         }
+        assignRelics();
     }
 
     const generateSave = async () => {
@@ -154,6 +188,20 @@ const App = () => {
     const buf2hex = (buffer) => { // buffer is an ArrayBuffer
         return Array.prototype.map.call(new Uint8Array(buffer), x => ('00' + x.toString(16)).slice(-2)).join('');
     }
+
+    const addRelic = (relic) => {
+        const newRelic = new Relic(relic, true);
+        const newRelics = [...relics];
+        newRelics.splice(newRelics.findIndex(r => r.id === relic), 1, newRelic);
+        setRelics(newRelics);
+    };
+
+    const removeRelic = (relic) => {
+        const newRelic = new Relic(relic, false);
+        const newRelics = [...relics];
+        newRelics.splice(newRelics.findIndex(r => r.id === relic), 1, newRelic);
+        setRelics(newRelics);
+    };
 
     return (
         <>
@@ -183,12 +231,17 @@ const App = () => {
                 <Weapons weapons={weapons} weaponsChange={setWeapons}/>
                 <CollectedWeapons weapons={upgradedWeapons} weaponsChange={setUpgradedWeapons}/>
                 <PowerUps powerUps={powerUps} powerUpsChange={setPowerUps}/>
+            </div>
+            <div className={"Configs"}>
+                <RelicsComponent addRelic={addRelic} removeRelic={removeRelic} savedRelics={relics}/>
                 {generated && (<article className="Save-Result"><small>
                     <fieldset className={"Save-Result-Fieldset"}>
                         {generatedSave}
                     </fieldset>
                 </small>
                 </article>)}
+            </div>
+            <div>
             </div>
         </>
     );

@@ -22,5 +22,23 @@
     "CAVALLO": "CHERRY",
     "MARIA": "CART2",
     "TATANKA": "FLOWER"
-  }
+  },
+  "achievementsForRelics": {
+    "RELIC_MAP": [
+      "FindMilkyWayMap"
+    ],
+    "RELIC_TEAR": [
+      "FindSorceressTears"
+    ],
+    "RELIC_RANDOMAZZO": [
+      "FindRandomazzo",
+      "FindRandomazzoT06"
+    ],
+    "RELIC_BANGER": [
+      "FindMagicBanger"
+    ]
+  },
+  "defaultArcanas": [
+    "T06_SARABANDE"
+  ]
 }
