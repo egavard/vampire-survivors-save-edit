@@ -1,0 +1,519 @@
+{
+  "xx": {},
+  "ar": {
+    "english": "Arabic",
+    "native": "العربية",
+    "api": "arabic",
+    "translations": {}
+  },
+  "bg": {
+    "english": "Bulgarian",
+    "native": "български език",
+    "api": "bulgarian",
+    "translations": {}
+  },
+  "zh-CN": {
+    "english": "Chinese",
+    "native": "简体中文",
+    "api": "schinese",
+    "translations": {
+      "FOREST": {
+        "stageName": "疯狂森林",
+        "description": "城堡是个谎言， 但这里仍有免费的烤鸡， 所以没关系。",
+        "hyperTips": "金币加成50%"
+      },
+      "LIBRARY": {
+        "stageName": "镶嵌图书馆",
+        "description": "这个安静的长条形图书馆是休息、 冥想和搜寻烤鸡的理想场所。 但这里为什么会有石面具？",
+        "hyperTips": "金币加成50%\n幸运加成10%"
+      },
+      "GREENACRES": {
+        "stageName": "绿地",
+        "description": "不允许凡人进入的地方。 命运时时刻刻都在改变。",
+        "tips": "正常阶段的随机敌人",
+        "hyperTips": "金币加成50%\n幸运加成10%",
+        "stagenNumber": "挑战"
+      },
+      "WAREHOUSE": {
+        "stageName": "奶牛场",
+        "description": "藏在这里的神奇地图， 可能最终会带我们找到吸血鬼， 或者至少找到更多的烤鸡。",
+        "hyperTips": "金币加成50%\n幸运加成10%"
+      },
+      "MOLISE": {
+        "stageName": "伊尔莫利塞",
+        "description": "存在着不存在的地方。来放松享受生活。乡下见。",
+        "hyperTips": "50%金币奖励/n20%幸运奖励莫里斯生命+60%",
+        "tips": "敌人不动"
+      },
+      "TOWER": {
+        "stageName": "加洛塔",
+        "description": "这座塔拥有伟大的魔法文物和历史上准确的怪物。"
+      },
+      "BONEZONE": {
+        "stageName": "骨区",
+        "description": "到这里来, 说你那邪恶的晚祷。",
+        "tips": "没有物品掉落。 敌人会随着时间的推移变得更强大。"
+      }
+    }
+  },
+  "zh-TW": {
+    "english": "Chinese (Traditional)",
+    "native": "繁體中文 95%",
+    "api": "tchinese",
+    "translations": {}
+  },
+  "cs": {
+    "english": "Czech",
+    "native": "čeština",
+    "api": "czech",
+    "translations": {}
+  },
+  "da": {
+    "english": "Danish",
+    "native": "Dansk",
+    "api": "danish",
+    "translations": {}
+  },
+  "nl": {
+    "english": "Dutch",
+    "native": "Nederlands",
+    "api": "dutch",
+    "translations": {}
+  },
+  "en": {
+    "english": "English",
+    "native": "English",
+    "api": "english",
+    "translations": {
+      "FOREST": {
+        "stageName": "Mad Forest",
+        "description": "The Castle is a lie, but there's still free roast chicken here, so it's all good.",
+        "hyperTips": "50% Gold bonus"
+      },
+      "LIBRARY": {
+        "stageName": "Inlaid Library",
+        "description": "This quiet, long library is the ideal place where to rest, meditate, and forage for roast chicken. But what's a stone mask doing here?",
+        "hyperTips": "50% Gold bonus\n10% Luck bonus"
+      },
+      "GREENACRES": {
+        "stageName": "Green Acres",
+        "description": "A place where mortals are not allowed. Fate changes every minute.",
+        "tips": "Random enemy waves from normal stages",
+        "hyperTips": "50% Gold bonus\n10% Luck bonus",
+        "stagenNumber": "Challenge"
+      },
+      "WAREHOUSE": {
+        "stageName": "Dairy Plant",
+        "description": "The magic map hidden in here might finally lead us to a vampire, or at least to more roast chicken.",
+        "hyperTips": "50% Gold bonus\n10% Luck bonus"
+      },
+      "MOLISE": {
+        "stageName": "Il Molise",
+        "description": "There exist places that don't exist. Come to relax and enjoy life. See you in the country.",
+        "hyperTips": "50% Gold Bonus\n20% Luck bonus\nEnemies Health +60%",
+        "tips": "Enemies don't move"
+      },
+      "TOWER": {
+        "stageName": "Gallo Tower",
+        "description": "This tower holds great magical artifacts and historically accurate monsters."
+      },
+      "BONEZONE": {
+        "stageName": "The Bone Zone",
+        "description": "Come over here and say your unholy vespers.",
+        "tips": "No item drops. Enemies grow stronger over time."
+      }
+    }
+  },
+  "fi": {
+    "english": "Finnish",
+    "native": "Suomi",
+    "api": "finnish",
+    "translations": {}
+  },
+  "fr": {
+    "english": "French",
+    "native": "Français 80%",
+    "api": "french",
+    "translations": {
+      "FOREST": {
+        "stageName": "Forêt folle",
+        "description": "Le Château est un mensonge. Mais il y a quand même du poulet rôti gratuit dans le coin, alors tout va bien.",
+        "hyperTips": "50% d'or bonus"
+      },
+      "LIBRARY": {
+        "stageName": "Bibliothèque\nmarquetée",
+        "description": "Calme, cette bibliothèque longiligne est l'endroit idéal pour se reposer, méditer et chercher du poulet rôti. Mais pourquoi y a-t-il un masque de pierre ici ?",
+        "hyperTips": "50% d'or bonus\n10% de chance bonus"
+      },
+      "GREENACRES": {
+        "stageName": "Grande pâture",
+        "description": "Un lieu interdit aux mortels. Là-bas, chaque minute qui passe fait vaciller le destin.",
+        "tips": "Vagues ennemies aléatoires des étapes normales",
+        "hyperTips": "50% d'or bonus\n10% de chance bonus",
+        "stagenNumber": "Défi"
+      },
+      "WAREHOUSE": {
+        "stageName": "Usine laitière",
+        "description": "La carte magique cachée ici pourrait enfin nous mener à un vampire, ou au moins à plus de poulet rôti.",
+        "hyperTips": "50% d'or bonus\n10% de chance bonus"
+      },
+      "MOLISE": {
+        "stageName": "Il Molise",
+        "description": "Il existe des endroits qui n'existent pas. Venez vous détendre et profiter de la vie. On se voit à la campagne.",
+        "hyperTips": "Bonus d'or de 50%,\nbonus de chance de 20%,\nsanté des ennemis de 60%.",
+        "tips": "Les ennemis ne bougent pas"
+      },
+      "TOWER": {
+        "stageName": "Gallo Tower",
+        "description": "This tower holds great magical artifacts and historically accurate monsters."
+      },
+      "BONEZONE": {
+        "stageName": "The Bone Zone",
+        "description": "Come over here and say your unholy vespers.",
+        "tips": "No item drops. Enemies grow stronger over time."
+      }
+    }
+  },
+  "de": {
+    "english": "German",
+    "native": "Deutsch",
+    "api": "german",
+    "translations": {
+      "FOREST": {
+        "stageName": "Verrückter Wald",
+        "description": "Das Schloss ist eine Lüge, aber hier gibt es trotzdem kostenloses Brathähnchen, also ist alles gut.",
+        "hyperTips": "50% Goldbonus"
+      },
+      "LIBRARY": {
+        "stageName": "Verziehrte\nBibliothek",
+        "description": "Diese ruhige, lange Bibliothek ist der ideale Ort zum Ausruhen, Meditieren und um Brathähnchen zu sammeln. Aber was macht die Steinmaske hier?",
+        "hyperTips": "50% Goldbonus\n10% Glücksbonus"
+      },
+      "GREENACRES": {
+        "stageName": "Grüner Acker",
+        "description": "Ein Ort, an dem Sterbliche nicht erlaubt sind. Das Schicksal ändert sich jede Minute.",
+        "tips": "Wellen von zufälligen Gegnern von normallen Stufen.",
+        "hyperTips": "50% Goldbonus\n10% Glücksbonus",
+        "stagenNumber": "Herausforderung"
+      },
+      "WAREHOUSE": {
+        "stageName": "Milchfabrik",
+        "description": "Die hier versteckte, magische Karte führt uns vielleicht endlich zu einem Vampir oder zumindest zu weiteren Brathähnchen.",
+        "hyperTips": "50% Goldbonus\n10% Glücksbonus"
+      },
+      "MOLISE": {
+        "stageName": "Die Molise",
+        "description": "Dort existieren Orte die nicht existieren. Komm um dich zu erholen und das Leben zu genießen. Wir sehen uns auf dem Land.",
+        "hyperTips": "50% Goldbonus\n20% Glücksbonus\nGegners Gesundheit +60%",
+        "tips": "Gegner bewegen sich nicht"
+      },
+      "TOWER": {
+        "stageName": "Gallo Tower",
+        "description": "This tower holds great magical artifacts and historically accurate monsters."
+      },
+      "BONEZONE": {
+        "stageName": "The Bone Zone",
+        "description": "Come over here and say your unholy vespers.",
+        "tips": "No item drops. Enemies grow stronger over time."
+      }
+    }
+  },
+  "el": {
+    "english": "Greek",
+    "native": "Ελληνικά",
+    "api": "greek",
+    "translations": {}
+  },
+  "hu": {
+    "english": "Hungarian",
+    "native": "Magyar",
+    "api": "hungarian",
+    "translations": {}
+  },
+  "it": {
+    "english": "Italian",
+    "native": "Italiano",
+    "api": "italian",
+    "translations": {}
+  },
+  "ja": {
+    "english": "Japanese",
+    "native": "日本語 95%",
+    "api": "japanese",
+    "translations": {
+      "FOREST": {
+        "stageName": "狂乱の森",
+        "description": "城は偽物だが、 ここではタダでロースト チキンが手に入るのでいいとしよう。",
+        "hyperTips": "50%ゴールドボーナス"
+      },
+      "LIBRARY": {
+        "stageName": "象眼の図書館",
+        "description": "このどこまでも長く続く図書館は、 いつでも静けさに包まれている。  休息や瞑想はもちろんのこと……  ローストチキン探しにもぴったりだ。しかし、 なぜこんなところに石の仮面があるんだろうか？",
+        "hyperTips": "50%のゴールドボーナス\n10%の運気ボーナス"
+      },
+      "GREENACRES": {
+        "stageName": "緑の地",
+        "description": "人間は決して立ち入れない場所。 ここでは運命が数分で変わってしまう。",
+        "tips": "Random enemy waves from normal stages",
+        "hyperTips": "50%のゴールドボーナス\n10%の運気ボーナス",
+        "stagenNumber": "チャレンジ"
+      },
+      "WAREHOUSE": {
+        "stageName": "酪農場",
+        "description": "ここに隠された魔法の地図が吸血鬼に導 いてくれるかもしれないし、 少なくともローストチキンをもっと食べること ができるかもしれない。",
+        "hyperTips": "50%のゴールドボーナス\n10%の運気ボーナス"
+      },
+      "MOLISE": {
+        "stageName": "Il Molise",
+        "description": "There exists places that don't exist. Come to relax and enjoy life. See you in the country.",
+        "hyperTips": "50% Gold Bonus\n20% Luck bonus\nEnemies Health +60%",
+        "tips": "Enemies don't move"
+      },
+      "TOWER": {
+        "stageName": "Gallo Tower",
+        "description": "This tower holds great magical artifacts and historically accurate monsters."
+      },
+      "BONEZONE": {
+        "stageName": "The Bone Zone",
+        "description": "Come over here and say your unholy vespers.",
+        "tips": "No item drops. Enemies grow stronger over time."
+      }
+    }
+  },
+  "ko": {
+    "english": "Korean",
+    "native": "한국어",
+    "api": "koreana",
+    "translations": {
+      "FOREST": {
+        "stageName": "광기의 숲",
+        "description": "성은 가짜지만 바닥에 공짜 치킨이 굴러다니네요. 뭐 아무래도 좋지 않습니까?",
+        "hyperTips": "골드 50% 보너스"
+      },
+      "LIBRARY": {
+        "stageName": "화려한 도서관",
+        "description": "조용하고 큰 도서관으로 휴식, 명상은 물론 치킨을 찾으러 다니기에도 좋습니다. 그런데 돌가면은 어디에 쓰는거죠?",
+        "hyperTips": "골드 50% 보너스\n행운 10% 보너스"
+      },
+      "GREENACRES": {
+        "stageName": "푸른 초원",
+        "description": "이 곳은 필멸자에게 허락된 곳이 아닙니다. 운명은 언제든지 바뀔 수 있습니다.",
+        "tips": "무작위 적 웨이브.",
+        "hyperTips": "골드 50% 보너스\n행운 10% 보너스",
+        "stagenNumber": "도전"
+      },
+      "WAREHOUSE": {
+        "stageName": "유제품 공장",
+        "description": "이 공장에 숨겨진 마법지도는 우리를 뱀파이어에게 이끌지도 모릅니다. 아니라도 치킨은 더 얻을수 있겠죠.",
+        "hyperTips": "골드 50% 보너스\n행운 10% 보너스"
+      },
+      "MOLISE": {
+        "stageName": "일 몰리세",
+        "description": "존재하지 않은 장소가 있습니다. 자연을 존중하며 휴식을 취하고 인생을 즐기세요.",
+        "hyperTips": "골드 50% 보너스\n행운 20% 보너스\n적 체력 +60%",
+        "tips": "적들이 움직이지 않습니다."
+      },
+      "TOWER": {
+        "stageName": "갈로의 탑",
+        "description": "이 위대한 탑에는 놀라운 마법의 유물과 과거의 괴물들이 봉인되어 있습니다."
+      },
+      "BONEZONE": {
+        "stageName": "촘판틀리",
+        "description": "이 불경한 장소에 당신의 기도를 바치시오.",
+        "tips": "골드를 제외한 다른 아이템이 드랍되지 않으며 적들이 시간이 지날수록 강력해집니다."
+      }
+    }
+  },
+  "no": {
+    "english": "Norwegian",
+    "native": "Norsk",
+    "api": "norwegian",
+    "translations": {}
+  },
+  "pl": {
+    "english": "Polish",
+    "native": "Polski",
+    "api": "polish",
+    "translations": {}
+  },
+  "pt": {
+    "english": "Portuguese",
+    "native": "Português",
+    "api": "portuguese",
+    "translations": {}
+  },
+  "pt-BR": {
+    "english": "Portuguese-Brazil",
+    "native": "Português-Brasil",
+    "api": "brazilian",
+    "translations": {
+      "FOREST": {
+        "stageName": "Floresta Louca",
+        "description": "O Castelo é uma mentira, mas ao menos tem frango assado aqui, então tudo bem.",
+        "hyperTips": "50% Bônus em moedas"
+      },
+      "LIBRARY": {
+        "stageName": "Biblioteca Imbutida",
+        "description": "Esta biblioteca quieta e longa é o lugar ideal para descansar, meditar e procurar frangos assados. Mas o que uma máscara de pedra está fazendo aqui?",
+        "hyperTips": "50% Bônus em moedas\n10% Bônus de Sorte"
+      },
+      "GREENACRES": {
+        "stageName": "Planicies Verdes",
+        "description": "Um lugar onde mortais não são permitidos. O destino muda a cada minuto.",
+        "tips": "Ondas aleatórias de inimigos das fases normais.",
+        "hyperTips": "50% Bônus em moedas\n10% Bônus de Sorte",
+        "stagenNumber": "Desafio"
+      },
+      "WAREHOUSE": {
+        "stageName": "Usina Láctea",
+        "description": "O mapa mágico escondido aqui pode finalmente nos guiar até um vampiro, ou pelo menos até mais frango assado.",
+        "hyperTips": "50% Bônus em moedas\n10% Bônus de Sorte"
+      },
+      "MOLISE": {
+        "stageName": "Il Molise",
+        "description": "Aqui existem lugares que não existem. Venha relaxar e curtir a vida. Te vejo por aí.",
+        "hyperTips": "50% Bônus em moedas\n20% bônus de sorte\nSaúde dos inimigos +60%",
+        "tips": "Inimigos não se movem"
+      },
+      "TOWER": {
+        "stageName": "Torre de Gallo",
+        "description": "Esta torre possui grandes artefatos mágicos e monstros históricamente corretos."
+      },
+      "BONEZONE": {
+        "stageName": "A Zona Óssea",
+        "description": "Venha aqui e diga seus versículos profanos.",
+        "tips": "Nenhum drop de items. Inimigos ficam mais fortes com o tempo."
+      }
+    }
+  },
+  "ro": {
+    "english": "Romanian",
+    "native": "Română",
+    "api": "romanian",
+    "translations": {}
+  },
+  "ru": {
+    "english": "Russian",
+    "native": "Русский",
+    "api": "russian",
+    "translations": {
+      "FOREST": {
+        "stageName": "Безумный Лес",
+        "description": "О Замке, конечно, лгут, но здесь все еще есть бесплатный жареный цыпленок, так что все хорошо.",
+        "hyperTips": "50% бонус к Золоту"
+      },
+      "LIBRARY": {
+        "stageName": "Библиотека",
+        "description": "Эта тихая длинная библиотека - идеальное место для отдыха, медитации и поиска жареного цыпленка. Но что здесь делает каменная маска?",
+        "hyperTips": "50% бонус к Золоту\n10% бонус к Удаче"
+      },
+      "GREENACRES": {
+        "stageName": "Зеленые Акры",
+        "description": "Место, куда смертным вход воспрещен! Все может выйти из-под контроля в любой момент.",
+        "tips": "Случайные вражеские волны с обычных этапов.",
+        "hyperTips": "50% бонус к Золоту\n10% бонус к Удаче",
+        "stagenNumber": "Испытание"
+      },
+      "WAREHOUSE": {
+        "stageName": "Молочный Завод",
+        "description": "Волшебная карта спрятана здесь. Может она, наконец, приведет нас к вампиру или, по крайней мере, к еще одному жареному цыпленку.",
+        "hyperTips": "50% бонус к Золоту\n10% бонус к Удаче"
+      },
+      "MOLISE": {
+        "stageName": "Молизе",
+        "description": "Существуют места, которых не существует. Приезжайте отдыхать и наслаждаться жизнью. Увидимся в деревне!",
+        "hyperTips": "50% бонус к Золоту\n20% бонус к Удаче\nЗдоровье Врагов +60%",
+        "tips": "Враги не двигаются."
+      },
+      "TOWER": {
+        "stageName": "Башня Галло",
+        "description": "В этой башне хранятся великие магические артефакты и исторически достоверные монстры."
+      },
+      "BONEZONE": {
+        "stageName": "Костяная Зона",
+        "description": "Иди сюда и отслужи свою нечестивую вечерню.",
+        "tips": "Нет выпадения предметов. Враги усиливаются со временем."
+      }
+    }
+  },
+  "es": {
+    "english": "Spanish",
+    "native": "Español 80%",
+    "api": "spanish",
+    "translations": {
+      "FOREST": {
+        "stageName": "Bosque Demente",
+        "description": "El castillo es de mentira, pero aún queda pollo asado gratis por aquí, así que no pasa nada.",
+        "hyperTips": "Bonus de 50 % de oro"
+      },
+      "LIBRARY": {
+        "stageName": "Biblioteca\nInterna",
+        "description": "Esta biblioteca tranquila y grande es perfecta para descansar, meditar y recolectar pollo asado. ¿Qué hace aquí esta máscara de piedra?",
+        "hyperTips": "Bonus de 50 % de oro\nBonus de 10 % de suerte"
+      },
+      "GREENACRES": {
+        "stageName": "Llanuras Verdes",
+        "description": "Un lugar prohibido para los mortales. Su destino cambia cada minuto.",
+        "tips": "Random enemy waves from normal stages",
+        "hyperTips": "Bonus de 50 % de oro\nBonus de 10 % de suerte",
+        "stagenNumber": "Challenge"
+      },
+      "WAREHOUSE": {
+        "stageName": "Dairy Plant",
+        "description": "The magic map hidden in here might finally lead us to a vampire, or at least to more roast chicken.",
+        "hyperTips": "Bonus de 50 % de oro\nBonus de 10 % de suerte"
+      },
+      "MOLISE": {
+        "stageName": "Il Molise",
+        "description": "There exists places that don't exist. Come to relax and enjoy life. See you in the country.",
+        "hyperTips": "50% Gold Bonus\n20% Luck bonus\nEnemies Health +60%",
+        "tips": "Enemies don't move"
+      },
+      "TOWER": {
+        "stageName": "Gallo Tower",
+        "description": "This tower holds great magical artifacts and historically accurate monsters."
+      },
+      "BONEZONE": {
+        "stageName": "The Bone Zone",
+        "description": "Come over here and say your unholy vespers.",
+        "tips": "No item drops. Enemies grow stronger over time."
+      }
+    }
+  },
+  "es-419": {
+    "english": "Spanish-Latin America",
+    "native": "Español-Latinoamérica",
+    "api": "latam",
+    "translations": {}
+  },
+  "sv": {
+    "english": "Swedish",
+    "native": "Svenska",
+    "api": "swedish",
+    "translations": {}
+  },
+  "th": {
+    "english": "Thai",
+    "native": "ไทย",
+    "api": "thai",
+    "translations": {}
+  },
+  "tr": {
+    "english": "Turkish",
+    "native": "Türkçe",
+    "api": "turkish",
+    "translations": {}
+  },
+  "uk": {
+    "english": "Ukrainian",
+    "native": "Українська",
+    "api": "ukrainian",
+    "translations": {}
+  },
+  "vn": {
+    "english": "Vietnamese",
+    "native": "Tiếng Việt",
+    "api": "vietnamese",
+    "translations": {}
+  }
+}

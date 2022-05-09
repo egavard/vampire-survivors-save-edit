@@ -274,6 +274,21 @@
         "name": "天体除尘",
         "description": "投掷弹跳的弹丸。 移动时冷却时间减少。",
         "tips": "最佳搭配：翅膀。"
+      },
+      "TRAPANO": {
+        "name": "Shadow Pinion",
+        "description": "Generates damaging zones when moving, strikes when stopping.",
+        "tips": "Best with: MoveSpeed."
+      },
+      "TRAPANO2": {
+        "name": "Valkyrie Turner",
+        "description": "Evolved Shadow Pinion. Bigger, longer, faster, stronger.",
+        "tips": "Requires: Wings."
+      },
+      "STIGRANGATTI": {
+        "name": "Vicious Hunger",
+        "description": "Evolved Gatti Amari. Might turn anything into gold.",
+        "tips": "Requires: Stone Mask."
       }
     }
   },
@@ -563,6 +578,21 @@
         "name": "Celestial Dusting",
         "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
         "tips": "Best with: moveSpeed."
+      },
+      "TRAPANO": {
+        "name": "Shadow Pinion",
+        "description": "Generates damaging zones when moving, strikes when stopping.",
+        "tips": "Best with: MoveSpeed."
+      },
+      "TRAPANO2": {
+        "name": "Valkyrie Turner",
+        "description": "Evolved Shadow Pinion. Bigger, longer, faster, stronger.",
+        "tips": "Requires: Wings."
+      },
+      "STIGRANGATTI": {
+        "name": "Vicious Hunger",
+        "description": "Evolved Gatti Amari. Might turn anything into gold.",
+        "tips": "Requires: Stone Mask."
       }
     }
   },
@@ -834,6 +864,21 @@
         "name": "Celestial Dusting",
         "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
         "tips": "Best with: moveSpeed."
+      },
+      "TRAPANO": {
+        "name": "Shadow Pinion",
+        "description": "Generates damaging zones when moving, strikes when stopping.",
+        "tips": "Best with: MoveSpeed."
+      },
+      "TRAPANO2": {
+        "name": "Valkyrie Turner",
+        "description": "Evolved Shadow Pinion. Bigger, longer, faster, stronger.",
+        "tips": "Requires: Wings."
+      },
+      "STIGRANGATTI": {
+        "name": "Vicious Hunger",
+        "description": "Evolved Gatti Amari. Might turn anything into gold.",
+        "tips": "Requires: Stone Mask."
       }
     }
   },
@@ -1099,6 +1144,21 @@
         "name": "Celestial Dusting",
         "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
         "tips": "Best with: moveSpeed."
+      },
+      "TRAPANO": {
+        "name": "Shadow Pinion",
+        "description": "Generates damaging zones when moving, strikes when stopping.",
+        "tips": "Best with: MoveSpeed."
+      },
+      "TRAPANO2": {
+        "name": "Valkyrie Turner",
+        "description": "Evolved Shadow Pinion. Bigger, longer, faster, stronger.",
+        "tips": "Requires: Wings."
+      },
+      "STIGRANGATTI": {
+        "name": "Vicious Hunger",
+        "description": "Evolved Gatti Amari. Might turn anything into gold.",
+        "tips": "Requires: Stone Mask."
       }
     }
   },
@@ -1382,6 +1442,21 @@
         "name": "Celestial Dusting",
         "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
         "tips": "Best with: moveSpeed."
+      },
+      "TRAPANO": {
+        "name": "Shadow Pinion",
+        "description": "Generates damaging zones when moving, strikes when stopping.",
+        "tips": "Best with: MoveSpeed."
+      },
+      "TRAPANO2": {
+        "name": "Valkyrie Turner",
+        "description": "Evolved Shadow Pinion. Bigger, longer, faster, stronger.",
+        "tips": "Requires: Wings."
+      },
+      "STIGRANGATTI": {
+        "name": "Vicious Hunger",
+        "description": "Evolved Gatti Amari. Might turn anything into gold.",
+        "tips": "Requires: Stone Mask."
       }
     }
   },
@@ -1392,98 +1467,98 @@
     "translations": {
       "WHIP": {
         "name": "채찍",
-        "description": "수평으로 적을 관통해 공격합니다.",
-        "tips": "파워업 무시: 투사체 속도, 지속시간"
+        "description": "좌우로 적을 관통해 공격합니다.",
+        "tips": "강화 무시: 투사체 속도, 지속시간"
       },
       "VAMPIRICA": {
         "name": "피눈물",
-        "description": "채찍의 강화형. 치명타 피해를 입히고 HP를 흡수합니다.",
-        "tips": "요구 사항: 칠흑 심장"
+        "description": "채찍의 진화형. 치명타 피해를 입히고 HP를 흡수합니다.",
+        "tips": "요구 사항: 검은 심장"
       },
       "MAGIC_MISSILE": {
-        "name": "매직 완드",
+        "name": "마법 지팡이",
         "description": "가장 가까운 적을 공격합니다.",
-        "tips": "파워업 무시: 지속시간"
+        "tips": "강화 무시: 지속시간"
       },
       "HOLY_MISSILE": {
-        "name": "홀리 완드",
-        "description": "매직 완드의 강화형. 딜레이 없이 발사됩니다.",
-        "tips": "요구 사항: 빈 성서"
+        "name": "신성한 지팡이",
+        "description": "마법 지팡이 의 진화형. 딜레이 없이 발사됩니다.",
+        "tips": "요구 사항: 빈 책"
       },
       "AXE": {
         "name": "도끼",
         "description": "피해량이 높고 공격 범위가 넓습니다.",
-        "tips": "파워업 무시: 지속시간"
+        "tips": "강화 무시: 지속시간"
       },
       "SCYTHE": {
         "name": "죽음의 나선",
-        "description": "도끼의 강화형. 적을 관통합니다.",
+        "description": "도끼의 진화형. 적을 관통합니다.",
         "tips": "요구 사항: 촛대"
       },
       "KNIFE": {
         "name": "단검",
-        "description": "보고 있는 방향으로 빠르게 발사됩니다.",
-        "tips": "파워업 무시: 지속시간"
+        "description": "바라보는 방향으로 단검을 투척합니다.",
+        "tips": "강화 무시: 지속시간"
       },
       "THOUSAND": {
         "name": "천 개의 칼날",
-        "description": "단검의 강화형. 딜레이 없이 발사됩니다.",
-        "tips": "요구 사항: 브레이서"
+        "description": "단검의 진화형. 딜레이 없이 발사됩니다.",
+        "tips": "요구 사항: 팔 보호구"
       },
       "HOLYWATER": {
         "name": "성수",
-        "description": "화염 구덩이를 생성합니다.",
-        "tips": "파워업 무시: 스피드"
+        "description": "피해 구역을 생성합니다.",
+        "tips": "강화 무시: 투사체 속도"
       },
       "DIAMOND": {
-        "name": "룬트레이서",
+        "name": "룬 트레이서",
         "description": "적을 관통하며 튕겨져 나옵니다.",
         "tips": "추천 조합: 투사체 속도, 지속시간"
       },
       "FIREBALL": {
-        "name": "파이어 완드",
-        "description": "무작위 적을 향해 발사되며 큰 피해를 줍니다.",
-        "tips": "파워업 무시: 지속시간"
+        "name": "불의 지팡이",
+        "description": "무작위 방향으로 향해 발사되며 큰 피해를 줍니다.",
+        "tips": "강화 무시: 지속시간"
       },
       "HELLFIRE": {
         "name": "헬파이어",
-        "description": "파이어 완드의 강화형. 적을 관통합니다.",
+        "description": "불의 지팡이 의 진화형. 적을 관통합니다.",
         "tips": "요구 사항: 시금치."
       },
       "HOLYBOOK": {
-        "name": "기도문",
-        "description": "기도문이 주변을 회전하며 공격합니다",
+        "name": "성경",
+        "description": "성경이 주변을 회전하며 공격합니다",
         "tips": "추천 조합: 투사체 속도, 지속시간, 공격범위"
       },
       "VESPERS": {
         "name": "불경한 기도문",
-        "description": "기도문의 강화형. 사라지지 않습니다.",
+        "description": "성경의 진화형. 사라지지 않습니다.",
         "tips": "요구 사항: 주문속박기"
       },
       "CROSS": {
         "name": "십자가",
         "description": "가장 가까운 적에게 날아가며 부메랑처럼 돌아옵니다.",
-        "tips": "파워업 무시: 지속시간"
+        "tips": "강화 무시: 지속시간"
       },
       "HEAVENSWORD": {
-        "name": "셀레스트 에페",
-        "description": "십자가의 강화형. 치명타 피해를 줍니다.",
+        "name": "천상의 검",
+        "description": "십자가의 진화형. 치명타 피해를 줍니다.",
         "tips": "요구 사항: 클로버."
       },
       "GARLIC": {
         "name": "마늘",
-        "description": "범위 내의 적에게 피해를 줍니다. 넉백과 빙결저항을 감소시킵니다",
-        "tips": "파워업 무시: 투사체 수, 지속시간, 투사체 속도"
+        "description": "범위 내의 적에게 피해를 줍니다. 적의 넉백,빙결저항을 감소시킵니다",
+        "tips": "강화 무시: 투사체 수, 지속시간, 투사체 속도"
       },
       "LAUREL": {
         "name": "월계수",
-        "description": "피격 데미지를 막아줍니다.",
+        "description": "피격 데미지를 막아주는 방어막을 생성합니다 손상된 방어막은 잠시후 재생성됩니다.",
         "tips": "추천 조합: 쿨타임만 적용됨"
       },
       "LIGHTNING": {
         "name": "번개 반지",
         "description": "무작위 적에게 번개를 내려칩니다.",
-        "tips": "파워업 무시: 투사체 속도, 지속시간"
+        "tips": "강화 무시: 투사체 속도, 지속시간"
       },
       "PENTAGRAM": {
         "name": "오망성",
@@ -1501,14 +1576,14 @@
         "tips": "추천 조합: 쿨타임, 지속시간"
       },
       "BONE": {
-        "name": "뼈다귀",
+        "name": "뼈",
         "description": "튕겨나오는 투사체를 던집니다.",
         "tips": "추천 조합: 지속시간, 투사체 속도"
       },
       "LANCET": {
-        "name": "시계바늘",
+        "name": "시곗바늘",
         "description": "적들을 잠시 얼려 움직이지 못하게 합니다.",
-        "tips": "파워업 무시: 괴력, 투사체 속도, 투사체 수, 공격범위"
+        "tips": "강화 무시: 괴력, 투사체 속도, 투사체 수, 공격범위"
       },
       "POWER": {
         "name": "시금치",
@@ -1519,11 +1594,11 @@
         "description": "공격범위가 10% 증가합니다."
       },
       "SPEED": {
-        "name": "브레이서",
+        "name": "팔 보호구",
         "description": "투사체 속도가 10% 증가합니다."
       },
       "COOLDOWN": {
-        "name": "빈 성서",
+        "name": "빈 책",
         "description": "쿨타임이 8% 감소합니다."
       },
       "DURATION": {
@@ -1535,7 +1610,7 @@
         "description": "추가 투사체를 획득합니다."
       },
       "MAXHEALTH": {
-        "name": "칠흑 심장",
+        "name": "검은 심장",
         "description": "최대 체력이 20% 증가합니다."
       },
       "ARMOR": {
@@ -1548,7 +1623,7 @@
       },
       "MAGNET": {
         "description": "더 멀리 있는 아이템을 획득합니다.",
-        "name": "매혹의 오브"
+        "name": "매혹구"
       },
       "GROWTH": {
         "name": "왕관",
@@ -1567,18 +1642,18 @@
         "description": "초당 체력회복량이 0.2의 증가합니다."
       },
       "VORTEX": {
-        "name": "영혼포식자",
-        "description": "마늘의 강화형. 체력을 흡수합니다. 체력흡수 시 위력이 증가합니다.",
+        "name": "영혼 포식자",
+        "description": "마늘의 진화형.적 처치시 체력을 흡수하며 체력흡수 시 위력이 증가합니다.",
         "tips": "요구 사항: 붉은 심장"
       },
       "BORA": {
         "name": "정화자",
-        "description": "성수의 강화형. 불구덩이가 점점 커지며 캐릭터를 따릅니다.",
-        "tips": "요구 사항: 매혹의 오브"
+        "description": "성수의 진화형. 피해 구역이 점점 커지며 캐릭터를 따릅니다.",
+        "tips": "요구 사항: 매혹구"
       },
       "SILF3": {
         "name": "파괴자",
-        "description": "하얀 비둘기와 검은 비둘기의 융합"
+        "description": "하얀 비둘기와 검은 비둘기의 진화형."
       },
       "REVIVAL": {
         "name": "티라미수",
@@ -1586,7 +1661,7 @@
       },
       "LOOP": {
         "name": "번개 고리",
-        "description": "번개 반지의 강화형. 투사체가 2회 공격합니다.",
+        "description": "번개 반지의 진화형. 투사체가 2회 공격합니다.",
         "tips": "요구 사항: 복제 반지"
       },
       "CURSE": {
@@ -1601,42 +1676,42 @@
       "SONG": {
         "name": "마나의 노래",
         "description": "수직으로 공격하며 적을 관통합니다.",
-        "tips": "파워업 무시: 투사체 갯수, 투사체 속도"
+        "tips": "강화 무시: 투사체 수, 투사체 속도"
       },
       "MANNAGGIA": {
         "name": "마력의 결정체",
-        "description": "마나의 노래의 강화형. 적을 느려지게 만듭니다.",
+        "description": "마나의 노래의 진화형. 적을 느려지게 만듭니다.",
         "tips": "요구 사항: 미치광이의 두개골"
       },
       "SIRE": {
         "name": "매혹의 달",
-        "description": "오망성의 강화형. 추가 보석을 생성하고 처치한 적의 보석을 흡수합니다.",
+        "description": "오망성의 진화형. 추가 보석을 생성하고 처치한 적의 보석을 흡수합니다.",
         "tips": "요구 사항: 왕관."
       },
       "GUNS": {
         "name": "피에라 데 투펠로",
         "description": "고정된 네 방향으로 투사체를 빠르게 발사합니다.",
-        "tips": "파워업 무시: 지속시간"
+        "tips": "강화 무시: 지속시간"
       },
       "GUNS2": {
         "name": "에잇 더 스페로우",
         "description": "고정된 네 방향으로 투사체를 빠르게 발사합니다.",
-        "tips": "파워업 무시: 지속시간"
+        "tips": "강화 무시: 지속시간"
       },
       "GUNS3": {
         "name": "피에라지",
-        "description": "피에라 데 투펠로와 피에라지의 융합체. 부활횟수만큼 추가 투사체를 얻습니다.",
+        "description": "피에라 데 투펠로와 피에라지의 진화형. 부활횟수만큼 추가 투사체를 얻습니다.",
         "tips": "요구 사항: 티라미수."
       },
       "ROCHER": {
         "name": "절멸",
-        "description": "룬트레이서 강화형. 적에게 반사 대미지를 주며 튕겨저 나올때 폭파 대미지를 줍니다.",
+        "description": "룬트레이서 진화형. 적에게 반사 대미지를 주며 튕겨저 나올때 폭파 대미지를 줍니다.",
         "tips": "요구 사항 : 갑옷"
       },
       "CART2": {
         "name": "광산수레",
         "description": "수레를 밀어 적을 공격합니다. 투사체의 수가 많아질수록 여러번 튕겨저 나옵니다.",
-        "tips": "파워업 무시 : 지속시간."
+        "tips": "강화 무시 : 지속시간."
       },
       "GATTI": {
         "name": "마녀의 고양이",
@@ -1644,9 +1719,24 @@
         "tips": "추천 조합 : 행운, 치킨"
       },
       "FLOWER": {
-        "name": "Celestial Dusting",
-        "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
-        "tips": "Best with: moveSpeed."
+        "name": "천상의 꽃",
+        "description": "이동방향과 반대로 투사체를 발사합니다. 이동시 무기의 쿨타임 대폭 감소.",
+        "tips": "추천조합 : 이동속도"
+      },
+      "TRAPANO": {
+        "name": "검은 드릴",
+        "description": "이동방향 반대로 투사체를 발사합니다. 움직임을 멈출시 바라보는 방향으로 투사체를 발사합니다.",
+        "tips": "추천조합 : 이동속도"
+      },
+      "TRAPANO2": {
+        "name": "발키리 터너",
+        "description": "검은 드릴 진화형.더 크게, 더 길게, 더 빠르게, 더 강력하게.",
+        "tips": "요구 사항: 날개."
+      },
+      "STIGRANGATTI": {
+        "name": "흉포한 굼주림",
+        "description": "마녀의 고양이 진화형.무엇이든지 금으로 바꿉니다.",
+        "tips": "요구 사항: 돌가면"
       }
     }
   },
@@ -1912,24 +2002,39 @@
         "tips": "Requer: Tiragisú."
       },
       "ROCHER": {
-        "name": "NO FUTURE",
-        "description": "Evolved Runetracer. Explodes when bouncing and in retaliation.",
-        "tips": "Requires: Armor"
+        "name": "SEM FUTURO",
+        "description": "Runetracer Evoluido. Explode quando ricocheteia e em retaliação.",
+        "tips": "Requer: Armadura"
       },
       "CART2": {
         "name": "Carréllo",
-        "description": "Throws a bouncing projectile. Number of bounces affected by Amount.",
-        "tips": "Ignores: duration."
+        "description": "Atira um projétil quicante. Quantidade de quicadas afetada por [Quantidade]",
+        "tips": "Ignora: duração."
       },
       "GATTI": {
         "name": "Gatti Amari",
-        "description": "Summons capricious projectiles. Might interact with pickups.",
-        "tips": "Best with: luck, floor chicken."
+        "description": "Invoca projectiles capriciosos. Pode interagir with items no chão.",
+        "tips": "Melhor com: sorte, frango assado."
       },
       "FLOWER": {
-        "name": "Celestial Dusting",
-        "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
-        "tips": "Best with: moveSpeed."
+        "name": "Bouqué Celestial",
+        "description": "Atira um projétil quicante. Cooldown reduz enquanto se movendo.",
+        "tips": "Melhor com: velocidade de movimento."
+      },
+      "TRAPANO": {
+        "name": "Shadow Pinion",
+        "description": "Generates damaging zones when moving, strikes when stopping.",
+        "tips": "Best with: MoveSpeed."
+      },
+      "TRAPANO2": {
+        "name": "Valkyrie Turner",
+        "description": "Evolved Shadow Pinion. Bigger, longer, faster, stronger.",
+        "tips": "Requires: Wings."
+      },
+      "STIGRANGATTI": {
+        "name": "Vicious Hunger",
+        "description": "Evolved Gatti Amari. Might turn anything into gold.",
+        "tips": "Requires: Stone Mask."
       }
     }
   },
@@ -2193,14 +2298,29 @@
         "tips": "Игнорирует: Срок."
       },
       "GATTI": {
-        "name": "Горькие Кошки",
-        "description": "Вызывает капризные снаряды. Может взаимодействовать с подбераемыми предметами.",
+        "name": "Противные Кошки",
+        "description": "Вызывает снаряды, взаимодействующие с подбираемыми предметами.",
         "tips": "Лучше сочетается с: удача, жаренный цыпленок."
       },
       "FLOWER": {
-        "name": "Celestial Dusting",
-        "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
-        "tips": "Best with: moveSpeed."
+        "name": "Небесная Пыль",
+        "description": "Бросает отскакивающий снаряд. Время перезарядки уменьшается при движении.",
+        "tips": "Лучше сочетается с: Подвижность."
+      },
+      "TRAPANO": {
+        "name": "Теневая Шестерня",
+        "description": "Создает зоны поражения при движении, наносит удары при остановке.",
+        "tips": "Лучше сочетается с: Подвижность."
+      },
+      "TRAPANO2": {
+        "name": "Валькирия Тернер",
+        "description": "Улучшенная Теневая Шестерня. Больше, длиннее, быстрее, сильнее.",
+        "tips": "Требует: Крылья."
+      },
+      "STIGRANGATTI": {
+        "name": "Жестокий Голод",
+        "description": "Улучшенные Противные Кошки. Может превратить что угодно в золото.",
+        "tips": "Требует: Каменная Маска."
       }
     }
   },
@@ -2466,6 +2586,21 @@
         "name": "Celestial Dusting",
         "description": "Throws a bouncing projectile. Cooldown reduces when moving.",
         "tips": "Best with: moveSpeed."
+      },
+      "TRAPANO": {
+        "name": "Shadow Pinion",
+        "description": "Generates damaging zones when moving, strikes when stopping.",
+        "tips": "Best with: MoveSpeed."
+      },
+      "TRAPANO2": {
+        "name": "Valkyrie Turner",
+        "description": "Evolved Shadow Pinion. Bigger, longer, faster, stronger.",
+        "tips": "Requires: Wings."
+      },
+      "STIGRANGATTI": {
+        "name": "Vicious Hunger",
+        "description": "Evolved Gatti Amari. Might turn anything into gold.",
+        "tips": "Requires: Stone Mask."
       }
     }
   },

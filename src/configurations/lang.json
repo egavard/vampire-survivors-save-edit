@@ -184,8 +184,18 @@
       "levelup_cancel": "取消",
       "levelup_header_ban": "放弃",
       "options_reducephysics": "更少的物理，更多的FPS",
-      "stageConfirm_hurry": "匆忙?",
-      "stageConfirm_mazzo": "至宝?"
+      "stageConfirm_hurry": "缩短?",
+      "stageConfirm_mazzo": "至宝?",
+      "stageSelection_musicSelection": "Music Selection",
+      "options_fullscreen": "全屏",
+      "randomazzo_title": "RANDOMAZZO",
+      "stageSelection_TimeLimit": "Time Limit",
+      "stageSelection_ClockSpeed": "Clock Speed",
+      "stageSelection_PlayerPxSpeed": "MoveSpeed",
+      "stageSelection_GoldMultiplier": "Gold Bonus",
+      "stageSelection_LuckBonus": "Luck Bonus",
+      "stageSelection_EnemyHealth": "Enemy Health",
+      "relicFound": "Relic Found!"
     }
   },
   "zh-TW": {
@@ -385,7 +395,17 @@
       "levelup_header_ban": "BANISH!",
       "options_reducephysics": "Performance mode",
       "stageConfirm_hurry": "Hurry?",
-      "stageConfirm_mazzo": "Arcanas?"
+      "stageConfirm_mazzo": "Arcanas?",
+      "stageSelection_musicSelection": "Music Selection",
+      "options_fullscreen": "Fullscreen",
+      "randomazzo_title": "RANDOMAZZO",
+      "stageSelection_TimeLimit": "Time Limit",
+      "stageSelection_ClockSpeed": "Clock Speed",
+      "stageSelection_PlayerPxSpeed": "MoveSpeed",
+      "stageSelection_GoldMultiplier": "Gold Bonus",
+      "stageSelection_LuckBonus": "Luck Bonus",
+      "stageSelection_EnemyHealth": "Enemy Health",
+      "relicFound": "Relic Found!"
     }
   },
   "fi": {
@@ -567,7 +587,17 @@
       "levelup_header_ban": "BANNIR!",
       "options_reducephysics": "Performance mode",
       "stageConfirm_hurry": "Hurry?",
-      "stageConfirm_mazzo": "Arcanas?"
+      "stageConfirm_mazzo": "Arcanas?",
+      "stageSelection_musicSelection": "Music Selection",
+      "options_fullscreen": "Plein écran",
+      "randomazzo_title": "RANDOMAZZO",
+      "stageSelection_TimeLimit": "Time Limit",
+      "stageSelection_ClockSpeed": "Clock Speed",
+      "stageSelection_PlayerPxSpeed": "MoveSpeed",
+      "stageSelection_GoldMultiplier": "Gold Bonus",
+      "stageSelection_LuckBonus": "Luck Bonus",
+      "stageSelection_EnemyHealth": "Enemy Health",
+      "relicFound": "Relic Found!"
     }
   },
   "de": {
@@ -743,7 +773,17 @@
       "levelup_header_ban": "VERBANNEN!",
       "options_reducephysics": "Performance mode",
       "stageConfirm_hurry": "Hurry?",
-      "stageConfirm_mazzo": "Arcanas?"
+      "stageConfirm_mazzo": "Arcanas?",
+      "stageSelection_musicSelection": "Music Selection",
+      "options_fullscreen": "Vollbild",
+      "randomazzo_title": "RANDOMAZZO",
+      "stageSelection_TimeLimit": "Time Limit",
+      "stageSelection_ClockSpeed": "Clock Speed",
+      "stageSelection_PlayerPxSpeed": "MoveSpeed",
+      "stageSelection_GoldMultiplier": "Gold Bonus",
+      "stageSelection_LuckBonus": "Luck Bonus",
+      "stageSelection_EnemyHealth": "Enemy Health",
+      "relicFound": "Relic Found!"
     }
   },
   "el": {
@@ -937,7 +977,17 @@
       "levelup_header_ban": "禁止",
       "options_reducephysics": "Performance mode",
       "stageConfirm_hurry": "Hurry?",
-      "stageConfirm_mazzo": "Arcanas?"
+      "stageConfirm_mazzo": "Arcanas?",
+      "stageSelection_musicSelection": "Music Selection",
+      "options_fullscreen": "大画面",
+      "randomazzo_title": "RANDOMAZZO",
+      "stageSelection_TimeLimit": "Time Limit",
+      "stageSelection_ClockSpeed": "Clock Speed",
+      "stageSelection_PlayerPxSpeed": "MoveSpeed",
+      "stageSelection_GoldMultiplier": "Gold Bonus",
+      "stageSelection_LuckBonus": "Luck Bonus",
+      "stageSelection_EnemyHealth": "Enemy Health",
+      "relicFound": "Relic Found!"
     }
   },
   "ko": {
@@ -948,7 +998,7 @@
       "intro_start": "시작하려면 아무키나 누르세요",
       "menu_collection": "컬렉션",
       "menu_achievements": "업적",
-      "menu_power_up": "파워 업",
+      "menu_power_up": "강화",
       "menu_start": "시작",
       "menu_credit": "제작진",
       "menu_screen": "화면",
@@ -993,7 +1043,7 @@
       "weaponLevelUp_cooldown%": "쿨타임 %0% 감소\n",
       "weaponLevelUp_cooldown": "쿨타임 %0초 감소\n",
       "weaponLevelUp_health": "최대 체력 %0% 증가\n",
-      "weaponLevelUp_xp": "XP 획득량 %0% 증가\n",
+      "weaponLevelUp_xp": "경험치 획득량 %0% 증가\n",
       "weaponLevelUp_movement": "이동속도 %0% 증가\n",
       "weaponLevelUp_range": "아이템 획득 범위 %0% 증가\n",
       "weaponLevelUp_luck": "행운 %0% 증가\n",
@@ -1016,7 +1066,7 @@
       "genericPopup_unlockedHyper": "잠금 해제됨: 하이퍼 %0",
       "weaponCollectionPanel_name": "이름",
       "weaponCollectionPanel_description": "설명",
-      "weaponCollectionPanel_ignores": "파워업 무시: 공격범위, 투사체 속도, 쿨타임",
+      "weaponCollectionPanel_ignores": "강화 무시: 공격범위, 투사체 속도, 쿨타임",
       "weaponCollectionPanel_notFound": "아직 발견하지 못했습니다.",
       "achievements_header": "완료됨: %0/%1",
       "collectionAchievementPanel_description": "설명",
@@ -1039,12 +1089,12 @@
       "postGame_hideAchievements": "업적\n숨기기",
       "postGame_showAchievements": "업적\n표시",
       "postGame_weapon": "무기",
-      "postGame_level": "LV",
+      "postGame_level": "레벨",
       "postGame_damage": "데미지",
       "postGame_time": "시간",
-      "postGame_dps": "DPS",
-      "powerup_header": "파워 업 선택",
-      "powerup_refund": "파워 업 골드 환불",
+      "postGame_dps": "초당피해량",
+      "powerup_header": "강화 선택",
+      "powerup_refund": "강화 골드 환불",
       "powerupSelection_name": "이름",
       "powerupConfirm_name": "이름",
       "powerupConfirm_description": "설명",
@@ -1093,15 +1143,15 @@
       "postGame_done1": "완료",
       "weaponLevelUp_revivals": "부활횟수 %0 추가",
       "preload_warning_title": "광과민성요소 포함주의",
-      "preload_warning_text": "이 게임은 광점멸 요소가 있습니다. 현기증, 시력저하, 눈 혹은 안면마비, 손발저림, 방향감상실, 착란, 순간적 의식상실을 경험하셨다면 바로 플레이를 중단하시고 의사와 상담하십시오.\n\n발작 또는 간질의 경험 혹은 가족력이 있다면 플레이 전 의사와 상담하십시오.",
+      "preload_warning_text": "이 게임에는 밝게 깜박이는 조명이 포함되어 있습니다. 현기증, 시력 변화, 눈이나 얼굴의 경련, 팔이나 다리의 경련 또는 떨림, 방향 감각 상실, 혼란 또는 일시적인 의식 상실을 경험하면 즉시 게임을 중단하고 의사와 상담하십시오.\n\n본인이나 친척이 발작이나 간질의 병력이 있는 경우 게임을 하기 전에 의사와 상담하십시오.",
       "credit_translation": "현지화",
       "levelup_skip": "건너뛰기",
       "levelup_reroll": "새로고침",
       "levelup_Xleft": "%0 남음",
       "weaponLevelUp_curse": "적들의 이동속도, 체력, 개체 수, 스폰율이 %0% 증가합니다.",
-      "weaponLevelUp_cooldownIncreased": "%0초 쿨타임 감소\n",
+      "weaponLevelUp_cooldownIncreased": "%0초 쿨타임 증가\n",
       "stageSelection_stageNumber": "스테이지 %0",
-      "charFound_ok": "OK?",
+      "charFound_ok": "확인?",
       "charFound_joins": "%0\n생존자 무리에 합류하였습니다!",
       "charFound_another": "감사합니다 %0, 하지만 뱀파이어는 다른 관에 있었네요!",
       "pause_showGuides": "가이드 보기",
@@ -1113,7 +1163,17 @@
       "levelup_header_ban": "지우기",
       "options_reducephysics": "퍼포먼스 모드",
       "stageConfirm_hurry": "단축?",
-      "stageConfirm_mazzo": "아르카나?"
+      "stageConfirm_mazzo": "아르카나?",
+      "stageSelection_musicSelection": "음악 선택",
+      "options_fullscreen": "전체화면",
+      "randomazzo_title": "란도마조",
+      "stageSelection_TimeLimit": "목표 시간",
+      "stageSelection_ClockSpeed": "시간 배속",
+      "stageSelection_PlayerPxSpeed": "이동 속도",
+      "stageSelection_GoldMultiplier": "금화 보너스",
+      "stageSelection_LuckBonus": "행운 보너스",
+      "stageSelection_EnemyHealth": "적 체력",
+      "relicFound": "유물 발견!"
     }
   },
   "no": {
@@ -1305,9 +1365,19 @@
       "levelup_banish": "BANISH",
       "levelup_cancel": "CANCELAR",
       "levelup_header_ban": "BANISH!",
-      "options_reducephysics": "Performance mode",
-      "stageConfirm_hurry": "Hurry?",
-      "stageConfirm_mazzo": "Arcanas?"
+      "options_reducephysics": "Melhorar Performance?",
+      "stageConfirm_hurry": "Corrida?",
+      "stageConfirm_mazzo": "Arcanas?",
+      "stageSelection_musicSelection": "Music Selection",
+      "options_fullscreen": "Tela cheia",
+      "randomazzo_title": "RANDOMAZZO",
+      "stageSelection_TimeLimit": "Time Limit",
+      "stageSelection_ClockSpeed": "Clock Speed",
+      "stageSelection_PlayerPxSpeed": "MoveSpeed",
+      "stageSelection_GoldMultiplier": "Gold Bonus",
+      "stageSelection_LuckBonus": "Luck Bonus",
+      "stageSelection_EnemyHealth": "Enemy Health",
+      "relicFound": "Relic Found!"
     }
   },
   "ro": {
@@ -1489,7 +1559,17 @@
       "levelup_header_ban": "Исключение",
       "options_reducephysics": "Меньше физики, больше FPS",
       "stageConfirm_hurry": "Спешка?",
-      "stageConfirm_mazzo": "Арканы?"
+      "stageConfirm_mazzo": "Арканы?",
+      "stageSelection_musicSelection": "Выбор Музыки",
+      "options_fullscreen": "ПОЛНЫЙ ЭКРАН",
+      "randomazzo_title": "РАНДОМАЗЗО",
+      "stageSelection_TimeLimit": "Длительность",
+      "stageSelection_ClockSpeed": "Ускорение",
+      "stageSelection_PlayerPxSpeed": "Подвижность",
+      "stageSelection_GoldMultiplier": "Бонус к Золоту",
+      "stageSelection_LuckBonus": "Бонус к Удаче",
+      "stageSelection_EnemyHealth": "Здоровье Врагов",
+      "relicFound": "Реликвия Найдена!"
     }
   },
   "es": {
@@ -1665,7 +1745,17 @@
       "levelup_header_ban": "DESTERRAR",
       "options_reducephysics": "Performance mode",
       "stageConfirm_hurry": "Hurry?",
-      "stageConfirm_mazzo": "Arcanas?"
+      "stageConfirm_mazzo": "Arcanas?",
+      "stageSelection_musicSelection": "Music Selection",
+      "options_fullscreen": "Pantalla completa",
+      "randomazzo_title": "RANDOMAZZO",
+      "stageSelection_TimeLimit": "Time Limit",
+      "stageSelection_ClockSpeed": "Clock Speed",
+      "stageSelection_PlayerPxSpeed": "MoveSpeed",
+      "stageSelection_GoldMultiplier": "Gold Bonus",
+      "stageSelection_LuckBonus": "Luck Bonus",
+      "stageSelection_EnemyHealth": "Enemy Health",
+      "relicFound": "Relic Found!"
     }
   },
   "es-419": {

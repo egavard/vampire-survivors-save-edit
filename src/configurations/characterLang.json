@@ -112,6 +112,11 @@
         "name": "奥索尔",
         "surname": "米奥",
         "description": "每 20 级获得更多射弹（最多 +3）。"
+      },
+      "CONCETTA": {
+        "charName": "Concetta",
+        "surname": "Caciotta",
+        "description": "Gains +1% Area every level."
       }
     }
   },
@@ -236,21 +241,14 @@
         "description": "Gains +1% Projectile Speed every level."
       },
       "TATANKA": {
-        "charName": "O'Sole",
+        "name": "O'Sole",
         "surname": "Meeo",
         "description": "Gets more projectiles every 20 levels (max+3)."
       },
-      "FINO":{
-        "charName": "MissingN▯"
-      },
-      "VERANDA":{
-        "charName": "Leda"
-      },
-      "PANINI": {
-        "charName": "Toastie"
-      },
-      "NOSTRO": {
-        "charName": "Death"
+      "CONCETTA": {
+        "charName": "Concetta",
+        "surname": "Caciotta",
+        "description": "Gains +1% Area every level."
       }
     }
   },
@@ -360,6 +358,11 @@
         "name": "O'Sole",
         "surname": "Meeo",
         "description": "Obtient des projectiles supplémentaires tous les 20 niveaux (+3 max)."
+      },
+      "CONCETTA": {
+        "charName": "Concetta",
+        "surname": "Caciotta",
+        "description": "Gains +1% Area every level."
       }
     }
   },
@@ -463,6 +466,11 @@
         "name": "O'Sole",
         "surname": "Meeo",
         "description": "Erhält alle 20 Levels mehr Geschosse (max+3)."
+      },
+      "CONCETTA": {
+        "charName": "Concetta",
+        "surname": "Caciotta",
+        "description": "Gains +1% Area every level."
       }
     }
   },
@@ -584,6 +592,11 @@
         "name": "O'Sole",
         "surname": "Meeo",
         "description": "20レベルごとに発射物が増加 （上限：3）。"
+      },
+      "CONCETTA": {
+        "charName": "Concetta",
+        "surname": "Caciotta",
+        "description": "Gains +1% Area every level."
       }
     }
   },
@@ -684,9 +697,14 @@
         "description": "매 레벨마다 1%씩 투사체 속도가 증가합니다."
       },
       "TATANKA": {
-        "name": "O'Sole",
-        "surname": "Meeo",
+        "name": "오'솔레",
+        "surname": "미오",
         "description": "매 20레벨마다 투사체가 추가됩니다. (최대 +3)"
+      },
+      "CONCETTA": {
+        "charName": "콘체타",
+        "surname": "카치오타",
+        "description": "매 레벨마다 공격범위가 1%씩 증가합니다."
       }
     }
   },
@@ -802,12 +820,17 @@
       "GIOVANNA": {
         "charName": "Giovanna",
         "surname": "Grana",
-        "description": "Gains +1% Projectile Speed every level."
+        "description": "Ganha +1% de velocidade de projéteis a cada nível."
       },
       "TATANKA": {
         "name": "O'Sole",
         "surname": "Meeo",
         "description": "Ganha um projétil a cada 20 níveis (max +3)."
+      },
+      "CONCETTA": {
+        "charName": "Concetta",
+        "surname": "Caciotta",
+        "description": "Gains +1% Area every level."
       }
     }
   },
@@ -914,9 +937,14 @@
         "description": "Получает +1% к Скорости Снарядов с каждым уровнем."
       },
       "TATANKA": {
-        "name": "O'Sole",
-        "surname": "Meeo",
+        "name": "О'Соле",
+        "surname": "Мио",
         "description": "Получает больше снарядов каждые 20 уровней (макс. +3)."
+      },
+      "CONCETTA": {
+        "charName": "Кончетта",
+        "surname": "Качотта",
+        "description": "Дает +1% к Размеру с каждым уровнем."
       }
     }
   },
@@ -1020,6 +1048,11 @@
         "name": "O'Sole",
         "surname": "Meeo",
         "description": "Consigue más proyectiles cada 20 niveles (máx. +3)."
+      },
+      "CONCETTA": {
+        "charName": "Concetta",
+        "surname": "Caciotta",
+        "description": "Gains +1% Area every level."
       }
     }
   },

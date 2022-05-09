@@ -280,6 +280,30 @@
       },
       "ReachLV99WithArca": {
         "description": "使用 阿卡 达到 99 级。"
+      },
+      "FindCoffinStage4": {
+        "description": "Find and open the coffin in the Gallo Tower."
+      },
+      "ReachLV99WithConcetta": {
+        "description": "Reach Level 99 with Concetta."
+      },
+      "Survive15MinutesWithShadow": {
+        "description": "Survive 15 minutes with Concetta."
+      },
+      "EvolveGatti": {
+        "description": "Evolve the Gatti Amari."
+      },
+      "EvolveShadow": {
+        "description": "Evolve the Shadow Pinion."
+      },
+      "Survive31MinutesInLibrary": {
+        "description": "Reach minute 31 in the Inlaid Library."
+      },
+      "See80Items": {
+        "description": "解锁您收藏中的 80 件物品。"
+      },
+      "FindMagicBanger": {
+        "description": "Find the Magic Banger."
       }
     }
   },
@@ -575,6 +599,30 @@
       },
       "ReachLV99WithArca": {
         "description": "Reach Level 99 with Arca."
+      },
+      "FindCoffinStage4": {
+        "description": "Find and open the coffin in the Gallo Tower."
+      },
+      "ReachLV99WithConcetta": {
+        "description": "Reach Level 99 with Concetta."
+      },
+      "Survive15MinutesWithShadow": {
+        "description": "Survive 15 minutes with Concetta."
+      },
+      "EvolveGatti": {
+        "description": "Evolve the Gatti Amari."
+      },
+      "EvolveShadow": {
+        "description": "Evolve the Shadow Pinion."
+      },
+      "Survive31MinutesInLibrary": {
+        "description": "Reach minute 31 in the Inlaid Library."
+      },
+      "See80Items": {
+        "description": "Fill 80 entries in the Collection."
+      },
+      "FindMagicBanger": {
+        "description": "Find the Magic Banger."
       }
     }
   },
@@ -852,6 +900,30 @@
       },
       "ReachLV99WithArca": {
         "description": "Reach Level 99 with Arca."
+      },
+      "FindCoffinStage4": {
+        "description": "Find and open the coffin in the Gallo Tower."
+      },
+      "ReachLV99WithConcetta": {
+        "description": "Reach Level 99 with Concetta."
+      },
+      "Survive15MinutesWithShadow": {
+        "description": "Survive 15 minutes with Concetta."
+      },
+      "EvolveGatti": {
+        "description": "Evolve the Gatti Amari."
+      },
+      "EvolveShadow": {
+        "description": "Evolve the Shadow Pinion."
+      },
+      "Survive31MinutesInLibrary": {
+        "description": "Reach minute 31 in the Inlaid Library."
+      },
+      "See80Items": {
+        "description": "Fill 80 entries in the Collection."
+      },
+      "FindMagicBanger": {
+        "description": "Find the Magic Banger."
       }
     }
   },
@@ -1123,6 +1195,30 @@
       },
       "ReachLV99WithArca": {
         "description": "Reach Level 99 with Arca."
+      },
+      "FindCoffinStage4": {
+        "description": "Find and open the coffin in the Gallo Tower."
+      },
+      "ReachLV99WithConcetta": {
+        "description": "Reach Level 99 with Concetta."
+      },
+      "Survive15MinutesWithShadow": {
+        "description": "Survive 15 minutes with Concetta."
+      },
+      "EvolveGatti": {
+        "description": "Evolve the Gatti Amari."
+      },
+      "EvolveShadow": {
+        "description": "Evolve the Shadow Pinion."
+      },
+      "Survive31MinutesInLibrary": {
+        "description": "Reach minute 31 in the Inlaid Library."
+      },
+      "See80Items": {
+        "description": "Fill 80 entries in the Collection."
+      },
+      "FindMagicBanger": {
+        "description": "Find the Magic Banger."
       }
     }
   },
@@ -1412,6 +1508,30 @@
       },
       "ReachLV99WithArca": {
         "description": "Reach Level 99 with Arca."
+      },
+      "FindCoffinStage4": {
+        "description": "Find and open the coffin in the Gallo Tower."
+      },
+      "ReachLV99WithConcetta": {
+        "description": "Reach Level 99 with Concetta."
+      },
+      "Survive15MinutesWithShadow": {
+        "description": "Survive 15 minutes with Concetta."
+      },
+      "EvolveGatti": {
+        "description": "Evolve the Gatti Amari."
+      },
+      "EvolveShadow": {
+        "description": "Evolve the Shadow Pinion."
+      },
+      "Survive31MinutesInLibrary": {
+        "description": "Reach minute 31 in the Inlaid Library."
+      },
+      "See80Items": {
+        "description": "Fill 80 entries in the Collection."
+      },
+      "FindMagicBanger": {
+        "description": "Find the Magic Banger."
       }
     }
   },
@@ -1430,7 +1550,7 @@
         "description": "한번에 6개의 무기를 소지하기."
       },
       "GetFireWandToLevel4": {
-        "description": "파이어 완드를 레벨 4까지 올리기."
+        "description": "불의 지팡이 를 레벨 4까지 올리기."
       },
       "GetHolyBookToLevel4": {
         "description": "기도문을 레벨 4까지 올리기."
@@ -1439,10 +1559,10 @@
         "description": "성수를 레벨 4까지 올리기."
       },
       "GetLightningRingToLevel4": {
-        "description": "벼락 반지를 레벨 4까지 올리기."
+        "description": "번개 반지 를 레벨 4까지 올리기."
       },
       "GetMagicMissileToLevel7": {
-        "description": "매직 완드를 레벨 7까지 올리기."
+        "description": "마법 지팡이 를 레벨 7까지 올리기."
       },
       "GetPeachoneToLevel7": {
         "description": "하얀 비둘기를 레벨 7까지 올리기."
@@ -1454,13 +1574,13 @@
         "description": "아무 캐릭터로 1분 생존하기."
       },
       "Survive5MinutesWithDiamond": {
-        "description": "파스콸리나로 5분 생존하기."
+        "description": "파스콸리나 로 5분 생존하기."
       },
       "Survive10Minutes": {
-        "description": "아무 캐릭터로 10분 생존하기."
+        "description": "아무 캐릭터 로 10분 생존하기."
       },
       "Survive20Minutes": {
-        "description": "아무 캐릭터로 20분 생존하기."
+        "description": "아무 캐릭터 로 20분 생존하기."
       },
       "Destroy20Candles": {
         "description": "물체 20개 파괴하기."
@@ -1496,7 +1616,7 @@
         "description": "화려한 도서관에서 네스페리트를 쓰러뜨리기."
       },
       "Survive5MinutesWithKnife": {
-        "description": "젠나로로 5분 생존하기."
+        "description": "젠나로 로 5분 생존하기."
       },
       "FindAStoneMask": {
         "description": "돌가면 발견하기."
@@ -1505,25 +1625,25 @@
         "description": "마늘을 레벨 7까지 올리기."
       },
       "EvolveWhip": {
-        "description": "채찍 강화시키기."
+        "description": "채찍 진화."
       },
       "EvolveMagicWand": {
-        "description": "매직 완드 강화시키기."
+        "description": "마법 지팡이 진화."
       },
       "EvolveKnife": {
-        "description": "단검 강화시키기."
+        "description": "단검 진화."
       },
       "EvolveAxe": {
-        "description": "도끼 강화시키기."
+        "description": "도끼 진화."
       },
       "EvolveCross": {
-        "description": "십자가 강화시키기."
+        "description": "십자가 진화."
       },
       "EvolveKingBible": {
-        "description": "기도문 강화시키기."
+        "description": "기도문 진화."
       },
       "EvolveFireWand": {
-        "description": "파이어 완드 강화시키기."
+        "description": "불의 지팡이 진화."
       },
       "Defeat100KEnemies": {
         "description": "누적 100,000마리의 적을 처치하기."
@@ -1535,49 +1655,49 @@
         "description": "한 게임에서 5000골드 획득하기"
       },
       "EvolveSantaWater": {
-        "description": "성수 강화시키기."
+        "description": "성수 진화."
       },
       "UniteBirds": {
         "description": "하얀 비둘기와 검은 비둘기 융합하기."
       },
       "EvolveGarlic": {
-        "description": "마늘 강화시키기."
+        "description": "마늘 진화."
       },
       "Unlock2Hypers": {
         "description": "광기의 숲과 화려한 도서관에서 하이퍼모드 언락하기."
       },
       "EvolveLightning": {
-        "description": "번개 반지 강화시키기."
+        "description": "번개 반지 진화."
       },
       "ReachLV100WithMortaccio": {
-        "description": "모르타치오로 100레벨 달성하기."
+        "description": "모르타치오 로 100레벨 달성하기."
       },
       "Survive30MinutesInGreenAcres": {
         "description": "푸른 초원에서 30분 생존하기."
       },
       "Survive20MinutesWithCross": {
-        "description": "크로치로 20분 생존하기."
+        "description": "크로치 로 20분 생존하기."
       },
       "Survive20MinutesWithCurse": {
         "description": "10% 이상의 저주를 받고 20분동안 생존하기."
       },
       "Survive30MinutesWithAxe": {
-        "description": "라마로 30분 생존하기."
+        "description": "라마 로 30분 생존하기."
       },
       "Defeat3000Buers": {
         "description": "누적 3,000마리의 라이온 헤드 처치하기."
       },
       "ReachLV100WithCavallo": {
-        "description": "야타 카발로로 100레벨 달성하기."
+        "description": "야타 카발로 로 100레벨 달성하기."
       },
       "EvolveSongOfMana": {
-        "description": "마나의 노래 강화하기."
+        "description": "마나의 노래 진화."
       },
       "Survive15MinutesWithSong": {
         "description": "포페아로 15분 생존하기."
       },
       "FindCoffinStage3": {
-        "description": "유제품 공장에서 관을 찾아서 열기."
+        "description": "유제품 공장 에서 관을 찾아서 해방하기."
       },
       "ReachLV40InLibrary": {
         "description": "화려한 도서관에서 레벨 40에 도달하기."
@@ -1589,22 +1709,22 @@
         "description": "은하수 지도 발견하기."
       },
       "GetPentagramToLevel7": {
-        "description": "오망성을 레벨7까지 강화하기."
+        "description": "오망성을 레벨7까지 올리기."
       },
       "Unlock3Hypers": {
-        "description": "1 스테이지에서 하이퍼모드 해금하기."
+        "description": "한종류의 맵에서 하이퍼 모드 해금하기."
       },
       "Survive15MinutesInMolise": {
-        "description": "몰리세에서 15분 생존하기."
+        "description": "일 몰리세에서 15분 생존하기."
       },
       "EvolvePentagram": {
-        "description": "오망성 강화시키기."
+        "description": "오망성 진화"
       },
       "See50Items": {
         "description": "컬렉션에 50개의 항목을 해금하기."
       },
       "FindCoffinStage1": {
-        "description": "광기의 숲에서 관을 찾아서 열기."
+        "description": "광기의 숲 에서 관을 찾아서 해방하기."
       },
       "Survive10MinutesWithGuns": {
         "description": "푸냘라로 10분 생존하기."
@@ -1622,7 +1742,7 @@
         "description": "마녀의 눈물 발견하기."
       },
       "DefeatBossTower": {
-        "description": "갈로의 탑 에서 거대한 게 쓰러트리기."
+        "description": "갈로의 탑 에서 자이언트 크렙 쓰러트리기."
       },
       "See60Items": {
         "description": "컬렉션에 60개의 항목을 해금하기."
@@ -1634,55 +1754,79 @@
         "description": "누적 3000마리의 우유의 정령 처치하기."
       },
       "EvolveRunetracer": {
-        "description": "룬트레이서 강화시키기."
+        "description": "룬 트레이서 진화."
       },
       "See70Items": {
         "description": "컬렉션에 70개의 항목을 해금하기."
       },
       "Survive15MinutesWithGatti": {
-        "description": "지오반나로 15분 생존하기."
+        "description": "지오반나 로 15분 생존하기."
       },
       "FindCoffinStage2": {
-        "description": "화려한 도서관에서 관을 찾아서 열기."
+        "description": "화려한 도서관 에서 관을 찾아서 해방하기."
       },
       "ReachLV100WithOsole": {
-        "description": "Reach Level 100 with O'Sole Meeo."
+        "description": "오' 솔레미오 로 100레벨 달성하기."
       },
       "Defeat3000Hydra": {
-        "description": "Defeat a total of 3000 Dragon Shrimps."
+        "description": "누적 3.000마리의 드래곤 쉬림프 처치하기."
       },
       "Unlock3Hypers_Correct": {
-        "description": "Unlock Hyper mode for 3 normal stages."
+        "description": "3종류의 맵에서 하이퍼 모드 해금하기."
       },
       "Survive30MinutesInBoneZone": {
-        "description": "Survive 30 minutes in The Bone Zone."
+        "description": "촘판틀리 에서 30분 생존하기."
       },
       "ReachLV99WithImelda": {
-        "description": "Reach Level 99 with Imelda."
+        "description": "이멜다 로 99레벨 달성하기."
       },
       "ReachLV99WithGennaro": {
-        "description": "Reach Level 99 with Gennaro."
+        "description": "젠나로 로 99레벨 달성하기."
       },
       "FindRandomazzo": {
-        "description": "Find the Randomazzo."
+        "description": "란도마조 발견하기."
       },
       "FindRandomazzoT06": {
-        "description": "Find the Randomazzo."
+        "description": "란도마조 발견하기."
       },
       "ReachLV99WithGiovanna": {
-        "description": "Reach Level 99 with Giovanna."
+        "description": "지오바나 로 99레벨 달성하기."
       },
       "ReachLV99WithKroci": {
-        "description": "Reach Level 99 with Krochi."
+        "description": "크로치 로 99레벨 달성하기."
       },
       "ReachLV99WithLama": {
-        "description": "Reach Level 99 with Lama."
+        "description": "라마 로 99레벨 달성하기."
       },
       "ReachLV99WithPoppea": {
-        "description": "Reach Level 99 with Poppea."
+        "description": "포페아 로 99레벨 달성하기."
       },
       "ReachLV99WithArca": {
-        "description": "Reach Level 99 with Arca."
+        "description": "아르카 로 99레벨 달성하기."
+      },
+      "FindCoffinStage4": {
+        "description": "갈로의 탑 에서 관을 찾아서 해방하기."
+      },
+      "ReachLV99WithConcetta": {
+        "description": "콘체타 로 99레벨 달성하기."
+      },
+      "Survive15MinutesWithShadow": {
+        "description": "콘체타 로 15분 생존하기."
+      },
+      "EvolveGatti": {
+        "description": "마녀의 고양이 진화."
+      },
+      "EvolveShadow": {
+        "description": "검은 드릴 진화."
+      },
+      "Survive31MinutesInLibrary": {
+        "description": "화려한 도서관에서 31분을 생존하십시오."
+      },
+      "See80Items": {
+        "description": "컬렉션에 80개의 항목을 해금하기."
+      },
+      "FindMagicBanger": {
+        "description": "매직 뱅거 발견하기."
       }
     }
   },
@@ -1905,73 +2049,97 @@
         "description": "Evolua e Funda Phiera Der Tuphello e Eight The Sparrow."
       },
       "ReachLV60InDairyPlant": {
-        "description": "Reach LV 60 in the Dairy Plant."
+        "description": "Alcance o NV 60 na Usina Láctea."
       },
       "FindSorceressTears": {
-        "description": "Find the Sorceress' Tears"
+        "description": "Encontre as Lágrimas da Feiticeira."
       },
       "DefeatBossTower": {
-        "description": "Defeat the Giant Enemy Crab in Gallo Tower."
+        "description": "Derrote o Carangueijo Gigante na Torre de Gallo."
       },
       "See60Items": {
-        "description": "Fill 60 entries in the Collection."
+        "description": "Preencha 60 entradas na Coleção."
       },
       "ReachLV100WithRamba": {
-        "description": "Reach LV 100 with Bianca Ramba."
+        "description": "Alcance o NV 100 com Bianca Ramba."
       },
       "Defeat3000Milk": {
-        "description": "Defeat a total of 3000 Milk Elementals."
+        "description": "Derrote um total de 3000 Elementais de Leite."
       },
       "EvolveRunetracer": {
-        "description": "Evolve the Runetracer."
+        "description": "Evolua o Runetracer."
       },
       "See70Items": {
-        "description": "Fill 70 entries in the Collection."
+        "description": "Preencha 70 entradas na Coleção."
       },
       "Survive15MinutesWithGatti": {
-        "description": "Survive 15 minutes with Giovanna."
+        "description": "Sobreviva 15 minutos com Giovanna."
       },
       "FindCoffinStage2": {
-        "description": "Find and open the coffin in the Inlaid Library."
+        "description": "Encontre e abra o caixão na Biblioteca Embutida."
       },
       "ReachLV100WithOsole": {
-        "description": "Reach Level 100 with O'Sole Meeo."
+        "description": "Alcance Nível 100 com O'Sole Meeo."
       },
       "Defeat3000Hydra": {
-        "description": "Defeat a total of 3000 Dragon Shrimps."
+        "description": "Derrote um total de 3000 Dragões Lagosta."
       },
       "Unlock3Hypers_Correct": {
         "description": "Destrave o modo Hyper para 3 estagios."
       },
       "Survive30MinutesInBoneZone": {
-        "description": "Survive 30 minutes in The Bone Zone."
+        "description": "Sobreviva 30 minutes em A Zona Óssea."
       },
       "ReachLV99WithImelda": {
-        "description": "Reach Level 99 with Imelda."
+        "description": "Alcance o Nível 99 com Imelda."
       },
       "ReachLV99WithGennaro": {
-        "description": "Reach Level 99 with Gennaro."
+        "description": "Alcance o Nível 99 com Gennaro."
       },
       "FindRandomazzo": {
-        "description": "Find the Randomazzo."
+        "description": "Encontre o Randomazzo."
       },
       "FindRandomazzoT06": {
-        "description": "Find the Randomazzo."
+        "description": "Encontre o Randomazzo."
       },
       "ReachLV99WithGiovanna": {
-        "description": "Reach Level 99 with Giovanna."
+        "description": "Alcance o Nível 99 com Giovanna."
       },
       "ReachLV99WithKroci": {
-        "description": "Reach Level 99 with Krochi."
+        "description": "Alcance o Nível 99 com Krochi."
       },
       "ReachLV99WithLama": {
-        "description": "Reach Level 99 with Lama."
+        "description": "Alcance o Nível 99 com Lama."
       },
       "ReachLV99WithPoppea": {
-        "description": "Reach Level 99 with Poppea."
+        "description": "Alcance o Nível 99 com Poppea."
       },
       "ReachLV99WithArca": {
-        "description": "Reach Level 99 with Arca."
+        "description": "Alcance o Nível 99 com Arca."
+      },
+      "FindCoffinStage4": {
+        "description": "Find and open the coffin in the Gallo Tower."
+      },
+      "ReachLV99WithConcetta": {
+        "description": "Reach Level 99 with Concetta."
+      },
+      "Survive15MinutesWithShadow": {
+        "description": "Survive 15 minutes with Concetta."
+      },
+      "EvolveGatti": {
+        "description": "Evolve the Gatti Amari."
+      },
+      "EvolveShadow": {
+        "description": "Evolve the Shadow Pinion."
+      },
+      "Survive31MinutesInLibrary": {
+        "description": "Reach minute 31 in the Inlaid Library."
+      },
+      "See80Items": {
+        "description": "Preencha 80 entradas na Coleção."
+      },
+      "FindMagicBanger": {
+        "description": "Find the Magic Banger."
       }
     }
   },
@@ -2212,43 +2380,67 @@
         "description": "Найдите и откройте гроб в Библиотеке."
       },
       "ReachLV100WithOsole": {
-        "description": "Reach Level 100 with O'Sole Meeo."
+        "description": "Достигните 100 Уровня с О'Соле Мио."
       },
       "Defeat3000Hydra": {
-        "description": "Defeat a total of 3000 Dragon Shrimps."
+        "description": "Победите в общей сложности 3000 Драконьих креветкок."
       },
       "Unlock3Hypers_Correct": {
-        "description": "Unlock Hyper mode for 3 normal stages."
+        "description": "Разблокируйте режим Гипер для 3 обычных этапов."
       },
       "Survive30MinutesInBoneZone": {
-        "description": "Survive 30 minutes in The Bone Zone."
+        "description": "Выживите 30 минут в Костяной Зоне."
       },
       "ReachLV99WithImelda": {
-        "description": "Reach Level 99 with Imelda."
+        "description": "Достигните 99 Уровня с Имельдой."
       },
       "ReachLV99WithGennaro": {
-        "description": "Reach Level 99 with Gennaro."
+        "description": "Достигните 99 Уровня с Дженнаро."
       },
       "FindRandomazzo": {
-        "description": "Find the Randomazzo."
+        "description": "Найдите Рандомаззо."
       },
       "FindRandomazzoT06": {
-        "description": "Find the Randomazzo."
+        "description": "Найдите Рандомаззо."
       },
       "ReachLV99WithGiovanna": {
-        "description": "Reach Level 99 with Giovanna."
+        "description": "Достигните 99 Уровня с Джованной."
       },
       "ReachLV99WithKroci": {
-        "description": "Reach Level 99 with Krochi."
+        "description": "Достигните 99 Уровня с Крочи."
       },
       "ReachLV99WithLama": {
-        "description": "Reach Level 99 with Lama."
+        "description": "Достигните 99 Уровня с Ламой."
       },
       "ReachLV99WithPoppea": {
-        "description": "Reach Level 99 with Poppea."
+        "description": "Достигните 99 Уровня с Поппеей."
       },
       "ReachLV99WithArca": {
-        "description": "Reach Level 99 with Arca."
+        "description": "Достигните 99 Уровня с Арка."
+      },
+      "FindCoffinStage4": {
+        "description": "Найдите и откройте гроб в Башне Галло."
+      },
+      "ReachLV99WithConcetta": {
+        "description": "Достигните 99 Уровня с Кончеттой."
+      },
+      "Survive15MinutesWithShadow": {
+        "description": "Выживите 15 минут с Кончеттой."
+      },
+      "EvolveGatti": {
+        "description": "Улучшите Противных Кошек."
+      },
+      "EvolveShadow": {
+        "description": "Улучшите Теневую Шестерню."
+      },
+      "Survive31MinutesInLibrary": {
+        "description": "Достигните 31 минуты в Библиотеке."
+      },
+      "See80Items": {
+        "description": "Откройте 80 предметов в Коллекции."
+      },
+      "FindMagicBanger": {
+        "description": "Найдите Волшебный Бэнгер."
       }
     }
   },
@@ -2520,6 +2712,30 @@
       },
       "ReachLV99WithArca": {
         "description": "Reach Level 99 with Arca."
+      },
+      "FindCoffinStage4": {
+        "description": "Find and open the coffin in the Gallo Tower."
+      },
+      "ReachLV99WithConcetta": {
+        "description": "Reach Level 99 with Concetta."
+      },
+      "Survive15MinutesWithShadow": {
+        "description": "Survive 15 minutes with Concetta."
+      },
+      "EvolveGatti": {
+        "description": "Evolve the Gatti Amari."
+      },
+      "EvolveShadow": {
+        "description": "Evolve the Shadow Pinion."
+      },
+      "Survive31MinutesInLibrary": {
+        "description": "Reach minute 31 in the Inlaid Library."
+      },
+      "See80Items": {
+        "description": "Fill 80 entries in the Collection."
+      },
+      "FindMagicBanger": {
+        "description": "Find the Magic Banger."
       }
     }
   },

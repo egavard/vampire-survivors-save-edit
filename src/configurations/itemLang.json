@@ -86,6 +86,15 @@
         "description": "启用至宝的解锁和激活。",
         "name": "随机数",
         "achievementTips": "至宝."
+      },
+      "RELIC_BANGER": {
+        "description": "Permanently allows to change music in stage selection.",
+        "name": "Magic Banger",
+        "achievementTips": "Music selection."
+      },
+      "GILDED": {
+        "description": "Gathers all gold left on the ground and starts a Gold Fever.",
+        "name": "Gilded Clover"
       }
     }
   },
@@ -187,6 +196,15 @@
         "description": "Enables the unlocking and activation of Arcanas.",
         "name": "Randomazzo",
         "achievementTips": "Arcanas."
+      },
+      "RELIC_BANGER": {
+        "description": "Permanently allows to change music in stage selection.",
+        "name": "Magic Banger",
+        "achievementTips": "Music selection."
+      },
+      "GILDED": {
+        "description": "Gathers all gold left on the ground and starts a Gold Fever.",
+        "name": "Gilded Clover"
       }
     }
   },
@@ -270,6 +288,15 @@
         "description": "Enables the unlocking and activation of Arcanas.",
         "name": "Randomazzo",
         "achievementTips": "Arcanas."
+      },
+      "RELIC_BANGER": {
+        "description": "Permanently allows to change music in stage selection.",
+        "name": "Magic Banger",
+        "achievementTips": "Music selection."
+      },
+      "GILDED": {
+        "description": "Gathers all gold left on the ground and starts a Gold Fever.",
+        "name": "Gilded Clover"
       }
     }
   },
@@ -347,6 +374,15 @@
         "description": "Enables the unlocking and activation of Arcanas.",
         "name": "Randomazzo",
         "achievementTips": "Arcanas."
+      },
+      "RELIC_BANGER": {
+        "description": "Permanently allows to change music in stage selection.",
+        "name": "Magic Banger",
+        "achievementTips": "Music selection."
+      },
+      "GILDED": {
+        "description": "Gathers all gold left on the ground and starts a Gold Fever.",
+        "name": "Gilded Clover"
       }
     }
   },
@@ -442,6 +478,15 @@
         "description": "Enables the unlocking and activation of Arcanas.",
         "name": "Randomazzo",
         "achievementTips": "Arcanas."
+      },
+      "RELIC_BANGER": {
+        "description": "Permanently allows to change music in stage selection.",
+        "name": "Magic Banger",
+        "achievementTips": "Music selection."
+      },
+      "GILDED": {
+        "description": "Gathers all gold left on the ground and starts a Gold Fever.",
+        "name": "Gilded Clover"
       }
     }
   },
@@ -460,15 +505,15 @@
       },
       "COINBAG1": {
         "description": "10골드를 추가합니다.",
-        "name": "동전 가방"
+        "name": "금화 주머니"
       },
       "COINBAG2": {
         "description": "25골드를 추가합니다.",
-        "name": "큰 동전 가방"
+        "name": "큰 금화 주머니"
       },
       "COINBAGMAX": {
         "description": "100골드를 추가합니다.",
-        "name": "묵직한 동전 가방",
+        "name": "거대한 금화 주머니",
         "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
       },
       "GEM": {
@@ -519,6 +564,15 @@
         "description": "아르카나의 잠금 해제 및 활성화.",
         "name": "란도마조",
         "achievementTips": "아르카나."
+      },
+      "RELIC_BANGER": {
+        "description": "스테이지 선택에서 게임음악을 변경할수 있습니다.",
+        "name": "매직 뱅거",
+        "achievementTips": "음악 선택."
+      },
+      "GILDED": {
+        "description": "땅에 떨어진 모든 금화를 흡수하며 황금의 피버타임을 가집니다.",
+        "name": "도금된 클로버"
       }
     }
   },
@@ -606,14 +660,23 @@
         "achievementTips": "mapa do menu de pause."
       },
       "RELIC_TEAR": {
-        "name": "Sorceress' Tears",
-        "description": "Permanently allows to speed up time in Stage Selection.",
-        "achievementTips": "Hurry mode."
+        "name": "Lágrimas da Feiticeira",
+        "description": "Desbloqueia permanentemente a velocidade do tempo na Escolha de Estágios",
+        "achievementTips": "Modo de Corrida."
       },
       "RELIC_RANDOMAZZO": {
-        "description": "Enables the unlocking and activation of Arcanas.",
+        "description": "Permite destravar e ativar Arcanas.",
         "name": "Randomazzo",
         "achievementTips": "Arcanas."
+      },
+      "RELIC_BANGER": {
+        "description": "Permanently allows to change music in stage selection.",
+        "name": "Magic Banger",
+        "achievementTips": "Music selection."
+      },
+      "GILDED": {
+        "description": "Gathers all gold left on the ground and starts a Gold Fever.",
+        "name": "Gilded Clover"
       }
     }
   },
@@ -697,6 +760,15 @@
         "description": "Позволяет разблокировать и активировать Арканы.",
         "name": "Рандомаззо",
         "achievementTips": "Арканы."
+      },
+      "RELIC_BANGER": {
+        "description": "Позволяет изменять музыку во время выбора этапа.",
+        "name": "Волшебный Бэнгер",
+        "achievementTips": "Выбор Музыки."
+      },
+      "GILDED": {
+        "description": "Собирает все золото, оставшееся на земле и начинает Золотую Лихорадку.",
+        "name": "Позолоченный Клевер"
       }
     }
   },
@@ -774,6 +846,15 @@
         "description": "Enables the unlocking and activation of Arcanas.",
         "name": "Randomazzo",
         "achievementTips": "Arcanas."
+      },
+      "RELIC_BANGER": {
+        "description": "Permanently allows to change music in stage selection.",
+        "name": "Magic Banger",
+        "achievementTips": "Music selection."
+      },
+      "GILDED": {
+        "description": "Gathers all gold left on the ground and starts a Gold Fever.",
+        "name": "Gilded Clover"
       }
     }
   },

@@ -37,6 +37,10 @@
         "name": "XI - 珍珠圆舞曲",
         "description": "列表中武器 射弹 最多获得 3  次反弹。"
       },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
       "16": {
         "name": "XVI - 切",
         "description": "增加列表中武器的暴击几率并造成双倍暴击伤害。"
@@ -44,6 +48,10 @@
       "17": {
         "name": "XVII - 丢失的图片",
         "description": "持续时间每 10 秒随机变化 -50% 至 +200%"
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
       },
       "19": {
         "name": "XIX - 火之心",
@@ -100,6 +108,10 @@
         "name": "XI - Waltz of Pearls",
         "description": "Listed weapon projectiles gain up to 3 bounces."
       },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
       "16": {
         "name": "XVI - Slash",
         "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
@@ -107,6 +119,10 @@
       "17": {
         "name": "XVII - Lost & Found Painting",
         "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
       },
       "19": {
         "name": "XIX - Heart of Fire",
@@ -145,6 +161,10 @@
         "name": "XI - Waltz of Pearls",
         "description": "Listed weapon projectiles gain up to 3 bounces."
       },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
       "16": {
         "name": "XVI - Slash",
         "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
@@ -152,6 +172,10 @@
       "17": {
         "name": "XVII - Lost & Found Painting",
         "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
       },
       "19": {
         "name": "XIX - Heart of Fire",
@@ -184,6 +208,10 @@
         "name": "XI - Waltz of Pearls",
         "description": "Listed weapon projectiles gain up to 3 bounces."
       },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
       "16": {
         "name": "XVI - Slash",
         "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
@@ -191,6 +219,10 @@
       "17": {
         "name": "XVII - Lost & Found Painting",
         "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
       },
       "19": {
         "name": "XIX - Heart of Fire",
@@ -241,6 +273,10 @@
         "name": "XI - Waltz of Pearls",
         "description": "Listed weapon projectiles gain up to 3 bounces."
       },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
       "16": {
         "name": "XVI - Slash",
         "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
@@ -248,6 +284,10 @@
       "17": {
         "name": "XVII - Lost & Found Painting",
         "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
       },
       "19": {
         "name": "XIX - Heart of Fire",
@@ -273,12 +313,16 @@
         "description": "회복량 2배 증가. HP를 회복하면 주변 적에게도 같은 양의 피해를 줍니다."
       },
       "7": {
-        "name": "VII - Iron Blue Will",
-        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+        "name": "VII - 푸른 강철의 벽",
+        "description": "목록에 있는 무기의 발사체는 최대 3회 튕기며 적과 벽을 관통하여 공격합니다."
       },
       "11": {
-        "name": "XI - Waltz of Pearls",
-        "description": "Listed weapon projectiles gain up to 3 bounces."
+        "name": "XI - 진주의 왈츠",
+        "description": "목록에 있는 무기의 발사체는 최대 3회 튕기며 공격합니다."
+      },
+      "15": {
+        "name": "XV - 황금의 춤",
+        "description": "금화 습득시 일정확률로 황금의 피버타임을 가집니다. 획득한 금화만큼 HP를 회복합니다."
       },
       "16": {
         "name": "XVI - 절단",
@@ -287,6 +331,10 @@
       "17": {
         "name": "XVII - 잃어버린 그림",
         "description": "매 10초마다 지속시간 무작위로 변경 -50% ~ +200%"
+      },
+      "18": {
+        "name": "XVIII - 환상의 춤",
+        "description": "매 10초마다 공격범위가 -25% 에서 +50% 사이로 무작위 변경."
       },
       "19": {
         "name": "XIX - 불의 심장",
@@ -318,36 +366,44 @@
     "api": "brazilian",
     "translations": {
       "4": {
-        "name": "IV - Awake",
-        "description": "Gives +3 Revivals. Consuming a Revival gives +10% MaxHealth, +1 Armor, and +5% Might, Area, Duration, and Speed."
+        "name": "IV - Despertar",
+        "description": "Ganha +3 Revives. Consumir um Revive concede +10% HP Máximo, +1 de armadura e 5% de Poder, Área, Duração e Velocidade."
       },
       "5": {
-        "name": "V - Chaos in the Dark Night",
-        "description": "Overall projectile Speed continuously changes between -50% and +200% over 10 seconds."
+        "name": "V - Caos na Noite Negra",
+        "description": "Velocidade dos Projéteis troca continuamente entre -50% e +200% durante 10 segundos."
       },
       "6": {
-        "name": "VI - Sarabande of Healing",
-        "description": "Healing is doubled. Recovering HP damages nearby enemies for the same amount."
+        "name": "VI - Serenata de Cura",
+        "description": "Cura é dobrada. Recuperar HP causa dano a inimigos próximos com a mesma quantidade."
       },
       "7": {
-        "name": "VII - Iron Blue Will",
-        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+        "name": "VII - Perseverança Azul",
+        "description": "Projéteis das armas listadas ganham até 3 ricocheteamentos e podem atravessar inimigos e paredes."
       },
       "11": {
-        "name": "XI - Waltz of Pearls",
-        "description": "Listed weapon projectiles gain up to 3 bounces."
+        "name": "XI - Valsa das Pérolas",
+        "description": "Projéteis das armas listadas ganham até 3 ricocheteamentos."
+      },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
       },
       "16": {
-        "name": "XVI - Slash",
-        "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
+        "name": "XVI - Corte",
+        "description": "Ativa ataques críticos para as armas listadas. Dobra o dano crítico geral"
       },
       "17": {
-        "name": "XVII - Lost & Found Painting",
-        "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+        "name": "XVII - Pintura de Achados & Perdidos",
+        "description": "Duração alterna continuamente entre -50% e +200% durante 10 segundos"
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
       },
       "19": {
-        "name": "XIX - Heart of Fire",
-        "description": "Listed weapon projectiles explode on impact. Light sources explode. Character explodes when damaged."
+        "name": "XIX - Coração de Fogo",
+        "description": "Projéteis das armas listadas explodem no impacto. Luzes explodem. Personagem explode quando leva dano."
       }
     }
   },
@@ -375,12 +431,16 @@
         "description": "Исцеление удваивается. Восстановление ОЗ наносит урон ближайшим врагам на ту же сумму."
       },
       "7": {
-        "name": "VII - Iron Blue Will",
-        "description": "Listed weapon projectiles gain up to 3 bounces and might pass through enemies and walls."
+        "name": "VII - Железная Голубая Воля",
+        "description": "Снаряды перечисленного оружия получают до 3 отскоков и могут проходить сквозь врагов и стены."
       },
       "11": {
-        "name": "XI - Waltz of Pearls",
-        "description": "Listed weapon projectiles gain up to 3 bounces."
+        "name": "XI - Вальс Жемчужин",
+        "description": "Снаряды перечисленного оружия получают до 3 отскоков."
+      },
+      "15": {
+        "name": "XV - Золотая Дискотека",
+        "description": "Подбирание мешков с монетами с пола вызывает Золотую Лихорадку. За каждое полученное золото восстанавливается ОЗ."
       },
       "16": {
         "name": "XVI - Порез",
@@ -389,6 +449,10 @@
       "17": {
         "name": "XVII - Потерянная и Найденная Картина",
         "description": "Срок непрерывно меняется от -50% до +200% в течение 10 секунд."
+      },
+      "18": {
+        "name": "XVIII - Бугалу Иллюзий",
+        "description": "Размер всех атак непрерывно меняется от -25% до +50% в течение 10 секунд."
       },
       "19": {
         "name": "XIX - Сердце Огня",
@@ -421,6 +485,10 @@
         "name": "XI - Waltz of Pearls",
         "description": "Listed weapon projectiles gain up to 3 bounces."
       },
+      "15": {
+        "name": "XV - Disco of Gold",
+        "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
+      },
       "16": {
         "name": "XVI - Slash",
         "description": "Enables critical hits for listed weapons. Doubles overall critical damage."
@@ -428,6 +496,10 @@
       "17": {
         "name": "XVII - Lost & Found Painting",
         "description": "Overall Duration continuously changes between -50% and +200% over 10 seconds."
+      },
+      "18": {
+        "name": "XVIII - Boogaloo of Illusions",
+        "description": "Overall Area continuously changes between -25% and +50% over 10 seconds."
       },
       "19": {
         "name": "XIX - Heart of Fire",

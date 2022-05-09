@@ -501,7 +501,7 @@
     "api": "koreana",
     "translations": {
       "POWER": {
-        "name": "괴력",
+        "name": "피해량",
         "description": "레벨 당 피해량을 5% 증가시킵니다. (최대 +25%)"
       },
       "REGEN": {
