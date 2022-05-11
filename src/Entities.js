@@ -38,3 +38,15 @@ export class Relic {
         this.enabled = enabled;
     }
 }
+
+export class Arcana {
+    id;
+    name;
+    enabled;
+
+    constructor(id, name, enabled){
+        this.id = id;
+        this.name = name;
+        this.enabled=enabled;
+    }
+}
