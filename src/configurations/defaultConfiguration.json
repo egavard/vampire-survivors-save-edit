@@ -40,5 +40,47 @@
   },
   "defaultArcanas": [
     "T06_SARABANDE"
-  ]
+  ],
+  "arcanasConversion": {
+    "4": {
+      "arcana": "T04_AWAKE",
+      "achievement": "ReachLV99WithKroci"
+    },
+    "5": {
+      "arcana": "T05_CRASH",
+      "achievement": "ReachLV99WithGiovanna"
+    },
+    "6": {
+      "arcana": "T06_SARABANDE",
+      "achievement": "FindRandomazzoT06"
+    },
+    "7": {
+      "arcana": "T07_IRON_BLUE",
+      "achievement": "ReachLV99WithGennaro"
+    },
+    "11": {
+      "arcana": "T11_PEARLS",
+      "achievement": "ReachLV99WithImelda"
+    },
+    "15": {
+      "arcana": "T15_GOLD",
+      "achievement": "Survive31MinutesInLibrary"
+    },
+    "16": {
+      "arcana": "T16_SLASH",
+      "achievement": "ReachLV99WithLama"
+    },
+    "17": {
+      "arcana": "T17_PAINTING",
+      "achievement": "ReachLV99WithPoppea"
+    },
+    "18": {
+      "arcana": "T18_ILLUSIONS",
+      "achievement": "ReachLV99WithConcetta"
+    },
+    "19": {
+      "arcana": "T19_FIRE",
+      "achievement": "ReachLV99WithArca"
+    }
+  }
 }
