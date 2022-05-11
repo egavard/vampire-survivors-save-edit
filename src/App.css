@@ -38,7 +38,7 @@
 }
 
 .CharactersConfig, .WeaponsConfig, .PowerUpsConfig {
-  width: 25%;
+  min-width: 15%;
 }
 
 .Disabled {
