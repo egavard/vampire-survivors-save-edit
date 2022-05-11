@@ -217,6 +217,10 @@ const App = () => {
                     then /saves.
                 </p>
                 <p>
+                   Default location of the save on MacOS is :
+                    /Users/<user>/Library/Application Support/Vampire_Survivors/saves
+                </p>
+                <p>
                     At the moment, the tool does not touch to your powerUps nor weapons. You can only use it for
                     unlocking characters.
                 </p>
