@@ -117,8 +117,15 @@ const App = () => {
         saveContent.checksum = "";
         addDefaultConfig(saveContent);
         setCharacters(characters.map(char => {
-            char.bought = saveContent.BoughtCharacters.indexOf(char.id) > -1;
-            char.unlocked = saveContent.UnlockedCharacters.indexOf(char.id) > -1;
+            if (char.id === "VERANDA") {
+                if (saveContent.KillCount['BOSS_XLLEDA'] && saveContent.KillCount['BOSS_XLLEDA'] > 0) {
+                    char.bought = true;
+                    char.unlocked = true;
+                }
+            } else {
+                char.bought = saveContent.BoughtCharacters.indexOf(char.id) > -1;
+                char.unlocked = saveContent.UnlockedCharacters.indexOf(char.id) > -1;
+            }
             return char
         }));
         setPowerUps(powerUps.map(powerUp => {
@@ -280,9 +287,7 @@ const App = () => {
                     /Users/%USER%/Library/Application Support/Vampire_Survivors/saves
                 </p>
                 <p>
-                    At the moment, the tool does not touch to your powerUps nor weapons.
-                    You can only use it for
-                    unlocking characters.
+                    This version works with version <b>0.6.1</b> of Vampire Survivors
                 </p>
                 <footer className="App">
                     <FileInput onChange={readSave}></FileInput>
