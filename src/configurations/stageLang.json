@@ -53,6 +53,14 @@
         "stageName": "骨区",
         "description": "到这里来, 说你那邪恶的晚祷。",
         "tips": "没有物品掉落。 敌人会随着时间的推移变得更强大。"
+      },
+      "SINKING": {
+        "stageName": "Moongolow",
+        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
+        "tips": "Extra stage items"
+      },
+      "STAGEX": {
+        "description": "Wait, you can see this too? This isn't right..."
       }
     }
   },
@@ -121,6 +129,14 @@
         "stageName": "The Bone Zone",
         "description": "Come over here and say your unholy vespers.",
         "tips": "No item drops. Enemies grow stronger over time."
+      },
+      "SINKING": {
+        "stageName": "Moongolow",
+        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
+        "tips": "Extra stage items"
+      },
+      "STAGEX": {
+        "description": "Wait, you can see this too? This isn't right..."
       }
     }
   },
@@ -171,6 +187,14 @@
         "stageName": "The Bone Zone",
         "description": "Come over here and say your unholy vespers.",
         "tips": "No item drops. Enemies grow stronger over time."
+      },
+      "SINKING": {
+        "stageName": "Moongolow",
+        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
+        "tips": "Extra stage items"
+      },
+      "STAGEX": {
+        "description": "Wait, you can see this too? This isn't right..."
       }
     }
   },
@@ -215,6 +239,14 @@
         "stageName": "The Bone Zone",
         "description": "Come over here and say your unholy vespers.",
         "tips": "No item drops. Enemies grow stronger over time."
+      },
+      "SINKING": {
+        "stageName": "Moongolow",
+        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
+        "tips": "Extra stage items"
+      },
+      "STAGEX": {
+        "description": "Wait, you can see this too? This isn't right..."
       }
     }
   },
@@ -277,6 +309,14 @@
         "stageName": "The Bone Zone",
         "description": "Come over here and say your unholy vespers.",
         "tips": "No item drops. Enemies grow stronger over time."
+      },
+      "SINKING": {
+        "stageName": "Moongolow",
+        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
+        "tips": "Extra stage items"
+      },
+      "STAGEX": {
+        "description": "Wait, you can see this too? This isn't right..."
       }
     }
   },
@@ -308,7 +348,7 @@
         "hyperTips": "골드 50% 보너스\n행운 10% 보너스"
       },
       "MOLISE": {
-        "stageName": "일 몰리세",
+        "stageName": "일 몰리제",
         "description": "존재하지 않은 장소가 있습니다. 자연을 존중하며 휴식을 취하고 인생을 즐기세요.",
         "hyperTips": "골드 50% 보너스\n행운 20% 보너스\n적 체력 +60%",
         "tips": "적들이 움직이지 않습니다."
@@ -318,9 +358,17 @@
         "description": "이 위대한 탑에는 놀라운 마법의 유물과 과거의 괴물들이 봉인되어 있습니다."
       },
       "BONEZONE": {
-        "stageName": "촘판틀리",
-        "description": "이 불경한 장소에 당신의 기도를 바치시오.",
+        "stageName": "뼈의 대지",
+        "description": "이 불길한 장소에 당신의 저주받은 기도를 바쳐라.",
         "tips": "골드를 제외한 다른 아이템이 드랍되지 않으며 적들이 시간이 지날수록 강력해집니다."
+      },
+      "SINKING": {
+        "stageName": "Moongolow",
+        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
+        "tips": "Extra stage items"
+      },
+      "STAGEX": {
+        "description": "Wait, you can see this too? This isn't right..."
       }
     }
   },
@@ -383,6 +431,14 @@
         "stageName": "A Zona Óssea",
         "description": "Venha aqui e diga seus versículos profanos.",
         "tips": "Nenhum drop de items. Inimigos ficam mais fortes com o tempo."
+      },
+      "SINKING": {
+        "stageName": "Moongolow",
+        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
+        "tips": "Extra stage items"
+      },
+      "STAGEX": {
+        "description": "Wait, you can see this too? This isn't right..."
       }
     }
   },
@@ -433,6 +489,14 @@
         "stageName": "Костяная Зона",
         "description": "Иди сюда и отслужи свою нечестивую вечерню.",
         "tips": "Нет выпадения предметов. Враги усиливаются со временем."
+      },
+      "SINKING": {
+        "stageName": "Moongolow",
+        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
+        "tips": "Extra stage items"
+      },
+      "STAGEX": {
+        "description": "Wait, you can see this too? This isn't right..."
       }
     }
   },
@@ -477,6 +541,14 @@
         "stageName": "The Bone Zone",
         "description": "Come over here and say your unholy vespers.",
         "tips": "No item drops. Enemies grow stronger over time."
+      },
+      "SINKING": {
+        "stageName": "Moongolow",
+        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
+        "tips": "Extra stage items"
+      },
+      "STAGEX": {
+        "description": "Wait, you can see this too? This isn't right..."
       }
     }
   },
