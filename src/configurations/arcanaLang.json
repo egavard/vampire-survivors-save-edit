@@ -37,6 +37,14 @@
         "name": "XI - 珍珠圆舞曲",
         "description": "列表中武器 射弹 最多获得 3  次反弹。"
       },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
       "15": {
         "name": "XV - Disco of Gold",
         "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
@@ -108,6 +116,14 @@
         "name": "XI - Waltz of Pearls",
         "description": "Listed weapon projectiles gain up to 3 bounces."
       },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
       "15": {
         "name": "XV - Disco of Gold",
         "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
@@ -161,6 +177,14 @@
         "name": "XI - Waltz of Pearls",
         "description": "Listed weapon projectiles gain up to 3 bounces."
       },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
       "15": {
         "name": "XV - Disco of Gold",
         "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
@@ -207,6 +231,14 @@
       "11": {
         "name": "XI - Waltz of Pearls",
         "description": "Listed weapon projectiles gain up to 3 bounces."
+      },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
       },
       "15": {
         "name": "XV - Disco of Gold",
@@ -273,6 +305,14 @@
         "name": "XI - Waltz of Pearls",
         "description": "Listed weapon projectiles gain up to 3 bounces."
       },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
       "15": {
         "name": "XV - Disco of Gold",
         "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
@@ -301,7 +341,7 @@
     "api": "koreana",
     "translations": {
       "4": {
-        "name": "IV - 깨어남",
+        "name": "IV - 각성",
         "description": "3번의 부활 기회를 제공 합니다. 부활시 최대 체력 +10%, 방어력+1, 공격범위, 지속시간 및 속도+5% 증가합니다."
       },
       "5": {
@@ -313,16 +353,24 @@
         "description": "회복량 2배 증가. HP를 회복하면 주변 적에게도 같은 양의 피해를 줍니다."
       },
       "7": {
-        "name": "VII - 푸른 강철의 벽",
+        "name": "VII - 푸른 강철의 의지",
         "description": "목록에 있는 무기의 발사체는 최대 3회 튕기며 적과 벽을 관통하여 공격합니다."
       },
       "11": {
         "name": "XI - 진주의 왈츠",
         "description": "목록에 있는 무기의 발사체는 최대 3회 튕기며 공격합니다."
       },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
       "15": {
-        "name": "XV - 황금의 춤",
-        "description": "금화 습득시 일정확률로 황금의 피버타임을 가집니다. 획득한 금화만큼 HP를 회복합니다."
+        "name": "XV - 황금 디스코",
+        "description": "금화 주머니 습득시 황금의 피버타임을 가집니다. 획득한 금화만큼 HP를 회복합니다."
       },
       "16": {
         "name": "XVI - 절단",
@@ -385,6 +433,14 @@
         "name": "XI - Valsa das Pérolas",
         "description": "Projéteis das armas listadas ganham até 3 ricocheteamentos."
       },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
       "15": {
         "name": "XV - Disco of Gold",
         "description": "Picking up coin bags from the floor triggers Gold Fever. Obtaining gold restores as many HP."
@@ -438,6 +494,14 @@
         "name": "XI - Вальс Жемчужин",
         "description": "Снаряды перечисленного оружия получают до 3 отскоков."
       },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
+      },
       "15": {
         "name": "XV - Золотая Дискотека",
         "description": "Подбирание мешков с монетами с пола вызывает Золотую Лихорадку. За каждое полученное золото восстанавливается ОЗ."
@@ -484,6 +548,14 @@
       "11": {
         "name": "XI - Waltz of Pearls",
         "description": "Listed weapon projectiles gain up to 3 bounces."
+      },
+      "12": {
+        "name": "XII - Out of Bounds",
+        "description": "Freezing enemies generates explosions. Orologions are easier to find."
+      },
+      "14": {
+        "name": "XIV - Jail of Crystal",
+        "description": "Listed weapon projectiles have a chance to freeze enemies."
       },
       "15": {
         "name": "XV - Disco of Gold",

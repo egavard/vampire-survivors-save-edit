@@ -95,6 +95,20 @@
       "GILDED": {
         "description": "Gathers all gold left on the ground and starts a Gold Fever.",
         "name": "Gilded Clover"
+      },
+      "RELIC_GLASSMASK": {
+        "name": "Glass Vizard",
+        "description": "Summons the merchant in all stages.",
+        "achievementTips": "Merchant."
+      },
+      "RELIC_GOLDENEGG": {
+        "name": "Golden Egg",
+        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+      },
+      "RELIC_YELLOW": {
+        "name": "Yellow Sign",
+        "description": "Permanently allows to detect hidden items in all stages.",
+        "achievementTips": "Hidden stage items."
       }
     }
   },
@@ -205,6 +219,20 @@
       "GILDED": {
         "description": "Gathers all gold left on the ground and starts a Gold Fever.",
         "name": "Gilded Clover"
+      },
+      "RELIC_GLASSMASK": {
+        "name": "Glass Vizard",
+        "description": "Summons the merchant in all stages.",
+        "achievementTips": "Merchant."
+      },
+      "RELIC_GOLDENEGG": {
+        "name": "Golden Egg",
+        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+      },
+      "RELIC_YELLOW": {
+        "name": "Yellow Sign",
+        "description": "Permanently allows to detect hidden items in all stages.",
+        "achievementTips": "Hidden stage items."
       }
     }
   },
@@ -297,6 +325,20 @@
       "GILDED": {
         "description": "Gathers all gold left on the ground and starts a Gold Fever.",
         "name": "Gilded Clover"
+      },
+      "RELIC_GLASSMASK": {
+        "name": "Glass Vizard",
+        "description": "Summons the merchant in all stages.",
+        "achievementTips": "Merchant."
+      },
+      "RELIC_GOLDENEGG": {
+        "name": "Golden Egg",
+        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+      },
+      "RELIC_YELLOW": {
+        "name": "Yellow Sign",
+        "description": "Permanently allows to detect hidden items in all stages.",
+        "achievementTips": "Hidden stage items."
       }
     }
   },
@@ -383,6 +425,20 @@
       "GILDED": {
         "description": "Gathers all gold left on the ground and starts a Gold Fever.",
         "name": "Gilded Clover"
+      },
+      "RELIC_GLASSMASK": {
+        "name": "Glass Vizard",
+        "description": "Summons the merchant in all stages.",
+        "achievementTips": "Merchant."
+      },
+      "RELIC_GOLDENEGG": {
+        "name": "Golden Egg",
+        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+      },
+      "RELIC_YELLOW": {
+        "name": "Yellow Sign",
+        "description": "Permanently allows to detect hidden items in all stages.",
+        "achievementTips": "Hidden stage items."
       }
     }
   },
@@ -487,6 +543,20 @@
       "GILDED": {
         "description": "Gathers all gold left on the ground and starts a Gold Fever.",
         "name": "Gilded Clover"
+      },
+      "RELIC_GLASSMASK": {
+        "name": "Glass Vizard",
+        "description": "Summons the merchant in all stages.",
+        "achievementTips": "Merchant."
+      },
+      "RELIC_GOLDENEGG": {
+        "name": "Golden Egg",
+        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+      },
+      "RELIC_YELLOW": {
+        "name": "Yellow Sign",
+        "description": "Permanently allows to detect hidden items in all stages.",
+        "achievementTips": "Hidden stage items."
       }
     }
   },
@@ -572,7 +642,21 @@
       },
       "GILDED": {
         "description": "땅에 떨어진 모든 금화를 흡수하며 황금의 피버타임을 가집니다.",
-        "name": "도금된 클로버"
+        "name": "금박 클로버"
+      },
+      "RELIC_GLASSMASK": {
+        "name": "Glass Vizard",
+        "description": "Summons the merchant in all stages.",
+        "achievementTips": "Merchant."
+      },
+      "RELIC_GOLDENEGG": {
+        "name": "Golden Egg",
+        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+      },
+      "RELIC_YELLOW": {
+        "name": "Yellow Sign",
+        "description": "Permanently allows to detect hidden items in all stages.",
+        "achievementTips": "Hidden stage items."
       }
     }
   },
@@ -677,6 +761,20 @@
       "GILDED": {
         "description": "Gathers all gold left on the ground and starts a Gold Fever.",
         "name": "Gilded Clover"
+      },
+      "RELIC_GLASSMASK": {
+        "name": "Glass Vizard",
+        "description": "Summons the merchant in all stages.",
+        "achievementTips": "Merchant."
+      },
+      "RELIC_GOLDENEGG": {
+        "name": "Golden Egg",
+        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+      },
+      "RELIC_YELLOW": {
+        "name": "Yellow Sign",
+        "description": "Permanently allows to detect hidden items in all stages.",
+        "achievementTips": "Hidden stage items."
       }
     }
   },
@@ -769,6 +867,20 @@
       "GILDED": {
         "description": "Собирает все золото, оставшееся на земле и начинает Золотую Лихорадку.",
         "name": "Позолоченный Клевер"
+      },
+      "RELIC_GLASSMASK": {
+        "name": "Glass Vizard",
+        "description": "Summons the merchant in all stages.",
+        "achievementTips": "Merchant."
+      },
+      "RELIC_GOLDENEGG": {
+        "name": "Golden Egg",
+        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+      },
+      "RELIC_YELLOW": {
+        "name": "Yellow Sign",
+        "description": "Permanently allows to detect hidden items in all stages.",
+        "achievementTips": "Hidden stage items."
       }
     }
   },
@@ -855,6 +967,20 @@
       "GILDED": {
         "description": "Gathers all gold left on the ground and starts a Gold Fever.",
         "name": "Gilded Clover"
+      },
+      "RELIC_GLASSMASK": {
+        "name": "Glass Vizard",
+        "description": "Summons the merchant in all stages.",
+        "achievementTips": "Merchant."
+      },
+      "RELIC_GOLDENEGG": {
+        "name": "Golden Egg",
+        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+      },
+      "RELIC_YELLOW": {
+        "name": "Yellow Sign",
+        "description": "Permanently allows to detect hidden items in all stages.",
+        "achievementTips": "Hidden stage items."
       }
     }
   },

@@ -195,7 +195,13 @@
       "stageSelection_GoldMultiplier": "Gold Bonus",
       "stageSelection_LuckBonus": "Luck Bonus",
       "stageSelection_EnemyHealth": "Enemy Health",
-      "relicFound": "Relic Found!"
+      "relicFound": "Relic Found!",
+      "options_dataRecovery": "DATA RECOVERY",
+      "options_lastRun": "Load Last Run",
+      "options_localBackups": "Show Local Backups",
+      "options_localDB": "Load Old System Data",
+      "shop_header1": "Fancy a new vizard?",
+      "shop_header2": "Interested in this?"
     }
   },
   "zh-TW": {
@@ -270,7 +276,7 @@
       "weaponLevelUp_enemies": "Passes through %0 more enemies\n",
       "weaponLevelUp_charge": "Gains %0 additional charge\n",
       "weaponLevelUp_charges": "Gains %0 additional charges\n",
-      "weaponLevelUp_effect%": "[All] Effect lasts %0% longer\n",
+      "weaponLevelUp_effect%": "[All]Effect lasts %0% longer\n",
       "weaponLevelUp_effect": "Effect lasts %0 seconds longer\n",
       "weaponLevelUp_cooldown%": "Cooldown reduced by %0%\n",
       "weaponLevelUp_cooldown": "Cooldown reduced by %0 seconds\n",
@@ -405,7 +411,13 @@
       "stageSelection_GoldMultiplier": "Gold Bonus",
       "stageSelection_LuckBonus": "Luck Bonus",
       "stageSelection_EnemyHealth": "Enemy Health",
-      "relicFound": "Relic Found!"
+      "relicFound": "Relic Found!",
+      "options_dataRecovery": "DATA RECOVERY",
+      "options_lastRun": "Load Last Run",
+      "options_localBackups": "Show Local Backups",
+      "options_localDB": "Load Old System Data",
+      "shop_header1": "Fancy a new vizard?",
+      "shop_header2": "Interested in this?"
     }
   },
   "fi": {
@@ -597,7 +609,13 @@
       "stageSelection_GoldMultiplier": "Gold Bonus",
       "stageSelection_LuckBonus": "Luck Bonus",
       "stageSelection_EnemyHealth": "Enemy Health",
-      "relicFound": "Relic Found!"
+      "relicFound": "Relic Found!",
+      "options_dataRecovery": "DATA RECOVERY",
+      "options_lastRun": "Load Last Run",
+      "options_localBackups": "Show Local Backups",
+      "options_localDB": "Load Old System Data",
+      "shop_header1": "Fancy a new vizard?",
+      "shop_header2": "Interested in this?"
     }
   },
   "de": {
@@ -783,7 +801,13 @@
       "stageSelection_GoldMultiplier": "Gold Bonus",
       "stageSelection_LuckBonus": "Luck Bonus",
       "stageSelection_EnemyHealth": "Enemy Health",
-      "relicFound": "Relic Found!"
+      "relicFound": "Relic Found!",
+      "options_dataRecovery": "DATA RECOVERY",
+      "options_lastRun": "Load Last Run",
+      "options_localBackups": "Show Local Backups",
+      "options_localDB": "Load Old System Data",
+      "shop_header1": "Fancy a new vizard?",
+      "shop_header2": "Interested in this?"
     }
   },
   "el": {
@@ -987,7 +1011,13 @@
       "stageSelection_GoldMultiplier": "Gold Bonus",
       "stageSelection_LuckBonus": "Luck Bonus",
       "stageSelection_EnemyHealth": "Enemy Health",
-      "relicFound": "Relic Found!"
+      "relicFound": "Relic Found!",
+      "options_dataRecovery": "DATA RECOVERY",
+      "options_lastRun": "Load Last Run",
+      "options_localBackups": "Show Local Backups",
+      "options_localDB": "Load Old System Data",
+      "shop_header1": "Fancy a new vizard?",
+      "shop_header2": "Interested in this?"
     }
   },
   "ko": {
@@ -1173,7 +1203,13 @@
       "stageSelection_GoldMultiplier": "금화 보너스",
       "stageSelection_LuckBonus": "행운 보너스",
       "stageSelection_EnemyHealth": "적 체력",
-      "relicFound": "유물 발견!"
+      "relicFound": "유물 발견!",
+      "options_dataRecovery": "데이터 복구",
+      "options_lastRun": "마지막 실행 불러오기",
+      "options_localBackups": "로컬 백업 표시",
+      "options_localDB": "이전 시스템 데이터 로드",
+      "shop_header1": "Fancy a new vizard?",
+      "shop_header2": "Interested in this?"
     }
   },
   "no": {
@@ -1377,7 +1413,13 @@
       "stageSelection_GoldMultiplier": "Gold Bonus",
       "stageSelection_LuckBonus": "Luck Bonus",
       "stageSelection_EnemyHealth": "Enemy Health",
-      "relicFound": "Relic Found!"
+      "relicFound": "Relic Found!",
+      "options_dataRecovery": "DATA RECOVERY",
+      "options_lastRun": "Load Last Run",
+      "options_localBackups": "Show Local Backups",
+      "options_localDB": "Load Old System Data",
+      "shop_header1": "Fancy a new vizard?",
+      "shop_header2": "Interested in this?"
     }
   },
   "ro": {
@@ -1569,7 +1611,13 @@
       "stageSelection_GoldMultiplier": "Бонус к Золоту",
       "stageSelection_LuckBonus": "Бонус к Удаче",
       "stageSelection_EnemyHealth": "Здоровье Врагов",
-      "relicFound": "Реликвия Найдена!"
+      "relicFound": "Реликвия Найдена!",
+      "options_dataRecovery": "ВОССТАНОВИТЬ ДАННЫЕ",
+      "options_lastRun": "Загрузить Посл. Запуск",
+      "options_localBackups": "Показ. Локал. Рез. Копии",
+      "options_localDB": "Загр. Стар. Сист. Данные",
+      "shop_header1": "Fancy a new vizard?",
+      "shop_header2": "Interested in this?"
     }
   },
   "es": {
@@ -1755,7 +1803,13 @@
       "stageSelection_GoldMultiplier": "Gold Bonus",
       "stageSelection_LuckBonus": "Luck Bonus",
       "stageSelection_EnemyHealth": "Enemy Health",
-      "relicFound": "Relic Found!"
+      "relicFound": "Relic Found!",
+      "options_dataRecovery": "DATA RECOVERY",
+      "options_lastRun": "Load Last Run",
+      "options_localBackups": "Show Local Backups",
+      "options_localDB": "Load Old System Data",
+      "shop_header1": "Fancy a new vizard?",
+      "shop_header2": "Interested in this?"
     }
   },
   "es-419": {

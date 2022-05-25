@@ -289,6 +289,32 @@
         "name": "Vicious Hunger",
         "description": "Evolved Gatti Amari. Might turn anything into gold.",
         "tips": "Requires: Stone Mask."
+      },
+      "SHROUD": {
+        "name": "Crimson Shroud",
+        "description": "Evolved Laurel. Caps incoming damage at 10. Retaliates when losing charges.",
+        "tips": "Requires: Metaglio Left, Metaglio Right."
+      },
+      "CORRIDOR": {
+        "name": "Infinite Corridor",
+        "description": "Evolved Clock Lancet. Halves enemies health.",
+        "tips": "Requires: Gold Ring, Silver Ring."
+      },
+      "GOLD": {
+        "name": "Gold Ring",
+        "description": "... With ... Lancet"
+      },
+      "SILVER": {
+        "name": "Silver Ring",
+        "description": "Wear ... Clock ..."
+      },
+      "LEFT": {
+        "name": "Metaglio Left",
+        "description": "Channels dark powers to protect the bearer."
+      },
+      "RIGHT": {
+        "name": "Metaglio Right",
+        "description": "Channels dark powers to curse the bearer."
       }
     }
   },
@@ -593,6 +619,32 @@
         "name": "Vicious Hunger",
         "description": "Evolved Gatti Amari. Might turn anything into gold.",
         "tips": "Requires: Stone Mask."
+      },
+      "SHROUD": {
+        "name": "Crimson Shroud",
+        "description": "Evolved Laurel. Caps incoming damage at 10. Retaliates when losing charges.",
+        "tips": "Requires: Metaglio Left, Metaglio Right."
+      },
+      "CORRIDOR": {
+        "name": "Infinite Corridor",
+        "description": "Evolved Clock Lancet. Halves enemies health.",
+        "tips": "Requires: Gold Ring, Silver Ring."
+      },
+      "GOLD": {
+        "name": "Gold Ring",
+        "description": "... With ... Lancet"
+      },
+      "SILVER": {
+        "name": "Silver Ring",
+        "description": "Wear ... Clock ..."
+      },
+      "LEFT": {
+        "name": "Metaglio Left",
+        "description": "Channels dark powers to protect the bearer."
+      },
+      "RIGHT": {
+        "name": "Metaglio Right",
+        "description": "Channels dark powers to curse the bearer."
       }
     }
   },
@@ -879,6 +931,32 @@
         "name": "Vicious Hunger",
         "description": "Evolved Gatti Amari. Might turn anything into gold.",
         "tips": "Requires: Stone Mask."
+      },
+      "SHROUD": {
+        "name": "Crimson Shroud",
+        "description": "Evolved Laurel. Caps incoming damage at 10. Retaliates when losing charges.",
+        "tips": "Requires: Metaglio Left, Metaglio Right."
+      },
+      "CORRIDOR": {
+        "name": "Infinite Corridor",
+        "description": "Evolved Clock Lancet. Halves enemies health.",
+        "tips": "Requires: Gold Ring, Silver Ring."
+      },
+      "GOLD": {
+        "name": "Gold Ring",
+        "description": "... With ... Lancet"
+      },
+      "SILVER": {
+        "name": "Silver Ring",
+        "description": "Wear ... Clock ..."
+      },
+      "LEFT": {
+        "name": "Metaglio Left",
+        "description": "Channels dark powers to protect the bearer."
+      },
+      "RIGHT": {
+        "name": "Metaglio Right",
+        "description": "Channels dark powers to curse the bearer."
       }
     }
   },
@@ -1159,6 +1237,32 @@
         "name": "Vicious Hunger",
         "description": "Evolved Gatti Amari. Might turn anything into gold.",
         "tips": "Requires: Stone Mask."
+      },
+      "SHROUD": {
+        "name": "Crimson Shroud",
+        "description": "Evolved Laurel. Caps incoming damage at 10. Retaliates when losing charges.",
+        "tips": "Requires: Metaglio Left, Metaglio Right."
+      },
+      "CORRIDOR": {
+        "name": "Infinite Corridor",
+        "description": "Evolved Clock Lancet. Halves enemies health.",
+        "tips": "Requires: Gold Ring, Silver Ring."
+      },
+      "GOLD": {
+        "name": "Gold Ring",
+        "description": "... With ... Lancet"
+      },
+      "SILVER": {
+        "name": "Silver Ring",
+        "description": "Wear ... Clock ..."
+      },
+      "LEFT": {
+        "name": "Metaglio Left",
+        "description": "Channels dark powers to protect the bearer."
+      },
+      "RIGHT": {
+        "name": "Metaglio Right",
+        "description": "Channels dark powers to curse the bearer."
       }
     }
   },
@@ -1457,6 +1561,32 @@
         "name": "Vicious Hunger",
         "description": "Evolved Gatti Amari. Might turn anything into gold.",
         "tips": "Requires: Stone Mask."
+      },
+      "SHROUD": {
+        "name": "Crimson Shroud",
+        "description": "Evolved Laurel. Caps incoming damage at 10. Retaliates when losing charges.",
+        "tips": "Requires: Metaglio Left, Metaglio Right."
+      },
+      "CORRIDOR": {
+        "name": "Infinite Corridor",
+        "description": "Evolved Clock Lancet. Halves enemies health.",
+        "tips": "Requires: Gold Ring, Silver Ring."
+      },
+      "GOLD": {
+        "name": "Gold Ring",
+        "description": "... With ... Lancet"
+      },
+      "SILVER": {
+        "name": "Silver Ring",
+        "description": "Wear ... Clock ..."
+      },
+      "LEFT": {
+        "name": "Metaglio Left",
+        "description": "Channels dark powers to protect the bearer."
+      },
+      "RIGHT": {
+        "name": "Metaglio Right",
+        "description": "Channels dark powers to curse the bearer."
       }
     }
   },
@@ -1503,7 +1633,7 @@
       "THOUSAND": {
         "name": "천 개의 칼날",
         "description": "단검의 진화형. 딜레이 없이 발사됩니다.",
-        "tips": "요구 사항: 팔 보호구"
+        "tips": "요구 사항: 팔 보호대"
       },
       "HOLYWATER": {
         "name": "성수",
@@ -1527,7 +1657,7 @@
       },
       "HOLYBOOK": {
         "name": "성경",
-        "description": "성경이 주변을 회전하며 공격합니다",
+        "description": "주변을 회전하며 공격합니다",
         "tips": "추천 조합: 투사체 속도, 지속시간, 공격범위"
       },
       "VESPERS": {
@@ -1594,7 +1724,7 @@
         "description": "공격범위가 10% 증가합니다."
       },
       "SPEED": {
-        "name": "팔 보호구",
+        "name": "팔 보호대",
         "description": "투사체 속도가 10% 증가합니다."
       },
       "COOLDOWN": {
@@ -1670,7 +1800,7 @@
       },
       "CHERRY": {
         "name": "체리폭탄",
-        "description": "튕겨나오며 확률적으로 폭발하는 투사체를 던집니다.",
+        "description": "튕겨나오며 일정확률로 폭발하는 투사체를 던집니다.",
         "tips": "추천 조합: 행운"
       },
       "SONG": {
@@ -1705,7 +1835,7 @@
       },
       "ROCHER": {
         "name": "절멸",
-        "description": "룬트레이서 진화형. 적에게 반사 대미지를 주며 튕겨저 나올때 폭파 대미지를 줍니다.",
+        "description": "룬 트레이서 진화형. 적에게 반사 대미지를 주며 튕겨저 나올때 폭파 대미지를 줍니다.",
         "tips": "요구 사항 : 갑옷"
       },
       "CART2": {
@@ -1725,7 +1855,7 @@
       },
       "TRAPANO": {
         "name": "검은 드릴",
-        "description": "이동방향 반대로 투사체를 발사합니다. 움직임을 멈출시 바라보는 방향으로 투사체를 발사합니다.",
+        "description": "이동방향 반대로 투사체를 발사. 움직임을 멈출시 바라보는 방향으로 투사체가 발사됩니다.",
         "tips": "추천조합 : 이동속도"
       },
       "TRAPANO2": {
@@ -1734,9 +1864,35 @@
         "tips": "요구 사항: 날개."
       },
       "STIGRANGATTI": {
-        "name": "흉포한 굼주림",
+        "name": "흉포한 굶주림",
         "description": "마녀의 고양이 진화형.무엇이든지 금으로 바꿉니다.",
         "tips": "요구 사항: 돌가면"
+      },
+      "SHROUD": {
+        "name": "Crimson Shroud",
+        "description": "Evolved Laurel. Caps incoming damage at 10. Retaliates when losing charges.",
+        "tips": "Requires: Metaglio Left, Metaglio Right."
+      },
+      "CORRIDOR": {
+        "name": "Infinite Corridor",
+        "description": "Evolved Clock Lancet. Halves enemies health.",
+        "tips": "Requires: Gold Ring, Silver Ring."
+      },
+      "GOLD": {
+        "name": "Gold Ring",
+        "description": "... With ... Lancet"
+      },
+      "SILVER": {
+        "name": "Silver Ring",
+        "description": "Wear ... Clock ..."
+      },
+      "LEFT": {
+        "name": "Metaglio Left",
+        "description": "Channels dark powers to protect the bearer."
+      },
+      "RIGHT": {
+        "name": "Metaglio Right",
+        "description": "Channels dark powers to curse the bearer."
       }
     }
   },
@@ -2035,6 +2191,32 @@
         "name": "Vicious Hunger",
         "description": "Evolved Gatti Amari. Might turn anything into gold.",
         "tips": "Requires: Stone Mask."
+      },
+      "SHROUD": {
+        "name": "Crimson Shroud",
+        "description": "Evolved Laurel. Caps incoming damage at 10. Retaliates when losing charges.",
+        "tips": "Requires: Metaglio Left, Metaglio Right."
+      },
+      "CORRIDOR": {
+        "name": "Infinite Corridor",
+        "description": "Evolved Clock Lancet. Halves enemies health.",
+        "tips": "Requires: Gold Ring, Silver Ring."
+      },
+      "GOLD": {
+        "name": "Gold Ring",
+        "description": "... With ... Lancet"
+      },
+      "SILVER": {
+        "name": "Silver Ring",
+        "description": "Wear ... Clock ..."
+      },
+      "LEFT": {
+        "name": "Metaglio Left",
+        "description": "Channels dark powers to protect the bearer."
+      },
+      "RIGHT": {
+        "name": "Metaglio Right",
+        "description": "Channels dark powers to curse the bearer."
       }
     }
   },
@@ -2321,6 +2503,32 @@
         "name": "Жестокий Голод",
         "description": "Улучшенные Противные Кошки. Может превратить что угодно в золото.",
         "tips": "Требует: Каменная Маска."
+      },
+      "SHROUD": {
+        "name": "Crimson Shroud",
+        "description": "Evolved Laurel. Caps incoming damage at 10. Retaliates when losing charges.",
+        "tips": "Requires: Metaglio Left, Metaglio Right."
+      },
+      "CORRIDOR": {
+        "name": "Infinite Corridor",
+        "description": "Evolved Clock Lancet. Halves enemies health.",
+        "tips": "Requires: Gold Ring, Silver Ring."
+      },
+      "GOLD": {
+        "name": "Gold Ring",
+        "description": "... With ... Lancet"
+      },
+      "SILVER": {
+        "name": "Silver Ring",
+        "description": "Wear ... Clock ..."
+      },
+      "LEFT": {
+        "name": "Metaglio Left",
+        "description": "Channels dark powers to protect the bearer."
+      },
+      "RIGHT": {
+        "name": "Metaglio Right",
+        "description": "Channels dark powers to curse the bearer."
       }
     }
   },
@@ -2601,6 +2809,32 @@
         "name": "Vicious Hunger",
         "description": "Evolved Gatti Amari. Might turn anything into gold.",
         "tips": "Requires: Stone Mask."
+      },
+      "SHROUD": {
+        "name": "Crimson Shroud",
+        "description": "Evolved Laurel. Caps incoming damage at 10. Retaliates when losing charges.",
+        "tips": "Requires: Metaglio Left, Metaglio Right."
+      },
+      "CORRIDOR": {
+        "name": "Infinite Corridor",
+        "description": "Evolved Clock Lancet. Halves enemies health.",
+        "tips": "Requires: Gold Ring, Silver Ring."
+      },
+      "GOLD": {
+        "name": "Gold Ring",
+        "description": "... With ... Lancet"
+      },
+      "SILVER": {
+        "name": "Silver Ring",
+        "description": "Wear ... Clock ..."
+      },
+      "LEFT": {
+        "name": "Metaglio Left",
+        "description": "Channels dark powers to protect the bearer."
+      },
+      "RIGHT": {
+        "name": "Metaglio Right",
+        "description": "Channels dark powers to curse the bearer."
       }
     }
   },

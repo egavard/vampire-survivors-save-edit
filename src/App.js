@@ -144,7 +144,7 @@ const App = () => {
         arcanaList.forEach(arcana => {
             if (saveContent.UnlockedArcanas.indexOf(
                 defaultConfig.arcanasConversion[arcana.id].arcana
-            ) > -1 && saveContent.Achievements.indexOf(defaultConfig.arcanasConversion[arcana.id].achievement) > -1) {
+            ) > -1 && (defaultConfig.arcanasConversion[arcana.id].achievement && saveContent.Achievements.indexOf(defaultConfig.arcanasConversion[arcana.id].achievement) > -1)) {
                 arcana.enabled = true;
             }
 
@@ -159,7 +159,7 @@ const App = () => {
         relics.forEach(relic => {
             const achievements = defaultConfig.achievementsForRelics[relic.id];
 
-            if (relic.enabled) {
+            if (relic.enabled && achievements) {
                 achievements.forEach(achievement => {
                     if (saveContent.Achievements.indexOf(achievement) === -1) {
                         saveContent.Achievements.push(achievement);
@@ -170,7 +170,7 @@ const App = () => {
                         saveContent.UnlockedArcanas.push("T06_SARABANDE")
                     }
                 }
-            } else {
+            } else if (achievements) {
                 achievements.forEach(a => {
                     saveContent.Achievements.splice(saveContent.Achievements.indexOf(a),
                         1);

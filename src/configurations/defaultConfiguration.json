@@ -36,6 +36,15 @@
     ],
     "RELIC_BANGER": [
       "FindMagicBanger"
+    ],
+    "RELIC_GLASSMASK": [
+      "BuyGlassMask"
+    ],
+    "RELIC_YELLOW": [
+      "FindYellowSign"
+    ],
+    "RELIC_GOLDENEGG": [
+
     ]
   },
   "defaultArcanas": [
@@ -61,6 +70,14 @@
     "11": {
       "arcana": "T11_PEARLS",
       "achievement": "ReachLV99WithImelda"
+    },
+    "12": {
+      "arcana": "T12_OUT_OF_TIME",
+      "achievement": "Survive31MinutesInTower"
+    },
+    "14": {
+      "arcana": "T14_JEWELS",
+      "achievement": "ReachLV99WithPasqualina"
     },
     "15": {
       "arcana": "T15_GOLD",

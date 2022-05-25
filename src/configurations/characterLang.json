@@ -117,6 +117,17 @@
         "charName": "Concetta",
         "surname": "Caciotta",
         "description": "Gains +1% Area every level."
+      },
+      "FEBBRA": {
+        "charName": "Divano",
+        "surname": "Thelma",
+        "description": "Starts with 1 extra level. Gains +1 Armor every 5 levels (max +5)."
+      },
+      "PINO": {
+        "charName": "Gallo",
+        "suffix": "Iguana",
+        "surname": "Valletto",
+        "description": "Starts with 1 extra level. Gains +10% Growth every 5 levels (max +50%)."
       }
     }
   },
@@ -250,17 +261,16 @@
         "surname": "Caciotta",
         "description": "Gains +1% Area every level."
       },
-      "FINO":{
-        "charName": "MissingN▯"
+      "FEBBRA": {
+        "charName": "Divano",
+        "surname": "Thelma",
+        "description": "Starts with 1 extra level. Gains +1 Armor every 5 levels (max +5)."
       },
-      "VERANDA":{
-        "charName": "Leda"
-      },
-      "PANINI": {
-        "charName": "Toastie"
-      },
-      "NOSTRO": {
-        "charName": "Death"
+      "PINO": {
+        "charName": "Gallo",
+        "suffix": "Iguana",
+        "surname": "Valletto",
+        "description": "Starts with 1 extra level. Gains +10% Growth every 5 levels (max +50%)."
       }
     }
   },
@@ -375,6 +385,17 @@
         "charName": "Concetta",
         "surname": "Caciotta",
         "description": "Gains +1% Area every level."
+      },
+      "FEBBRA": {
+        "charName": "Divano",
+        "surname": "Thelma",
+        "description": "Starts with 1 extra level. Gains +1 Armor every 5 levels (max +5)."
+      },
+      "PINO": {
+        "charName": "Gallo",
+        "suffix": "Iguana",
+        "surname": "Valletto",
+        "description": "Starts with 1 extra level. Gains +10% Growth every 5 levels (max +50%)."
       }
     }
   },
@@ -483,6 +504,17 @@
         "charName": "Concetta",
         "surname": "Caciotta",
         "description": "Gains +1% Area every level."
+      },
+      "FEBBRA": {
+        "charName": "Divano",
+        "surname": "Thelma",
+        "description": "Starts with 1 extra level. Gains +1 Armor every 5 levels (max +5)."
+      },
+      "PINO": {
+        "charName": "Gallo",
+        "suffix": "Iguana",
+        "surname": "Valletto",
+        "description": "Starts with 1 extra level. Gains +10% Growth every 5 levels (max +50%)."
       }
     }
   },
@@ -609,6 +641,17 @@
         "charName": "Concetta",
         "surname": "Caciotta",
         "description": "Gains +1% Area every level."
+      },
+      "FEBBRA": {
+        "charName": "Divano",
+        "surname": "Thelma",
+        "description": "Starts with 1 extra level. Gains +1 Armor every 5 levels (max +5)."
+      },
+      "PINO": {
+        "charName": "Gallo",
+        "suffix": "Iguana",
+        "surname": "Valletto",
+        "description": "Starts with 1 extra level. Gains +10% Growth every 5 levels (max +50%)."
       }
     }
   },
@@ -717,6 +760,17 @@
         "charName": "콘체타",
         "surname": "카치오타",
         "description": "매 레벨마다 공격범위가 1%씩 증가합니다."
+      },
+      "FEBBRA": {
+        "charName": "Divano",
+        "surname": "Thelma",
+        "description": "Starts with 1 extra level. Gains +1 Armor every 5 levels (max +5)."
+      },
+      "PINO": {
+        "charName": "Gallo",
+        "suffix": "Iguana",
+        "surname": "Valletto",
+        "description": "Starts with 1 extra level. Gains +10% Growth every 5 levels (max +50%)."
       }
     }
   },
@@ -843,6 +897,17 @@
         "charName": "Concetta",
         "surname": "Caciotta",
         "description": "Gains +1% Area every level."
+      },
+      "FEBBRA": {
+        "charName": "Divano",
+        "surname": "Thelma",
+        "description": "Starts with 1 extra level. Gains +1 Armor every 5 levels (max +5)."
+      },
+      "PINO": {
+        "charName": "Gallo",
+        "suffix": "Iguana",
+        "surname": "Valletto",
+        "description": "Starts with 1 extra level. Gains +10% Growth every 5 levels (max +50%)."
       }
     }
   },
@@ -957,6 +1022,17 @@
         "charName": "Кончетта",
         "surname": "Качотта",
         "description": "Дает +1% к Размеру с каждым уровнем."
+      },
+      "FEBBRA": {
+        "charName": "Divano",
+        "surname": "Thelma",
+        "description": "Starts with 1 extra level. Gains +1 Armor every 5 levels (max +5)."
+      },
+      "PINO": {
+        "charName": "Gallo",
+        "suffix": "Iguana",
+        "surname": "Valletto",
+        "description": "Starts with 1 extra level. Gains +10% Growth every 5 levels (max +50%)."
       }
     }
   },
@@ -1065,6 +1141,17 @@
         "charName": "Concetta",
         "surname": "Caciotta",
         "description": "Gains +1% Area every level."
+      },
+      "FEBBRA": {
+        "charName": "Divano",
+        "surname": "Thelma",
+        "description": "Starts with 1 extra level. Gains +1 Armor every 5 levels (max +5)."
+      },
+      "PINO": {
+        "charName": "Gallo",
+        "suffix": "Iguana",
+        "surname": "Valletto",
+        "description": "Starts with 1 extra level. Gains +10% Growth every 5 levels (max +50%)."
       }
     }
   },

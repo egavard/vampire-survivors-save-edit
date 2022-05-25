@@ -406,7 +406,7 @@
         "description": "Defeat the giant Blue Venus in the Mad Forest."
       },
       "ReachLV20InMadForest": {
-        "description": "Reach Level 20 in Mad Forest."
+        "description": "Reach Level 20 in the Mad Forest."
       },
       "DefeatBossLibrary": {
         "description": "Defeat the Nesuferit in the Inlaid Library."
@@ -496,7 +496,7 @@
         "description": "Find and open the coffin in the Dairy Plant."
       },
       "ReachLV40InLibrary": {
-        "description": "Reach Level 40 in Inlaid Library."
+        "description": "Reach Level 40 in the Inlaid Library."
       },
       "DefeatBossPlant": {
         "description": "Defeat the Sword Guardian in the Dairy Plant."
@@ -535,7 +535,7 @@
         "description": "Reach Level 60 in the Dairy Plant."
       },
       "FindSorceressTears": {
-        "description": "Find the Sorceress' Tears"
+        "description": "Find the Sorceress' Tears."
       },
       "DefeatBossTower": {
         "description": "Defeat the Giant Enemy Crab in Gallo Tower."
@@ -1541,85 +1541,85 @@
     "api": "koreana",
     "translations": {
       "ReachLV5": {
-        "description": "레벨 5에 도달하기."
+        "description": "레벨 5에 도달."
       },
       "ReachLV10": {
-        "description": "레벨 10에 도달하기."
+        "description": "레벨 10에 도달."
       },
       "Have6DifferentWeapons": {
-        "description": "한번에 6개의 무기를 소지하기."
+        "description": "6개의 무기를 소지."
       },
       "GetFireWandToLevel4": {
-        "description": "불의 지팡이 를 레벨 4까지 올리기."
+        "description": "불의 지팡이 레벨 4까지 올리기."
       },
       "GetHolyBookToLevel4": {
-        "description": "기도문을 레벨 4까지 올리기."
+        "description": "성경 레벨 4까지 올리기."
       },
       "GetHolyWaterToLevel4": {
-        "description": "성수를 레벨 4까지 올리기."
+        "description": "성수 레벨 4까지 올리기."
       },
       "GetLightningRingToLevel4": {
-        "description": "번개 반지 를 레벨 4까지 올리기."
+        "description": "번개 반지 레벨 4까지 올리기."
       },
       "GetMagicMissileToLevel7": {
-        "description": "마법 지팡이 를 레벨 7까지 올리기."
+        "description": "마법 지팡이 레벨 7까지 올리기."
       },
       "GetPeachoneToLevel7": {
-        "description": "하얀 비둘기를 레벨 7까지 올리기."
+        "description": "하얀 비둘기 레벨 7까지 올리기."
       },
       "GetRunetracerToLevel7": {
-        "description": "룬트레이서를 레벨 7까지 올리기."
+        "description": "룬 트레이서 레벨 7까지 올리기."
       },
       "Survive1Minute": {
-        "description": "아무 캐릭터로 1분 생존하기."
+        "description": "아무 캐릭터로 1분 생존."
       },
       "Survive5MinutesWithDiamond": {
-        "description": "파스콸리나 로 5분 생존하기."
+        "description": "파스콸리나 5분 생존."
       },
       "Survive10Minutes": {
-        "description": "아무 캐릭터 로 10분 생존하기."
+        "description": "아무 캐릭터로 10분 생존."
       },
       "Survive20Minutes": {
-        "description": "아무 캐릭터 로 20분 생존하기."
+        "description": "아무 캐릭터로 20분 생존."
       },
       "Destroy20Candles": {
-        "description": "물체 20개 파괴하기."
+        "description": "물체 20개 파괴."
       },
       "Eat5PotRoast": {
-        "description": "치킨 5개 발견하기."
+        "description": "치킨 5개 발견."
       },
       "FindAClover": {
-        "description": "작은 클로버 발견하기."
+        "description": "작은 클로버 발견."
       },
       "FindAVacuum": {
-        "description": "흡입기 발견하기."
+        "description": "흡입기 발견."
       },
       "FindAnOrologion": {
-        "description": "회중시계 발견하기."
+        "description": "회중시계 발견."
       },
       "FindARosary": {
-        "description": "묵주 발견하기."
+        "description": "묵주 발견."
       },
       "Defeat5000Enemies": {
-        "description": "누적 5,000마리 적을 처치하기."
+        "description": "누적 5,000마리 적을 처치."
       },
       "Defeat3000Skeletons": {
-        "description": "누적 3,000마리 스켈레톤 처치하기."
+        "description": "누적 3,000마리 스켈레톤 처치."
       },
       "DefeatBossMadForest": {
         "description": "광기의 숲에서 거대한 푸른 비너스를 쓰러뜨리기."
       },
       "ReachLV20InMadForest": {
-        "description": "광기의 숲에서 레벨 20에 도달하기."
+        "description": "광기의 숲에서 레벨 20에 도달."
       },
       "DefeatBossLibrary": {
         "description": "화려한 도서관에서 네스페리트를 쓰러뜨리기."
       },
       "Survive5MinutesWithKnife": {
-        "description": "젠나로 로 5분 생존하기."
+        "description": "젠나로 5분 생존."
       },
       "FindAStoneMask": {
-        "description": "돌가면 발견하기."
+        "description": "돌가면 발견."
       },
       "GetGarlicToLevel7": {
         "description": "마늘을 레벨 7까지 올리기."
@@ -1646,172 +1646,172 @@
         "description": "불의 지팡이 진화."
       },
       "Defeat100KEnemies": {
-        "description": "누적 100,000마리의 적을 처치하기."
+        "description": "누적 100,000마리의 적을 처치."
       },
       "Recover1000HP": {
-        "description": "누적 1000의 체력을 회복하기."
+        "description": "누적 1000의 체력을 회복."
       },
       "Earn5000CoinsInASingleRun": {
-        "description": "한 게임에서 5000골드 획득하기"
+        "description": "한 게임에서 5000골드 획득."
       },
       "EvolveSantaWater": {
         "description": "성수 진화."
       },
       "UniteBirds": {
-        "description": "하얀 비둘기와 검은 비둘기 융합하기."
+        "description": "하얀 비둘기와 검은 비둘기 진화."
       },
       "EvolveGarlic": {
         "description": "마늘 진화."
       },
       "Unlock2Hypers": {
-        "description": "광기의 숲과 화려한 도서관에서 하이퍼모드 언락하기."
+        "description": "광기의 숲과 화려한 도서관에서 하이퍼모드 언락."
       },
       "EvolveLightning": {
         "description": "번개 반지 진화."
       },
       "ReachLV100WithMortaccio": {
-        "description": "모르타치오 로 100레벨 달성하기."
+        "description": "모르타치오 100레벨 달성."
       },
       "Survive30MinutesInGreenAcres": {
-        "description": "푸른 초원에서 30분 생존하기."
+        "description": "푸른 초원에서 30분 생존."
       },
       "Survive20MinutesWithCross": {
-        "description": "크로치 로 20분 생존하기."
+        "description": "크로치 20분 생존."
       },
       "Survive20MinutesWithCurse": {
-        "description": "10% 이상의 저주를 받고 20분동안 생존하기."
+        "description": "10% 이상의 저주를 받고 20분동안 생존."
       },
       "Survive30MinutesWithAxe": {
-        "description": "라마 로 30분 생존하기."
+        "description": "라마 30분 생존."
       },
       "Defeat3000Buers": {
-        "description": "누적 3,000마리의 라이온 헤드 처치하기."
+        "description": "누적 3,000마리의 라이온 헤드 처치."
       },
       "ReachLV100WithCavallo": {
-        "description": "야타 카발로 로 100레벨 달성하기."
+        "description": "야타 카발로 100레벨 달성."
       },
       "EvolveSongOfMana": {
         "description": "마나의 노래 진화."
       },
       "Survive15MinutesWithSong": {
-        "description": "포페아로 15분 생존하기."
+        "description": "포페아 15분 생존."
       },
       "FindCoffinStage3": {
-        "description": "유제품 공장 에서 관을 찾아서 해방하기."
+        "description": "유제품 공장 에서 관을 찾아서 해방."
       },
       "ReachLV40InLibrary": {
-        "description": "화려한 도서관에서 레벨 40에 도달하기."
+        "description": "화려한 도서관에서 레벨 40에 도달."
       },
       "DefeatBossPlant": {
         "description": "유제품 공장 에서 소드 가디언을 쓰러트리기."
       },
       "FindMilkyWayMap": {
-        "description": "은하수 지도 발견하기."
+        "description": "은하수 지도 발견."
       },
       "GetPentagramToLevel7": {
         "description": "오망성을 레벨7까지 올리기."
       },
       "Unlock3Hypers": {
-        "description": "한종류의 맵에서 하이퍼 모드 해금하기."
+        "description": "한종류의 맵에서 하이퍼 모드 해금."
       },
       "Survive15MinutesInMolise": {
-        "description": "일 몰리세에서 15분 생존하기."
+        "description": "일 몰리제 에서 15분 생존."
       },
       "EvolvePentagram": {
         "description": "오망성 진화"
       },
       "See50Items": {
-        "description": "컬렉션에 50개의 항목을 해금하기."
+        "description": "컬렉션에 50개의 항목을 해금."
       },
       "FindCoffinStage1": {
-        "description": "광기의 숲 에서 관을 찾아서 해방하기."
+        "description": "광기의 숲 에서 관을 찾아서 해방."
       },
       "Survive10MinutesWithGuns": {
-        "description": "푸냘라로 10분 생존하기."
+        "description": "푸냘라 10분 생존."
       },
       "Survive15MinutesWithGuns": {
-        "description": "푸냘라로 15분 생존하기."
+        "description": "푸냘라 15분 생존."
       },
       "EvolveGuns": {
-        "description": "피에라 데 투펠로와 에잇 더 스페로우를 융합하기."
+        "description": "피에라 데 투펠로와 에잇 더 스페로우 진화."
       },
       "ReachLV60InDairyPlant": {
-        "description": "유제품 공장에서 레벨 60에 도달하기."
+        "description": "유제품 공장에서 레벨 60에 달성."
       },
       "FindSorceressTears": {
-        "description": "마녀의 눈물 발견하기."
+        "description": "마녀의 눈물 발견."
       },
       "DefeatBossTower": {
         "description": "갈로의 탑 에서 자이언트 크렙 쓰러트리기."
       },
       "See60Items": {
-        "description": "컬렉션에 60개의 항목을 해금하기."
+        "description": "컬렉션에 60개의 항목을 해금."
       },
       "ReachLV100WithRamba": {
-        "description": "비앙카 람바로 100레벨 달성하기."
+        "description": "비앙카 람바로 100레벨 달성."
       },
       "Defeat3000Milk": {
-        "description": "누적 3000마리의 우유의 정령 처치하기."
+        "description": "누적 3000마리의 우유의 정령 처치."
       },
       "EvolveRunetracer": {
         "description": "룬 트레이서 진화."
       },
       "See70Items": {
-        "description": "컬렉션에 70개의 항목을 해금하기."
+        "description": "컬렉션에 70개의 항목을 해금."
       },
       "Survive15MinutesWithGatti": {
-        "description": "지오반나 로 15분 생존하기."
+        "description": "지오반나 15분 생존."
       },
       "FindCoffinStage2": {
-        "description": "화려한 도서관 에서 관을 찾아서 해방하기."
+        "description": "화려한 도서관 에서 관을 찾아서 해방."
       },
       "ReachLV100WithOsole": {
-        "description": "오' 솔레미오 로 100레벨 달성하기."
+        "description": "오' 솔레미오 100레벨 달성."
       },
       "Defeat3000Hydra": {
-        "description": "누적 3.000마리의 드래곤 쉬림프 처치하기."
+        "description": "누적 3.000마리의 드래곤 쉬림프 처치."
       },
       "Unlock3Hypers_Correct": {
-        "description": "3종류의 맵에서 하이퍼 모드 해금하기."
+        "description": "3종류의 맵에서 하이퍼 모드 해금."
       },
       "Survive30MinutesInBoneZone": {
-        "description": "촘판틀리 에서 30분 생존하기."
+        "description": "뼈의 대지 에서 30분 생존."
       },
       "ReachLV99WithImelda": {
-        "description": "이멜다 로 99레벨 달성하기."
+        "description": "이멜다 99레벨 달성."
       },
       "ReachLV99WithGennaro": {
-        "description": "젠나로 로 99레벨 달성하기."
+        "description": "젠나로 99레벨 달성."
       },
       "FindRandomazzo": {
-        "description": "란도마조 발견하기."
+        "description": "란도마조 발견."
       },
       "FindRandomazzoT06": {
-        "description": "란도마조 발견하기."
+        "description": "란도마조 발견."
       },
       "ReachLV99WithGiovanna": {
-        "description": "지오바나 로 99레벨 달성하기."
+        "description": "지오바나 99레벨 달성."
       },
       "ReachLV99WithKroci": {
-        "description": "크로치 로 99레벨 달성하기."
+        "description": "크로치 99레벨 달성."
       },
       "ReachLV99WithLama": {
-        "description": "라마 로 99레벨 달성하기."
+        "description": "라마 99레벨 달성."
       },
       "ReachLV99WithPoppea": {
-        "description": "포페아 로 99레벨 달성하기."
+        "description": "포페아 99레벨 달성."
       },
       "ReachLV99WithArca": {
-        "description": "아르카 로 99레벨 달성하기."
+        "description": "아르카 99레벨 달성."
       },
       "FindCoffinStage4": {
-        "description": "갈로의 탑 에서 관을 찾아서 해방하기."
+        "description": "갈로의 탑 에서 관을 찾아서 해방."
       },
       "ReachLV99WithConcetta": {
-        "description": "콘체타 로 99레벨 달성하기."
+        "description": "콘체타 99레벨 달성하"
       },
       "Survive15MinutesWithShadow": {
-        "description": "콘체타 로 15분 생존하기."
+        "description": "콘체타 15분 생존."
       },
       "EvolveGatti": {
         "description": "마녀의 고양이 진화."
@@ -1820,13 +1820,13 @@
         "description": "검은 드릴 진화."
       },
       "Survive31MinutesInLibrary": {
-        "description": "화려한 도서관에서 31분을 생존하십시오."
+        "description": "화려한 도서관에서 31분을 생존."
       },
       "See80Items": {
-        "description": "컬렉션에 80개의 항목을 해금하기."
+        "description": "컬렉션에 80개의 항목을 해금."
       },
       "FindMagicBanger": {
-        "description": "매직 뱅거 발견하기."
+        "description": "매직 뱅거 발견."
       }
     }
   },
