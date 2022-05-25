@@ -271,6 +271,18 @@
         "suffix": "Iguana",
         "surname": "Valletto",
         "description": "Starts with 1 extra level. Gains +10% Growth every 5 levels (max +50%)."
+      },
+      "FINO":{
+        "charName": "MissingN▯"
+      },
+      "VERANDA":{
+        "charName": "Leda"
+      },
+      "PANINI": {
+        "charName": "Toastie"
+      },
+      "NOSTRO": {
+        "charName": "Death"
       }
     }
   },
