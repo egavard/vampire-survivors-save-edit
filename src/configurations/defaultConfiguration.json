@@ -44,6 +44,26 @@
       "FindYellowSign"
     ],
     "RELIC_GOLDENEGG": [
+    ],
+    "RELIC_GRIMOIRE": [
+      "FindGrimoire"
+    ],
+    "RELIC_NOSEGLASSES": [
+
+    ],
+    "RELIC_GOUDA": [
+"FindGouda"
+    ],
+    "RELIC_GGOSPEL": [
+"FindGGospel"
+    ],
+    "RELIC_SECRETS": [
+"FindForbiddenScroll"
+    ],
+    "RELIC_TRUMPET": [
+
+    ],
+    "RELIC_MIRROR": [
 
     ]
   },
@@ -51,6 +71,22 @@
     "T06_SARABANDE"
   ],
   "arcanasConversion": {
+    "0": {
+      "arcana": "T00_KILLER",
+      "achivement": "DefeatBossChapel2"
+    },
+    "1": {
+      "arcana": "T01_AQUARIUS",
+      "achivement": "ReachLV99WithPugnala"
+    },
+    "2": {
+      "arcana": "T02_TWILIGHT",
+      "achivement": "ReachLV99WithDommario"
+    },
+    "3": {
+      "arcana": "T03_TRAGIC",
+      "achivement": "ReachLV99WithPorta"
+    },
     "4": {
       "arcana": "T04_AWAKE",
       "achievement": "ReachLV99WithKroci"
@@ -67,6 +103,18 @@
       "arcana": "T07_IRON_BLUE",
       "achievement": "ReachLV99WithGennaro"
     },
+    "8": {
+      "arcana": "T08_MAD_FOREST",
+      "achievement": "Survive31MinutesInForest"
+    },
+    "9": {
+      "arcana": "T09_DIVINE",
+      "achievement": "ReachLV99WithClerici"
+    },
+    "10": {
+      "arcana": "T10_BEGINNING",
+      "achievement": "ReachLV99WithAntonio"
+    },
     "11": {
       "arcana": "T11_PEARLS",
       "achievement": "ReachLV99WithImelda"
@@ -74,6 +122,10 @@
     "12": {
       "arcana": "T12_OUT_OF_TIME",
       "achievement": "Survive31MinutesInTower"
+    },
+    "13": {
+      "arcana": "T13_WICKED",
+      "achievement": "ReachLV99WithChristine"
     },
     "14": {
       "arcana": "T14_JEWELS",
@@ -98,6 +150,14 @@
     "19": {
       "arcana": "T19_FIRE",
       "achievement": "ReachLV99WithArca"
+    },
+    "20": {
+      "arcana": "T20_SINKING",
+      "achievement": "Survive31MinutesInDairyPlant"
+    },
+    "21": {
+      "arcana": "T21_BLOODY",
+      "achievement": "ReachLV99WithPoe"
     }
   }
 }

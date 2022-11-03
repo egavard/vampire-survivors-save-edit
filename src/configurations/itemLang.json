@@ -18,103 +18,152 @@
     "api": "schinese",
     "translations": {
       "CLOVER": {
-        "description": "拾取增加 10% 的幸运值",
+        "description": "拾取后+10%的运气。",
         "name": "三叶草"
       },
       "COIN": {
-        "description": "你的金币总数增加 1。",
+        "description": "你的金币总数+1。",
         "name": "金币"
       },
       "COINBAG1": {
-        "description": "你的金币总数增加 10。",
+        "description": "你的金币总数+10。",
         "name": "钱袋"
       },
       "COINBAG2": {
-        "description": "你的金币总数增加 25。",
+        "description": "你的金币总数+25。",
         "name": "大钱袋"
       },
       "COINBAGMAX": {
-        "description": "你的金币总数增加 100。",
+        "description": "你的金币总数+100。",
         "name": "富豪钱袋",
-        "tips": "掉落率受幸运值影响。"
+        "tips": "掉落率受运气影响。"
       },
       "GEM": {
         "description": "增加经验值。",
         "name": "经验宝石"
       },
       "OROLOGION": {
-        "description": "冻结所有敌人，持续 10 秒。",
-        "name": "怀表",
-        "tips": "掉落率受幸运值影响。"
+        "description": "冰冻所有敌人, 持续10秒。",
+        "name": "时祷怀表",
+        "tips": "掉落率受运气影响。"
       },
       "ROAST": {
-        "description": "恢复 30 点生命值。",
+        "description": "生命值+30。",
         "name": "烤鸡",
-        "tips": "掉落率受幸运值影响。"
+        "tips": "掉落率受运气影响。"
       },
       "ROSARY": {
         "description": "消灭视野内的所有敌人。",
-        "name": "念珠",
-        "tips": "掉落率受幸运值影响。"
+        "name": "玫瑰念珠",
+        "tips": "掉落率受运气影响。"
       },
       "TREASURE": {
-        "description": "金币和道具。由强大的敌人掉落。",
+        "description": "击败强敌后掉落, 可获得金币和宝物。",
         "name": "宝箱",
-        "tips": "品质受幸运值影响。"
+        "tips": "品质受运气影响。"
       },
       "VACUUM": {
-        "description": "收集所有留在地上的经验值宝石。",
-        "name": "真空",
-        "tips": "掉落率受幸运值影响。"
+        "description": "收集所有留在地上的经验宝石。",
+        "name": "聚星宝珠",
+        "tips": "掉落率受运气影响。"
       },
       "NFT": {
-        "description": "可暂时发出锥形火焰。 受玩家数值影响。",
-        "name": "辣酱烘蛋",
-        "tips": "掉落率受幸运值影响。"
+        "description": "可以让玩家暂时喷射锥形火焰, 受人物数值影响。",
+        "name": "辣香肠酱",
+        "tips": "掉落率受运气影响。"
       },
       "RELIC_MAP": {
-        "name": "银河系地图",
-        "description": "永久启用暂停菜单中的地图。",
-        "achievementTips": "暂停菜单地图。"
+        "name": "星河图",
+        "description": "永久解锁功能：在暂停菜单界面查看地图。",
+        "achievementTips": "暂停菜单地图"
       },
       "RELIC_TEAR": {
         "name": "女巫的眼泪",
-        "description": "加快阶段选择的时间。",
-        "achievementTips": "缩短模式."
+        "description": "永久解锁功能：在关卡选择界面调整时间倍速。",
+        "achievementTips": "倍速模式"
       },
       "RELIC_RANDOMAZZO": {
-        "description": "启用至宝的解锁和激活。",
-        "name": "随机数",
-        "achievementTips": "至宝."
+        "description": "解锁秘能, 可以在开局时抽选秘法牌。",
+        "name": "秘法牌",
+        "achievementTips": "秘能模式"
       },
       "RELIC_BANGER": {
-        "description": "Permanently allows to change music in stage selection.",
-        "name": "Magic Banger",
-        "achievementTips": "Music selection."
+        "description": "永久解锁功能：在关卡选择界面挑选音乐。",
+        "name": "热歌香肠",
+        "achievementTips": "音乐选择"
       },
       "GILDED": {
-        "description": "Gathers all gold left on the ground and starts a Gold Fever.",
-        "name": "Gilded Clover"
+        "description": "收集所有留在地上的金币, 然后开启一轮淘金狂潮。",
+        "name": "镶金三叶草"
       },
       "RELIC_GLASSMASK": {
-        "name": "Glass Vizard",
-        "description": "Summons the merchant in all stages.",
-        "achievementTips": "Merchant."
+        "name": "玻璃护面",
+        "description": "可以在所有关卡中召唤商人。",
+        "achievementTips": "商人"
       },
       "RELIC_GOLDENEGG": {
-        "name": "Golden Egg",
-        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+        "name": "金蛋",
+        "description": "小幅提升当前角色的某一项随机属性, 永久有效。"
       },
       "RELIC_YELLOW": {
-        "name": "Yellow Sign",
-        "description": "Permanently allows to detect hidden items in all stages.",
-        "achievementTips": "Hidden stage items."
+        "name": "黄色秘符",
+        "description": "可以侦测任意关卡中的隐藏道具, 永久有效。",
+        "achievementTips": "隐藏关卡道具"
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "邪恶秘典",
+        "description": "永久解锁功能：在暂停菜单界面查看已发现的武器进化组合。",
+        "achievementTips": "进化图示"
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "变装胡子",
+        "description": "永久解锁功能：更改角色的外观 (如允许) 和可携带的武器数量上限。",
+        "achievementTips": "角色自定义"
+      },
+      "RELIC_GOUDA": {
+        "name": "巫术艺典",
+        "description": "永久解锁功能：在主菜单中查看已经击败过的敌人数量。",
+        "achievementTips": "邪魔图鉴。"
+      },
+      "RELIC_GGOSPEL": {
+        "name": "福音书",
+        "description": "永久解锁功能：突破武器的等级上限, 可以在关卡选择界面进行开关。",
+        "achievementTips": "极限突破。"
+      },
+      "RELIC_SECRETS": {
+        "name": "莫尔恩的禁忌卷轴",
+        "description": "永久解锁功能：可以在主菜单中施放魔咒, 并查看秘密列表。",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "月咒火焰",
+        "description": "永久移除最多100份金蛋增益, 此操作不可撤销。"
+      },
+      "RELIC_TRUMPET": {
+        "name": "第七号角",
+        "description": "永久解锁功能：禁用所有死神, 开启无限战斗。",
+        "achievementTips": "无限模式。"
+      },
+      "RELIC_MIRROR": {
+        "name": "格拉西娅的魔镜",
+        "description": "永久解锁功能：可以用一种更困难的方式体验任意关卡。",
+        "achievementTips": "翻转模式。"
+      },
+      "ALWAYS_COINBAG2": {
+        "name": "[总是] 大钱袋",
+        "description": "你的金币总数+25。",
+        "tips": "在其余的跑步中总是选择。"
+      },
+      "ALWAYS_ROAST": {
+        "name": "[总是] 烤鸡",
+        "description": "生命值+30。",
+        "tips": "在其余的跑步中，如果缺失健康，总是会选择硬币。"
       }
     }
   },
   "zh-TW": {
     "english": "Chinese (Traditional)",
-    "native": "繁體中文 95%",
+    "native": "繁體中文 90%",
     "api": "tchinese",
     "translations": {}
   },
@@ -146,19 +195,19 @@
         "name": "Little Clover"
       },
       "COIN": {
-        "description": "Adds 1 to your gold coins total.",
+        "description": "Adds 1 to your Gold coins total.",
         "name": "Gold Coin"
       },
       "COINBAG1": {
-        "description": "Adds 10 to your gold coins total.",
+        "description": "Adds 10 to your Gold coins total.",
         "name": "Coin Bag"
       },
       "COINBAG2": {
-        "description": "Adds 25 to your gold coins total.",
+        "description": "Adds 25 to your Gold coins total.",
         "name": "Big Coin Bag"
       },
       "COINBAGMAX": {
-        "description": "Adds 100 to your gold coins total.",
+        "description": "Adds 100 to your Gold coins total.",
         "name": "Rich Coin Bag",
         "tips": "Drop rate affected by Luck."
       },
@@ -172,7 +221,7 @@
         "tips": "Drop rate affected by Luck."
       },
       "ROAST": {
-        "description": "Restores 30 health points.",
+        "description": "Restores 30 Health points.",
         "name": "Floor Chicken",
         "tips": "Drop rate affected by Luck."
       },
@@ -182,12 +231,12 @@
         "tips": "Drop rate affected by Luck."
       },
       "TREASURE": {
-        "description": "Awards coins and power ups. Dropped by strong enemies.",
+        "description": "Awards coins and Power ups. Dropped by strong enemies.",
         "name": "Treasure Chest",
         "tips": "Quality affected by Luck."
       },
       "VACUUM": {
-        "description": "Gathers all experience gems left on the ground.",
+        "description": "Gathers all Experience gems left on the ground.",
         "name": "Vacuum",
         "tips": "Drop rate affected by Luck."
       },
@@ -199,31 +248,31 @@
       "RELIC_MAP": {
         "name": "Milky Way Map",
         "description": "Permanently enables the map in the pause menu.",
-        "achievementTips": "pause menu map."
+        "achievementTips": "Pause menu map"
       },
       "RELIC_TEAR": {
         "name": "Sorceress' Tears",
-        "description": "Permanently allows to speed up time in Stage Selection.",
-        "achievementTips": "Hurry mode."
+        "description": "Permanently allows speeding up time in Stage Selection.",
+        "achievementTips": "Hurry mode"
       },
       "RELIC_RANDOMAZZO": {
         "description": "Enables the unlocking and activation of Arcanas.",
         "name": "Randomazzo",
-        "achievementTips": "Arcanas."
+        "achievementTips": "Arcanas"
       },
       "RELIC_BANGER": {
-        "description": "Permanently allows to change music in stage selection.",
+        "description": "Permanently allows changing music in Stage Selection.",
         "name": "Magic Banger",
-        "achievementTips": "Music selection."
+        "achievementTips": "Music selection"
       },
       "GILDED": {
-        "description": "Gathers all gold left on the ground and starts a Gold Fever.",
+        "description": "Gathers all Gold left on the ground and starts a Gold Fever.",
         "name": "Gilded Clover"
       },
       "RELIC_GLASSMASK": {
         "name": "Glass Vizard",
         "description": "Summons the merchant in all stages.",
-        "achievementTips": "Merchant."
+        "achievementTips": "Merchant"
       },
       "RELIC_GOLDENEGG": {
         "name": "Golden Egg",
@@ -231,8 +280,57 @@
       },
       "RELIC_YELLOW": {
         "name": "Yellow Sign",
-        "description": "Permanently allows to detect hidden items in all stages.",
-        "achievementTips": "Hidden stage items."
+        "description": "Permanently allows the detection of hidden items in all stages.",
+        "achievementTips": "Hidden stage items"
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "Grim Grimoire",
+        "description": "Permanently allows to peek at discovered weapon evolutions and unions from the pause menu.",
+        "achievementTips": "Evolution list"
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "Mindbender",
+        "description": "Permanently allows to change character appearance (where applicable) and maximum weapon loadout.",
+        "achievementTips": "Character customization"
+      },
+      "RELIC_GOUDA": {
+        "name": "Ars Gouda",
+        "description": "Permanently allows to access the list of defeated enemies from the main menu.",
+        "achievementTips": "Bestiary."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Great Gospel",
+        "description": "Permanently allows to level up weapons beyond their limit. Can be enabled in Stage Selection.",
+        "achievementTips": "Limit Break."
+      },
+      "RELIC_SECRETS": {
+        "name": "Forbidden Scrolls of Morbane",
+        "description": "Permanently allow you to cast spells and to access the list of secrets from the main menu.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "Flames of Moonspell",
+        "description": "Permanently remove up to 100 random Golden Egg bonuses. This cannot be undone."
+      },
+      "RELIC_TRUMPET": {
+        "name": "Seventh Trumpet",
+        "description": "Permanently allows to disable all reapers and fight endlessly.",
+        "achievementTips": "Endless mode."
+      },
+      "RELIC_MIRROR": {
+        "name": "Gracia's Mirror",
+        "description": "Permanently allows to access a harder version of any stage.",
+        "achievementTips": "Inverse mode."
+      },
+      "ALWAYS_COINBAG2": {
+        "name": "[Always] Big Coin Bag",
+        "description": "Adds 25 to your gold coins total.",
+        "tips": "Always picked, for the rest of the run."
+      },
+      "ALWAYS_ROAST": {
+        "name": "[Always] Floor Chicken",
+        "description": "Restores 30 Health points.",
+        "tips": "Always picked over coins if missing health, for the rest of the run."
       }
     }
   },
@@ -244,101 +342,150 @@
   },
   "fr": {
     "english": "French",
-    "native": "Français 80%",
+    "native": "Français",
     "api": "french",
     "translations": {
       "CLOVER": {
-        "description": "Obtenez 10% de chance en plus en le ramassant.",
+        "description": "Obtenez 10 % de chance bonus.",
         "name": "Petit trèfle"
       },
       "COIN": {
-        "description": "Ajoute 1 à votre total de pièces d'or.",
+        "description": "Obtenez une pièce d'or.",
         "name": "Pièce d'or"
       },
       "COINBAG1": {
-        "description": "Ajoute 10 à votre total de pièces d'or.",
+        "description": "Obtenez 10 pièces d'or.",
         "name": "Bourse d'or"
       },
       "COINBAG2": {
-        "description": "Ajoute 25 à votre total de pièces d'or.",
+        "description": "Obtenez 25 pièces d'or.",
         "name": "Sac d'or"
       },
       "COINBAGMAX": {
-        "description": "Ajoute 100 à votre total de pièces d'or.",
-        "name": "Sac d'or mastoc",
-        "tips": "Taux de drop affecté par la chance."
+        "description": "Obtenez 100 pièces d'or.",
+        "name": "Grand sac d'or",
+        "tips": "La chance affecte le taux d'apparition."
       },
       "GEM": {
         "description": "Augmente l'expérience.",
         "name": "Gemme d'expérience"
       },
       "OROLOGION": {
-        "description": "Immobilise tous les ennemis pendant 10 secondes.",
+        "description": "Immobilise tous les ennemis pendant 10 secondes.",
         "name": "Orologion",
-        "tips": "Taux de drop affecté par la chance."
+        "tips": "La chance affecte le taux d'apparition."
       },
       "ROAST": {
-        "description": "Restaure 30 points de vie.",
+        "description": "Rend 30 points de vie.",
         "name": "Poulet rôti",
-        "tips": "Taux de drop affecté par la chance."
+        "tips": "La chance affecte le taux d'apparition."
       },
       "ROSARY": {
         "description": "Élimine tous les ennemis visibles.",
         "name": "Chapelet",
-        "tips": "Taux de drop affecté par la chance."
+        "tips": "La chance affecte le taux d'apparition."
       },
       "TREASURE": {
-        "description": "Attribue des pièces et des power-ups. Droppé par les ennemis puissants.",
+        "description": "Rempli de pièces et de bonus. Laissé par les ennemis puissants.",
         "name": "Coffre au trésor",
-        "tips": "Qualité affectée par la chance."
+        "tips": "La chance affecte sa qualité."
       },
       "VACUUM": {
-        "description": "Récupère toutes les gemmes d'expérience laissées au sol.",
+        "description": "Récupère toutes les gemmes d'expérience au sol.",
         "name": "Vortex",
-        "tips": "Taux de drop affecté par la chance."
+        "tips": "La chance affecte le taux d'apparition."
       },
       "NFT": {
-        "description": "Souffle du feu en cône de façon temporaire. Objet affecté par les stats du joueur.",
+        "description": "Crache temporairement des flammes en cône. Les stats du personnage l'affectent.",
         "name": "Nduja Fritta",
-        "tips": "Taux de drop affecté par la chance."
+        "tips": "La chance affecte le taux d'apparition."
       },
       "RELIC_MAP": {
         "name": "Carte de la Voie lactée",
         "description": "Active de façon permanente la carte dans le menu pause.",
-        "achievementTips": "carte du menu pause."
+        "achievementTips": "Carte du menu pause"
       },
       "RELIC_TEAR": {
-        "name": "Sorceress' Tears",
-        "description": "Permanently allows to speed up time in Stage Selection.",
-        "achievementTips": "Hurry mode."
+        "name": "Larmes de la sorcière",
+        "description": "Permet d'activer le mode course dans la sélection du niveau.",
+        "achievementTips": "Mode course"
       },
       "RELIC_RANDOMAZZO": {
-        "description": "Enables the unlocking and activation of Arcanas.",
+        "description": "Permet de débloquer et activer les Arcanes.",
         "name": "Randomazzo",
-        "achievementTips": "Arcanas."
+        "achievementTips": "Arcanes"
       },
       "RELIC_BANGER": {
-        "description": "Permanently allows to change music in stage selection.",
-        "name": "Magic Banger",
-        "achievementTips": "Music selection."
+        "description": "Permet de changer la musique dans la sélection du niveau.",
+        "name": "Magie FM",
+        "achievementTips": "Choix de la musique"
       },
       "GILDED": {
-        "description": "Gathers all gold left on the ground and starts a Gold Fever.",
-        "name": "Gilded Clover"
+        "description": "Récupère tout l'or au sol et déclenche une Pluie d'or.",
+        "name": "Trèfle doré"
       },
       "RELIC_GLASSMASK": {
-        "name": "Glass Vizard",
-        "description": "Summons the merchant in all stages.",
-        "achievementTips": "Merchant."
+        "name": "Vizard de verre",
+        "description": "Fait apparaître le marchand dans tous les niveaux.",
+        "achievementTips": "Marchand"
       },
       "RELIC_GOLDENEGG": {
-        "name": "Golden Egg",
-        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+        "name": "Œuf doré",
+        "description": "Améliore très légèrement et de façon permanente une stat aléatoire de votre personnage."
       },
       "RELIC_YELLOW": {
-        "name": "Yellow Sign",
-        "description": "Permanently allows to detect hidden items in all stages.",
-        "achievementTips": "Hidden stage items."
+        "name": "Signe jaune",
+        "description": "Permet de détecter les objets cachés dans tous les niveaux.",
+        "achievementTips": "Objets cachés dans les niveaux"
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "Livre délivré",
+        "description": "Permet de consulter les évolutions et fusions des armes découvertes dans le menu pause.",
+        "achievementTips": "Liste des évolutions"
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "Caméléon",
+        "description": "Permet de modifier l'apparence de votre personnage (si possible) et le nombre maximum d'armes.",
+        "achievementTips": "Personnalisation de votre personnage"
+      },
+      "RELIC_GOUDA": {
+        "name": "Ars Gouda",
+        "description": "Débloque un accès permanent à la liste des ennemis éliminés depuis le menu principal.",
+        "achievementTips": "Bestiaire."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Gospel divin",
+        "description": "Débloque la possibilité permanente d'améliorer les armes une fois leur limite atteinte. À activer dans la sélection du niveau.",
+        "achievementTips": "Dépassement."
+      },
+      "RELIC_SECRETS": {
+        "name": "Parchemins défendus de Morbane",
+        "description": "Débloque la possibilité permanente de jeter des sorts et d'accéder à la liste des secrets depuis le menu principal.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "Flammes de Sortilune",
+        "description": "Supprime jusqu'à 100 bonus d'Œuf doré aléatoires de manière permanente. Cette action est irréversible."
+      },
+      "RELIC_TRUMPET": {
+        "name": "Septième trompette",
+        "description": "Débloque la possibilité permanente de désactiver les Faucheuses pour vous battre indéfiniment.",
+        "achievementTips": "Mode sans fin."
+      },
+      "RELIC_MIRROR": {
+        "name": "Miroir de Gracia",
+        "description": "Débloque un accès permanent à des versions plus difficiles de tous les niveaux.",
+        "achievementTips": "Mode inversé."
+      },
+      "ALWAYS_COINBAG2": {
+        "name": "[Toujours] Sac d'or",
+        "description": "Obtenez 25 pièces d'or.",
+        "tips": "Toujours choisi, pour le reste de la course."
+      },
+      "ALWAYS_ROAST": {
+        "name": "[Toujours] Poulet rôti",
+        "description": "Rend 30 points de vie.",
+        "tips": "Toujours choisi sur des pièces en cas de santé, pour le reste de la course."
       }
     }
   },
@@ -348,7 +495,7 @@
     "api": "german",
     "translations": {
       "CLOVER": {
-        "description": "Aufnehmen, um 10% mehr Glück zu haben.",
+        "description": "Nimm es auf, um 10% mehr Glück zu haben.",
         "name": "Kleeblättchen"
       },
       "COIN": {
@@ -365,21 +512,21 @@
       },
       "COINBAGMAX": {
         "description": "Erhöht die Anzahl deiner Goldmünzen um 100.",
-        "name": "Reicher Münzsack",
+        "name": "Praller Münzsack",
         "tips": "Die Drop-Rate hängt vom Glück ab."
       },
       "GEM": {
         "description": "Erhöht die Erfahrung.",
-        "name": "Erfahrungs-Edelstein"
+        "name": "Erfahrungsedelstein"
       },
       "OROLOGION": {
-        "description": "Friert alle Gegner in der Zeit für 10 Sekunden ein.",
+        "description": "Friert alle Gegner für 10 Sekunden in der Zeit ein.",
         "name": "Orologion",
         "tips": "Die Drop-Rate hängt vom Glück ab."
       },
       "ROAST": {
         "description": "Stellt 30 Lebenspunkte wieder her.",
-        "name": "Bodenhuhn",
+        "name": "Brathähnchen",
         "tips": "Die Drop-Rate hängt vom Glück ab."
       },
       "ROSARY": {
@@ -388,57 +535,106 @@
         "tips": "Die Drop-Rate hängt vom Glück ab."
       },
       "TREASURE": {
-        "description": "Gibt Münzen und Power-ups. Wird von starken Gegnern fallen gelassen.",
+        "description": "Gewährt Münzen und Power-ups. Wird von starken Gegnern fallen gelassen.",
         "name": "Schatztruhe",
         "tips": "Die Qualität hängt vom Glück ab."
       },
       "VACUUM": {
-        "description": "Sammelt alle Erfahrungssteine ein, die auf dem Boden liegen.",
+        "description": "Sammelt alle Erfahrungsedelsteine ein, die auf dem Boden liegen.",
         "name": "Vakuum",
         "tips": "Die Drop-Rate hängt vom Glück ab."
       },
       "NFT": {
-        "description": "Setzt vorübergehend Flammenkegel frei. Beeinflusst die Werte des Spielers.",
+        "description": "Setzt vorübergehend Flammenkegel frei. Von den Werten des Spielers abhängig.",
         "name": "Nduja Fritta",
         "tips": "Die Drop-Rate hängt vom Glück ab."
       },
       "RELIC_MAP": {
-        "name": "Milky Way Map",
-        "description": "Permanently enables the map in the pause menu.",
-        "achievementTips": "pause menu map."
+        "name": "Karte der Milchstraße",
+        "description": "Aktiviert dauerhaft die Karte im Pausenmenü.",
+        "achievementTips": "Karte im Pausenmenü"
       },
       "RELIC_TEAR": {
-        "name": "Sorceress' Tears",
-        "description": "Permanently allows to speed up time in Stage Selection.",
-        "achievementTips": "Hurry mode."
+        "name": "Tränen der Zauberin",
+        "description": "Ermöglicht dauerhaft das Beschleunigen der Zeit in der Stage-Auswahl.",
+        "achievementTips": "Eilig-Modus"
       },
       "RELIC_RANDOMAZZO": {
-        "description": "Enables the unlocking and activation of Arcanas.",
+        "description": "Ermöglicht das Freischalten und Aktivieren von Arcanas.",
         "name": "Randomazzo",
-        "achievementTips": "Arcanas."
+        "achievementTips": "Arcanas"
       },
       "RELIC_BANGER": {
-        "description": "Permanently allows to change music in stage selection.",
-        "name": "Magic Banger",
-        "achievementTips": "Music selection."
+        "description": "Ermöglicht dauerhaft das Wechseln der Musik in der Stage-Auswahl.",
+        "name": "Magischer Banger",
+        "achievementTips": "Musik-Auswahl"
       },
       "GILDED": {
-        "description": "Gathers all gold left on the ground and starts a Gold Fever.",
-        "name": "Gilded Clover"
+        "description": "Sammelt alles Gold ein, das auf dem Boden liegt, und startet einen Goldrausch.",
+        "name": "Vergoldetes Kleeblatt"
       },
       "RELIC_GLASSMASK": {
-        "name": "Glass Vizard",
-        "description": "Summons the merchant in all stages.",
-        "achievementTips": "Merchant."
+        "name": "Glas-Vizard",
+        "description": "Ruft in allen Stages den Händler herbei.",
+        "achievementTips": "Händler"
       },
       "RELIC_GOLDENEGG": {
-        "name": "Golden Egg",
-        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+        "name": "Goldenes Ei",
+        "description": "Verbessert einen zufälligen des aktuellen Charakters minimal."
       },
       "RELIC_YELLOW": {
-        "name": "Yellow Sign",
-        "description": "Permanently allows to detect hidden items in all stages.",
-        "achievementTips": "Hidden stage items."
+        "name": "Gelbes Schild",
+        "description": "Ermöglicht dauerhaft das Entdecken geheimer Items in allen Stages.",
+        "achievementTips": "Geheime Items in Stages"
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "Grimmiges Grimoire",
+        "description": "Ermöglicht dauerhaft einen Blick auf entdeckte Waffenverbesserungen und -vereinigungen im Pausenmenü.",
+        "achievementTips": "Verbesserungsliste"
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "Geisterweiterer",
+        "description": "Ermöglicht dauerhaft das Verändern des Charakteraussehens (wo möglich) und der maximalen Waffenkonfiguration.",
+        "achievementTips": "Charakteranpassung"
+      },
+      "RELIC_GOUDA": {
+        "name": "Ars Gouda",
+        "description": "Gewährt dauerhaften Zugriff auf die Liste besiegter Gegner über das Hauptmenü.",
+        "achievementTips": "Bestiarium."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Frohe Kunde",
+        "description": "Erlaubt dauerhaft das Aufleveln von Waffen über ihr Limit hinaus. Kann in der Stage-Auswahl aktiviert werden.",
+        "achievementTips": "Limit-Bruch."
+      },
+      "RELIC_SECRETS": {
+        "name": "Verbotene Schriftrollen von Morbane",
+        "description": "Erlauben dauerhaft das Wirken von Zaubern und gewähren über das Hauptmenü Zugriff auf die Liste der Geheimnisse.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "Flammen des Mondzaubers",
+        "description": "Entfernen dauerhaft bis zu 100 zufällige Goldenes-Ei-Boni. Kann nicht rückgängig gemacht werden."
+      },
+      "RELIC_TRUMPET": {
+        "name": "Siebente Trompete",
+        "description": "Erlaubt dauerhaft das Deaktivieren aller Schnitter und das endlose Kämpfen.",
+        "achievementTips": "Endlos-Modus."
+      },
+      "RELIC_MIRROR": {
+        "name": "Gracias Spiegel",
+        "description": "Gewährt dauerhaft den Zugang zu einer schwereren Version einer beliebigen Stage.",
+        "achievementTips": "Umgekehrt-Modus."
+      },
+      "ALWAYS_COINBAG2": {
+        "name": "[Stets] Großer Münzsack",
+        "description": "Erhöht die Anzahl deiner Goldmünzen um 25.",
+        "tips": "Immer gepflückt, für den Rest des Laufs."
+      },
+      "ALWAYS_ROAST": {
+        "name": "[Stets] Brathähnchen",
+        "description": "Stellt 30 Lebenspunkte wieder her.",
+        "tips": "Für den Rest des Laufs immer Münzen übernommen, wenn sie Gesundheit fehlt."
       }
     }
   },
@@ -458,105 +654,297 @@
     "english": "Italian",
     "native": "Italiano",
     "api": "italian",
-    "translations": {}
+    "translations": {
+      "CLOVER": {
+        "description": "Raccoglilo per ottenere il 10% in più di fortuna.",
+        "name": "Trifoglietto"
+      },
+      "COIN": {
+        "description": "Aggiunge 1 moneta d'oro al tuo totale.",
+        "name": "Moneta d'oro"
+      },
+      "COINBAG1": {
+        "description": "Aggiunge 10 monete d'oro al tuo totale.",
+        "name": "Sacchetto d'oro"
+      },
+      "COINBAG2": {
+        "description": "Aggiunge 25 monete d'oro al tuo totale.",
+        "name": "Sacchetto colmo d'oro"
+      },
+      "COINBAGMAX": {
+        "description": "Aggiunge 100 monete d'oro al tuo totale.",
+        "name": "Sacchetto stracolmo d'oro",
+        "tips": "La Fortuna influenza la possibilità di trovarla."
+      },
+      "GEM": {
+        "description": "Aumenta l'esperienza.",
+        "name": "Gemma dell'esperienza"
+      },
+      "OROLOGION": {
+        "description": "Congela tutti i nemici per 10 secondi.",
+        "name": "Orologion",
+        "tips": "La Fortuna influenza la possibilità di trovarlo."
+      },
+      "ROAST": {
+        "description": "Ripristina 30 punti di salute.",
+        "name": "Pollo sul pavimento",
+        "tips": "La Fortuna influenza la possibilità di trovarlo."
+      },
+      "ROSARY": {
+        "description": "Elimina tutti i nemici nel campo visivo.",
+        "name": "Rosario",
+        "tips": "La Fortuna influenza la possibilità di trovarlo."
+      },
+      "TREASURE": {
+        "description": "Ricompensa con monete e potenziamenti. Elimina i nemici più potenti per trovarlo.",
+        "name": "Forziere del tesoro",
+        "tips": "La Fortuna ne influenza la qualità."
+      },
+      "VACUUM": {
+        "description": "Attira tutte le Gemme dell'esperienza rimaste al suolo.",
+        "name": "Risucchio",
+        "tips": "La Fortuna influenza la possibilità di trovarlo."
+      },
+      "NFT": {
+        "description": "Emette temporaneamente coni di fiamme. Influenzata dalle statistiche del personaggio.",
+        "name": "Nduja fritta",
+        "tips": "La Fortuna influenza la possibilità di trovarla."
+      },
+      "RELIC_MAP": {
+        "name": "Mappa della via Lattea",
+        "description": "Abilita permanentemente la mappa nel menu di pausa.",
+        "achievementTips": "Mappa nel menu di pausa"
+      },
+      "RELIC_TEAR": {
+        "name": "Lacrime di strega",
+        "description": "Permette permanentemente di aumentare la velocità nella selezione del livello.",
+        "achievementTips": "Modalità Più in fretta"
+      },
+      "RELIC_RANDOMAZZO": {
+        "description": "Permette di sbloccare e attivare gli Arcani.",
+        "name": "Randomazzo",
+        "achievementTips": "Arcani"
+      },
+      "RELIC_BANGER": {
+        "description": "Permette permanentemente di cambiare la musica nella selezione del livello.",
+        "name": "Pezzone magico",
+        "achievementTips": "Selezione musicale"
+      },
+      "GILDED": {
+        "description": "Attira tutto l'oro rimasto al suolo e dà inizio alla Febbre dell'oro.",
+        "name": "Trifoglio dorato"
+      },
+      "RELIC_GLASSMASK": {
+        "name": "Vizard di vetro",
+        "description": "Evoca il mercante in tutti i livelli.",
+        "achievementTips": "Mercante"
+      },
+      "RELIC_GOLDENEGG": {
+        "name": "Uovo d'oro",
+        "description": "Migliora leggermente in maniera permanente una statistica a caso del personaggio attuale."
+      },
+      "RELIC_YELLOW": {
+        "name": "Segno giallo",
+        "description": "Permette permanentemente di rilevare degli oggetti nascosti in tutti i livelli.",
+        "achievementTips": "Oggetti nascosti del livello"
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "Grimorio del martirio",
+        "description": "Permette permanentemente di dare un'occhiata nel menu di pausa alle evoluzioni e unioni delle armi scoperte.",
+        "achievementTips": "Lista delle evoluzioni"
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "Mindbender",
+        "description": "Permette permanentemente di modificare l'aspetto (se possibile) e l'equipaggiamento massimo dell'arma del personaggio.",
+        "achievementTips": "Personalizzazione del personaggio"
+      },
+      "RELIC_GOUDA": {
+        "name": "Ars Gouda",
+        "description": "Garantisce l'accesso permanente all'elenco dei nemici sconfitti dal menu principale.",
+        "achievementTips": "Bestiario."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Buona novella",
+        "description": "Permette permanentemente il miglioramento delle armi oltre il loro limite. Si può attivare dalla selezione del livello.",
+        "achievementTips": "Superamento del limite."
+      },
+      "RELIC_SECRETS": {
+        "name": "Pergamene proibite di Morbane",
+        "description": "Permette permanentemente il lancio di incantesimi e l'accesso all'elenco dei segreti dal menu principale.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "Fiamme di Lunamagica",
+        "description": "Rimuove definitivamente fino a 100 bonus casuali dell'Uovo d'oro. Quest'azione è irreversibile."
+      },
+      "RELIC_TRUMPET": {
+        "name": "Settima tromba",
+        "description": "Consente di disabilitare definitivamente tutti i mietitori e di combattere all'infinito.",
+        "achievementTips": "Modalità senza fine."
+      },
+      "RELIC_MIRROR": {
+        "name": "Specchio di Gracia",
+        "description": "Garantisce l'accesso permanente a una versione più difficile di qualsiasi livello.",
+        "achievementTips": "Modalità invertita."
+      },
+      "ALWAYS_COINBAG2": {
+        "name": "[Sempre] Sacchetto colmo d'oro",
+        "description": "Aggiunge 25 monete d'oro al tuo totale.",
+        "tips": "Toujours Choisi, Pour le Reste de la Course."
+      },
+      "ALWAYS_ROAST": {
+        "name": "[Sempre] Pollo sul pavimento",
+        "description": "Ripristina 30 punti di salute.",
+        "tips": "Sempre scelto se mancano HP, per il resto della partita."
+      }
+    }
   },
   "ja": {
     "english": "Japanese",
-    "native": "日本語 95%",
+    "native": "日本語",
     "api": "japanese",
     "translations": {
       "CLOVER": {
-        "description": "ひろうと運気が10%上がる。",
+        "description": "運が10%上がる。",
         "name": "小さなクローバー"
       },
       "COIN": {
-        "description": "金貨の合計に1枚追加。",
+        "description": "金貨が1枚増える。",
         "name": "金貨"
       },
       "COINBAG1": {
-        "description": "金貨の合計に10枚追加。",
-        "name": "硬貨袋"
+        "description": "金貨が10枚増える。",
+        "name": "金貨袋"
       },
       "COINBAG2": {
-        "description": "金貨の合計に25枚追加。",
-        "name": "大きな硬貨袋"
+        "description": "金貨が25枚増える。",
+        "name": "大きな金貨袋"
       },
       "COINBAGMAX": {
-        "description": "金貨の合計に100枚追加。",
-        "name": "高級な硬貨袋",
-        "tips": "ドロップ率は運気の影響を受ける。"
+        "description": "金貨が100枚増える。",
+        "name": "大金の金貨袋",
+        "tips": "運の能力値に応じてドロップ率が変化。"
       },
       "GEM": {
-        "description": "EXPを増加させる。",
+        "description": "EXPが増加する。",
         "name": "EXPジェム"
       },
       "OROLOGION": {
         "description": "10秒間すべての敵の時間を止める。",
         "name": "懐中時計",
-        "tips": "ドロップ率は運気の影響を受ける。"
+        "tips": "運の能力値に応じてドロップ率が変化。"
       },
       "ROAST": {
-        "description": "ライフを30回復する。",
+        "description": "HPが30回復する。",
         "name": "トリ肉",
-        "tips": "ドロップ率は運気の影響を受ける。"
+        "tips": "運の能力値に応じてドロップ率が変化。"
       },
       "ROSARY": {
-        "description": "視界にいるすべての敵を倒す。",
+        "description": "画面内にいる敵をすべて倒す。",
         "name": "ロザリオ",
-        "tips": "ドロップ率は運気の影響を受ける。"
+        "tips": "運の能力値に応じてドロップ率が変化。"
       },
       "TREASURE": {
-        "description": "効果とパワーアップを付与する。 強い敵が落とすアイテム。",
+        "description": "金貨とパワーアップが得られる。 強い敵を倒すとドロップするアイテム。",
         "name": "宝箱",
-        "tips": "品質は運気の影響を受ける。"
+        "tips": "運の能力値に応じて箱の中身が変化。"
       },
       "VACUUM": {
-        "description": "地面に残ったEXPジェムをすべて集める。",
-        "name": "バキューム",
-        "tips": "ドロップ率は運気の影響を受ける。"
+        "description": "落ちているEXPジェムをすべて回収する。",
+        "name": "吸引のオーブ",
+        "tips": "運の能力値に応じてドロップ率が変化。"
       },
       "NFT": {
-        "description": "一時的に円錐形の炎を放出する。 プレイヤーステータスの影響を受ける。",
+        "description": "一定時間, 炎を放射する。 ステータスに応じて効果が強化される。",
         "name": "ンドゥヤ・フリッタ",
-        "tips": "ドロップ率は運気の影響を受ける。"
+        "tips": "運の能力値に応じてドロップ率が変化。"
       },
       "RELIC_MAP": {
-        "name": "天の川マップ",
-        "description": "ポーズメニューでマップが表示されます。",
+        "name": "天の川の地図",
+        "description": "ポーズメニューでマップが表示される。",
         "achievementTips": "ポーズメニューマップ"
       },
       "RELIC_TEAR": {
-        "name": "Sorceress' Tears",
-        "description": "Permanently allows to speed up time in Stage Selection.",
-        "achievementTips": "Hurry mode."
+        "name": "魔女の涙",
+        "description": "ステージ選択時, お急ぎモードが選べる。",
+        "achievementTips": "お急ぎモード"
       },
       "RELIC_RANDOMAZZO": {
-        "description": "Enables the unlocking and activation of Arcanas.",
-        "name": "Randomazzo",
-        "achievementTips": "Arcanas."
+        "description": "ステージ選択時, アルカナモードが選べる。",
+        "name": "数奇のカード",
+        "achievementTips": "アルカナ"
       },
       "RELIC_BANGER": {
-        "description": "Permanently allows to change music in stage selection.",
-        "name": "Magic Banger",
-        "achievementTips": "Music selection."
+        "description": "ステージ選択時, ステージ音楽が選べる。",
+        "name": "魔法の楽器",
+        "achievementTips": "音楽選択"
       },
       "GILDED": {
-        "description": "Gathers all gold left on the ground and starts a Gold Fever.",
-        "name": "Gilded Clover"
+        "description": "落ちている金貨がすべて回収されたのちに, ゴールドフィーバーが発生する。",
+        "name": "金箔のクローバー"
       },
       "RELIC_GLASSMASK": {
-        "name": "Glass Vizard",
-        "description": "Summons the merchant in all stages.",
-        "achievementTips": "Merchant."
+        "name": "ガラスのお面",
+        "description": "全ステージで商人を呼び出せるようになる。",
+        "achievementTips": "商人"
       },
       "RELIC_GOLDENEGG": {
-        "name": "Golden Egg",
-        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+        "name": "黄金の卵",
+        "description": "現在のキャラクターからいずれかのステータスが, 極少量増加し続ける。"
       },
       "RELIC_YELLOW": {
-        "name": "Yellow Sign",
-        "description": "Permanently allows to detect hidden items in all stages.",
-        "achievementTips": "Hidden stage items."
+        "name": "黄の印",
+        "description": "全ステージで隠しアイテムが分かるようになる。",
+        "achievementTips": "ステージの隠しアイテム"
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "魔導書",
+        "description": "ポーズメニューから, 見つけた武器の進化と融合の条件を確認できる。",
+        "achievementTips": "進化手順のガイド"
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "鼻付き眼鏡",
+        "description": "キャラクターの外見 (カスタマイズ可能なキャラに限り) と, 武器の最大所持数を変更できる。",
+        "achievementTips": "キャラカスタマイズ"
+      },
+      "RELIC_GOUDA": {
+        "name": "アルス・ゴーダ",
+        "description": "常時, メインメニューから倒した敵のリストにアクセスできるようになる。",
+        "achievementTips": "モンスター図鑑"
+      },
+      "RELIC_GGOSPEL": {
+        "name": "大いなる福音",
+        "description": "常時, 武器の上限を超えたレベルアップを可能とする。 ステージ選択で有効にできる。",
+        "achievementTips": "リミットブレイク"
+      },
+      "RELIC_SECRETS": {
+        "name": "モルベインの禁じられた巻物",
+        "description": "常時, メインメニューから呪文を唱え, シークレットのリストにアクセスできるようにする。",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "ムーンスペルの炎",
+        "description": "金の卵のボーナスを最大100個まで永久に削除する。 取消し不可。"
+      },
+      "RELIC_TRUMPET": {
+        "name": "第七のラッパ吹き",
+        "description": "すべての死神を永久に無効化し, 無限に戦えるようになる。",
+        "achievementTips": "エンドレスモード"
+      },
+      "RELIC_MIRROR": {
+        "name": "グラシアの鏡",
+        "description": "すべてのステージのハードバージョンにアクセスできる。",
+        "achievementTips": "反転モード"
+      },
+      "ALWAYS_COINBAG2": {
+        "name": "[いつも] 大きな金貨袋",
+        "description": "金貨が25枚増える。",
+        "tips": "残りのランのために、常に選んだ。"
+      },
+      "ALWAYS_ROAST": {
+        "name": "[いつも] トリ肉",
+        "description": "HPが30回復する。",
+        "tips": "残りの走りのために、健康が欠けている場合は常にコインを選んでください。"
       }
     }
   },
@@ -566,25 +954,25 @@
     "api": "koreana",
     "translations": {
       "CLOVER": {
-        "description": "획득시 행운이 10% 증가합니다.",
+        "description": "획득 시 행운이 10% 증가합니다.",
         "name": "작은 클로버"
       },
       "COIN": {
-        "description": "1골드를 추가합니다.",
+        "description": "1골드를 획득합니다.",
         "name": "금화"
       },
       "COINBAG1": {
-        "description": "10골드를 추가합니다.",
+        "description": "10골드를 획득합니다.",
         "name": "금화 주머니"
       },
       "COINBAG2": {
-        "description": "25골드를 추가합니다.",
+        "description": "25골드를 획득합니다.",
         "name": "큰 금화 주머니"
       },
       "COINBAGMAX": {
-        "description": "100골드를 추가합니다.",
+        "description": "100골드를 획득합니다.",
         "name": "거대한 금화 주머니",
-        "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
+        "tips": "행운이 높을수록 드롭될 확률이 높아집니다."
       },
       "GEM": {
         "description": "경험치를 증가시킵니다.",
@@ -593,32 +981,32 @@
       "OROLOGION": {
         "description": "10초간 모든 적을 얼려버립니다.",
         "name": "회중시계",
-        "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
+        "tips": "행운이 높을수록 드롭될 확률이 높아집니다."
       },
       "ROAST": {
         "description": "체력을 30 회복합니다.",
         "name": "치킨",
-        "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
+        "tips": "행운이 높을수록 드롭될 확률이 높아집니다."
       },
       "ROSARY": {
         "description": "시야 내의 모든 적을 파괴합니다.",
         "name": "묵주",
-        "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
+        "tips": "행운이 높을수록 드롭될 확률이 높아집니다."
       },
       "TREASURE": {
         "description": "골드와 무작위 파워 업을 획득합니다. 강력한 적에게서만 획득할 수 있습니다.",
         "name": "보물상자",
-        "tips": "행운이 높을수록 많은 아이템과 골드를 획득할수 있습니다."
+        "tips": "행운이 높을수록 많은 아이템과 골드를 획득할 수 있습니다."
       },
       "VACUUM": {
         "description": "지면의 모든 경험치 보석을 모아줍니다.",
         "name": "흡입기",
-        "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
+        "tips": "행운이 높을수록 드롭될 확률이 높아집니다."
       },
       "NFT": {
         "description": "바라보는 방향으로 화염을 방사합니다. 플레이어 스탯에 영향을 받습니다.",
         "name": "은두자 프리타",
-        "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
+        "tips": "행운이 높을수록 드롭될 확률이 높아집니다."
       },
       "RELIC_MAP": {
         "name": "은하수 지도",
@@ -627,36 +1015,85 @@
       },
       "RELIC_TEAR": {
         "name": "마녀의 눈물",
-        "description": "스테이지 선택에서 게임 시간을 단축할수 있습니다.",
-        "achievementTips": "단축 모드."
+        "description": "스테이지 선택에서 게임을 영구적으로 가속할 수 있습니다.",
+        "achievementTips": "단축 모드"
       },
       "RELIC_RANDOMAZZO": {
         "description": "아르카나의 잠금 해제 및 활성화.",
         "name": "란도마조",
-        "achievementTips": "아르카나."
+        "achievementTips": "아르카나"
       },
       "RELIC_BANGER": {
-        "description": "스테이지 선택에서 게임음악을 변경할수 있습니다.",
-        "name": "매직 뱅거",
-        "achievementTips": "음악 선택."
+        "description": "스테이지 선택에서 음악을 영구적으로 변경할 수 있습니다.",
+        "name": "매직 뱅어",
+        "achievementTips": "음악 선택"
       },
       "GILDED": {
         "description": "땅에 떨어진 모든 금화를 흡수하며 황금의 피버타임을 가집니다.",
         "name": "금박 클로버"
       },
       "RELIC_GLASSMASK": {
-        "name": "Glass Vizard",
-        "description": "Summons the merchant in all stages.",
-        "achievementTips": "Merchant."
+        "name": "유리 가면",
+        "description": "모든 스테이지에서 상인을 소환합니다.",
+        "achievementTips": "상인"
       },
       "RELIC_GOLDENEGG": {
-        "name": "Golden Egg",
-        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+        "name": "황금알",
+        "description": "현재 플레이 중인 캐릭터의 무작위 능력치 한 가지를 영구적으로 소폭 증가시킵니다."
       },
       "RELIC_YELLOW": {
-        "name": "Yellow Sign",
-        "description": "Permanently allows to detect hidden items in all stages.",
-        "achievementTips": "Hidden stage items."
+        "name": "노란색 신호",
+        "description": "모든 스테이지에서 숨겨진 아이템을 영구적으로 감지할 수 있습니다.",
+        "achievementTips": "숨겨진 마법 유물"
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "그림 그리모어",
+        "description": "일시 정지 메뉴에서 발견한 무기 진화, 조합법을 영구적으로 확인할 수 있습니다.",
+        "achievementTips": "진화 목록"
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "코주부 안경",
+        "description": "캐릭터의 외형을 변경 가능하게 해줍니다. 또한 게임 시작 전에 소지 가능한 최대 무기의 수량을 지정할 수 있습니다.",
+        "achievementTips": "캐릭터 커스터마이징"
+      },
+      "RELIC_GOUDA": {
+        "name": "괴물 도감",
+        "description": "메인 메뉴에서 처치한 적의 목록을 영구적으로 확인할 수 있습니다.",
+        "achievementTips": "도감입니다."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "위대한 복음",
+        "description": "영구적으로 무기의 레벨을 한계 이상으로 올릴 수 있습니다. 스테이지 선택에서 활성화할 수 있습니다.",
+        "achievementTips": "한계돌파"
+      },
+      "RELIC_SECRETS": {
+        "name": "모르베인의 금지된 두루마리",
+        "description": "주문을 시전하고 메인 메뉴에서 비밀 목록을 확인할 수 있습니다.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "문스펠의 불꽃",
+        "description": "무작위 황금알 보너스를 최대 100개 영구적으로 제거합니다. 이는 실행 취소할 수 없습니다."
+      },
+      "RELIC_TRUMPET": {
+        "name": "일곱 번째 나팔",
+        "description": "영구적으로 모든 사신을 비활성화하고 무한으로 전투할 수 있도록 합니다.",
+        "achievementTips": "무한 모드입니다."
+      },
+      "RELIC_MIRROR": {
+        "name": "그라시아의 거울",
+        "description": "영구적으로 원하는 스테이지의 더 어려운 버전을 이용할 수 있습니다.",
+        "achievementTips": "반전 모드입니다."
+      },
+      "ALWAYS_COINBAG2": {
+        "name": "[언제나] 큰 금화 주머니",
+        "description": "25골드를 획득합니다.",
+        "tips": "나머지 달리기를 위해 항상 골라 냈습니다."
+      },
+      "ALWAYS_ROAST": {
+        "name": "[언제나] 치킨",
+        "description": "체력을 30 회복합니다.",
+        "tips": "나머지 달리기 동안 건강이 누락되면 항상 동전을 골랐습니다."
       }
     }
   },
@@ -670,7 +1107,150 @@
     "english": "Polish",
     "native": "Polski",
     "api": "polish",
-    "translations": {}
+    "translations": {
+      "CLOVER": {
+        "description": "Weź, żeby zyskać 10% szczęścia.",
+        "name": "Mała koniczyna"
+      },
+      "COIN": {
+        "description": "Dodaje 1 do sumy Złotych monet.",
+        "name": "Złota moneta"
+      },
+      "COINBAG1": {
+        "description": "Dodaje 10 do sumy Złotych monet.",
+        "name": "Worek monet"
+      },
+      "COINBAG2": {
+        "description": "Dodaje 25 do sumy Złotych monet.",
+        "name": "Duży worek monet"
+      },
+      "COINBAGMAX": {
+        "description": "Dodaje 100 do sumy Złotych monet.",
+        "name": "Wypchany worek monet",
+        "tips": "Częstotliwość występowania zależna od Szczęścia."
+      },
+      "GEM": {
+        "description": "Zwiększa doświadczenie.",
+        "name": "Klejnot doświadczenia"
+      },
+      "OROLOGION": {
+        "description": "Na 10 sekund zamraża wszystkich wrogów w czasie.",
+        "name": "Orologion",
+        "tips": "Częstotliwość występowania zależna od Szczęścia."
+      },
+      "ROAST": {
+        "description": "Przywraca 30 Punktów życia.",
+        "name": "Kurczak",
+        "tips": "Częstotliwość występowania zależna od Szczęścia."
+      },
+      "ROSARY": {
+        "description": "Niszczy wszystkich wrogów w zasięgu wzroku.",
+        "name": "Różaniec",
+        "tips": "Częstotliwość występowania zależna od Szczęścia."
+      },
+      "TREASURE": {
+        "description": "Nagrody w postaci monet i wzmocnień. Upuszczane przez silnych wrogów.",
+        "name": "Skrzynia skarbów",
+        "tips": "Jakość zależna od Szczęścia."
+      },
+      "VACUUM": {
+        "description": "Zbiera wszystkie Klejnoty doświadczenia leżące na ziemi.",
+        "name": "Próżnia",
+        "tips": "Częstotliwość występowania zależna od Szczęścia."
+      },
+      "NFT": {
+        "description": "Co jakiś czas emituje stożki płomieni. Zależy od statystyk gracza.",
+        "name": "Nduja Fritta",
+        "tips": "Częstotliwość występowania zależna od Szczęścia."
+      },
+      "RELIC_MAP": {
+        "name": "Mapa drogi mlecznej",
+        "description": "Na stałe włącza mapę w menu pauzy.",
+        "achievementTips": "Mapa menu pauzy"
+      },
+      "RELIC_TEAR": {
+        "name": "Łzy czarodziejki",
+        "description": "Na stałe umożliwia przyspieszenie czasu w obszarze Wybór etapu.",
+        "achievementTips": "Tryb przyspieszony"
+      },
+      "RELIC_RANDOMAZZO": {
+        "description": "Umożliwia odblokowanie i aktywację Arkanów.",
+        "name": "Randomazzo",
+        "achievementTips": "Arkany"
+      },
+      "RELIC_BANGER": {
+        "description": "Na stałe umożliwia zmianę muzyki w obszarze Wybór etapu.",
+        "name": "Magiczny banger",
+        "achievementTips": "Wybór muzyki"
+      },
+      "GILDED": {
+        "description": "Zbiera Złoto leżące na ziemi i rozpoczyna Gorączkę złota.",
+        "name": "Pozłacana koniczyna"
+      },
+      "RELIC_GLASSMASK": {
+        "name": "Szklany vizard",
+        "description": "Przywołuje kupca na wszystkich etapach.",
+        "achievementTips": "Kupiec"
+      },
+      "RELIC_GOLDENEGG": {
+        "name": "Złote jajo",
+        "description": "Na stałe ulepsza losowy parametr bieżącej postaci o niewielką wartość."
+      },
+      "RELIC_YELLOW": {
+        "name": "Żółty znak",
+        "description": "Na stałe umożliwia wykrywanie ukrytych przedmiotów na wszystkich etapach.",
+        "achievementTips": "Ukryte przedmioty etapu"
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "Ponury grymuar",
+        "description": "Na stałe pozwala podglądać odkryte ulepszenia i połączenia broni w menu pauzy.",
+        "achievementTips": "Lista ulepszeń"
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "Hipnotyzer",
+        "description": "Na stałe pozwala zmieniać wygląd postaci (jeśli to możliwe) i maksymalny ładunek broni.",
+        "achievementTips": "Personalizacja postaci"
+      },
+      "RELIC_GOUDA": {
+        "name": "Ars Gouda",
+        "description": "Na stałe umożliwia dostęp do listy pokonanych wrogów w menu głównym.",
+        "achievementTips": "Bestiariusz."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Wielka ewangelia",
+        "description": "Na stałe umożliwia zwiększanie poziomu broni powyżej limitów. Aktywowane w obszarze Wybór etapu.",
+        "achievementTips": "Przełamanie limitów."
+      },
+      "RELIC_SECRETS": {
+        "name": "Zakazane zwoje Morbane’a",
+        "description": "Na stałe umożliwia rzucanie zaklęć i dostęp do listy tajemnic z menu głównego.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "Płomienie Moonspell",
+        "description": "Na stałe usuwa do 100 losowych premii ze Złotych jaj. Nie można tego cofnąć."
+      },
+      "RELIC_TRUMPET": {
+        "name": "Siódma trąba",
+        "description": "Na stałe umożliwia wyłączenie wszystkich żniwiarzy i walkę bez końca.",
+        "achievementTips": "Tryb Nieskończony"
+      },
+      "RELIC_MIRROR": {
+        "name": "Lustro Gracii",
+        "description": "Na stałe umożliwia dostęp do trudniejszej wersji dowolnego etapu.",
+        "achievementTips": "Tryb Odwrócony"
+      },
+      "ALWAYS_COINBAG2": {
+        "name": "[Zawsze] Duży worek monet",
+        "description": "Dodaje 25 do sumy Złotych monet.",
+        "tips": "Zawsze wybierane przez resztę biegu."
+      },
+      "ALWAYS_ROAST": {
+        "name": "[Zawsze] Kurczak",
+        "description": "Przywraca 30 Punktów życia.",
+        "tips": "Zawsze wybierałem monety, jeśli brakuje zdrowia, przez resztę biegu."
+      }
+    }
   },
   "pt": {
     "english": "Portuguese",
@@ -684,97 +1264,146 @@
     "api": "brazilian",
     "translations": {
       "CLOVER": {
-        "description": "Colete para ficar 10% mais sortudo.",
-        "name": "Pequeno Trevo."
+        "description": "Colete para obter 10% de Sorte.",
+        "name": "Trevinho"
       },
       "COIN": {
-        "description": "Adiciona 1 moeda de ouro ao seu total.",
-        "name": "Moeda de Ouro."
+        "description": "Adiciona 1 moeda de ouro ao total.",
+        "name": "Moeda de Ouro"
       },
       "COINBAG1": {
-        "description": "Adiciona 10 moedas de ouro ao seu total.",
-        "name": "Bolsa de Moedas."
+        "description": "Adiciona 10 moedas de ouro ao total.",
+        "name": "Bolsa de Moedas"
       },
       "COINBAG2": {
-        "description": "Adiciona 25 moedas de ouro ao seu total.",
-        "name": "Bolsa Grande de Moedas."
+        "description": "Adiciona 25 moedas de ouro ao total.",
+        "name": "Bolsona de Moedas"
       },
       "COINBAGMAX": {
-        "description": "Adiciona 100 moedas de ouro ao seu total.",
-        "name": "Bolsa de Rico de Moedas.",
-        "tips": "Chance de Dropar afetada pela Sorte."
+        "description": "Adiciona 100 moedas de ouro ao total.",
+        "name": "Bolsa de Moedas Rica",
+        "tips": "A chance de aparecer depende da Sorte."
       },
       "GEM": {
-        "description": "Aumenta sua experiência.",
-        "name": "Gema de experiência."
+        "description": "Aumenta a experiência.",
+        "name": "Joia de Experiência"
       },
       "OROLOGION": {
-        "description": "Congela todos os inimigos no tempo.",
+        "description": "Paralisa todos os inimigos por 10 segundos.",
         "name": "Orologion",
-        "tips": "Chance de Dropar afetada pela Sorte."
+        "tips": "A chance de aparecer depende da Sorte."
       },
       "ROAST": {
-        "description": "Restaura 30 pontos de saúde.",
+        "description": "Restaura 30 pontos de Vida.",
         "name": "Frango Assado",
-        "tips": "Chance de Dropar afetada pela Sorte."
+        "tips": "A chance de aparecer depende da Sorte."
       },
       "ROSARY": {
-        "description": "Destrói todos os inimígos na tela.",
+        "description": "Destrói todos os inimigos na tela.",
         "name": "Rosário",
-        "tips": "Chance de Dropar afetada pela Sorte."
+        "tips": "A chance de aparecer depende da Sorte."
       },
       "TREASURE": {
-        "description": "Contém Moedas e Melhorias. Dropado por inimigos fortes.",
-        "name": "Baú do Tesouro.",
-        "tips": "Qualidade afetada pela Sorte."
+        "description": "Contém moedas e Aprimoramentos. Surge com a morte de inimigos fortes.",
+        "name": "Baú do Tesouro",
+        "tips": "A qualidade depende da Sorte."
       },
       "VACUUM": {
-        "description": "Coleta todas as gemas de experiência do chão.",
-        "name": "Vácuo",
-        "tips": "Chance de Dropar afetada pela Sorte."
+        "description": "Recolhe todas as Joias de Experiência do chão.",
+        "name": "Aspirador",
+        "tips": "A chance de aparecer depende da Sorte."
       },
       "NFT": {
-        "description": "Temporáriamente emite cones de chamas. Afetado pelos atributos do jogador.",
+        "description": "Emite cones de chamas temporariamente. É afetada pelos atributos do jogador.",
         "name": "Nduja Fritta",
-        "tips": "Chance de Dropar afetada pela Sorte."
+        "tips": "A chance de aparecer depende da Sorte."
       },
       "RELIC_MAP": {
         "name": "Mapa da Via Láctea",
         "description": "Desbloqueia permanentemente o mapa no menu de pausa.",
-        "achievementTips": "mapa do menu de pause."
+        "achievementTips": "Mapa do menu de pausa"
       },
       "RELIC_TEAR": {
         "name": "Lágrimas da Feiticeira",
-        "description": "Desbloqueia permanentemente a velocidade do tempo na Escolha de Estágios",
-        "achievementTips": "Modo de Corrida."
+        "description": "Permite na Seleção de fase que o tempo seja acelerado permanentemente.",
+        "achievementTips": "Modo Pressa"
       },
       "RELIC_RANDOMAZZO": {
-        "description": "Permite destravar e ativar Arcanas.",
+        "description": "Permite desbloquear e ativar Arcanas.",
         "name": "Randomazzo",
-        "achievementTips": "Arcanas."
+        "achievementTips": "Arcanas"
       },
       "RELIC_BANGER": {
-        "description": "Permanently allows to change music in stage selection.",
-        "name": "Magic Banger",
-        "achievementTips": "Music selection."
+        "description": "Permite alterar a música na Seleção de fase permanentemente.",
+        "name": "Sonzeira Mágica",
+        "achievementTips": "Seleção musical"
       },
       "GILDED": {
-        "description": "Gathers all gold left on the ground and starts a Gold Fever.",
-        "name": "Gilded Clover"
+        "description": "Recolhe todo ouro do chão e começa uma Febre de Ouro.",
+        "name": "Trevo Dourado"
       },
       "RELIC_GLASSMASK": {
-        "name": "Glass Vizard",
-        "description": "Summons the merchant in all stages.",
-        "achievementTips": "Merchant."
+        "name": "Vizard de Vidro",
+        "description": "Invoca o Mercador em todas as fases.",
+        "achievementTips": "Mercador"
       },
       "RELIC_GOLDENEGG": {
-        "name": "Golden Egg",
-        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+        "name": "Ovo Dourado",
+        "description": "Melhora bem pouco um atributo aleatório do personagem atual permanentemente."
       },
       "RELIC_YELLOW": {
-        "name": "Yellow Sign",
-        "description": "Permanently allows to detect hidden items in all stages.",
-        "achievementTips": "Hidden stage items."
+        "name": "Sinal Amarelo",
+        "description": "Permite a detecção de itens escondidos em todas as fases permanentemente.",
+        "achievementTips": "Itens de fases escondidos"
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "Grimório Grimpante",
+        "description": "Permite ver as evoluções e uniões das armas descobertas no menu de pausa permanentemente.",
+        "achievementTips": "Lista de evolução"
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "Dobramente",
+        "description": "Permite, permanentemente, a mudança de aparência do personagem (quando aplicável) e possibilita utilizar o limite máximo de armas.",
+        "achievementTips": "Personalização de personagem"
+      },
+      "RELIC_GOUDA": {
+        "name": "Ars Gouda",
+        "description": "Permite acessar a lista de inimigos derrotados no menu principal.",
+        "achievementTips": "Bestiário."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Grande Gospel",
+        "description": "Permite subir o nível das armas para além do seu limite. É possível ativar na Seleção de fase.",
+        "achievementTips": "Ruptura de Limite."
+      },
+      "RELIC_SECRETS": {
+        "name": "Pergaminhos Proibidos de Morbane",
+        "description": "Permite lançar feitiços e acessar a lista de segredos do menu principal.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "Chamas do Feitiço Lunar",
+        "description": "Remove permanentemente até 100 bônus de Ovos Dourados aleatórios. Não pode ser desfeito."
+      },
+      "RELIC_TRUMPET": {
+        "name": "Sétima Trombeta",
+        "description": "Permite desativar todos os ceifadores e ativar a luta infinita.",
+        "achievementTips": "Modo Infinito."
+      },
+      "RELIC_MIRROR": {
+        "name": "Espelho de Gracia",
+        "description": "Permite acessar uma versão mais difícil de qualquer fase.",
+        "achievementTips": "Modo Invertido."
+      },
+      "ALWAYS_COINBAG2": {
+        "name": "[Sempre]Bolsona de Moedas",
+        "description": "Adiciona 25 moedas de ouro ao total.",
+        "tips": "Sempre escolhido, pelo resto da corrida."
+      },
+      "ALWAYS_ROAST": {
+        "name": "[Sempre] Frango Assado",
+        "description": "Restaura 30 pontos de Vida.",
+        "tips": "Sempre escolhido por moedas se perder a saúde, pelo resto da corrida."
       }
     }
   },
@@ -791,24 +1420,24 @@
     "translations": {
       "CLOVER": {
         "description": "Подберите и станьте на 10% удачливее.",
-        "name": "Маленький Клевер"
+        "name": "Маленький клевер"
       },
       "COIN": {
-        "description": "Добавляет 1 к общему количеству ваших золотых монет.",
-        "name": "Золотая Монета"
+        "description": "Добавляет 1 к запасу золотых монет.",
+        "name": "Золотая монета"
       },
       "COINBAG1": {
-        "description": "Добавляет 10 к общему количеству ваших золотых монет.",
-        "name": "Мешок монет"
+        "description": "Добавляет 10 к запасу золотых монет.",
+        "name": "Мешок денег"
       },
       "COINBAG2": {
-        "description": "Добавляет 25 к общему количеству ваших золотых монет.",
-        "name": "Большой Мешок Монет"
+        "description": "Добавляет 25 к запасу золотых монет.",
+        "name": "Большой мешок денег"
       },
       "COINBAGMAX": {
-        "description": "Добавляет 100 к общему количеству ваших золотых монет.",
-        "name": "Роскошный Мешок Монет",
-        "tips": "Частота выпадения зависит от Удачи."
+        "description": "Добавляет 100 к запасу золотых монет.",
+        "name": "Набитый мешок денег",
+        "tips": "Частота появления зависит от удачи."
       },
       "GEM": {
         "description": "Увеличивает опыт.",
@@ -817,76 +1446,125 @@
       "OROLOGION": {
         "description": "Замораживает всех врагов на 10 секунд.",
         "name": "Часослов",
-        "tips": "Частота выпадения зависит от Удачи."
+        "tips": "Частота появления зависит от удачи."
       },
       "ROAST": {
         "description": "Восстанавливает 30 ОЗ.",
-        "name": "Жареный Цыпленок",
-        "tips": "Частота выпадения зависит от Удачи."
+        "name": "Жареный цыпленок",
+        "tips": "Частота появления зависит от удачи."
       },
       "ROSARY": {
         "description": "Уничтожает всех врагов в поле зрения.",
         "name": "Четки",
-        "tips": "Частота выпадения зависит от Удачи."
+        "tips": "Частота появления зависит от удачи."
       },
       "TREASURE": {
-        "description": "Вознаграждает монетами и усилениями. Выпадает из сильных врагов.",
-        "name": "Сундук с Сокровищами",
-        "tips": "Качество зависит от Удачи."
+        "description": "Дает монеты и усиления. Выпадает из сильных врагов.",
+        "name": "Сундук с сокровищами",
+        "tips": "Качество зависит от удачи."
       },
       "VACUUM": {
         "description": "Собирает все самоцветы опыта, оставшиеся на земле.",
         "name": "Вакуум",
-        "tips": "Частота выпадения зависит от Удачи."
+        "tips": "Частота появления зависит от удачи."
       },
       "NFT": {
         "description": "Временно испускает конус пламени. Зависит от характеристик игрока.",
-        "name": "Ндуя Фритта",
-        "tips": "Частота выпадения зависит от Удачи."
+        "name": "Ндуя фритта",
+        "tips": "Частота появления зависит от удачи."
       },
       "RELIC_MAP": {
-        "name": "Карта Млечного Пути",
-        "description": "Включает карту в меню паузы.",
-        "achievementTips": "карта в меню паузы."
+        "name": "Карта Млечного пути",
+        "description": "Навсегда активирует карту в меню паузы.",
+        "achievementTips": "карта в меню паузы"
       },
       "RELIC_TEAR": {
-        "name": "Слезы Чародейки",
-        "description": "Позволяет ускорить время при выборе этапа.",
-        "achievementTips": "Режим Спешки."
+        "name": "Слезы чародейки",
+        "description": "Позволяет ускорять время при выборе этапа.",
+        "achievementTips": "Режим спешки"
       },
       "RELIC_RANDOMAZZO": {
         "description": "Позволяет разблокировать и активировать Арканы.",
         "name": "Рандомаззо",
-        "achievementTips": "Арканы."
+        "achievementTips": "Арканы"
       },
       "RELIC_BANGER": {
         "description": "Позволяет изменять музыку во время выбора этапа.",
-        "name": "Волшебный Бэнгер",
-        "achievementTips": "Выбор Музыки."
+        "name": "Волшебный расколбас",
+        "achievementTips": "Выбор музыки"
       },
       "GILDED": {
-        "description": "Собирает все золото, оставшееся на земле и начинает Золотую Лихорадку.",
-        "name": "Позолоченный Клевер"
+        "description": "Собирает все золото, оставшееся на земле и начинает Золотую лихорадку.",
+        "name": "Позолоченный клевер"
       },
       "RELIC_GLASSMASK": {
-        "name": "Glass Vizard",
-        "description": "Summons the merchant in all stages.",
-        "achievementTips": "Merchant."
+        "name": "Стеклянный визард",
+        "description": "Призывает торговца на всех этапах.",
+        "achievementTips": "Торговец"
       },
       "RELIC_GOLDENEGG": {
-        "name": "Golden Egg",
-        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+        "name": "Золотое яйцо",
+        "description": "Слегка улучшает случайную характеристику текущего персонажа."
       },
       "RELIC_YELLOW": {
-        "name": "Yellow Sign",
-        "description": "Permanently allows to detect hidden items in all stages.",
-        "achievementTips": "Hidden stage items."
+        "name": "Желтый знак",
+        "description": "Позволяет обнаруживать скрытые предметы на всех этапах.",
+        "achievementTips": "Скрытые предметы этапа"
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "Смурной гримуар",
+        "description": "Позволяет просматривать обнаруженные улучшения оружия и гибриды из меню паузы.",
+        "achievementTips": "список улучшений"
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "Мозголом",
+        "description": "Позволяет изменять внешний вид персонажа (где это применимо) и макс. количество оружия.",
+        "achievementTips": "изменение персонажа"
+      },
+      "RELIC_GOUDA": {
+        "name": "Арс Гауда",
+        "description": "Дает постоянный доступ к списку побежденных врагов из главного меню.",
+        "achievementTips": "Бестиарий."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Великое Писание",
+        "description": "Позволяет повышать уровень оружия даже выше предельного. Можно включить на выборе этапа.",
+        "achievementTips": "Преодоление лимита."
+      },
+      "RELIC_SECRETS": {
+        "name": "Запретные свитки Морбейна",
+        "description": "Позволяет использовать заклинания и дает постоянный доступ к списку секретов из главного меню.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "Пламя луночар",
+        "description": "Убирает до 100 случайных бонусов золотых яиц. Это нельзя отменить."
+      },
+      "RELIC_TRUMPET": {
+        "name": "Седьмой рупор",
+        "description": "Позволяет убрать всех жнецов и сражаться бесконечно.",
+        "achievementTips": "Бесконечный режим."
+      },
+      "RELIC_MIRROR": {
+        "name": "Зеркало Грации",
+        "description": "Дает постоянный доступ к усложненной версии любого этапа.",
+        "achievementTips": "Режим инверсии."
+      },
+      "ALWAYS_COINBAG2": {
+        "name": "[Всегда] Большой мешок денег",
+        "description": "Добавляет 25 к запасу золотых монет.",
+        "tips": "Всегда выбирается, для остальной части пробега."
+      },
+      "ALWAYS_ROAST": {
+        "name": "[Всегда] Жареный цыпленок",
+        "description": "Восстанавливает 30 ОЗ.",
+        "tips": "Всегда выбирают монеты, если пропустить здоровье, для остальной части пробега."
       }
     }
   },
   "es": {
     "english": "Spanish",
-    "native": "Español 80%",
+    "native": "Español",
     "api": "spanish",
     "translations": {
       "CLOVER": {
@@ -916,7 +1594,7 @@
       },
       "OROLOGION": {
         "description": "Congela a los enemigos durante 10 segundos.",
-        "name": "Orologion",
+        "name": "Reloj mágico",
         "tips": "Aparece en función de tu suerte."
       },
       "ROAST": {
@@ -925,62 +1603,111 @@
         "tips": "Aparece en función de tu suerte."
       },
       "ROSARY": {
-        "description": "Acaba con los enemigos a la vista.",
+        "description": "Acaba con los enemigos que aparecen en pantalla.",
         "name": "Rosario",
         "tips": "Aparece en función de tu suerte."
       },
       "TREASURE": {
         "description": "Otorga monedas y mejoras. Botín de enemigos fuertes.",
-        "name": "Cofre de tesoro",
+        "name": "Cofre del tesoro",
         "tips": "La calidad depende de tu suerte."
       },
       "VACUUM": {
         "description": "Recoge las gemas de experiencia que haya en el suelo.",
-        "name": "Aspersor",
+        "name": "Aspiragemas",
         "tips": "Aparece en función de tu suerte."
       },
       "NFT": {
-        "description": "Libera salvas de fuego en función de los atributos del jugador.",
-        "name": "Enduja Fritta",
+        "description": "Libera salvas de fuego que cambian según los atributos del jugador.",
+        "name": "Nduja Fritta",
         "tips": "Aparece en función de tu suerte."
       },
       "RELIC_MAP": {
-        "name": "Karte der Milchstraße",
-        "description": "Die Karte wird permanent im Pausenmenü aktiviert.",
-        "achievementTips": "Pausenmenükarte."
+        "name": "Mapa de la Vía Láctea",
+        "description": "Activa el mapa de forma permanente en el menú de pausa.",
+        "achievementTips": "Mapa del menú de pausa"
       },
       "RELIC_TEAR": {
-        "name": "Sorceress' Tears",
-        "description": "Permanently allows to speed up time in Stage Selection.",
-        "achievementTips": "Hurry mode."
+        "name": "Lágrimas de hechicera",
+        "description": "Permite acelerar el tiempo de forma permanente al elegir la fase.",
+        "achievementTips": "Modo Prisa"
       },
       "RELIC_RANDOMAZZO": {
-        "description": "Enables the unlocking and activation of Arcanas.",
-        "name": "Randomazzo",
-        "achievementTips": "Arcanas."
+        "description": "Permite desbloquear y activar los arcanos.",
+        "name": "Azarmazzo",
+        "achievementTips": "Arcanos"
       },
       "RELIC_BANGER": {
-        "description": "Permanently allows to change music in stage selection.",
-        "name": "Magic Banger",
-        "achievementTips": "Music selection."
+        "description": "Permite cambiar la música de forma permanente al elegir la fase.",
+        "name": "Tocadiscos mágico",
+        "achievementTips": "Elige la música"
       },
       "GILDED": {
-        "description": "Gathers all gold left on the ground and starts a Gold Fever.",
-        "name": "Gilded Clover"
+        "description": "Recoge todo el oro del suelo y comienza una fiebre del oro.",
+        "name": "Trébol dorado"
       },
       "RELIC_GLASSMASK": {
-        "name": "Glass Vizard",
-        "description": "Summons the merchant in all stages.",
-        "achievementTips": "Merchant."
+        "name": "Máscara de cristal",
+        "description": "Invoca al mercader en todas las fases.",
+        "achievementTips": "Mercader"
       },
       "RELIC_GOLDENEGG": {
-        "name": "Golden Egg",
-        "description": "Permanently improves a random stat for the current character, by a tiny amount."
+        "name": "Huevo de oro",
+        "description": "Mejora en una pequeña cantidad un atributo al azar y de forma permanente del personaje actual."
       },
       "RELIC_YELLOW": {
-        "name": "Yellow Sign",
-        "description": "Permanently allows to detect hidden items in all stages.",
-        "achievementTips": "Hidden stage items."
+        "name": "Signo amarillo",
+        "description": "Permite detectar los objetos ocultos de forma permanente en todas las fases.",
+        "achievementTips": "Objetos ocultos de las fases"
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "Grimorio mortuorio",
+        "description": "Permite ver las evoluciones y las fusiones de armas ya descubiertas en el menú de pausa.",
+        "achievementTips": "Lista de evoluciones"
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "Cambio de aspecto",
+        "description": "Permite cambiar la apariencia del personaje (siempre que se pueda) de forma permanente y la cantidad máxima de armas que puede llevar.",
+        "achievementTips": "Personalización de personaje"
+      },
+      "RELIC_GOUDA": {
+        "name": "Ars gouda",
+        "description": "Te permite acceder de forma permanente a la lista de enemigos derrotados en el menú principal.",
+        "achievementTips": "Bestiario."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Gran Evangelio",
+        "description": "Te permite subir de nivel las armas más allá del límite de forma permanente. Se puede activar en la pantalla de elegir fase.",
+        "achievementTips": "Rompelímites."
+      },
+      "RELIC_SECRETS": {
+        "name": "Pergaminos prohibidos de Morbane",
+        "description": "Te permite lanzar hechizos de forma permanente y acceder a la lista de secretos en el menú principal.",
+        "achievementTips": "¿?"
+      },
+      "PURIFY": {
+        "name": "Llamas de hechizoluna",
+        "description": "Elimina de forma permanente hasta 100 bonificaciones de huevo de oro al azar. No se puede deshacer."
+      },
+      "RELIC_TRUMPET": {
+        "name": "Séptima trompeta",
+        "description": "Te permite desactivar todas las Muertes y luchar eternamente.",
+        "achievementTips": "Modo Eternidad."
+      },
+      "RELIC_MIRROR": {
+        "name": "Espejo de Gracia",
+        "description": "Te permite acceder a una versión más difícil de cualquier fase.",
+        "achievementTips": "Modo Reflejo."
+      },
+      "ALWAYS_COINBAG2": {
+        "name": "[Siempre] Saco de monedas",
+        "description": "25 monedas de oro.",
+        "tips": "Siempre elegido, por el resto de la carrera."
+      },
+      "ALWAYS_ROAST": {
+        "name": "[Siempre] Pollo asado",
+        "description": "Recupera 30 puntos de salud.",
+        "tips": "Siempre recogía monedas si faltan salud, por el resto de la carrera."
       }
     }
   },
@@ -1006,7 +1733,150 @@
     "english": "Turkish",
     "native": "Türkçe",
     "api": "turkish",
-    "translations": {}
+    "translations": {
+      "CLOVER": {
+        "description": "Şansını %10 artırmak için al.",
+        "name": "Küçük Yonca"
+      },
+      "COIN": {
+        "description": "Toplam Altın Akçeni 1 arttırır.",
+        "name": "Altın Akçe"
+      },
+      "COINBAG1": {
+        "description": "Toplam Altın Akçeni 10 arttırır.",
+        "name": "Akçe Çuvalı"
+      },
+      "COINBAG2": {
+        "description": "Toplam Altın Akçeni 25 arttırır.",
+        "name": "Büyük Akçe Çuvalı"
+      },
+      "COINBAGMAX": {
+        "description": "Toplam Altın Akçeni 100 arttırır.",
+        "name": "Bereketli Akçe Çuvalı",
+        "tips": "Düşme oranı şanstan etkilenir."
+      },
+      "GEM": {
+        "description": "Deneyimi artırır.",
+        "name": "Deneyim Mücevheri"
+      },
+      "OROLOGION": {
+        "description": "Bütün düşmanları 10 saniye dondurur.",
+        "name": "Zamantutan",
+        "tips": "Düşme oranı şanstan etkilenir."
+      },
+      "ROAST": {
+        "description": "30 Sağlık puanı yeniler.",
+        "name": "Gezmeyen Tavuk",
+        "tips": "Düşme oranı şanstan etkilenir."
+      },
+      "ROSARY": {
+        "description": "Görünürdeki tüm düşmanları öldürür.",
+        "name": "Tespih",
+        "tips": "Düşme oranı şanstan etkilenir."
+      },
+      "TREASURE": {
+        "description": "Akçe ve Güçlendirmeler ile ödüllendirir. Güçlü düşmanlardan düşer.",
+        "name": "Hazine Sandığı",
+        "tips": "Kalite şanstan etkilenir."
+      },
+      "VACUUM": {
+        "description": "Yerde bırakılan tüm Deneyim Mücevherlerini toplar.",
+        "name": "Vakum",
+        "tips": "Düşme oranı şanstan etkilenir."
+      },
+      "NFT": {
+        "description": "Geçici olarak alev konileri yayar. Oyuncu istatistiklerinden etkilenir.",
+        "name": "Nduja Fritta",
+        "tips": "Düşme oranı şanstan etkilenir."
+      },
+      "RELIC_MAP": {
+        "name": "Kehkeşan Haritası",
+        "description": "Duraklatma menüsünde haritayı kalıcı olarak etkinleştirir.",
+        "achievementTips": "duraklatma menüsü haritası"
+      },
+      "RELIC_TEAR": {
+        "name": "Sahire'nin Gözyaşları",
+        "description": "Bölüm Seçiminde kalıcı olarak süreyi hızlandırmaya olanak sağlar.",
+        "achievementTips": "Çabuk mod"
+      },
+      "RELIC_RANDOMAZZO": {
+        "description": "Arcana'ların kilidinin açılmasını ve etkinleştirilmesini sağlar.",
+        "name": "Randomazzo",
+        "achievementTips": "Arcanalar"
+      },
+      "RELIC_BANGER": {
+        "description": "Bölüm Seçiminde müziğin değiştirilmesine kalıcı olarak olanak sağlar.",
+        "name": "Büyülü Teyp",
+        "achievementTips": "Müzik seçimi"
+      },
+      "GILDED": {
+        "description": "Yerde kalan tüm Altınları toplar ve bir Altın Kasırgası başlatır.",
+        "name": "Yaldızlı Yonca"
+      },
+      "RELIC_GLASSMASK": {
+        "name": "Cam Vizard",
+        "description": "Tüm bölümlerde Tüccar'ı çağırır.",
+        "achievementTips": "Tüccar"
+      },
+      "RELIC_GOLDENEGG": {
+        "name": "Altın Yumurta",
+        "description": "Mevcut karakter için rastgele bir istatistiği çok az miktarda kalıcı olarak geliştirir."
+      },
+      "RELIC_YELLOW": {
+        "name": "Sarı İşaret",
+        "description": "Tüm bölümlerdekii gizli ögelerin algılanmasına kalıcı olarak olanak sağlar.",
+        "achievementTips": "Bölümdeki gizli eşyalar"
+      },
+      "RELIC_GRIMOIRE": {
+        "name": "Grim Grimoire",
+        "description": "Duraklatma menüsünden keşfedilen silah evrimlerine ve birleşimlerine kalıcı olarak göz atmanıza olanak sağlar.",
+        "achievementTips": "evrim listesi"
+      },
+      "RELIC_NOSEGLASSES": {
+        "name": "Zihinbüken",
+        "description": "Kalıcı olarak karakter görünümünü (uygun yerlerde) ve maksimum silah teçhizatını değiştirmeye olanak sağlar.",
+        "achievementTips": "karakter özelleştirmesi"
+      },
+      "RELIC_GOUDA": {
+        "name": "Ars Gouda",
+        "description": "Ana menüden öldürülen düşmanların listesine kalıcı olarak erişmenizi sağlar.",
+        "achievementTips": "Mahlukatname."
+      },
+      "RELIC_GGOSPEL": {
+        "name": "Büyük İncil",
+        "description": "Silahların sınırlarının ötesinde seviye atlamasına kalıcı olarak izin verir. Bölüm Seçiminde etkinleştirilebilir.",
+        "achievementTips": "Limit Kıran."
+      },
+      "RELIC_SECRETS": {
+        "name": "Morbane'in Yasak Parşömenleri",
+        "description": "Büyü yapmanıza ve ana menüden sırlar listesine erişmenize kalıcı olarak izin verir.",
+        "achievementTips": "???"
+      },
+      "PURIFY": {
+        "name": "Aybüyüsü'nün Alevleri",
+        "description": "100'e kadar rastgele Altın Yumurta bonusunu kalıcı olarak kaldırır. Bu geri alınamaz."
+      },
+      "RELIC_TRUMPET": {
+        "name": "Yedinci Borazan",
+        "description": "Tüm Azrailleri devre dışı bırakmaya ve sonsuz savaşmaya kalıcı olarak olanak tanır.",
+        "achievementTips": "Sonsuz mod."
+      },
+      "RELIC_MIRROR": {
+        "name": "Gracia'nın Aynası",
+        "description": "Kalıcı olarak herhangi bir bölümün daha zor bir versiyonuna erişmeye izin verir.",
+        "achievementTips": "Ters mod."
+      },
+      "ALWAYS_COINBAG2": {
+        "name": "[Hep] Büyük Akçe Çuvalı",
+        "description": "Toplam Altın Akçeni 25 arttırır.",
+        "tips": "Koşunun geri kalanı için her zaman seçildi."
+      },
+      "ALWAYS_ROAST": {
+        "name": "[Hep] Gezmeyen Tavuk",
+        "description": "30 Sağlık puanı yeniler.",
+        "tips": "Koşunun geri kalanı için her zaman sağlıksızsa paraları seçti."
+      }
+    }
   },
   "uk": {
     "english": "Ukrainian",

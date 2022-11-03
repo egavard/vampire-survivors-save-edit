@@ -19,54 +19,69 @@
     "translations": {
       "FOREST": {
         "stageName": "疯狂森林",
-        "description": "城堡是个谎言， 但这里仍有免费的烤鸡， 所以没关系。",
-        "hyperTips": "金币加成50%"
+        "description": "魔堡是一个谎言, 但这里有免费的烤鸡, 所以也挺好。",
+        "hyperTips": "金币+50%"
       },
       "LIBRARY": {
-        "stageName": "镶嵌图书馆",
-        "description": "这个安静的长条形图书馆是休息、 冥想和搜寻烤鸡的理想场所。 但这里为什么会有石面具？",
-        "hyperTips": "金币加成50%\n幸运加成10%"
+        "stageName": "锦钿书库",
+        "description": "这个安静的长条形图书馆适合休息, 冥想和寻找烤鸡, 但这里为什么会有石面具?",
+        "hyperTips": "金币+50%\n运气+10%"
       },
       "GREENACRES": {
-        "stageName": "绿地",
-        "description": "不允许凡人进入的地方。 命运时时刻刻都在改变。",
-        "tips": "正常阶段的随机敌人",
-        "hyperTips": "金币加成50%\n幸运加成10%",
+        "stageName": "青翠草甸",
+        "description": "这里是凡人的禁地, 谁也无法预料命运的安排。",
+        "tips": "随机生成来自普通关卡的敌人种类",
+        "hyperTips": "金币+50%\n运气+10%",
         "stagenNumber": "挑战"
       },
       "WAREHOUSE": {
-        "stageName": "奶牛场",
-        "description": "藏在这里的神奇地图， 可能最终会带我们找到吸血鬼， 或者至少找到更多的烤鸡。",
-        "hyperTips": "金币加成50%\n幸运加成10%"
+        "stageName": "乳品厂",
+        "description": "在这个隐秘的神奇地图上, 我们可能会找到关于吸血鬼的线索, 或者至少找到更多的烤鸡。",
+        "hyperTips": "金币+50%\n运气+10%"
       },
       "MOLISE": {
-        "stageName": "伊尔莫利塞",
-        "description": "存在着不存在的地方。来放松享受生活。乡下见。",
-        "hyperTips": "50%金币奖励/n20%幸运奖励莫里斯生命+60%",
-        "tips": "敌人不动"
+        "stageName": "莫利塞",
+        "description": "一个不存在的地方。 来这里放松享受生活吧, 我们乡间再会。",
+        "hyperTips": "金币+50%\n运气+20%\n敌人生命值+60%",
+        "tips": "敌人不会移动"
       },
       "TOWER": {
-        "stageName": "加洛塔",
-        "description": "这座塔拥有伟大的魔法文物和历史上准确的怪物。"
+        "stageName": "擎天塔",
+        "description": "这座塔里有伟大的魔法神器, 以及真实还原历史的怪物。"
       },
       "BONEZONE": {
-        "stageName": "骨区",
-        "description": "到这里来, 说你那邪恶的晚祷。",
-        "tips": "没有物品掉落。 敌人会随着时间的推移变得更强大。"
+        "stageName": "埋骨地",
+        "description": "来, 敬献你的渎神晚祷。",
+        "tips": "没有道具掉落。 敌人会随着时间的推移变得更强大。"
       },
       "SINKING": {
-        "stageName": "Moongolow",
-        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
-        "tips": "Extra stage items"
+        "stageName": "昇月城",
+        "description": "当月轮洒下红辉之时, 一座曾经被大海淹没的古城遗迹将浮出海面, 其中的秘密与财富又会重见天日。",
+        "tips": "更多的关卡物品"
       },
       "STAGEX": {
-        "description": "Wait, you can see this too? This isn't right..."
+        "description": "等下, 你可以看到这个? 这不应该的……"
+      },
+      "CHAPEL": {
+        "stageName": "大教堂",
+        "description": "是不是没有回头路了? 早知道就待在森林里吃烤鸡好了, 但是现在呢? 现在, 我们得去消灭什么吸血鬼了。"
+      },
+      "RASH": {
+        "stageName": "魔王竞技场",
+        "description": "尊敬的客人们, 我们一直企盼着的时刻终于到来了! 来看看吧, 幸存者们将如何尝试挑战这场无尽的轮回!"
+      },
+      "MACHINE": {
+        "stageName": "福地",
+        "description": "通往我们世界边缘的道路。地板是熔岩。"
+      },
+      "MACHINE2": {
+        "stageName": "三重环"
       }
     }
   },
   "zh-TW": {
     "english": "Chinese (Traditional)",
-    "native": "繁體中文 95%",
+    "native": "繁體中文 90%",
     "api": "tchinese",
     "translations": {}
   },
@@ -95,48 +110,63 @@
     "translations": {
       "FOREST": {
         "stageName": "Mad Forest",
-        "description": "The Castle is a lie, but there's still free roast chicken here, so it's all good.",
+        "description": "Once a thriving haven, now a dumping ground for evil. A vampire is said to be the root of this evil, but we can find only mayhem and roast chicken.",
         "hyperTips": "50% Gold bonus"
       },
       "LIBRARY": {
         "stageName": "Inlaid Library",
-        "description": "This quiet, long library is the ideal place where to rest, meditate, and forage for roast chicken. But what's a stone mask doing here?",
+        "description": "The Futile Scribe was cursed to know all and understand nothing. His endless library may gift us insight… or damnation. A mask of stone whispers endlessly within.",
         "hyperTips": "50% Gold bonus\n10% Luck bonus"
       },
       "GREENACRES": {
         "stageName": "Green Acres",
-        "description": "A place where mortals are not allowed. Fate changes every minute.",
+        "description": "Fate changes by the minute in a realm where mortals can only trespass. What rewards await those who challenge its rules? Treasure? Glory? Poultry?",
         "tips": "Random enemy waves from normal stages",
         "hyperTips": "50% Gold bonus\n10% Luck bonus",
         "stagenNumber": "Challenge"
       },
       "WAREHOUSE": {
         "stageName": "Dairy Plant",
-        "description": "The magic map hidden in here might finally lead us to a vampire, or at least to more roast chicken.",
+        "description": "The birthplace of Milk Magic churns with chaos. Here, it’s not just blood that curdles. A secret map awaits the hero brave enough to enter this overthrown factory.",
         "hyperTips": "50% Gold bonus\n10% Luck bonus"
       },
       "MOLISE": {
         "stageName": "Il Molise",
-        "description": "There exist places that don't exist. Come to relax and enjoy life. See you in the country.",
-        "hyperTips": "50% Gold Bonus\n20% Luck bonus\nEnemies Health +60%",
+        "description": "The flowers seem to sing here, calling out to weary heroes. Is such an unspoilt place even real? Does it matter? Is there roast chicken?",
+        "hyperTips": "50% Gold Bonus\n20% Luck bonus\nEnemies' health +60%",
         "tips": "Enemies don't move"
       },
       "TOWER": {
         "stageName": "Gallo Tower",
-        "description": "This tower holds great magical artifacts and historically accurate monsters."
+        "description": "An edifice of science and sorcery where horror was made manifest in the name of progress. Its many artifacts and experiments may lead us to what we seek."
       },
       "BONEZONE": {
         "stageName": "The Bone Zone",
-        "description": "Come over here and say your unholy vespers.",
+        "description": "Calcified carnage awaits where the dead go to live. If we speak unholy vespers we will open the way, but should we not go home? Have we not dug too deep?",
         "tips": "No item drops. Enemies grow stronger over time."
       },
       "SINKING": {
         "stageName": "Moongolow",
-        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
+        "description": "Legend tells of a city swallowed by the sea under a full moon’s callous watch. Home to mysteries unknown, we ought to see what lies within its walls.",
         "tips": "Extra stage items"
       },
       "STAGEX": {
         "description": "Wait, you can see this too? This isn't right..."
+      },
+      "CHAPEL": {
+        "stageName": "Cappella Magna",
+        "description": "Conceited were they that ruled from so high yet stooped so low. This nexus of debased purity is the perfect place to find a vampire. Probably."
+      },
+      "RASH": {
+        "stageName": "Boss Rash",
+        "description": "The monsters want entertainment, and if we win their game, the loot is ours for the taking. Let us face these recycled assets and do what we do best… survive!"
+      },
+      "MACHINE": {
+        "stageName": "Eudaimonia M.",
+        "description": "A path to the edge of our world. The floor is lava."
+      },
+      "MACHINE2": {
+        "stageName": "The Three Circles"
       }
     }
   },
@@ -148,53 +178,68 @@
   },
   "fr": {
     "english": "French",
-    "native": "Français 80%",
+    "native": "Français",
     "api": "french",
     "translations": {
       "FOREST": {
-        "stageName": "Forêt folle",
-        "description": "Le Château est un mensonge. Mais il y a quand même du poulet rôti gratuit dans le coin, alors tout va bien.",
-        "hyperTips": "50% d'or bonus"
+        "stageName": "Bois dément",
+        "description": "Le château est un mensonge, mais il reste du poulet rôti dans les environs. Cela pourrait être pire.",
+        "hyperTips": "50 % d'or bonus"
       },
       "LIBRARY": {
-        "stageName": "Bibliothèque\nmarquetée",
-        "description": "Calme, cette bibliothèque longiligne est l'endroit idéal pour se reposer, méditer et chercher du poulet rôti. Mais pourquoi y a-t-il un masque de pierre ici ?",
-        "hyperTips": "50% d'or bonus\n10% de chance bonus"
+        "stageName": "Bibliothèque",
+        "description": "Cette bibliothèque tranquille est l'endroit idéal pour se détendre, méditer et chercher du poulet rôti... À quoi sert ce masque de pierre, au juste ?",
+        "hyperTips": "50 % d'or bonus\n10 % de chance bonus"
       },
       "GREENACRES": {
-        "stageName": "Grande pâture",
-        "description": "Un lieu interdit aux mortels. Là-bas, chaque minute qui passe fait vaciller le destin.",
-        "tips": "Vagues ennemies aléatoires des étapes normales",
-        "hyperTips": "50% d'or bonus\n10% de chance bonus",
+        "stageName": "Pré verdoyant",
+        "description": "Un lieu interdit aux mortels. Chaque minute qui passe fait vaciller le destin.",
+        "tips": "Vagues d'ennemis aléatoires des niveaux normaux",
+        "hyperTips": "50 % d'or bonus\n10 % de chance bonus",
         "stagenNumber": "Défi"
       },
       "WAREHOUSE": {
         "stageName": "Usine laitière",
-        "description": "La carte magique cachée ici pourrait enfin nous mener à un vampire, ou au moins à plus de poulet rôti.",
-        "hyperTips": "50% d'or bonus\n10% de chance bonus"
+        "description": "La carte magique cachée ici pourrait enfin nous mener à un vampire, ou tout du moins à plus de poulet rôti.",
+        "hyperTips": "50 % d'or bonus\n10 % de chance bonus"
       },
       "MOLISE": {
-        "stageName": "Il Molise",
-        "description": "Il existe des endroits qui n'existent pas. Venez vous détendre et profiter de la vie. On se voit à la campagne.",
-        "hyperTips": "Bonus d'or de 50%,\nbonus de chance de 20%,\nsanté des ennemis de 60%.",
+        "stageName": "Le Molise",
+        "description": "Cet endroit n'existe pas vraiment. Venez vous prélasser et profiter de la vie. La campagne, ça vous gagne.",
+        "hyperTips": "50 % d'or bonus\n20 % de chance bonus\nSanté adverse +60 %",
         "tips": "Les ennemis ne bougent pas"
       },
       "TOWER": {
-        "stageName": "Gallo Tower",
-        "description": "This tower holds great magical artifacts and historically accurate monsters."
+        "stageName": "Tour de Gallo",
+        "description": "Cette tour abrite de fabuleux artéfacts magiques et des monstres tirés des livres d'histoire."
       },
       "BONEZONE": {
-        "stageName": "The Bone Zone",
-        "description": "Come over here and say your unholy vespers.",
-        "tips": "No item drops. Enemies grow stronger over time."
+        "stageName": "Catacombes",
+        "description": "Venez ici pour faire vos prières.",
+        "tips": "Aucun butin. Les ennemis sont de plus en plus forts."
       },
       "SINKING": {
-        "stageName": "Moongolow",
-        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
-        "tips": "Extra stage items"
+        "stageName": "Clair de lune",
+        "description": "Lorsque la lune est rougeoyante, les vestiges d'une ville engloutie par les eaux refont surface. Ils font ressurgir mystères et trésors.",
+        "tips": "Objets bonus"
       },
       "STAGEX": {
-        "description": "Wait, you can see this too? This isn't right..."
+        "description": "Attendez, vous pouvez voir ce niveau ? Quelque chose cloche..."
+      },
+      "CHAPEL": {
+        "stageName": "Cappella Magna",
+        "description": "Serions-nous allés trop loin ? Nous aurions pu rester dans la forêt, avec tout ce bon poulet, mais non... Il a fallu prendre un vampire en chasse."
+      },
+      "RASH": {
+        "stageName": "Déferlante de boss",
+        "description": "Le moment que nous attendions tous est enfin arrivé ! Sous nos yeux ébahis, les survivants vont être submergés par des monstres recyclés !"
+      },
+      "MACHINE": {
+        "stageName": "M. eudaimoniaque",
+        "description": "Un chemin vers le bord de notre monde. Le sol est de la lave."
+      },
+      "MACHINE2": {
+        "stageName": "Les trois cercles"
       }
     }
   },
@@ -205,48 +250,63 @@
     "translations": {
       "FOREST": {
         "stageName": "Verrückter Wald",
-        "description": "Das Schloss ist eine Lüge, aber hier gibt es trotzdem kostenloses Brathähnchen, also ist alles gut.",
+        "description": "Das Schloss ist eine Lüge, aber hier gibt es immerhin kostenloses Brathähnchen, also ist alles gut.",
         "hyperTips": "50% Goldbonus"
       },
       "LIBRARY": {
-        "stageName": "Verziehrte\nBibliothek",
-        "description": "Diese ruhige, lange Bibliothek ist der ideale Ort zum Ausruhen, Meditieren und um Brathähnchen zu sammeln. Aber was macht die Steinmaske hier?",
+        "stageName": "Verzierte Bibliothek",
+        "description": "Diese ruhige, langgezogene Bibliothek ist der ideale Ort zum Ausruhen, Meditieren und Brathähnchensammeln. Aber was macht die Steinmaske hier?",
         "hyperTips": "50% Goldbonus\n10% Glücksbonus"
       },
       "GREENACRES": {
         "stageName": "Grüner Acker",
-        "description": "Ein Ort, an dem Sterbliche nicht erlaubt sind. Das Schicksal ändert sich jede Minute.",
-        "tips": "Wellen von zufälligen Gegnern von normallen Stufen.",
+        "description": "Ein Ort, an dem Sterbliche nicht erlaubt sind. Das Schicksal ändert sich minütlich.",
+        "tips": "Wellen von zufälligen Gegnern aus normalen Stages",
         "hyperTips": "50% Goldbonus\n10% Glücksbonus",
         "stagenNumber": "Herausforderung"
       },
       "WAREHOUSE": {
-        "stageName": "Milchfabrik",
-        "description": "Die hier versteckte, magische Karte führt uns vielleicht endlich zu einem Vampir oder zumindest zu weiteren Brathähnchen.",
+        "stageName": "Molkerei",
+        "description": "Die hier versteckte magische Karte führt uns vielleicht endlich zu einem Vampir oder zumindest zu weiteren Brathähnchen.",
         "hyperTips": "50% Goldbonus\n10% Glücksbonus"
       },
       "MOLISE": {
-        "stageName": "Die Molise",
-        "description": "Dort existieren Orte die nicht existieren. Komm um dich zu erholen und das Leben zu genießen. Wir sehen uns auf dem Land.",
-        "hyperTips": "50% Goldbonus\n20% Glücksbonus\nGegners Gesundheit +60%",
+        "stageName": "Il Molise",
+        "description": "Es gibt Orte, die nicht existieren. Da kannst du dich erholen und das Leben genießen. Wir sehen uns.",
+        "hyperTips": "50% Goldbonus\n20% Glücksbonus\nLP der Gegner +60%",
         "tips": "Gegner bewegen sich nicht"
       },
       "TOWER": {
-        "stageName": "Gallo Tower",
-        "description": "This tower holds great magical artifacts and historically accurate monsters."
+        "stageName": "Gallo-Turm",
+        "description": "Dieser Turm birgt grandiose magische Artefakte und historisch bezeugte Monster."
       },
       "BONEZONE": {
-        "stageName": "The Bone Zone",
-        "description": "Come over here and say your unholy vespers.",
-        "tips": "No item drops. Enemies grow stronger over time."
+        "stageName": "Die Knochenzone",
+        "description": "Komm her und halte deine unheilige Vesper ab.",
+        "tips": "Keine Item-Drops. Gegner werden mit der Zeit stärker."
       },
       "SINKING": {
         "stageName": "Moongolow",
-        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
-        "tips": "Extra stage items"
+        "description": "Wenn der Mond rot und hell ist, werden die Überreste einer vom Meer verschluckten Stadt wieder an die Oberfläche gespült und bringen Geheimnisse und Reichtümer mit sich.",
+        "tips": "Extra-Stage-Items"
       },
       "STAGEX": {
-        "description": "Wait, you can see this too? This isn't right..."
+        "description": "Moment, siehst du das auch? Das kann doch nicht stimmen ..."
+      },
+      "CHAPEL": {
+        "stageName": "Cappella Magna",
+        "description": "Sind wir zu weit gegangen? Wir hätten auch einfach im Wald campieren können, mit all den Hühnern. Aber nein, wir mussten ja unbedingt einen generischen Vampir jagen."
+      },
+      "RASH": {
+        "stageName": "Boss-Ausschlag",
+        "description": "Werte Gäste, der Moment, nach dem es uns alle gejuckt hat, ist endlich gekommen! Bezeugen wir, wie der Überlebende versucht, mit Recycletem zu bestehen!"
+      },
+      "MACHINE": {
+        "stageName": "Eudaimonia M.",
+        "description": "Ein Weg zum Rand unserer Welt. Der Boden ist Lava."
+      },
+      "MACHINE2": {
+        "stageName": "Die Drei Kreise"
       }
     }
   },
@@ -266,57 +326,133 @@
     "english": "Italian",
     "native": "Italiano",
     "api": "italian",
-    "translations": {}
+    "translations": {
+      "FOREST": {
+        "stageName": "Foresta folle",
+        "description": "Il castello è una bugia, ma ci si può trovare comunque del pollo arrosto gratis, quindi va bene così.",
+        "hyperTips": "Oro +50%"
+      },
+      "LIBRARY": {
+        "stageName": "Biblioteca intarsiata",
+        "description": "Questa vasta e silenziosa biblioteca è il posto ideale per riposare, meditare e andare a caccia di pollo arrosto. Ma che ci fa lì una maschera di pietra?",
+        "hyperTips": "Oro +50%\nFortuna +10%"
+      },
+      "GREENACRES": {
+        "stageName": "Acri verdi",
+        "description": "Un luogo in cui i mortali non sono ammessi. Il destino muta ogni minuto.",
+        "tips": "Ondate di nemici casuali dai livelli normali",
+        "hyperTips": "Oro +50%\nFortuna +10%",
+        "stagenNumber": "Sfida"
+      },
+      "WAREHOUSE": {
+        "stageName": "Centrale del Latte",
+        "description": "La mappa magica nascosta qui potrebbe finalmente farci trovare un vampiro. O, quanto meno, un altro pollo arrosto.",
+        "hyperTips": "Oro +50%\nFortuna +10%"
+      },
+      "MOLISE": {
+        "stageName": "Il Molise",
+        "description": "Esistono luoghi che non esistono. Vieni a rilassarti e a goderti la vita. Ci vediamo in paese.",
+        "hyperTips": "Oro +50%\nFortuna +20%\nSalute dei nemici +60%",
+        "tips": "I nemici non si muovono"
+      },
+      "TOWER": {
+        "stageName": "Torre dell'uccello",
+        "description": "Questa torre custodisce potenti manufatti magici e mostri storicamente accurati."
+      },
+      "BONEZONE": {
+        "stageName": "La fossa delle ossa",
+        "description": "Vieni qui a recitare i tuoi vespri iniqui.",
+        "tips": "I nemici uccisi non fanno cadere oggetti e diventano più forti nel tempo."
+      },
+      "SINKING": {
+        "stageName": "Moongolow",
+        "description": "Quando la luna risplende alta, le rovine di una città inghiottita dal mare tornano in superficie, recando con sé misteri e ricchezze.",
+        "tips": "Oggetti del livello aggiuntivi"
+      },
+      "STAGEX": {
+        "description": "Un momento, riesci a vederlo anche tu? C'è qualcosa che non va..."
+      },
+      "CHAPEL": {
+        "stageName": "Cappella magna",
+        "description": "Abbiamo esagerato? Avremmo potuto accamparci nella foresta, con tutto quel pollo. E invece no, dovevamo proprio andare a caccia di qualche vampiro..."
+      },
+      "RASH": {
+        "stageName": "Sfogo del boss",
+        "description": "Illustri ospiti, il momento che attendevamo con ansia è finalmente giunto! Ammiriamo i Sopravvissuti alle prese con questa sfida di risorse riciclate!"
+      },
+      "MACHINE": {
+        "stageName": "M. Eudaimonia",
+        "description": "Un percorso verso il limite del nostro mondo."
+      },
+      "MACHINE2": {
+        "stageName": "I tre cerchi"
+      }
+    }
   },
   "ja": {
     "english": "Japanese",
-    "native": "日本語 95%",
+    "native": "日本語",
     "api": "japanese",
     "translations": {
       "FOREST": {
         "stageName": "狂乱の森",
-        "description": "城は偽物だが、 ここではタダでロースト チキンが手に入るのでいいとしよう。",
-        "hyperTips": "50%ゴールドボーナス"
+        "description": "城なんてなかったが, それでもタダで鶏肉が食えるので, まあ良しとしよう。",
+        "hyperTips": "金貨ボーナス +50%"
       },
       "LIBRARY": {
         "stageName": "象眼の図書館",
-        "description": "このどこまでも長く続く図書館は、 いつでも静けさに包まれている。  休息や瞑想はもちろんのこと……  ローストチキン探しにもぴったりだ。しかし、 なぜこんなところに石の仮面があるんだろうか？",
-        "hyperTips": "50%のゴールドボーナス\n10%の運気ボーナス"
+        "description": "どこまでも続いているこの図書館は 水を打ったように静まりかえっている。 体を休めて瞑想するにはいい場所だし, ローストチキン探しももってこいだ。 しかし置いてあった石の仮面はいったい?",
+        "hyperTips": "金貨ボーナス +50%\n運ボーナス +10%"
       },
       "GREENACRES": {
         "stageName": "緑の地",
-        "description": "人間は決して立ち入れない場所。 ここでは運命が数分で変わってしまう。",
-        "tips": "Random enemy waves from normal stages",
-        "hyperTips": "50%のゴールドボーナス\n10%の運気ボーナス",
+        "description": "生者が足を踏み入れることは許されていない場所。 わずかな判断の遅れが命取りになる。",
+        "tips": "通常ステージに出てきた敵がランダムで出現",
+        "hyperTips": "金貨ボーナス +50%\n運ボーナス +10%",
         "stagenNumber": "チャレンジ"
       },
       "WAREHOUSE": {
         "stageName": "酪農場",
-        "description": "ここに隠された魔法の地図が吸血鬼に導 いてくれるかもしれないし、 少なくともローストチキンをもっと食べること ができるかもしれない。",
-        "hyperTips": "50%のゴールドボーナス\n10%の運気ボーナス"
+        "description": "ここに隠してある魔法の地図があれば, 吸血鬼の居場所を突き止められるだろう。 そうでなくともチキンは手に入れたも同然だ。",
+        "hyperTips": "金貨ボーナス +50%\n運ボーナス +10%"
       },
       "MOLISE": {
-        "stageName": "Il Molise",
-        "description": "There exists places that don't exist. Come to relax and enjoy life. See you in the country.",
-        "hyperTips": "50% Gold Bonus\n20% Luck bonus\nEnemies Health +60%",
-        "tips": "Enemies don't move"
+        "stageName": "地図にない場所",
+        "description": "そこには存在するはずのない場所が存在している。 \n来られる時はどうぞごゆるりと。 \n現地でまたお会いしよう。",
+        "hyperTips": "金貨ボーナス +50%\n運ボーナス +10%\n敵のHP +60%",
+        "tips": "敵が動かない"
       },
       "TOWER": {
-        "stageName": "Gallo Tower",
-        "description": "This tower holds great magical artifacts and historically accurate monsters."
+        "stageName": "ガロの塔",
+        "description": "この塔には、素晴らしい魔法の品々や歴\n史上実在したモンスターが隠れています。"
       },
       "BONEZONE": {
-        "stageName": "The Bone Zone",
-        "description": "Come over here and say your unholy vespers.",
-        "tips": "No item drops. Enemies grow stronger over time."
+        "stageName": "遺骸地帯",
+        "description": "集え。 穢れた祈りを捧げよ。",
+        "tips": "アイテムドロップなし。 \n時間経過で敵が強化。"
       },
       "SINKING": {
-        "stageName": "Moongolow",
-        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
-        "tips": "Extra stage items"
+        "stageName": "ムーンゴロウ",
+        "description": "月が赤く輝くとき, 謎と財宝と共に, 海に飲まれた散村が地上に姿を見せる。",
+        "tips": "ステージアイテムが増える"
       },
       "STAGEX": {
-        "description": "Wait, you can see this too? This isn't right..."
+        "description": "君にもこれが見えるのか? \nそれはまずい……"
+      },
+      "CHAPEL": {
+        "stageName": "マグナ礼拝堂",
+        "description": "遠くまで来た, ということか。 鶏肉を食糧に森の中で暮らすこともできたが, そうもいかない。 吸血鬼を探さねばならないのだ。"
+      },
+      "RASH": {
+        "stageName": "ボスラッシュ",
+        "description": "ご来場の皆さま、いよいよです。\nサバイバーたちが、\nこのリサイクルアセットに\n挑戦するのを見届けましょう。"
+      },
+      "MACHINE": {
+        "stageName": "ユーダイモニアM",
+        "description": "私たちの世界の端への道。床は溶岩です。"
+      },
+      "MACHINE2": {
+        "stageName": "3つの輪"
       }
     }
   },
@@ -332,19 +468,19 @@
       },
       "LIBRARY": {
         "stageName": "화려한 도서관",
-        "description": "조용하고 큰 도서관으로 휴식, 명상은 물론 치킨을 찾으러 다니기에도 좋습니다. 그런데 돌가면은 어디에 쓰는거죠?",
+        "description": "조용하고 큰 도서관으로 휴식, 명상은 물론 구운 치킨을 찾기에도 좋습니다. 그런데 돌가면은 왜 여기 있는 거죠?",
         "hyperTips": "골드 50% 보너스\n행운 10% 보너스"
       },
       "GREENACRES": {
         "stageName": "푸른 초원",
-        "description": "이 곳은 필멸자에게 허락된 곳이 아닙니다. 운명은 언제든지 바뀔 수 있습니다.",
+        "description": "이곳은 필멸자에게 허락된 곳이 아닙니다. 운명은 언제든지 바뀔 수 있습니다.",
         "tips": "무작위 적 웨이브.",
         "hyperTips": "골드 50% 보너스\n행운 10% 보너스",
         "stagenNumber": "도전"
       },
       "WAREHOUSE": {
         "stageName": "유제품 공장",
-        "description": "이 공장에 숨겨진 마법지도는 우리를 뱀파이어에게 이끌지도 모릅니다. 아니라도 치킨은 더 얻을수 있겠죠.",
+        "description": "이 공장에 숨겨진 마법 지도는 우리를 뱀파이어에게 이끌지도 모릅니다. 아니라도 치킨은 더 얻을 수 있겠죠.",
         "hyperTips": "골드 50% 보너스\n행운 10% 보너스"
       },
       "MOLISE": {
@@ -359,16 +495,31 @@
       },
       "BONEZONE": {
         "stageName": "뼈의 대지",
-        "description": "이 불길한 장소에 당신의 저주받은 기도를 바쳐라.",
-        "tips": "골드를 제외한 다른 아이템이 드랍되지 않으며 적들이 시간이 지날수록 강력해집니다."
+        "description": "이 불길한 장소에 당신의 저주받은 기도를 바치세요.",
+        "tips": "아이템이 드롭되지 않으며 적들이 시간이 지날수록 강력해집니다."
       },
       "SINKING": {
-        "stageName": "Moongolow",
-        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
-        "tips": "Extra stage items"
+        "stageName": "달빛",
+        "description": "붉은 달이 떠오를 때 바다에 삼켜진 신비한 마을이 다양한 마법 유물들과 함께 수면 위로 떠오릅니다.",
+        "tips": "많은 마법 유물"
       },
       "STAGEX": {
-        "description": "Wait, you can see this too? This isn't right..."
+        "description": "잠깐 이것도 보인다고? 뭔가 잘못됐어..."
+      },
+      "CHAPEL": {
+        "stageName": "마그나 예배당",
+        "description": "이런 우리가 너무 멀리 왔네요. 쫓아가던 닭과 함께 숲에서 야영을 할 수도 있었지만, 우리는 눈앞에 있는 뱀파이어를 쫓아가기로 했습니다."
+      },
+      "RASH": {
+        "stageName": "보스 래쉬",
+        "description": "귀빈 여러분, 우리 모두가 고대해왔던 순간이 드디어 왔습니다! 생존자들이 다시 나타난 적들에게 도전하는 모습을 지켜보죠!"
+      },
+      "MACHINE": {
+        "stageName": "에우다이모니아 M.",
+        "description": "우리 세상의 가장자리로가는 길. 바닥은 용암입니다."
+      },
+      "MACHINE2": {
+        "stageName": "3개의 원"
       }
     }
   },
@@ -382,7 +533,68 @@
     "english": "Polish",
     "native": "Polski",
     "api": "polish",
-    "translations": {}
+    "translations": {
+      "FOREST": {
+        "stageName": "Szalony las",
+        "description": "Zamek to bujda, ale jeśli podają tam pieczonego kurczaka, wchodzę w to.",
+        "hyperTips": "50% premii do Złota"
+      },
+      "LIBRARY": {
+        "stageName": "Inkrustowana biblioteka",
+        "description": "Ta przestronna, cicha biblioteka jest idealna do odpoczynku, medytacji i poszukiwania pieczonego kurczaka. Ale co tu robi kamienna maska?",
+        "hyperTips": "50% premii do Złota\n10% premii do Szczęścia"
+      },
+      "GREENACRES": {
+        "stageName": "Zielone rozłogi",
+        "description": "Miejsce niedostępne dla śmiertelników. Los odmienia się co minutę.",
+        "tips": "Losowe fale wrogów z normalnych etapów",
+        "hyperTips": "50% premii do Złota\n10% premii do Szczęścia",
+        "stagenNumber": "Wyzwanie"
+      },
+      "WAREHOUSE": {
+        "stageName": "Mleczarnia",
+        "description": "Ukryta tu magiczna mapa może nas w końcu doprowadzić do wampira lub przynajmniej do pieczonego kurczaka.",
+        "hyperTips": "50% premii do Złota\n10% premii do Szczęścia"
+      },
+      "MOLISE": {
+        "stageName": "Il Molise",
+        "description": "Istnieją miejsca nieistniejące. Przyjedź odpocząć i się zabawić. Do zobaczenia na wsi.",
+        "hyperTips": "50% premii do Złota\n20% premii do Szczęścia\nZdrowie wrogów +60%",
+        "tips": "Wrogowie nie poruszają się"
+      },
+      "TOWER": {
+        "stageName": "Wieża Gallo",
+        "description": "Wieża ta skrywa wspaniałe magiczne artefakty i historycznie odwzorowane potwory."
+      },
+      "BONEZONE": {
+        "stageName": "Strefa kości",
+        "description": "Przybądź tu i odpraw swoje niecne nieszpory.",
+        "tips": "Brak upuszczonych przedmiotów. Wrogowie stają się z czasem silniejsi."
+      },
+      "SINKING": {
+        "stageName": "Moongolow",
+        "description": "Gdy księżyc płonie na czerwono, ruiny miasta pochłoniętego przez morze wyłaniają się z głębin, ukazując tajemnice i bogactwa.",
+        "tips": "Dodatkowe przedmioty etapu"
+      },
+      "STAGEX": {
+        "description": "Poczekaj, też to widzisz? Tak nie powinno być…"
+      },
+      "CHAPEL": {
+        "stageName": "Cappella Magna",
+        "description": "Czy zaszliśmy za daleko? Mogliśmy po prostu rozbić obóz w lesie z całym tym kurczakiem, ale nieeee, musieliśmy oczywiście ścigać jakiegoś przypadkowego wampira."
+      },
+      "RASH": {
+        "stageName": "Wysyp bossów",
+        "description": "Znamienici goście, moment, na myśl o którym nas świerzbi, nareszcie nadszedł! Zobaczmy, jak nasi bohaterowie stawiają czoła temu wyzwaniu z odzysku!"
+      },
+      "MACHINE": {
+        "stageName": "Eudajmonia M.",
+        "description": "Ścieżka do krawędzi naszego świata. Podłoga to lawa."
+      },
+      "MACHINE2": {
+        "stageName": "Trzy kręgi"
+      }
+    }
   },
   "pt": {
     "english": "Portuguese",
@@ -396,49 +608,64 @@
     "api": "brazilian",
     "translations": {
       "FOREST": {
-        "stageName": "Floresta Louca",
-        "description": "O Castelo é uma mentira, mas ao menos tem frango assado aqui, então tudo bem.",
-        "hyperTips": "50% Bônus em moedas"
+        "stageName": "Floresta Insana",
+        "description": "O castelo é uma mentira, mas pelo menos tem frango assado aqui, então tá tranquilo.",
+        "hyperTips": "50% de bônus de ouro"
       },
       "LIBRARY": {
-        "stageName": "Biblioteca Imbutida",
-        "description": "Esta biblioteca quieta e longa é o lugar ideal para descansar, meditar e procurar frangos assados. Mas o que uma máscara de pedra está fazendo aqui?",
-        "hyperTips": "50% Bônus em moedas\n10% Bônus de Sorte"
+        "stageName": "Biblioteca Incrustada",
+        "description": "Esta grande e silenciosa biblioteca é o lugar ideal para descansar, meditar e procurar frangos assados. Mas por que tem uma máscara de pedra aqui?",
+        "hyperTips": "50% de bônus de ouro\n10% de bônus de Sorte"
       },
       "GREENACRES": {
-        "stageName": "Planicies Verdes",
-        "description": "Um lugar onde mortais não são permitidos. O destino muda a cada minuto.",
-        "tips": "Ondas aleatórias de inimigos das fases normais.",
-        "hyperTips": "50% Bônus em moedas\n10% Bônus de Sorte",
+        "stageName": "Planícies Verdes",
+        "description": "Um lugar proibido para mortais. O destino muda a cada minuto.",
+        "tips": "Hordas de inimigos aleatórios das fases normais",
+        "hyperTips": "50% de bônus de ouro\n10% de bônus de Sorte",
         "stagenNumber": "Desafio"
       },
       "WAREHOUSE": {
-        "stageName": "Usina Láctea",
-        "description": "O mapa mágico escondido aqui pode finalmente nos guiar até um vampiro, ou pelo menos até mais frango assado.",
-        "hyperTips": "50% Bônus em moedas\n10% Bônus de Sorte"
+        "stageName": "Fábrica de Laticínios",
+        "description": "O mapa mágico escondido aqui pode finalmente nos guiar até um vampiro. Ou, pelo menos, até mais frangos assados.",
+        "hyperTips": "50% de bônus de ouro\n10% de bônus de Sorte"
       },
       "MOLISE": {
         "stageName": "Il Molise",
-        "description": "Aqui existem lugares que não existem. Venha relaxar e curtir a vida. Te vejo por aí.",
-        "hyperTips": "50% Bônus em moedas\n20% bônus de sorte\nSaúde dos inimigos +60%",
+        "description": "Existem lugares que não existem. Venha relaxar e curtir a vida. Nos vemos por aí.",
+        "hyperTips": "50% de bônus de ouro\n20% de bônus de Sorte\nVida dos inimigos +60%",
         "tips": "Inimigos não se movem"
       },
       "TOWER": {
         "stageName": "Torre de Gallo",
-        "description": "Esta torre possui grandes artefatos mágicos e monstros históricamente corretos."
+        "description": "Nesta torre, há grandes artefatos mágicos e monstros verossímeis."
       },
       "BONEZONE": {
-        "stageName": "A Zona Óssea",
-        "description": "Venha aqui e diga seus versículos profanos.",
-        "tips": "Nenhum drop de items. Inimigos ficam mais fortes com o tempo."
+        "stageName": "Osseocidade",
+        "description": "Venha declamar seus versículos profanos aqui.",
+        "tips": "Não surgem itens. Inimigos ficam mais fortes com o tempo."
       },
       "SINKING": {
         "stageName": "Moongolow",
-        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
-        "tips": "Extra stage items"
+        "description": "Quando a lua está vermelha e brilhante, os restos de uma cidade engolida pelo mar voltam à superfície e trazem mistérios e riquezas.",
+        "tips": "Itens extras de fases"
       },
       "STAGEX": {
-        "description": "Wait, you can see this too? This isn't right..."
+        "description": "Espera, você também tá vendo isso? Tem alguma coisa errada..."
+      },
+      "CHAPEL": {
+        "stageName": "Cappella Magna",
+        "description": "Será que fomos longe demais? A gente podia ter montado acampamento naquela floresta cheia de frango, mas é claro que a gente TEVE que ir atrás de um vampiro qualquer."
+      },
+      "RASH": {
+        "stageName": "Erupção de Chefes",
+        "description": "Ilustres convidados, chegou o momento pelo qual estávamos esperando! Vamos ver os Sobreviventes encararem o desafio de recursos reciclados!"
+      },
+      "MACHINE": {
+        "stageName": "M. Eudaimonia",
+        "description": "Um caminho para a borda do nosso mundo. O chão é lava."
+      },
+      "MACHINE2": {
+        "stageName": "Os Três Círculos"
       }
     }
   },
@@ -454,31 +681,31 @@
     "api": "russian",
     "translations": {
       "FOREST": {
-        "stageName": "Безумный Лес",
-        "description": "О Замке, конечно, лгут, но здесь все еще есть бесплатный жареный цыпленок, так что все хорошо.",
-        "hyperTips": "50% бонус к Золоту"
+        "stageName": "Безумный лес",
+        "description": "О Замке, конечно, лгут, но жареные цыплята здесь до сих пор бесплатны, так что все хорошо.",
+        "hyperTips": "50% бонус к золоту"
       },
       "LIBRARY": {
         "stageName": "Библиотека",
-        "description": "Эта тихая длинная библиотека - идеальное место для отдыха, медитации и поиска жареного цыпленка. Но что здесь делает каменная маска?",
-        "hyperTips": "50% бонус к Золоту\n10% бонус к Удаче"
+        "description": "Эта тихая большая библиотека — идеальное место для отдыха, медитации и перекуса жареным цыпленком. Но что здесь делает каменная маска?",
+        "hyperTips": "50% бонус к золоту\n10% бонус к удаче"
       },
       "GREENACRES": {
-        "stageName": "Зеленые Акры",
-        "description": "Место, куда смертным вход воспрещен! Все может выйти из-под контроля в любой момент.",
+        "stageName": "Зеленые пастбища",
+        "description": "Смертным вход воспрещен! Все может выйти из-под контроля в любой момент.",
         "tips": "Случайные вражеские волны с обычных этапов.",
-        "hyperTips": "50% бонус к Золоту\n10% бонус к Удаче",
+        "hyperTips": "50% бонус к золоту\n10% бонус к удаче",
         "stagenNumber": "Испытание"
       },
       "WAREHOUSE": {
-        "stageName": "Молочный Завод",
-        "description": "Волшебная карта спрятана здесь. Может она, наконец, приведет нас к вампиру или, по крайней мере, к еще одному жареному цыпленку.",
-        "hyperTips": "50% бонус к Золоту\n10% бонус к Удаче"
+        "stageName": "Молочный завод",
+        "description": "Здесь спрятана волшебная карта. Может она, наконец, приведет нас к вампиру или, по крайней мере, к еще одному жареному цыпленку.",
+        "hyperTips": "50% бонус к золоту\n10% бонус к удаче"
       },
       "MOLISE": {
-        "stageName": "Молизе",
+        "stageName": "Молиз",
         "description": "Существуют места, которых не существует. Приезжайте отдыхать и наслаждаться жизнью. Увидимся в деревне!",
-        "hyperTips": "50% бонус к Золоту\n20% бонус к Удаче\nЗдоровье Врагов +60%",
+        "hyperTips": "Бонус 50% к золоту\nБонус 20% к удаче\nЗдоровье врагов +60%",
         "tips": "Враги не двигаются."
       },
       "TOWER": {
@@ -486,69 +713,99 @@
         "description": "В этой башне хранятся великие магические артефакты и исторически достоверные монстры."
       },
       "BONEZONE": {
-        "stageName": "Костяная Зона",
-        "description": "Иди сюда и отслужи свою нечестивую вечерню.",
-        "tips": "Нет выпадения предметов. Враги усиливаются со временем."
+        "stageName": "Костяная зона",
+        "description": "Приходи и пой нечестивые псалмы.",
+        "tips": "Предметы не выпадают. Враги со временем усиливаются."
       },
       "SINKING": {
-        "stageName": "Moongolow",
-        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
-        "tips": "Extra stage items"
+        "stageName": "Лунасвет",
+        "description": "Когда восходит красная и яркая луна, из морских пучин на поднимается мертвый город, принося с собой тайны и богатства.",
+        "tips": "Дополнительные предметы этапа"
       },
       "STAGEX": {
-        "description": "Wait, you can see this too? This isn't right..."
+        "description": "Подожди, ты тоже это видишь? Это неправильно..."
+      },
+      "CHAPEL": {
+        "stageName": "Капелла Магна",
+        "description": "Не слишком ли мы далеко зашли? С таким запасом курятины можно было просто разбить лагерь в лесу, но не-е-ет, будем гоняться за внезапным вампиром."
+      },
+      "RASH": {
+        "stageName": "Набег боссов",
+        "description": "Досточтимые гости, наконец-то настал тот момент, которого мы все так ждали! Давайте же посмотрим, пройдут ли выжившие это испытание повторно использованных объектов!"
+      },
+      "MACHINE": {
+        "stageName": "Эудамония М.",
+        "description": "Путь к краю нашего мира. Пол лава."
+      },
+      "MACHINE2": {
+        "stageName": "Три круга"
       }
     }
   },
   "es": {
     "english": "Spanish",
-    "native": "Español 80%",
+    "native": "Español",
     "api": "spanish",
     "translations": {
       "FOREST": {
-        "stageName": "Bosque Demente",
+        "stageName": "Bosque demente",
         "description": "El castillo es de mentira, pero aún queda pollo asado gratis por aquí, así que no pasa nada.",
-        "hyperTips": "Bonus de 50 % de oro"
+        "hyperTips": "50 % de bonif. de oro"
       },
       "LIBRARY": {
-        "stageName": "Biblioteca\nInterna",
-        "description": "Esta biblioteca tranquila y grande es perfecta para descansar, meditar y recolectar pollo asado. ¿Qué hace aquí esta máscara de piedra?",
-        "hyperTips": "Bonus de 50 % de oro\nBonus de 10 % de suerte"
+        "stageName": "Archivo antiguo",
+        "description": "Este archivo tranquilo y alargado es perfecto para descansar, meditar y recoger pollo asado. ¿Qué hace aquí esta máscara de piedra?",
+        "hyperTips": "50 % de bonif. de oro\n10 % de bonif. de suerte"
       },
       "GREENACRES": {
-        "stageName": "Llanuras Verdes",
-        "description": "Un lugar prohibido para los mortales. Su destino cambia cada minuto.",
-        "tips": "Random enemy waves from normal stages",
-        "hyperTips": "Bonus de 50 % de oro\nBonus de 10 % de suerte",
-        "stagenNumber": "Challenge"
+        "stageName": "Llanuras verdes",
+        "description": "Un lugar prohibido para los mortales. El destino aquí cambia cada minuto.",
+        "tips": "Oleadas de enemigos aleatorios de fases normales.",
+        "hyperTips": "50 % de bonif. de oro\n10 % de bonif. de suerte",
+        "stagenNumber": "Reto"
       },
       "WAREHOUSE": {
-        "stageName": "Dairy Plant",
-        "description": "The magic map hidden in here might finally lead us to a vampire, or at least to more roast chicken.",
-        "hyperTips": "Bonus de 50 % de oro\nBonus de 10 % de suerte"
+        "stageName": "Central lechera",
+        "description": "Puede que el mapa mágico que se oculta aquí nos lleve finalmente hasta un vampiro o, al menos, hasta un pollo asado.",
+        "hyperTips": "50 % de bonif. de oro\n10 % de bonif. de suerte"
       },
       "MOLISE": {
-        "stageName": "Il Molise",
-        "description": "There exists places that don't exist. Come to relax and enjoy life. See you in the country.",
-        "hyperTips": "50% Gold Bonus\n20% Luck bonus\nEnemies Health +60%",
-        "tips": "Enemies don't move"
+        "stageName": "Molise",
+        "description": "Hay lugares que no existen. Ven a relajarte y disfruta de la vida en el campo.",
+        "hyperTips": "50 % de bonif. de oro\n20 % de bonif. de suerte\n+60 % de salud de los enemigos",
+        "tips": "Los enemigos no se mueven."
       },
       "TOWER": {
-        "stageName": "Gallo Tower",
-        "description": "This tower holds great magical artifacts and historically accurate monsters."
+        "stageName": "Torre de Gallo",
+        "description": "Esta torre alberga fabulosos artefactos mágicos y monstruos históricos."
       },
       "BONEZONE": {
-        "stageName": "The Bone Zone",
-        "description": "Come over here and say your unholy vespers.",
-        "tips": "No item drops. Enemies grow stronger over time."
+        "stageName": "Zona ósea",
+        "description": "Ven aquí y realiza tus ritos impíos.",
+        "tips": "No aparecen objetos. Los enemigos se hacen más fuertes a medida que pasa el tiempo."
       },
       "SINKING": {
-        "stageName": "Moongolow",
-        "description": "When the moon is red and bright, the remnants of a town swallowed by the sea come back to the surface, bringing mysteries and riches.",
-        "tips": "Extra stage items"
+        "stageName": "Ciudad lunar",
+        "description": "Cuando la luna se tiñe de rojo y brilla, los restos de una ciudad que el mar engulló vuelven a la superficie y, con ellos, traen misterios y tesoros.",
+        "tips": "Objetos de fase adicionales"
       },
       "STAGEX": {
-        "description": "Wait, you can see this too? This isn't right..."
+        "description": "Espera, ¿tú también puedes ver esto? Es imposible..."
+      },
+      "CHAPEL": {
+        "stageName": "Cappella Magna",
+        "description": "¿Nos hemos pasado? ¿No podríamos haber acampado en el bosque con todos los pollos asados que había? No, teníamos que perseguir a un vampiro cualquiera."
+      },
+      "RASH": {
+        "stageName": "Plaga de jefes",
+        "description": "Distinguidos invitados, ¡ya ha llegado el momento por el que todos rabiábamos! Contemplemos cómo los supervivientes se enfrentan a este desafío de recursos reutilizados."
+      },
+      "MACHINE": {
+        "stageName": "M. de eudemonía",
+        "description": "Un camino hacia el borde de nuestro mundo. El piso es lava."
+      },
+      "MACHINE2": {
+        "stageName": "Los tres círculos"
       }
     }
   },
@@ -574,7 +831,68 @@
     "english": "Turkish",
     "native": "Türkçe",
     "api": "turkish",
-    "translations": {}
+    "translations": {
+      "FOREST": {
+        "stageName": "Deli Orman",
+        "description": "Kale bir yalandan ibaret ama burada hâlâ bedava kızarmış tavuk var, yani her şey yolunda.",
+        "hyperTips": "%50 Altın bonusu"
+      },
+      "LIBRARY": {
+        "stageName": "İşlemeli Kütüphane",
+        "description": "Bu uzun, sessiz kütüphane dinlenmek, meditasyon yapmak ve kızarmış tavuk yemek için ideal bir yer. Ama bir taş maskenin burada ne işi var?",
+        "hyperTips": "%50 Altın bonusu\n%10 Şans bonusu"
+      },
+      "GREENACRES": {
+        "stageName": "Yeşil Araziler",
+        "description": "Fanilerin girmesine izin verilmeyen bir yer. Mukadderat her dakika değişir.",
+        "tips": "Normal bölümlerden rastgele düşman dalgaları",
+        "hyperTips": "%50 Altın bonusu\n%10 Şans bonusu",
+        "stagenNumber": "Meydan Okuma"
+      },
+      "WAREHOUSE": {
+        "stageName": "Süt Ürünleri  Fabrikası",
+        "description": "Burada saklı olan sihirli harita sonunda bizi bir vampire, ya da en azından nar gibi kızarmış bir tavuğa götürebilir.",
+        "hyperTips": "%50 Altın bonusu\n%10 Şans bonusu"
+      },
+      "MOLISE": {
+        "stageName": "Il Molise",
+        "description": "Var olmayan yerler var. Rahatlamak ve hayatın tadını çıkarmak için gelin. Taşrada görüşürüz.",
+        "hyperTips": "%50 Altın bonusu\n%20 Şans bonusu\nDüşmanların sağlığı +%60",
+        "tips": "Düşmanlar hareket etmez"
+      },
+      "TOWER": {
+        "stageName": "Galya Kulesi",
+        "description": "Bu kulede harika büyülü eserler ve tarihte de var olmuş canavarlar var."
+      },
+      "BONEZONE": {
+        "stageName": "Kemik Mezarlığı",
+        "description": "Buraya gel ve kutsal olmayan akşam dualarını et.",
+        "tips": "Hiçbir eşya düşmez. Düşmanlar zamanla güçlenir."
+      },
+      "SINKING": {
+        "stageName": "Ay Parıltısı",
+        "description": "Ay, kırmızı ve parlak olduğunda, deniz tarafından yutulan bir kasabanın kalıntıları yüzeye geri dönerek gizemler ve zenginlikler getirir.",
+        "tips": "Bölümdeki ekstra eşyalar"
+      },
+      "STAGEX": {
+        "description": "Dur, sen de mi bunu görüyorsun? Bir terslik var…"
+      },
+      "CHAPEL": {
+        "stageName": "Cappella Magna",
+        "description": "Çok mu ileri gittik? O kadar tavukla ormanda kamp kurabilirdik ama yok, onun yerine illa rastgele bir vampiri kovalamamız şarttı, değil mi?"
+      },
+      "RASH": {
+        "stageName": "Patrona Hücum",
+        "description": "Değerli konuklar, hepimizin özlemini duyduğu an sonunda geldi! Haydi hayatta kalanların geri dönüştürülmüş varlıklara meydan okumayı denemesini izleyelim!"
+      },
+      "MACHINE": {
+        "stageName": "Eudaimonia M.",
+        "description": "Dünyamızın kenarına giden bir yol. Zemin lav."
+      },
+      "MACHINE2": {
+        "stageName": "Üç Çemberler"
+      }
+    }
   },
   "uk": {
     "english": "Ukrainian",
